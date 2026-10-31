@@ -1,0 +1,16 @@
+{
+  "productUrl": "https://www.naturehike.co.za/products/aqua-shoes?variant=67697768857897",
+  "checkedLive": "2026-10-31: R 699.00, in stock, barcode 6927595709771 (same values the Shopify adapter's checked snapshot gives). The page uses a ProductGroup with one Product per variant.",
+  "product": {
+    "url": "https://www.naturehike.co.za/products/aqua-shoes?variant=67697768857897",
+    "title": "Aqua Shoes",
+    "brand": "NATUREHIKE",
+    "gtin": "6927595709771",
+    "sku": "NH20FS022-9771",
+    "variantAttributes": {
+      "Variant": "Dark sea green / EU 44 / UK 10"
+    },
+    "priceCents": 69900,
+    "inStock": true
+  }
+}

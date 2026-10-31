@@ -55,7 +55,11 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 The Shopify adapter is built (`src/adapters/shopify.ts`, milestone 4). It reads each product's
 `/products/<handle>.js` data (prices already in whole cents, plus stock, SKU and barcode per variant)
 and searches with `/search/suggest.json`. Snapshots are in `src/adapters/__fixtures__/shopify/`.
-WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
+The generic JSON-LD adapter is built (`src/adapters/jsonld.ts`, milestone 4). It reads schema.org
+`Product` / `ProductGroup` / `Offer` data from any product page, and is tested against real saved pages
+from the four Shopify shops (`src/adapters/__fixtures__/jsonld/`), which give the same prices, barcodes
+and SKUs as the Shopify adapter. Its base-store list fills in as each non-Shopify store's page is saved
+and checked. WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
 JSON-LD adapter (needed anyway for user-added stores, §4.3), then the others.
 
 **Stores where search is not allowed:** Takealot, Superbalist, Pick n Pay, Cape Union Mart, First Ascent

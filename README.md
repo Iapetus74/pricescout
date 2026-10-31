@@ -133,6 +133,14 @@ npm run snapshots:shopify
 
 It visits each shop slowly and politely and takes about a minute. You should see one `✓` line per shop, such as `✓ trappers: saved "Stanley IceFlow Flip Straw 2.0 Jug - 1.9L"`. A `✗` line names the shop that couldn't be reached and why. After saving, the expected results in `src/adapters/__fixtures__/shopify/<shop>/expected.json` need updating to match the new product, so ask Claude to do that part.
 
+Stores read by the general "product data" adapter (the ones that aren't on Shopify) are saved one product link at a time:
+
+```
+npm run snapshots:jsonld -- https://www.example.co.za/product/some-tent
+```
+
+Put the product's link after the `--`. You should see a line such as `✓ example.co.za: saved (3 JSON-LD blocks)`. If it says `0 JSON-LD blocks`, that store's pages don't carry the product data this adapter reads, so it needs a different adapter. As above, ask Claude to update the matching `expected.json` afterwards.
+
 ---
 
 ## Part 4: Getting updates
