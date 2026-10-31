@@ -1,0 +1,71 @@
+{
+  "resources": {
+    "results": {
+      "products": [
+        {
+          "available": true,
+          "body": "<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>\n<p><br><strong>The Naturehike Aqua Shoe is a lightweight water shoe built for beach, river, and water-based activities. A highly elastic mesh upper breathes well and dries quickly, while drainage holes in the rubber sole prevent water pooling underfoot. Two adjustable straps allow a secure, customised fit across different foot shapes.</strong><br></p>\n<p><strong>Best for</strong><br>Beach walks, fishing, rowing, kloofing, and water-based activities — or as a lightweight second shoe on multi-day hikes where a packable water crossing option is needed.</p>\n<p><strong>Not ideal for</strong><br>Primary hiking footwear on rough or technical terrain where ankle support and a stiffer sole are required.</p>\n<p><strong>Additional features</strong><br>- Drainage holes in the sole allow water to escape quickly after submersion.<br>- Anti-slip rubber tread provides grip on wet rocks and surfaces.<br>- Highly elastic mesh upper stretches to accommodate different foot shapes<br>- Lightweight at ±299 g</p>\n<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>",
+          "compare_at_price_max": "0.00",
+          "compare_at_price_min": "0.00",
+          "handle": "aqua-shoes",
+          "id": 6537277046865,
+          "image": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+          "price": "699.00",
+          "price_max": "699.00",
+          "price_min": "699.00",
+          "tags": [
+            "Adventure Bike",
+            "Bikepack",
+            "Camp",
+            "Footwear",
+            "Hike",
+            "Shoes",
+            "top25meta",
+            "Travel",
+            "Ultralight"
+          ],
+          "title": "Aqua Shoes",
+          "type": "Footwear",
+          "url": "/products/aqua-shoes?_pos=1&_psq=Aqua&_psid=9954acc52&_ss=e",
+          "variants": [],
+          "vendor": "NATUREHIKE",
+          "featured_image": {
+            "alt": "Aqua Shoes",
+            "aspect_ratio": 1,
+            "height": 1500,
+            "url": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+            "width": 1500
+          }
+        },
+        {
+          "available": true,
+          "body": "<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>\n\n<p><br><strong>Gaiters that seal the gap between boot and trouser, where grass seeds, thorns and mud get in. The three-layer laminate is rated to 10,000 mm hydrostatic head while still passing 5,000 g of moisture vapour per square metre a day, so wet grass stays out without your legs cooking.</strong><br></p>\n\n<p><strong>Best for</strong><br>\nTrails through overgrown grass, thornveld and wet undergrowth, and stream crossings where water runs down into the boot.</p>\n\n<p><strong>Not ideal for</strong><br>\nHot, dry and open trails. Any gaiter adds warmth around the lower leg, so on an exposed summer walk you may prefer to go without.</p>\n\n<p><strong>Additional features</strong><br>\n- Protects the ankle and shin from thorns and branches<br>\n- Keeps grass seeds out of socks and boot tops<br>\n- Packs to 105 × 155 mm<br>\n- Wipes clean and dries quickly</p>\n\n<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>",
+          "compare_at_price_max": "0.00",
+          "compare_at_price_min": "0.00",
+          "handle": "trekking-gaiters",
+          "id": 4519822786641,
+          "image": "https://cdn.shopify.com/s/files/1/2252/2201/files/Red.jpg?v=1788862333",
+          "price": "499.00",
+          "price_max": "499.00",
+          "price_min": "499.00",
+          "tags": [
+            "activity:hiking",
+            "promo:bestseller"
+          ],
+          "title": "Waterproof Trekking Gaiters",
+          "type": "Gaiters",
+          "url": "/products/trekking-gaiters?_pos=2&_psq=Aqua&_psid=9954acc52&_ss=e",
+          "variants": [],
+          "vendor": "NATUREHIKE",
+          "featured_image": {
+            "alt": "Waterproof Trekking Gaiters",
+            "aspect_ratio": 1,
+            "height": 1500,
+            "url": "https://cdn.shopify.com/s/files/1/2252/2201/files/Red.jpg?v=1788862333",
+            "width": 1500
+          }
+        }
+      ]
+    }
+  }
+}

@@ -119,9 +119,19 @@ These commands are mainly for checking changes. Run them in the project folder w
 
 | Command | What it does | What you should see |
 |---|---|---|
-| `npm test` | Runs the automatic tests | `Tests  80 passed` (the number grows over time) and no red `FAIL` lines |
+| `npm test` | Runs the automatic tests | `Tests  95 passed` (the number grows over time) and no red `FAIL` lines |
 | `npm run lint` | Checks the code for common mistakes | No error lines |
 | `npm run typecheck` | Checks that the code's types fit together | No error lines |
+
+### Refreshing the saved shop pages (only when a shop's website changes)
+
+The tests never visit real shops. They use saved copies ("snapshots") of one product from each Shopify shop. If a shop changes its website and PriceScout stops reading its prices, save fresh copies with:
+
+```
+npm run snapshots:shopify
+```
+
+It visits each shop slowly and politely and takes about a minute. You should see one `✓` line per shop, such as `✓ trappers: saved "Stanley IceFlow Flip Straw 2.0 Jug - 1.9L"`. A `✗` line names the shop that couldn't be reached and why. After saving, the expected results in `src/adapters/__fixtures__/shopify/<shop>/expected.json` need updating to match the new product, so ask Claude to do that part.
 
 ---
 

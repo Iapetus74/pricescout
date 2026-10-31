@@ -1,0 +1,2155 @@
+{
+  "id": 6537277046865,
+  "title": "Aqua Shoes",
+  "handle": "aqua-shoes",
+  "description": "<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>\n<p><br><strong>The Naturehike Aqua Shoe is a lightweight water shoe built for beach, river, and water-based activities. A highly elastic mesh upper breathes well and dries quickly, while drainage holes in the rubber sole prevent water pooling underfoot. Two adjustable straps allow a secure, customised fit across different foot shapes.</strong><br></p>\n<p><strong>Best for</strong><br>Beach walks, fishing, rowing, kloofing, and water-based activities — or as a lightweight second shoe on multi-day hikes where a packable water crossing option is needed.</p>\n<p><strong>Not ideal for</strong><br>Primary hiking footwear on rough or technical terrain where ankle support and a stiffer sole are required.</p>\n<p><strong>Additional features</strong><br>- Drainage holes in the sole allow water to escape quickly after submersion.<br>- Anti-slip rubber tread provides grip on wet rocks and surfaces.<br>- Highly elastic mesh upper stretches to accommodate different foot shapes<br>- Lightweight at ±299 g</p>\n<div style=\"width: 50px; height: 1px; background-color: #cdcdcd; margin: 0px 0px;\"><br></div>",
+  "published_at": "2026-10-28T14:32:15+02:00",
+  "created_at": "2021-03-01T16:03:55+02:00",
+  "vendor": "NATUREHIKE",
+  "type": "Footwear",
+  "tags": [
+    "Adventure Bike",
+    "Bikepack",
+    "Camp",
+    "Footwear",
+    "Hike",
+    "Shoes",
+    "top25meta",
+    "Travel",
+    "Ultralight"
+  ],
+  "price": 69900,
+  "price_min": 69900,
+  "price_max": 69900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 67697768857897,
+      "title": "Dark sea green / EU 44 / UK 10",
+      "option1": "Dark sea green",
+      "option2": "EU 44 / UK 10",
+      "option3": null,
+      "sku": "NH20FS022-9771",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304047554857,
+        "product_id": 6537277046865,
+        "position": 1,
+        "created_at": "2023-01-31T09:19:44+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+        "variant_ids": [
+          67697768857897,
+          67697768890665,
+          67697768988969,
+          67697769054505
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark sea green / EU 44 / UK 10",
+      "public_title": "Dark sea green / EU 44 / UK 10",
+      "options": [
+        "Dark sea green",
+        "EU 44 / UK 10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595709771",
+      "featured_media": {
+        "alt": null,
+        "id": 32640350748969,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697768890665,
+      "title": "Dark sea green / EU 45 / UK 11",
+      "option1": "Dark sea green",
+      "option2": "EU 45 / UK 11",
+      "option3": null,
+      "sku": null,
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304047554857,
+        "product_id": 6537277046865,
+        "position": 1,
+        "created_at": "2023-01-31T09:19:44+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+        "variant_ids": [
+          67697768857897,
+          67697768890665,
+          67697768988969,
+          67697769054505
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Dark sea green / EU 45 / UK 11",
+      "public_title": "Dark sea green / EU 45 / UK 11",
+      "options": [
+        "Dark sea green",
+        "EU 45 / UK 11"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 32640350748969,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697768988969,
+      "title": "Dark sea green / EU 39-40 / UK 6-7",
+      "option1": "Dark sea green",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-9757",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304047554857,
+        "product_id": 6537277046865,
+        "position": 1,
+        "created_at": "2023-01-31T09:19:44+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+        "variant_ids": [
+          67697768857897,
+          67697768890665,
+          67697768988969,
+          67697769054505
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark sea green / EU 39-40 / UK 6-7",
+      "public_title": "Dark sea green / EU 39-40 / UK 6-7",
+      "options": [
+        "Dark sea green",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595709757",
+      "featured_media": {
+        "alt": null,
+        "id": 32640350748969,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769054505,
+      "title": "Dark sea green / EU 43-44 / UK 9.5-10",
+      "option1": "Dark sea green",
+      "option2": "EU 43-44 / UK 9.5-10",
+      "option3": null,
+      "sku": "NH20FS022-5094",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304047554857,
+        "product_id": 6537277046865,
+        "position": 1,
+        "created_at": "2023-01-31T09:19:44+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+        "variant_ids": [
+          67697768857897,
+          67697768890665,
+          67697768988969,
+          67697769054505
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark sea green / EU 43-44 / UK 9.5-10",
+      "public_title": "Dark sea green / EU 43-44 / UK 9.5-10",
+      "options": [
+        "Dark sea green",
+        "EU 43-44 / UK 9.5-10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507665094",
+      "featured_media": {
+        "alt": null,
+        "id": 32640350748969,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769120041,
+      "title": "Dark olive green / EU 38 / UK 5",
+      "option1": "Dark olive green",
+      "option2": "EU 38 / UK 5",
+      "option3": null,
+      "sku": null,
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304055451945,
+        "product_id": 6537277046865,
+        "position": 2,
+        "created_at": "2023-01-31T09:21:33+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1280,
+        "height": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+        "variant_ids": [
+          67697769120041,
+          67697769283881,
+          67697769447721,
+          67697769480489,
+          67697769513257
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Dark olive green / EU 38 / UK 5",
+      "public_title": "Dark olive green / EU 38 / UK 5",
+      "options": [
+        "Dark olive green",
+        "EU 38 / UK 5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 32640359137577,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1280,
+          "width": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769283881,
+      "title": "Dark olive green / EU 43 / UK 9.5",
+      "option1": "Dark olive green",
+      "option2": "EU 43 / UK 9.5",
+      "option3": null,
+      "sku": "NH20FS022-4998",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304055451945,
+        "product_id": 6537277046865,
+        "position": 2,
+        "created_at": "2023-01-31T09:21:33+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1280,
+        "height": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+        "variant_ids": [
+          67697769120041,
+          67697769283881,
+          67697769447721,
+          67697769480489,
+          67697769513257
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark olive green / EU 43 / UK 9.5",
+      "public_title": "Dark olive green / EU 43 / UK 9.5",
+      "options": [
+        "Dark olive green",
+        "EU 43 / UK 9.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507664998",
+      "featured_media": {
+        "alt": null,
+        "id": 32640359137577,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1280,
+          "width": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769447721,
+      "title": "Dark olive green / EU 39-40 / UK 6-7",
+      "option1": "Dark olive green",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-9788",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304055451945,
+        "product_id": 6537277046865,
+        "position": 2,
+        "created_at": "2023-01-31T09:21:33+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1280,
+        "height": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+        "variant_ids": [
+          67697769120041,
+          67697769283881,
+          67697769447721,
+          67697769480489,
+          67697769513257
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark olive green / EU 39-40 / UK 6-7",
+      "public_title": "Dark olive green / EU 39-40 / UK 6-7",
+      "options": [
+        "Dark olive green",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595709788",
+      "featured_media": {
+        "alt": null,
+        "id": 32640359137577,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1280,
+          "width": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769480489,
+      "title": "Dark olive green / EU 41-42 / UK 7.5-8.5",
+      "option1": "Dark olive green",
+      "option2": "EU 41-42 / UK 7.5-8.5",
+      "option3": null,
+      "sku": "NH20FS022-9795",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304055451945,
+        "product_id": 6537277046865,
+        "position": 2,
+        "created_at": "2023-01-31T09:21:33+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1280,
+        "height": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+        "variant_ids": [
+          67697769120041,
+          67697769283881,
+          67697769447721,
+          67697769480489,
+          67697769513257
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark olive green / EU 41-42 / UK 7.5-8.5",
+      "public_title": "Dark olive green / EU 41-42 / UK 7.5-8.5",
+      "options": [
+        "Dark olive green",
+        "EU 41-42 / UK 7.5-8.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595709795",
+      "featured_media": {
+        "alt": null,
+        "id": 32640359137577,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1280,
+          "width": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769513257,
+      "title": "Dark olive green / EU 43-44 / UK 9.5-10",
+      "option1": "Dark olive green",
+      "option2": "EU 43-44 / UK 9.5-10",
+      "option3": null,
+      "sku": "NH20FS022-9801",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304055451945,
+        "product_id": 6537277046865,
+        "position": 2,
+        "created_at": "2023-01-31T09:21:33+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1280,
+        "height": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+        "variant_ids": [
+          67697769120041,
+          67697769283881,
+          67697769447721,
+          67697769480489,
+          67697769513257
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Dark olive green / EU 43-44 / UK 9.5-10",
+      "public_title": "Dark olive green / EU 43-44 / UK 9.5-10",
+      "options": [
+        "Dark olive green",
+        "EU 43-44 / UK 9.5-10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595709801",
+      "featured_media": {
+        "alt": null,
+        "id": 32640359137577,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1280,
+          "width": 1280,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769840937,
+      "title": "White / EU 46 / UK 11.5",
+      "option1": "White",
+      "option2": "EU 46 / UK 11.5",
+      "option3": null,
+      "sku": "NH20FS022-0354",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304045457705,
+        "product_id": 6537277046865,
+        "position": 3,
+        "created_at": "2023-01-31T09:19:25+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910",
+        "variant_ids": [
+          67697769840937,
+          67697769873705,
+          67697769906473
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - White / EU 46 / UK 11.5",
+      "public_title": "White / EU 46 / UK 11.5",
+      "options": [
+        "White",
+        "EU 46 / UK 11.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860354",
+      "featured_media": {
+        "alt": null,
+        "id": 32640349012265,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769873705,
+      "title": "White / EU 47 / UK 12.5",
+      "option1": "White",
+      "option2": "EU 47 / UK 12.5",
+      "option3": null,
+      "sku": "NH20FS022-0347",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304045457705,
+        "product_id": 6537277046865,
+        "position": 3,
+        "created_at": "2023-01-31T09:19:25+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910",
+        "variant_ids": [
+          67697769840937,
+          67697769873705,
+          67697769906473
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - White / EU 47 / UK 12.5",
+      "public_title": "White / EU 47 / UK 12.5",
+      "options": [
+        "White",
+        "EU 47 / UK 12.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860347",
+      "featured_media": {
+        "alt": null,
+        "id": 32640349012265,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697769906473,
+      "title": "White / EU 39-40 / UK 6-7",
+      "option1": "White",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-8951",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304045457705,
+        "product_id": 6537277046865,
+        "position": 3,
+        "created_at": "2023-01-31T09:19:25+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910",
+        "variant_ids": [
+          67697769840937,
+          67697769873705,
+          67697769906473
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - White / EU 39-40 / UK 6-7",
+      "public_title": "White / EU 39-40 / UK 6-7",
+      "options": [
+        "White",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595778951",
+      "featured_media": {
+        "alt": null,
+        "id": 32640349012265,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770201385,
+      "title": "Cadet blue / EU 43 / UK 9.5",
+      "option1": "Cadet blue",
+      "option2": "EU 43 / UK 9.5",
+      "option3": null,
+      "sku": "NH20FS022-8262",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Cadet blue / EU 43 / UK 9.5",
+      "public_title": "Cadet blue / EU 43 / UK 9.5",
+      "options": [
+        "Cadet blue",
+        "EU 43 / UK 9.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507668262",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770234153,
+      "title": "Cadet blue / EU 44 / UK 10",
+      "option1": "Cadet blue",
+      "option2": "EU 44 / UK 10",
+      "option3": null,
+      "sku": "NH20FS022-4806",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Cadet blue / EU 44 / UK 10",
+      "public_title": "Cadet blue / EU 44 / UK 10",
+      "options": [
+        "Cadet blue",
+        "EU 44 / UK 10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507664806",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770266921,
+      "title": "Cadet blue / EU 45 / UK 11",
+      "option1": "Cadet blue",
+      "option2": "EU 45 / UK 11",
+      "option3": null,
+      "sku": "NH20FS022-8194",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Cadet blue / EU 45 / UK 11",
+      "public_title": "Cadet blue / EU 45 / UK 11",
+      "options": [
+        "Cadet blue",
+        "EU 45 / UK 11"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507668194",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770299689,
+      "title": "Cadet blue / EU 46 / UK 11.5",
+      "option1": "Cadet blue",
+      "option2": "EU 46 / UK 11.5",
+      "option3": null,
+      "sku": "NH20FS022-4132",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Cadet blue / EU 46 / UK 11.5",
+      "public_title": "Cadet blue / EU 46 / UK 11.5",
+      "options": [
+        "Cadet blue",
+        "EU 46 / UK 11.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976023924132",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770332457,
+      "title": "Cadet blue / EU 47 / UK 12.5",
+      "option1": "Cadet blue",
+      "option2": "EU 47 / UK 12.5",
+      "option3": null,
+      "sku": "NH20FS022-0585",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Cadet blue / EU 47 / UK 12.5",
+      "public_title": "Cadet blue / EU 47 / UK 12.5",
+      "options": [
+        "Cadet blue",
+        "EU 47 / UK 12.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6975641880585",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770365225,
+      "title": "Cadet blue / EU 39-40 / UK 6-7",
+      "option1": "Cadet blue",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-8999",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Cadet blue / EU 39-40 / UK 6-7",
+      "public_title": "Cadet blue / EU 39-40 / UK 6-7",
+      "options": [
+        "Cadet blue",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595778999",
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770430761,
+      "title": "Cadet blue / EU 43-44 / UK 9.5-10",
+      "option1": "Cadet blue",
+      "option2": "EU 43-44 / UK 9.5-10",
+      "option3": null,
+      "sku": null,
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40304044900649,
+        "product_id": 6537277046865,
+        "position": 4,
+        "created_at": "2023-01-31T09:19:16+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+        "variant_ids": [
+          67697770201385,
+          67697770234153,
+          67697770266921,
+          67697770299689,
+          67697770332457,
+          67697770365225,
+          67697770430761
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Cadet blue / EU 43-44 / UK 9.5-10",
+      "public_title": "Cadet blue / EU 43-44 / UK 9.5-10",
+      "options": [
+        "Cadet blue",
+        "EU 43-44 / UK 9.5-10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 32640348094761,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770660137,
+      "title": "Slate grey / EU 43 / UK 9.5",
+      "option1": "Slate grey",
+      "option2": "EU 43 / UK 9.5",
+      "option3": null,
+      "sku": "NH20FS022-0101",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362615377,
+        "product_id": 6537277046865,
+        "position": 5,
+        "created_at": "2021-03-02T06:23:22+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+        "variant_ids": [
+          67697770660137,
+          67697770725673,
+          67697770758441,
+          67697770791209,
+          67697770823977
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Slate grey / EU 43 / UK 9.5",
+      "public_title": "Slate grey / EU 43 / UK 9.5",
+      "options": [
+        "Slate grey",
+        "EU 43 / UK 9.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860101",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063196753,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770725673,
+      "title": "Slate grey / EU 45 / UK 11",
+      "option1": "Slate grey",
+      "option2": "EU 45 / UK 11",
+      "option3": null,
+      "sku": "NH20FS022-0064",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362615377,
+        "product_id": 6537277046865,
+        "position": 5,
+        "created_at": "2021-03-02T06:23:22+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+        "variant_ids": [
+          67697770660137,
+          67697770725673,
+          67697770758441,
+          67697770791209,
+          67697770823977
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Slate grey / EU 45 / UK 11",
+      "public_title": "Slate grey / EU 45 / UK 11",
+      "options": [
+        "Slate grey",
+        "EU 45 / UK 11"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860064",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063196753,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770758441,
+      "title": "Slate grey / EU 46 / UK 11.5",
+      "option1": "Slate grey",
+      "option2": "EU 46 / UK 11.5",
+      "option3": null,
+      "sku": "NH20FS022-0071",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362615377,
+        "product_id": 6537277046865,
+        "position": 5,
+        "created_at": "2021-03-02T06:23:22+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+        "variant_ids": [
+          67697770660137,
+          67697770725673,
+          67697770758441,
+          67697770791209,
+          67697770823977
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Slate grey / EU 46 / UK 11.5",
+      "public_title": "Slate grey / EU 46 / UK 11.5",
+      "options": [
+        "Slate grey",
+        "EU 46 / UK 11.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860071",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063196753,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770791209,
+      "title": "Slate grey / EU 47 / UK 12.5",
+      "option1": "Slate grey",
+      "option2": "EU 47 / UK 12.5",
+      "option3": null,
+      "sku": "NH20FS022-4806",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362615377,
+        "product_id": 6537277046865,
+        "position": 5,
+        "created_at": "2021-03-02T06:23:22+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+        "variant_ids": [
+          67697770660137,
+          67697770725673,
+          67697770758441,
+          67697770791209,
+          67697770823977
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Slate grey / EU 47 / UK 12.5",
+      "public_title": "Slate grey / EU 47 / UK 12.5",
+      "options": [
+        "Slate grey",
+        "EU 47 / UK 12.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595704806",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063196753,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697770823977,
+      "title": "Slate grey / EU 39-40 / UK 6-7",
+      "option1": "Slate grey",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-7902",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362615377,
+        "product_id": 6537277046865,
+        "position": 5,
+        "created_at": "2021-03-02T06:23:22+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+        "variant_ids": [
+          67697770660137,
+          67697770725673,
+          67697770758441,
+          67697770791209,
+          67697770823977
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Slate grey / EU 39-40 / UK 6-7",
+      "public_title": "Slate grey / EU 39-40 / UK 6-7",
+      "options": [
+        "Slate grey",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595747902",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063196753,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771086121,
+      "title": "Black / EU 42 / UK 8.5",
+      "option1": "Black",
+      "option2": "EU 42 / UK 8.5",
+      "option3": null,
+      "sku": "NH20FS022-4882",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Black / EU 42 / UK 8.5",
+      "public_title": "Black / EU 42 / UK 8.5",
+      "options": [
+        "Black",
+        "EU 42 / UK 8.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507664882",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771118889,
+      "title": "Black / EU 43 / UK 9.5",
+      "option1": "Black",
+      "option2": "EU 43 / UK 9.5",
+      "option3": null,
+      "sku": "NH20FS022-4875",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Black / EU 43 / UK 9.5",
+      "public_title": "Black / EU 43 / UK 9.5",
+      "options": [
+        "Black",
+        "EU 43 / UK 9.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6976507664875",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771151657,
+      "title": "Black / EU 44 / UK 10",
+      "option1": "Black",
+      "option2": "EU 44 / UK 10",
+      "option3": null,
+      "sku": "NH20FS022-0217",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Black / EU 44 / UK 10",
+      "public_title": "Black / EU 44 / UK 10",
+      "options": [
+        "Black",
+        "EU 44 / UK 10"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860217",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771184425,
+      "title": "Black / EU 45 / UK 11",
+      "option1": "Black",
+      "option2": "EU 45 / UK 11",
+      "option3": null,
+      "sku": "NH20FS022-0194",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Black / EU 45 / UK 11",
+      "public_title": "Black / EU 45 / UK 11",
+      "options": [
+        "Black",
+        "EU 45 / UK 11"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860194",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771217193,
+      "title": "Black / EU 46 / UK 11.5",
+      "option1": "Black",
+      "option2": "EU 46 / UK 11.5",
+      "option3": null,
+      "sku": "NH20FS022-0224",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Black / EU 46 / UK 11.5",
+      "public_title": "Black / EU 46 / UK 11.5",
+      "options": [
+        "Black",
+        "EU 46 / UK 11.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860224",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771249961,
+      "title": "Black / EU 47 / UK 12.5",
+      "option1": "Black",
+      "option2": "EU 47 / UK 12.5",
+      "option3": null,
+      "sku": "NH20FS022-0187",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": false,
+      "name": "Aqua Shoes - Black / EU 47 / UK 12.5",
+      "public_title": "Black / EU 47 / UK 12.5",
+      "options": [
+        "Black",
+        "EU 47 / UK 12.5"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6977465860187",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 67697771282729,
+      "title": "Black / EU 39-40 / UK 6-7",
+      "option1": "Black",
+      "option2": "EU 39-40 / UK 6-7",
+      "option3": null,
+      "sku": "NH20FS022-7933",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 27947362451537,
+        "product_id": 6537277046865,
+        "position": 6,
+        "created_at": "2021-03-02T06:23:20+02:00",
+        "updated_at": "2025-06-20T11:15:10+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+        "variant_ids": [
+          67697771086121,
+          67697771118889,
+          67697771151657,
+          67697771184425,
+          67697771217193,
+          67697771249961,
+          67697771282729
+        ]
+      },
+      "available": true,
+      "name": "Aqua Shoes - Black / EU 39-40 / UK 6-7",
+      "public_title": "Black / EU 39-40 / UK 6-7",
+      "options": [
+        "Black",
+        "EU 39-40 / UK 6-7"
+      ],
+      "price": 69900,
+      "weight": 299,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6927595747933",
+      "featured_media": {
+        "alt": null,
+        "id": 20197063229521,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-03.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-04.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-06.jpg?v=1750410910",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-07.jpg?v=1750410911",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-08.jpg?v=1750410911",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-10.jpg?v=1750410911",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-09.jpg?v=1750410911",
+    "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-05.jpg?v=1750410911"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+  "options": [
+    {
+      "name": "Colour",
+      "position": 1,
+      "values": [
+        "Dark sea green",
+        "Dark olive green",
+        "White",
+        "Cadet blue",
+        "Slate grey",
+        "Black"
+      ]
+    },
+    {
+      "name": "size",
+      "position": 2,
+      "values": [
+        "EU 44 / UK 10",
+        "EU 45 / UK 11",
+        "EU 39-40 / UK 6-7",
+        "EU 43-44 / UK 9.5-10",
+        "EU 38 / UK 5",
+        "EU 43 / UK 9.5",
+        "EU 41-42 / UK 7.5-8.5",
+        "EU 46 / UK 11.5",
+        "EU 47 / UK 12.5",
+        "EU 42 / UK 8.5"
+      ]
+    }
+  ],
+  "url": "/products/aqua-shoes",
+  "media": [
+    {
+      "alt": null,
+      "id": 32640350748969,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-14.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 32640359137577,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1280,
+        "width": 1280,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1280,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/WhatsAppImage2023-01-30at16.09.26.jpg?v=1750410910",
+      "width": 1280
+    },
+    {
+      "alt": null,
+      "id": 32640349012265,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-12.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 32640348094761,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-11.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063196753,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-01.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063229521,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-02.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063262289,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-03.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-03.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063295057,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-04.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-04.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063360593,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-06.jpg?v=1750410910"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-06.jpg?v=1750410910",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063393361,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-07.jpg?v=1750410911"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-07.jpg?v=1750410911",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063426129,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-08.jpg?v=1750410911"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-08.jpg?v=1750410911",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063491665,
+      "position": 12,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-10.jpg?v=1750410911"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-10.jpg?v=1750410911",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063458897,
+      "position": 13,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-09.jpg?v=1750410911"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-09.jpg?v=1750410911",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 20197063327825,
+      "position": 14,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-05.jpg?v=1750410911"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/2252/2201/products/naturehike-africa-aqua-shoes-05.jpg?v=1750410911",
+      "width": 1500
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,120 @@
+{
+  "id": 10117986386167,
+  "title": "Osprey Ultralight 30 Litre Stuff Duffel",
+  "handle": "osprey-ultralight-30-litre-stuff-duffel",
+  "description": "<p>The Osprey Ultralight 30 Litre Stuff Duffel is a lightweight, packable bag that adds extra capacity when you need it. Take it on day trips while travelling or use it for souvenirs on the return journey.</p><p>Keep small essentials close in the secure front pocket, with a key clip and stretch side pocket for added organisation. An adjustable shoulder strap with a pad makes it comfortable to carry.</p><p>Made with bluesign® approved recycled fabrics, with DWR treatments made without PFAS.</p>",
+  "published_at": "2026-10-28T11:26:43+02:00",
+  "created_at": "2026-10-01T13:33:13+02:00",
+  "vendor": "Osprey",
+  "type": "Duffle",
+  "tags": [],
+  "price": 89900,
+  "price_min": 89900,
+  "price_max": 89900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 51240491647223,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "OS_10004897",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "Osprey Ultralight 30 Litre Stuff Duffel",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 89900,
+      "weight": 221,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "843820155822",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/a5f9eaaa-f00e-44f3-8b4d-5a39592ac0a7.jpg?v=1790854395",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/0074ae4b-e2bd-47e8-a9ee-02cd1f55002f.jpg?v=1790854395",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/cdb59249-81a8-4a75-80dc-8ec6a1cbc99b.webp?v=1790854395"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/a5f9eaaa-f00e-44f3-8b4d-5a39592ac0a7.jpg?v=1790854395",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/osprey-ultralight-30-litre-stuff-duffel",
+  "media": [
+    {
+      "alt": null,
+      "id": 56054089122039,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/a5f9eaaa-f00e-44f3-8b4d-5a39592ac0a7.jpg?v=1790854395"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/a5f9eaaa-f00e-44f3-8b4d-5a39592ac0a7.jpg?v=1790854395",
+      "width": 1000
+    },
+    {
+      "alt": null,
+      "id": 56054089154807,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/0074ae4b-e2bd-47e8-a9ee-02cd1f55002f.jpg?v=1790854395"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/0074ae4b-e2bd-47e8-a9ee-02cd1f55002f.jpg?v=1790854395",
+      "width": 1000
+    },
+    {
+      "alt": null,
+      "id": 56054089187575,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/cdb59249-81a8-4a75-80dc-8ec6a1cbc99b.webp?v=1790854395"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/cdb59249-81a8-4a75-80dc-8ec6a1cbc99b.webp?v=1790854395",
+      "width": 1000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}
