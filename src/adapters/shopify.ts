@@ -38,7 +38,7 @@ export interface ShopifyStore {
 /** The Shopify shops from the store survey (docs/stores.md). */
 export const SHOPIFY_STORES: readonly ShopifyStore[] = [
   { id: "naturehike", domains: ["naturehike.co.za"], origin: "https://www.naturehike.co.za" },
-  { id: "trappers", domains: ["trappers.co.za"], origin: "https://trappers.co.za" },
+  { id: "trappers", domains: ["trappers.co.za"], origin: "https://www.trappers.co.za" },
   { id: "drifters", domains: ["driftersshop.co.za"], origin: "https://www.driftersshop.co.za" },
   { id: "bravehardy", domains: ["bravehardy.com"], origin: "https://www.bravehardy.com" },
 ];

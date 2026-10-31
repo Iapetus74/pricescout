@@ -44,14 +44,17 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 14 | Camp and Climb | WooCommerce | Unverified; price, SKU, brand in meta tags | WordPress `?s=` (assumed) | Allowed / Allowed | Not checked | 2 (WooCommerce) |
 | 15 | Outdoor Warehouse | Custom / headless (Cloudinary images) | Unverified | Not visible | Allowed / Allowed | Not checked | 3 or 4 |
 | 16 | First Ascent | Magento 2 (Vaimo) | Unverified | `/catalogsearch/` | Allowed / **Disallowed** | Not checked | 2 (Magento) or 3; no search |
-| 17 | Naturehike SA | Shopify | Unverified | `/search?q=` | Allowed / Allowed | **Yes** | 2 (Shopify), terms warning |
-| 18 | Trappers | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No clause found | 2 (Shopify) |
+| 17 | Naturehike SA | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | **Yes** | 2 (Shopify), terms warning |
+| 18 | Trappers | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No clause found | 2 (Shopify) |
 | 19 | Outdoor Escape | Wix | Unverified; price in page text | Not visible | Allowed / Allowed (www) | Not checked | 3 or 4; prices "to be confirmed" |
-| 20 | Drifters | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
-| 21 | Brave Hardy | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
+| 20 | Drifters | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
+| 21 | Brave Hardy | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 22 | Decathlon SA | PrestaShop | Unreachable | `/search/` | Allowed / **Disallowed** (from robots.txt) | Unreachable | 3 or 4; no search |
 
 **Platform adapters this unlocks:** Shopify covers 4 stores (Naturehike, Trappers, Drifters, Brave Hardy).
+The Shopify adapter is built (`src/adapters/shopify.ts`, milestone 4). It reads each product's
+`/products/<handle>.js` data (prices already in whole cents, plus stock, SKU and barcode per variant)
+and searches with `/search/suggest.json`. Snapshots are in `src/adapters/__fixtures__/shopify/`.
 WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
 JSON-LD adapter (needed anyway for user-added stores, §4.3), then the others.
 
@@ -201,6 +204,8 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 
 ### 17. Naturehike SA (naturehike.co.za, serves as www.naturehike.co.za)
 - **Platform:** Shopify. `/products.json` works: it gives title, vendor, price and SKU, but no barcode.
+  The per-product `.js` data the adapter uses does include barcodes (valid EAN-13s, e.g. 6927595709771).
+- **Checked 2026-10-31:** "Aqua Shoes", R 699.00, in stock. Vendor field holds the real brand (NATUREHIKE).
 - **robots.txt:** standard Shopify file. Products allowed; `/search` not disallowed; cart, checkout,
   account and sorted/filtered collection pages disallowed. Sitemap: `/sitemap.xml`.
 - **Terms:** Terms of Service section 12(i) bans using the site "to spam, phish, pharm, pretext, spider,
@@ -208,7 +213,11 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **Adapter:** 2 (Shopify).
 
 ### 18. Trappers (trappers.co.za)
+- **Domain:** `trappers.co.za` redirects to `www.trappers.co.za`, so the adapter uses the www address.
 - **Platform:** Shopify. `/products.json` works (title, vendor, price, SKU; no barcode).
+- **Barcodes:** the barcode field holds in-store codes starting with 26 (e.g. 2603000244913) that fail the
+  GTIN check digit, so the adapter drops them. Expect "unsure" matches for Trappers.
+- **Checked 2026-10-31:** "Stanley IceFlow Flip Straw 2.0 Jug - 1.9L", R 1,749.00, in stock.
 - **robots.txt:** standard Shopify file, same as above. Sitemap: `/sitemap.xml`.
 - **Terms:** no clause about bots or scraping in the Terms of Service.
 - **Adapter:** 2 (Shopify).
@@ -230,6 +239,9 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   account and sorted/filtered collection pages disallowed. No crawl-delay. Sitemap: `/sitemap.xml`.
 - **Terms:** the "Use of Site" section says site content "may not be copied, reproduced, republished
   ... or distributed". Nothing on bots or scraping.
+- **Gotchas:** the vendor (brand) field holds the shop's own name, "drifters", not the real brand, and
+  products have no barcodes. Matching here must rely on the title, so expect "unsure" matches.
+- **Checked 2026-10-31:** "Topo Ultraventure 5 Men's", R 3,299.00, in stock.
 - **Adapter:** 2 (Shopify).
 
 ### 21. Brave Hardy (bravehardy.com, serves as www.bravehardy.com)
@@ -237,6 +249,8 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **robots.txt:** standard Shopify file. Sitemap: `/sitemap.xml`.
 - **Terms:** clause 08 says you may not "copy this website without our permission". Nothing on bots.
   A price check reads, but does not copy, the site; noted for the owner.
+- **Barcodes:** the `.js` data includes valid barcodes (e.g. UPC 843820155822 on an Osprey duffel).
+- **Checked 2026-10-31:** "Osprey Ultralight 30 Litre Stuff Duffel", R 899.00, in stock.
 - **Adapter:** 2 (Shopify).
 
 ### 22. Decathlon SA (decathlon.co.za)

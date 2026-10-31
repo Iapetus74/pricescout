@@ -67,7 +67,7 @@ describe("Shopify adapter: safety", () => {
     await expect(createShopifyAdapter(store, source).getProduct("https://trappers.co.za/products/x?variant=1")).rejects.toThrow(
       "offline",
     );
-    expect(asked).toEqual(["https://trappers.co.za/products/x.js"]);
+    expect(asked).toEqual(["https://www.trappers.co.za/products/x.js"]);
   });
 
   it("throws instead of returning a zero or missing price (rule 5)", async () => {
