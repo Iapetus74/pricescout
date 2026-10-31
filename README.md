@@ -2,7 +2,7 @@
 
 PriceScout is a personal web app that compares and tracks prices across South African online stores. It runs on your own computer. The full plan is in [SPEC.md](SPEC.md).
 
-**Where things stand:** milestone 1 (project setup) is done. The app starts and shows a placeholder home page. Price checking, stores and watchlists come in later milestones.
+**Where things stand:** milestone 1 (project setup) and milestone 3 (the polite store fetcher) are done. The app starts and shows a placeholder home page. Behind the scenes, the code that visits stores politely is ready and tested, but no store is connected to it yet. Store adapters, price checking and watchlists come in later milestones.
 
 This guide assumes you have never programmed before. Do the steps in order. Each step says what to type and what you should see.
 
@@ -89,7 +89,7 @@ The app reads private settings from a file called `.env`. Start from the example
 - **Mac:** `cp .env.example .env`
 - **Windows:** `copy .env.example .env`
 
-Nothing is printed. You don't need to change anything in it yet. Later milestones add email settings here. **Never share or upload your `.env` file.**
+Nothing is printed. You don't need to change anything in it yet. If you like, put your email address after `CRAWLER_CONTACT=` so store owners can contact you about PriceScout's visits. Later milestones add email settings here. **Never share or upload your `.env` file.**
 
 ---
 
@@ -119,7 +119,7 @@ These commands are mainly for checking changes. Run them in the project folder w
 
 | Command | What it does | What you should see |
 |---|---|---|
-| `npm test` | Runs the automatic tests | `Tests  26 passed` (the number grows over time) and no red `FAIL` lines |
+| `npm test` | Runs the automatic tests | `Tests  80 passed` (the number grows over time) and no red `FAIL` lines |
 | `npm run lint` | Checks the code for common mistakes | No error lines |
 | `npm run typecheck` | Checks that the code's types fit together | No error lines |
 
@@ -157,6 +157,8 @@ Then start the app as usual with `npm run dev`. Database updates are applied aut
 | `src/db/schema.ts` | The database tables (see SPEC.md section 10) |
 | `src/db/migrations/` | Step-by-step instructions for building the database tables |
 | `src/lib/money.ts` | Turns prices like "R 1 299,99" into cents and back |
+| `src/adapters/types.ts` | The shape every store adapter follows (SPEC.md section 4.2) |
+| `src/crawl/` | The polite fetcher: the only code that visits store websites. It obeys robots.txt, waits at least 5 seconds between visits to the same store, never visits one store twice at once, slows down when a store says "too many requests", pauses a store that shows a CAPTCHA, and reuses pages fetched in the last hour |
 | `data/pricescout.db` | Your database file, created the first time you start the app. It isn't uploaded to GitHub. |
 | `SPEC.md` | What the app will do |
 | `CLAUDE.md` | Working rules for Claude |
