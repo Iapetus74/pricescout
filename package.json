@@ -14,7 +14,8 @@
     "db:migrate": "tsx src/db/migrate.ts",
     "db:studio": "drizzle-kit studio",
     "predev": "npm run db:migrate --silent",
-    "snapshots:shopify": "tsx scripts/save-shopify-snapshots.ts"
+    "snapshots:shopify": "tsx scripts/save-shopify-snapshots.ts",
+    "snapshots:jsonld": "tsx scripts/save-jsonld-snapshots.ts"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",

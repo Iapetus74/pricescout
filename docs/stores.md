@@ -34,19 +34,19 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 4 | Amazon SA | Amazon | Unreachable | `/s?k=` (standard Amazon) | Unreachable (blocks our tool) | **Yes** | 1 (Product Advertising API) or leave off |
 | 5 | Bash | VTEX | Unreachable | Unreachable | Unreachable | Unreachable | 2 (VTEX) once robots is checked |
 | 6 | Game | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable |
-| 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | 3 if JSON-LD has price, else 5 |
+| 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
 | 8 | Superbalist | Custom | Unverified | `/browse?q=` | Allowed / **Disallowed** | Not readable | 3 or 4, products sitemap instead of search |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Allowed / Allowed | Not checked | 5 |
 | 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
-| 11 | Loot | Next.js | Unverified; price and barcode in page text | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | 3 or 4; 10 s delay |
-| 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | 3 if JSON-LD, else 5; no search |
+| 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | 4 (HTML); 10 s delay |
+| 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
 | 13 | Campmaster | Unreachable | Unreachable | Unreachable | Unreachable (blocks our tool) | Unreachable | Unreachable |
 | 14 | Camp and Climb | WooCommerce | Unverified; price, SKU, brand in meta tags | WordPress `?s=` (assumed) | Allowed / Allowed | Not checked | 2 (WooCommerce) |
-| 15 | Outdoor Warehouse | Custom / headless (Cloudinary images) | Unverified | Not visible | Allowed / Allowed | Not checked | 3 or 4 |
-| 16 | First Ascent | Magento 2 (Vaimo) | Unverified | `/catalogsearch/` | Allowed / **Disallowed** | Not checked | 2 (Magento) or 3; no search |
+| 15 | Outdoor Warehouse | Custom / headless (Cloudinary images) | Unverified | Not visible | Allowed / Allowed | Not checked | **Paused** (bot check page, 2026-10-31) |
+| 16 | First Ascent | Magento 2 (Vaimo) | **Yes** (Product with offer) | `/catalogsearch/` | Allowed / **Disallowed** | Not checked | **3 (JSON-LD), built**; no search |
 | 17 | Naturehike SA | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | **Yes** | 2 (Shopify), terms warning |
 | 18 | Trappers | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No clause found | 2 (Shopify) |
-| 19 | Outdoor Escape | Wix | Unverified; price in page text | Not visible | Allowed / Allowed (www) | Not checked | 3 or 4; prices "to be confirmed" |
+| 19 | Outdoor Escape | Wix | **Yes** (Product with offer) | Not visible | Allowed / Allowed (www); crawl-delay 10s | Not checked | **3 (JSON-LD), built**; prices "to be confirmed" |
 | 20 | Drifters | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 21 | Brave Hardy | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 22 | Decathlon SA | PrestaShop | Unreachable | `/search/` | Allowed / **Disallowed** (from robots.txt) | Unreachable | 3 or 4; no search |
@@ -55,7 +55,11 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 The Shopify adapter is built (`src/adapters/shopify.ts`, milestone 4). It reads each product's
 `/products/<handle>.js` data (prices already in whole cents, plus stock, SKU and barcode per variant)
 and searches with `/search/suggest.json`. Snapshots are in `src/adapters/__fixtures__/shopify/`.
-WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
+The generic JSON-LD adapter is built (`src/adapters/jsonld.ts`, milestone 4). It reads schema.org
+`Product` / `ProductGroup` / `Offer` data from any product page, and is tested against real saved pages
+from the four Shopify shops (`src/adapters/__fixtures__/jsonld/`), which give the same prices, barcodes
+and SKUs as the Shopify adapter. Its base-store list fills in as each non-Shopify store's page is saved
+and checked. WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
 JSON-LD adapter (needed anyway for user-added stores, §4.3), then the others.
 
 **Stores where search is not allowed:** Takealot, Superbalist, Pick n Pay, Cape Union Mart, First Ascent
@@ -261,6 +265,29 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - Pages other than robots.txt were refused (the site sits behind bot protection).
 - **Terms:** unreachable.
 - **Adapter:** 3 or 4, product URLs and sitemap only.
+
+## Second check, 31 October 2026 (from the cloud machine, with PriceScout's own crawler)
+
+This round used the app's polite fetcher and its own User-Agent, fetching robots.txt and then one or two
+pages per store, 5 seconds apart (10 for stores that ask).
+
+- **First Ascent:** product pages carry schema.org `Product` JSON-LD with price, stock, SKU and brand,
+  but no barcode or MPN. Checked: "Glacier Cooler 18L", R 1,699.00, in stock. Served by the generic
+  JSON-LD adapter (`src/adapters/jsonld.ts`). Search is disallowed, so pasted links only.
+- **Outdoor Escape:** Wix product pages carry `Product` JSON-LD with price, stock, brand and seller, but
+  no SKU or barcode. robots.txt on `www.` asks for `Crawl-delay: 10`. Checked: "First Ascent Amplify 900
+  Sleeping Bag", ZAR 1,999.00, in stock. Served by the generic JSON-LD adapter. The products sitemap
+  (`/store-products-sitemap.xml`) lists every product, which can stand in for search later.
+- **Loot:** the product page has **no** JSON-LD, so it needs an HTML adapter (type 4). The price and
+  barcode are in the page text, as the first survey found.
+- **Woolworths and Outdoor Warehouse:** answered with a bot-check (CAPTCHA) page. Per the rules, the
+  crawler stopped and marked them **Paused**; nothing tried to get past it.
+- **Cape Union Mart:** even robots.txt returns an Amazon "challenge" (bot check). **Paused** for the
+  same reason.
+- **Pick n Pay:** robots.txt and `/sitemap.xml` were read. The product lists are on a separate address,
+  `cdn-prd-02.pnp.co.za`, which the cloud machine may not reach yet, so no product page was tested.
+- **Camp and Climb and Superbalist:** the cloud machine still couldn't reach them (Superbalist's `www.`
+  address redirects to `superbalist.com`, which wasn't reachable). Not tested yet.
 
 ## Things the owner needs to decide
 
