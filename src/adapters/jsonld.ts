@@ -39,8 +39,15 @@ export interface JsonLdStore {
   searchUrlPattern?: string;
 }
 
-/** The base stores served by this adapter. Filled in as each store's snapshot is checked. */
-export const JSONLD_STORES: readonly JsonLdStore[] = [];
+/** The base stores served by this adapter, each checked against a saved page (docs/stores.md).
+ *  Neither allows search in a way we can use, so they work from pasted links (and sitemaps later). */
+export const JSONLD_STORES: readonly JsonLdStore[] = [
+  // Magento 2. Product links are a single word-with-dashes path, e.g. /glacier-cooler-18l.
+  // robots.txt disallows /catalogsearch/, so no search.
+  { id: "firstascent", domains: ["firstascent.co.za"], origin: "https://www.firstascent.co.za", productPath: /^\/[a-z0-9-]+\/?$/i },
+  // Wix. robots.txt asks for 10 s between requests, which the polite fetcher follows.
+  { id: "outdoorescape", domains: ["outdoorescape.co.za"], origin: "https://www.outdoorescape.co.za", productPath: /^\/product-page\/[^/]+\/?$/ },
+];
 
 /** The page had no usable product data, so no price was recorded (CLAUDE.md rule 5). */
 export class JsonLdParseError extends Error {
@@ -295,11 +302,11 @@ function readOfferPrice(offer: Node): OfferPrice | string {
 
 function variantAttributesOf(variant: Node, product: Node, title: string): Record<string, string> | undefined {
   const attrs: Record<string, string> = {};
+  // Material and pattern only count as a choice on a variant; on a plain product they're just a description.
   const fields: [string, string][] = [
     ["color", "Colour"],
     ["size", "Size"],
-    ["material", "Material"],
-    ["pattern", "Pattern"],
+    ...(variant !== product ? ([["material", "Material"], ["pattern", "Pattern"]] as [string, string][]) : []),
   ];
   for (const [key, label] of fields) {
     const value = nameOf(variant[key]) ?? (variant === product ? undefined : nameOf(product[key]));

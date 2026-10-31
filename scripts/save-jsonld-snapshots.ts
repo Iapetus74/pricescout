@@ -13,6 +13,10 @@
  * <script>, <style> and <svg> tags emptied. The JSON-LD blocks and the rest of
  * the HTML are kept exactly as the store sent them.
  *
+ * (On Claude's cloud computer, which reaches websites through a proxy, run it as
+ *   NODE_USE_ENV_PROXY=1 npm run snapshots:jsonld -- <link>
+ * On your own computer the plain command is all you need.)
+ *
  * Files are written to src/adapters/__fixtures__/jsonld/<name>/, where <name>
  * is the shop's domain without "www." (e.g. "trappers.co.za"). After saving,
  * write that folder's expected.json by hand, checking the live page.

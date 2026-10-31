@@ -1,0 +1,12 @@
+{
+  "productUrl": "https://www.firstascent.co.za/glacier-cooler-18l",
+  "checkedLive": "2026-10-31: R 1,699.00, in stock (the page's price box and 'In stock' label agree). Magento 2; no barcode or MPN in the data, so matches will be 'unsure'.",
+  "product": {
+    "url": "https://www.firstascent.co.za/glacier-cooler-18l",
+    "title": "Glacier Cooler 18L",
+    "brand": "First Ascent",
+    "sku": "FAB330",
+    "priceCents": 169900,
+    "inStock": true
+  }
+}

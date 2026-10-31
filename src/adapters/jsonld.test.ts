@@ -8,6 +8,7 @@ import {
   decodeEntities,
   extractJsonLd,
   JsonLdParseError,
+  JSONLD_STORES,
   parseJsonLdSearch,
   priceToCents,
   type JsonLdStore,
@@ -157,5 +158,17 @@ describe.each(snapshots)("JSON-LD snapshot: %s", (name) => {
     expect(Number.isInteger(result.priceCents)).toBe(true);
     // Rule 6: only a real barcode counts, so a bad one must not slip through.
     if (!("gtin" in expected.product)) expect(result.gtin).toBeUndefined();
+  });
+});
+
+describe("JSON-LD base stores", () => {
+  it("each base store has a checked snapshot and only handles its product links", () => {
+    for (const s of JSONLD_STORES) {
+      expect(snapshots).toContain(s.domains[0]);
+      const adapter = createJsonLdAdapter(s, answer(""));
+      const expected = JSON.parse(readFileSync(path.join(FIXTURES, s.domains[0], "expected.json"), "utf8"));
+      expect(adapter.canHandle(expected.productUrl)).toBe(true);
+      expect(adapter.canHandle(`${s.origin}/some/deep/category/page`)).toBe(false);
+    }
   });
 });
