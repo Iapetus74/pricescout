@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PriceScout: database files and secrets must never be committed
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+cookies*.json
+!.env.example
