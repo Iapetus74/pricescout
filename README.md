@@ -2,7 +2,7 @@
 
 PriceScout is a personal web app that compares and tracks prices across South African online stores. It runs on your own computer. The full plan is in [SPEC.md](SPEC.md).
 
-**Where things stand:** milestone 1 (project setup) and milestone 3 (the polite store fetcher) are done. The app starts and shows a placeholder home page. Behind the scenes, the code that visits stores politely is ready and tested, but no store is connected to it yet. Store adapters, price checking and watchlists come in later milestones.
+**Where things stand:** milestones 1 to 5 are done. You can paste a product link on the home page and PriceScout reads the product's name and price and starts tracking it. This works for six stores so far: Trappers, Naturehike SA, Drifters, Brave Hardy, First Ascent and Outdoor Escape. Links from other stores get a short message saying why they can't be read yet. Finding the same product at other stores, automatic price checks, charts and watchlists come in later milestones.
 
 This guide assumes you have never programmed before. Do the steps in order. Each step says what to type and what you should see.
 
@@ -105,7 +105,16 @@ npm run dev
 
 You should see `Database is up to date`, then a few lines ending in `✓ Ready`. Leave this terminal open: the app runs for as long as this window stays open.
 
-Now open your web browser and go to <http://localhost:3000>. You should see the PriceScout home page with a "Paste a product link" box. The box doesn't do anything yet.
+Now open your web browser and go to <http://localhost:3000>. You should see the PriceScout home page with a "Paste a product link" box.
+
+### Track a product
+
+1. In another browser tab, open a product page at one of the working stores (for example Trappers) and copy its address from the address bar.
+2. Paste it into the "Paste a product link" box and press **Track**.
+3. Wait 10 to 20 seconds. PriceScout visits the store slowly on purpose, so it doesn't overload the shop.
+4. You should see a green box saying "Now tracking:" with the product's name and price, and the product appears under **Tracked products**.
+
+If the link is from a store PriceScout can't read yet, or from a store that is paused (because it showed a "are you a robot?" check), you get a message explaining that instead, and nothing is saved.
 
 ### Stop the app
 
@@ -119,7 +128,7 @@ These commands are mainly for checking changes. Run them in the project folder w
 
 | Command | What it does | What you should see |
 |---|---|---|
-| `npm test` | Runs the automatic tests | `Tests  95 passed` (the number grows over time) and no red `FAIL` lines |
+| `npm test` | Runs the automatic tests | `Tests  132 passed` (the number grows over time) and no red `FAIL` lines |
 | `npm run lint` | Checks the code for common mistakes | No error lines |
 | `npm run typecheck` | Checks that the code's types fit together | No error lines |
 
@@ -176,6 +185,8 @@ Then start the app as usual with `npm run dev`. Database updates are applied aut
 | `src/db/migrations/` | Step-by-step instructions for building the database tables |
 | `src/lib/money.ts` | Turns prices like "R 1 299,99" into cents and back |
 | `src/adapters/types.ts` | The shape every store adapter follows (SPEC.md section 4.2) |
+| `src/stores/base-stores.ts` | The 22 stores from the survey, added to the database the first time the app runs |
+| `src/tracking/` | Pasting a link: reads the product and saves it as a tracked product with its first price |
 | `src/crawl/` | The polite fetcher: the only code that visits store websites. It obeys robots.txt, waits at least 5 seconds between visits to the same store, never visits one store twice at once, slows down when a store says "too many requests", pauses a store that shows a CAPTCHA, and reuses pages fetched in the last hour |
 | `data/pricescout.db` | Your database file, created the first time you start the app. It isn't uploaded to GitHub. |
 | `SPEC.md` | What the app will do |
