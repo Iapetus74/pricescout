@@ -6,6 +6,8 @@
 
 You paste a link to a product from a supported store. The app finds the same product, and close variants of it, across a list of South African shopping sites. It records prices twice a day and shows a 30-day price history for every store. It highlights the cheapest in-stock offer. Products can be grouped into themed watchlists that each have a budget.
 
+You can also describe what you want in plain words instead of pasting a link, for example "a French door fridge freezer under R20 000". The app searches the stores that allow it and lists comparable products under your budget. You pick one to start tracking it.
+
 Version 2 adds a browser extension. It uses your own logged-in sessions to add items, or a whole watchlist, to your carts at each store.
 
 ## 2. Users and environment
@@ -31,10 +33,11 @@ Version 2 adds a browser extension. It uses your own logged-in sessions to add i
 6. Email alerts are sent on price drops and when a price reaches your target.
 7. Watchlists with a name and a budget. Each one shows its total at today's best prices.
 8. Users can add their own store domains on top of the base list.
+9. **Describe-a-product search.** Type a plain-language request (product type, features, price limit). The app searches every enabled store that allows search and ranks comparable products under the budget (section 5.4).
 
 ### Version 2
-9. A browser extension (Chrome first) adds items to store carts using the user's own logged-in session.
-10. "Add watchlist to carts" splits the items across stores by best price and adds each one to the right cart.
+10. A browser extension (Chrome first) adds items to store carts using the user's own logged-in session.
+11. "Add watchlist to carts" splits the items across stores by best price and adds each one to the right cart.
 
 ### Out of scope (all versions)
 - Checkout or payment of any kind. Adding to the cart is the furthest the app goes.
@@ -125,6 +128,7 @@ Adapters are then built in that order. Platform adapters come first because each
 - A user can add a domain from the Stores page.
 - The app first tries the generic structured-data adapter (type 3) on a sample product URL that the user provides.
 - If that works, the store becomes **Active (generic)**. If it fails, the store is listed as **Needs adapter** and the app explains that a custom adapter has to be written.
+- The user can also give a **search link pattern** for the store, such as `https://example.co.za/search?q={words}`. The app checks it against robots.txt. If search is allowed, the generic adapter can then take part in describe-a-product search (section 5.4): it reads the product links on the search results page and then reads each product's JSON-LD. Without a pattern, the store is used for pasted links only.
 - User-added stores are visible only to the user who added them.
 
 ### 4.4 Polite crawling (required)
@@ -150,6 +154,8 @@ Matching the same product across 22 stores is the hardest part of the app. It mu
    - **Rejected.** Discarded.
 5. The user confirms or rejects the unsure matches. The decisions are saved and reused.
 
+(Section 5.4 describes the other way in: describing a product in words instead of pasting a link.)
+
 ### 5.2 Scoring rules (starting point; tune with tests)
 - Same GTIN gives an exact match.
 - Same brand and normalised MPN, with no conflicting variant attributes, gives an exact match.
@@ -159,6 +165,59 @@ Matching the same product across 22 stores is the hardest part of the app. It mu
 
 ### 5.3 Matching tests
 Build a fixture set of at least 20 real products as saved page snapshots. Include tents, headlamps, electronics, a grocery item and a clothing item. Each comes with its expected matches across stores. Every change to the matcher must pass this set.
+
+### 5.4 Describe-a-product search
+
+The user types what they want instead of pasting a link, for example:
+
+> find a french door fridge freezer combo for under R20 000
+
+The app looks for **comparable** products, not the same product. Results are never called matches. They are suggestions, and the user picks one to track. Once picked, it becomes an anchor product and the normal flow in section 5.1 takes over (exact matches across stores, price history, alerts).
+
+#### 5.4.1 Flow
+1. **Read the request.** The app pulls out:
+   - the **price limit** in cents (and a lower limit if one is given, e.g. "between R10 000 and R20 000"),
+   - the **product words** (e.g. "fridge freezer"),
+   - the **feature words** (e.g. "french door", "combo"),
+   - any **brand** named (e.g. "Samsung").
+   The app shows what it understood ("Looking for: fridge freezer · French door · up to R20 000") so the user can correct it before searching.
+2. **Build search phrases.** Up to 2 phrases per store: first the product words plus feature words ("french door fridge freezer"), then the product words alone ("fridge freezer") if the first phrase finds fewer than 5 results. A small hand-kept list of synonyms widens the second phrase (fridge = refrigerator, combo = combi, and so on).
+3. **Search each store** that is enabled and allows search, using its adapter's `search()` through the polite fetcher. Stores run side by side, but each store's own requests stay one at a time and 5 seconds apart (section 4.4). Results appear on screen as each store finishes.
+4. **Read the most promising results.** For each store, read the product pages of up to 5 candidates whose title fits best and whose search-page price (if shown) is within the limit. This gets the real price, shipping, stock and identifiers. At 5 seconds per request, one store takes up to about 35 seconds.
+5. **Filter and rank** (section 5.4.3).
+6. **Show the results** (section 9, Search results). The user can **Track this** (creates the anchor product) or open the product at the store.
+
+#### 5.4.2 Stores that don't allow search
+The store survey found six stores whose robots.txt forbids search pages: Takealot, Superbalist, Pick n Pay, Cape Union Mart, First Ascent and Decathlon. The app **never fetches a disallowed search page**, and it does not try to get around the rule by other means.
+- These stores are listed under the results as **"Not searched: this store doesn't allow automated search"**, with a link that opens the store's own search for the same words in the user's browser. The user can paste a product link from there into the normal flow.
+- Once a product is tracked, these stores can still take part in **matching** for that product if their adapter can find candidates without search (for example from a public sitemap). That belongs to section 5.1, not to this search.
+- Stores that are switched off, Paused, Unreachable or have no adapter yet are listed the same way with their reason.
+
+Searching a large store's sitemap for words (instead of its search page) is **not** part of this feature. It would mean downloading tens of thousands of links from sites such as Takealot. It may be considered later, store by store.
+
+#### 5.4.3 Filtering and ranking
+- **Price:** keep offers whose price plus shipping is at or under the limit. When shipping is unknown, compare the price alone and label it "shipping not included". Offers up to 10% over the limit are shown in a collapsed "Just over budget" group.
+- **Stock:** out-of-stock offers are moved to the bottom and labelled.
+- **Fit score (0 to 100):** how many of the product words and feature words (or their synonyms) appear in the product's title and listed attributes. Product words count more than feature words. A named brand that doesn't match lowers the score sharply. Results under a minimum score are hidden behind "Show weaker results".
+- **Order:** by fit score in bands (strong, fair), then by lowest total price within each band.
+- Each result shows **why** it was ranked as it was ("has: French door, freezer · missing: combo").
+- The same product found at two stores is shown once, with both prices, only when it has the same GTIN or the same brand + model number (rule 6 of section 5.2 still applies). Otherwise the results stay separate.
+
+#### 5.4.4 Reading the request: rules first
+The first version reads the request with **simple rules** written in code, with unit tests:
+- Price patterns: "under / below / less than / max / up to / budget" followed by an amount such as "R20 000", "R20,000", "R20k", "20 000 rand". Amounts become integer cents through `src/lib/money.ts`.
+- Filler words are removed ("find", "me", "a", "for", "I want", and so on).
+- Brand names are recognised from a list built from brands already seen in the stores' data.
+- Feature words come from a small hand-kept list per product type (for fridges: French door, side by side, combi, water dispenser, no frost, inverter, capacity in litres). Words that aren't on any list are kept as plain search words.
+
+Rules cost nothing, need no account or key, and keep the request on the owner's computer. The trade-off is that they only understand words they have been taught.
+
+**Optional later step: AI reading.** If the owner wants better understanding of free-form requests, an optional setting can send the request text (and, for ranking, the candidate titles) to the Claude API, which returns the same fields as the rules (price limit, product words, features, brand, synonyms). This needs an Anthropic API key in `.env` (`ANTHROPIC_API_KEY`), costs a small amount per search, and sends the request text off the computer. If the key is missing or the call fails, the app falls back to the rules. This step is **not** built until the owner asks for it.
+
+#### 5.4.5 Limits
+- At most one search running at a time per user, and searches are not repeated automatically. Results are kept so the user can come back to them.
+- Search results pages are cached for 1 hour like product pages (section 4.4), so repeating the same search soon after doesn't fetch again.
+- A search never changes tracked products or prices. It only creates something when the user presses **Track this**.
 
 ## 6. Price tracking
 
@@ -202,9 +261,10 @@ Build a fixture set of at least 20 real products as saved page snapshots. Includ
 ## 9. Screens
 
 1. **Login**
-2. **Home / Dashboard**: a URL box ("Paste a product link"), tracked products with their best prices, recent price drops, and a summary of each watchlist.
+2. **Home / Dashboard**: a URL box ("Paste a product link"), a describe box ("Or describe what you want, e.g. French door fridge under R20 000"), tracked products with their best prices, recent price drops, and a summary of each watchlist.
 3. **Product page**: the anchor product's details; best deal card; table of exact matches (store, price, shipping, total, stock, sale badge, last checked, link); the 30-day chart with one line per store; a variants section; a "Please confirm" list; a target price field; add to watchlist; Check now.
 4. **Watchlists list** and **Watchlist detail**: items, total, budget bar, (v2) Add all to carts.
+4a. **Search results** (section 5.4): what the app understood (editable), a progress line for each store (searching, done, not searched and why), results grouped by fit (each with image, title, store, price, shipping, total, stock, sale badge, why it fits, Track this, Open at store), a "Just over budget" group, and the list of stores that weren't searched with a link to search them yourself. Recent searches are listed on the dashboard.
 5. **Stores**: every store with its status (Active, Active (generic), Needs adapter, Paused, Disabled, Not allowed by site), last successful check, an enable/disable switch, terms warnings, and Add domain.
 6. **Settings**: email for alerts, alert preferences, account.
 
@@ -220,6 +280,10 @@ Build a fixture set of at least 20 real products as saved page snapshots. Includ
 - `match_decisions` (user_id, anchor_key, candidate_url, decision). This remembers what the user confirmed or rejected.
 - `alerts_sent` (id, user_id, product_id, kind, sent_at)
 - `jobs` (id, type, payload, run_at, status, attempts, last_error). This is a simple job queue.
+- `searches` (id, user_id, request_text, parsed [JSON: product words, features, brand, synonyms], min_price_zar, max_price_zar, parser [rules | ai], status [running | done | failed], created_at, finished_at). One describe-a-product search.
+- `search_store_runs` (search_id, store_id, status [searched | not_allowed | disabled | paused | no_adapter | failed], phrases_used, result_count, error). Why each store did or didn't take part.
+- `search_results` (id, search_id, store_id, url, title, brand, gtin, mpn, price_zar, shipping_zar, in_stock, image_url, fit_score, fit_reasons, fetched_at, tracked_product_id). Filled in when the user presses Track this.
+- `stores` gains `search_url_pattern` (optional, for user-added stores, section 4.3).
 
 All money is stored as **integer cents**, never as floating-point numbers.
 
@@ -234,6 +298,7 @@ All money is stored as **integer cents**, never as floating-point numbers.
 | Auth | Auth.js (email + password) | Standard and well documented |
 | Fetching | Plain HTTP requests + cheerio for HTML; Playwright only where needed | Light and polite |
 | Scheduling | A separate worker process (`npm run worker`) that reads the `jobs` table, with node-cron triggering the twice-daily checks | No extra services |
+| Reading search requests | Plain rules in TypeScript, unit tested; optional Claude API later (section 5.4.4) | Free, private, no key needed to start |
 | Email | Nodemailer over SMTP | Works with Gmail and most providers |
 | Tests | Vitest for unit tests; Playwright for one end-to-end test | Fast, one toolset |
 | Running locally | `npm run dev` (app) and `npm run worker` (checks); later a single `npm start` | Simple for a beginner |
@@ -256,6 +321,8 @@ Every milestone ends with a check that proves it works. Commit to git after each
    *Check:* pasting a real Takealot link shows its title and price.
 6. **Search + matching** with the fixture set (section 5.3).
    *Check:* the fixture tests pass, and a real product shows matches from at least 5 stores.
+6b. **Describe-a-product search** (section 5.4). Request reader with unit tests (written first), search across stores, ranking, the Search results screen, and Track this.
+   *Check:* the reader's unit tests pass for at least 15 sample requests; a real request such as "2 person hiking tent under R3 000" shows ranked results under the budget from at least 2 stores, and the stores that don't allow search are listed with the reason.
 7. **Worker + price history + charts + best deal.**
    *Check:* after two manual check runs, the chart shows two points per store and the best deal card is correct.
 8. **Watchlists with budget and totals.**
@@ -274,4 +341,6 @@ Every milestone ends with a check that proves it works. Commit to git after each
 - **Blocking and terms of use.** Some stores may block automated access or forbid it in their terms. Mitigation: polite crawling, per-store on/off switches, and terms warnings. The owner decides which stores to enable.
 - **Weak product identifiers.** Grocery and clothing items often lack barcodes or model numbers on the page, so matching relies on the title and needs more user confirmation.
 - **Marketplace sellers** (Takealot, Bob Shop, Amazon). One listing can have many sellers. v1 records the price of the default or "buy box" offer only.
+- **Store coverage for describe-a-product search.** The base list is mostly outdoor, fashion and grocery stores. The big general stores that sell appliances are exactly the ones that can't be searched: Takealot forbids search, Makro and Game were unreachable in the survey, Amazon's terms forbid bots, and Bob Shop carries a terms warning. So a request like "French door fridge under R20 000" may find very little at first. Mitigation: show clearly which stores were not searched and why, and let the owner add appliance stores as user-added domains with a search link pattern (section 4.3).
+- **Ranking without understanding.** The rules-based reader only knows the words it has been taught, so unusual wording can give weak results. Mitigation: show what was understood and let the user edit it; the optional AI reading step (section 5.4.4).
 - **Machine uptime.** Price history has gaps when the computer is off. This is acceptable for v1.
