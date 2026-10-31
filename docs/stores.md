@@ -47,11 +47,11 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 17 | Naturehike SA | Shopify | Unverified | `/search?q=` | Allowed / Allowed | **Yes** | 2 (Shopify), terms warning |
 | 18 | Trappers | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No clause found | 2 (Shopify) |
 | 19 | Outdoor Escape | Wix | Unverified; price in page text | Not visible | Allowed / Allowed (www) | Not checked | 3 or 4; prices "to be confirmed" |
-| 20 | Drifters | **Not a shop**: domain redirects to a tour operator | n/a | n/a | n/a | n/a | **Owner to decide** |
+| 20 | Drifters | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 21 | Brave Hardy | Shopify | Unverified | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 22 | Decathlon SA | PrestaShop | Unreachable | `/search/` | Allowed / **Disallowed** (from robots.txt) | Unreachable | 3 or 4; no search |
 
-**Platform adapters this unlocks:** Shopify covers 3 stores (Naturehike, Trappers, Brave Hardy).
+**Platform adapters this unlocks:** Shopify covers 4 stores (Naturehike, Trappers, Drifters, Brave Hardy).
 WooCommerce, Magento and VTEX cover one store each. Suggested build order: Shopify, then the generic
 JSON-LD adapter (needed anyway for user-added stores, §4.3), then the others.
 
@@ -221,11 +221,16 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **Terms:** not checked.
 - **Adapter:** 3 or 4. Prices may be out of date, so the UI should say so.
 
-### 20. Drifters (drifters.co.za)
-- `drifters.co.za` redirects to `drifters.com`, which is **Drifters Adventure Tours**, an overland tour
-  operator (WordPress), not an outdoor shop. There is nothing to compare prices on.
-- **Owner to decide:** is there a different Drifters shop website you meant, or should this store be
-  dropped from the list?
+### 20. Drifters (driftersshop.co.za)
+- **Domain:** the owner confirmed the shop is `www.driftersshop.co.za`. The domain in the original
+  spec, `drifters.co.za`, redirects to Drifters Adventure Tours (a tour operator, not a shop).
+- **Platform:** Shopify ("Powered by Shopify", standard Shopify URLs). Product pages show the price in
+  the page text, e.g. `/products/sea-to-summit-etherlight-xt-inflatable-mattress` at R 4,199.00.
+- **robots.txt:** standard Shopify file. Products allowed; `/search` not disallowed; cart, checkout,
+  account and sorted/filtered collection pages disallowed. No crawl-delay. Sitemap: `/sitemap.xml`.
+- **Terms:** the "Use of Site" section says site content "may not be copied, reproduced, republished
+  ... or distributed". Nothing on bots or scraping.
+- **Adapter:** 2 (Shopify).
 
 ### 21. Brave Hardy (bravehardy.com, serves as www.bravehardy.com)
 - **Platform:** Shopify. `/products.json` works (title, vendor, price, SKU; no barcode).
@@ -245,7 +250,6 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 
 ## Things the owner needs to decide
 
-1. **Drifters:** give the right website, or drop it.
-2. **Stores with a terms warning** (Takealot, Bob Shop, Amazon, Naturehike): the app will show a warning
+1. **Stores with a terms warning** (Takealot, Bob Shop, Amazon, Naturehike): the app will show a warning
    and leave the choice to switch each one on to you, as the spec says.
-3. **Amazon:** use the official API (needs an Amazon Associates account) or leave it off.
+2. **Amazon:** use the official API (needs an Amazon Associates account) or leave it off.

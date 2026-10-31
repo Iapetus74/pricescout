@@ -68,7 +68,7 @@ Version 2 adds a browser extension. It uses your own logged-in sessions to add i
 | 17 | Naturehike SA | naturehike.co.za | Outdoor; brand store |
 | 18 | Trappers | trappers.co.za | Outdoor |
 | 19 | Outdoor Escape | outdoorescape.co.za | Outdoor |
-| 20 | Drifters | drifters.co.za | Outdoor |
+| 20 | Drifters | driftersshop.co.za | Outdoor |
 | 21 | Brave Hardy | bravehardy.com | Outdoor |
 | 22 | Decathlon SA | decathlon.co.za | Sport and outdoor |
 
