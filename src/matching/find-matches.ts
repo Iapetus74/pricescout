@@ -372,7 +372,15 @@ export interface ProductOffer {
   reasons: string[];
   variantLabel: string | null;
   isAnchor: boolean;
-  latest: { priceCents: number; wasPriceCents: number | null; inStock: boolean | null; fetchedAt: Date } | null;
+  latest: {
+    priceCents: number;
+    wasPriceCents: number | null;
+    shippingCents: number | null;
+    inStock: boolean | null;
+    fetchedAt: Date;
+  } | null;
+  /** Set when the most recent check failed; the latest good price above still stands. */
+  lastFailure: { at: Date; error: string } | null;
 }
 
 /** The product and every store's offer for it, for the product page. */
@@ -396,6 +404,12 @@ export function getProductWithOffers(db: Db, userId: number, productId: number) 
       .where(and(eq(priceObservations.offerId, offer.id), eq(priceObservations.ok, true)))
       .orderBy(desc(priceObservations.fetchedAt), desc(priceObservations.id))
       .get();
+    const newest = db
+      .select({ ok: priceObservations.ok, fetchedAt: priceObservations.fetchedAt, error: priceObservations.error })
+      .from(priceObservations)
+      .where(eq(priceObservations.offerId, offer.id))
+      .orderBy(desc(priceObservations.fetchedAt), desc(priceObservations.id))
+      .get();
     return {
       offerId: offer.id,
       storeName,
@@ -408,8 +422,15 @@ export function getProductWithOffers(db: Db, userId: number, productId: number) 
       isAnchor: offer.id === product.anchorOfferId,
       latest:
         obs && obs.priceCents !== null
-          ? { priceCents: obs.priceCents, wasPriceCents: obs.wasPriceCents, inStock: obs.inStock, fetchedAt: obs.fetchedAt }
+          ? {
+              priceCents: obs.priceCents,
+              wasPriceCents: obs.wasPriceCents,
+              shippingCents: obs.shippingCents,
+              inStock: obs.inStock,
+              fetchedAt: obs.fetchedAt,
+            }
           : null,
+      lastFailure: newest && !newest.ok ? { at: newest.fetchedAt, error: newest.error ?? "The check failed." } : null,
     };
   });
   return { product, offers: list };
