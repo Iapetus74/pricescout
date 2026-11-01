@@ -40,6 +40,7 @@ describe("database schema", () => {
     expect(rows.map((r) => r.name).sort()).toEqual(
       [
         "alerts_sent",
+        "crawl_sites",
         "jobs",
         "match_decisions",
         "offers",
