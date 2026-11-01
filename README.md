@@ -2,7 +2,7 @@
 
 PriceScout is a personal web app that compares and tracks prices across South African online stores. It runs on your own computer. The full plan is in [SPEC.md](SPEC.md).
 
-**Where things stand:** milestones 1 to 5 are done. You can paste a product link on the home page and PriceScout reads the product's name and price and starts tracking it. This works for six stores so far: Trappers, Naturehike SA, Drifters, Brave Hardy, First Ascent and Outdoor Escape. Links from other stores get a short message saying why they can't be read yet. Finding the same product at other stores, automatic price checks, charts and watchlists come in later milestones.
+**Where things stand:** milestones 1 to 6 are done. You can paste a product link on the home page and PriceScout reads the product's name and price and starts tracking it. This works for six stores so far: Trappers, Naturehike SA, Drifters, Brave Hardy, First Ascent and Outdoor Escape. Links from other stores get a short message saying why they can't be read yet. On a tracked product's page, PriceScout can look for the same product at the other stores and show their prices side by side. Automatic price checks, charts and watchlists come in later milestones.
 
 This guide assumes you have never programmed before. Do the steps in order. Each step says what to type and what you should see.
 
@@ -116,6 +116,16 @@ Now open your web browser and go to <http://localhost:3000>. You should see the 
 
 If the link is from a store PriceScout can't read yet, or from a store that is paused (because it showed a "are you a robot?" check), you get a message explaining that instead, and nothing is saved.
 
+### Compare prices at other stores
+
+1. On the home page, click a tracked product's name (or **Compare stores** under it).
+2. Press **Find this product at other stores** and wait about half a minute.
+3. The page then lists what was found:
+   - **Same product**: PriceScout is sure, because the barcode or the maker's model number matches.
+   - **Please confirm**: it looks the same, but the store doesn't show a code to prove it. Open the link, check, and press **Same product** or **Not the same**. PriceScout remembers your answer.
+   - **Other sizes and colours**: the same product range in a different size or colour.
+4. "What happened at each store" says which stores were searched and why the others weren't (for example, First Ascent doesn't allow automated search). If you find the product at such a store yourself, paste its link under **Add a link from another store**.
+
 ### Stop the app
 
 Click in the terminal window and press `Ctrl + C`.
@@ -149,6 +159,20 @@ npm run snapshots:jsonld -- https://www.example.co.za/product/some-tent
 ```
 
 Put the product's link after the `--`. You should see a line such as `✓ example.co.za: saved (3 JSON-LD blocks)`. If it says `0 JSON-LD blocks`, that store's pages don't carry the product data this adapter reads, so it needs a different adapter. As above, ask Claude to update the matching `expected.json` afterwards.
+
+The product-matching tests use their own saved pages (listed in `src/matching/__fixtures__/pages.json`). To download any that are missing, or all of them again with `--refresh`:
+
+```
+npm run snapshots:matching
+```
+
+It takes about two minutes and prints one `✓` line per product. To try matching live on one product, without touching your own data, and save the stores' answers for the tests:
+
+```
+npm run snapshots:matching-flow -- ice-nino https://www.firstascent.co.za/ice-nino-s-bag-fas32
+```
+
+It prints what was found at each store and ends with a line such as `Prices from 4 stores, in 21 seconds.` If expected test results change after either command, ask Claude to check them.
 
 ---
 

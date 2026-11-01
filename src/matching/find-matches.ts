@@ -145,10 +145,13 @@ function saveMatch(db: Db, productId: number, storeId: number, page: ProductPage
   });
 }
 
+/** Reasons without the "please confirm" note, once the user has answered. */
+const answered = (reasons: string[]) => reasons.filter((r) => !r.startsWith("you ") && !r.includes("needs your confirmation"));
+
 /** Applies a past decision to a fresh result. */
 function withDecision(match: MatchResult, decision: "confirmed" | "rejected" | undefined): MatchResult {
   if (decision === "confirmed" && match.type === "unsure") {
-    return { type: "exact", score: match.score, reasons: ["you confirmed this is the same product", ...match.reasons] };
+    return { type: "exact", score: match.score, reasons: ["you confirmed this is the same product", ...answered(match.reasons)] };
   }
   return match;
 }
@@ -277,14 +280,14 @@ export function decideMatch(options: { db: Db; userId: number; offerId: number; 
       tx.update(offers)
         .set({
           matchType: row.offer.matchType === "variant" ? "variant" : "exact",
-          matchReasons: ["you confirmed this is the same product", ...reasons.filter((r) => !r.startsWith("you "))],
+          matchReasons: ["you confirmed this is the same product", ...answered(reasons)],
           active: true,
         })
         .where(eq(offers.id, offerId))
         .run();
     } else {
       tx.update(offers)
-        .set({ matchType: "rejected", active: false, matchReasons: ["you said this is a different product", ...reasons.filter((r) => !r.startsWith("you "))] })
+        .set({ matchType: "rejected", active: false, matchReasons: ["you said this is a different product", ...answered(reasons)] })
         .where(eq(offers.id, offerId))
         .run();
     }
@@ -347,7 +350,7 @@ export async function addMatchByLink(options: {
     };
   }
   const saved: MatchResult =
-    match.type === "unsure" ? { ...match, type: "exact", reasons: ["you added this link yourself", ...match.reasons] } : match;
+    match.type === "unsure" ? { ...match, type: "exact", reasons: ["you added this link yourself", ...answered(match.reasons)] } : match;
   saveMatch(db, anchor.productId, store.id, page, saved);
   db.insert(matchDecisions)
     .values({ userId, anchorKey: anchor.anchorUrl, candidateUrl: page.url, decision: "confirmed" })

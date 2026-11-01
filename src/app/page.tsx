@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { connection } from "next/server";
 import { Suspense } from "react";
 
@@ -58,12 +59,18 @@ async function TrackedProducts() {
             <Card className="py-4">
               <CardContent className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
                 <div className="min-w-0">
-                  <a href={item.url} target="_blank" rel="noreferrer" className="font-medium hover:underline">
+                  <Link href={`/products/${item.id}`} className="font-medium hover:underline">
                     {item.title}
-                  </a>
+                  </Link>
                   <p className="text-sm text-muted-foreground">
-                    {item.storeName}
+                    <a href={item.url} target="_blank" rel="noreferrer" className="hover:underline">
+                      {item.storeName}
+                    </a>
                     {item.variantLabel ? ` · ${item.variantLabel}` : ""}
+                    {" · "}
+                    <Link href={`/products/${item.id}`} className="underline-offset-4 hover:underline">
+                      Compare stores
+                    </Link>
                   </p>
                 </div>
                 <div className="shrink-0 sm:text-right">

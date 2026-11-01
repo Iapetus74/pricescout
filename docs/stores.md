@@ -294,3 +294,28 @@ pages per store, 5 seconds apart (10 for stores that ask).
 1. **Stores with a terms warning** (Takealot, Bob Shop, Amazon, Naturehike): the app will show a warning
    and leave the choice to switch each one on to you, as the spec says.
 2. **Amazon:** use the official API (needs an Amazon Associates account) or leave it off.
+
+## Matching findings (milestone 6, 1 November 2026)
+
+What each working store gives the product matcher (`src/matching/`), found while building the
+matching fixture set from 48 real product pages:
+
+| Store | Brand | Barcode | Maker's model number | How it is searched |
+|---|---|---|---|---|
+| Brave Hardy | Yes | Yes, real barcodes | Yes: inside the SKU behind a brand tag (`FA_FAS32`, `LM_LM832406`) | Shopify search suggestions |
+| First Ascent | Yes (its own brand) | No | Yes: its own SKU (`FAS32`) is the maker's code | **Not searched** (robots.txt). Its `/sitemap.xml` lists only African Nature pages, no products. Pasted links only |
+| Trappers | Yes | No: the barcode field holds in-store codes starting with 2, which the matcher ignores | No | Shopify search suggestions |
+| Drifters | No: every product says vendor "drifters", so the brand is read from the title | No | No | Shopify search suggestions |
+| Naturehike SA | Yes | Sometimes | No | Shopify search suggestions |
+| Outdoor Escape | Yes | No | No | Its products sitemap (`/store-products-sitemap.xml`, about 1 500 products, one download per hour). Words in each product link are compared with the search |
+
+So exact matches are only possible between Brave Hardy and First Ascent (shared First Ascent codes) or
+between stores sharing a real barcode. Everything else is "unsure" and needs the owner's confirmation,
+as CLAUDE.md rule 6 requires.
+
+**Coverage limits:** the six stores sell outdoor gear only. There is no grocery store and no
+electronics store among them, so the fixture set uses headlamps for electronics and a sports drink mix
+(Tailwind Endurance Fuel) as the nearest thing to groceries. The most stores any one product was found
+at is **four** (for example the First Ascent Ice Nino sleeping bag: First Ascent, Brave Hardy, Drifters,
+Outdoor Escape; and the Stanley Legendary Classic 1.4 L flask: Brave Hardy, Trappers, Drifters,
+Outdoor Escape). Reaching five needs more readable stores.
