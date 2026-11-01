@@ -126,9 +126,40 @@ If the link is from a store PriceScout can't read yet, or from a store that is p
    - **Other sizes and colours**: the same product range in a different size or colour.
 4. "What happened at each store" says which stores were searched and why the others weren't (for example, First Ascent doesn't allow automated search). If you find the product at such a store yourself, paste its link under **Add a link from another store**.
 
+### See the price history and best deal
+
+Open a tracked product. At the top you'll see:
+
+- **Best deal**: the cheapest store that has it in stock, counting shipping when the store says what it costs ("shipping not included" when it doesn't). Only stores marked **Same product** count, so confirm the "Please confirm" ones you agree with.
+- The **30-day low, high and average** of the best price, and how today's best compares to the average.
+- **Price over the last 30 days**: a chart with one line per store. "Show the prices as a table" lists every reading.
+- **Check now**: reads every store's price for this product again. It takes a few seconds per store.
+
+If a check fails (for example, the store's website is down), the product keeps its last good price and shows a small yellow warning.
+
+### Check prices automatically (the worker)
+
+The worker is a second small program that checks every tracked price at about 06:00 and 18:00. Open a **second** terminal window, go into the project folder (`cd ~/pricescout`), and run:
+
+```
+npm run worker
+```
+
+You should see `PriceScout worker started`. Leave this window open next to the app's window. The worker only runs while your computer is on and the window is open. If it missed a check (for example, the computer was off overnight), it checks straight away when you start it again, and you'll see "one is starting now to catch up".
+
+The app and the worker take turns visiting each store, so together they still never visit a store more than once every 5 seconds.
+
+To check every tracked price once, right now, without leaving the worker running:
+
+```
+npm run check-prices
+```
+
+It prints how many prices were checked, then stops.
+
 ### Stop the app
 
-Click in the terminal window and press `Ctrl + C`.
+Click in the terminal window and press `Ctrl + C`. Do the same in the worker's window to stop the worker.
 
 ---
 
@@ -210,7 +241,8 @@ Then start the app as usual with `npm run dev`. Database updates are applied aut
 | `src/lib/money.ts` | Turns prices like "R 1 299,99" into cents and back |
 | `src/adapters/types.ts` | The shape every store adapter follows (SPEC.md section 4.2) |
 | `src/stores/base-stores.ts` | The 22 stores from the survey, added to the database the first time the app runs |
-| `src/tracking/` | Pasting a link: reads the product and saves it as a tracked product with its first price |
+| `src/tracking/` | Pasting a link and saving it as a tracked product; price checks; best deal and 30-day statistics |
+| `src/worker/` | The worker (`npm run worker`): twice-daily checks, catching up after the computer was off, and a small job list in the database |
 | `src/crawl/` | The polite fetcher: the only code that visits store websites. It obeys robots.txt, waits at least 5 seconds between visits to the same store, never visits one store twice at once, slows down when a store says "too many requests", pauses a store that shows a CAPTCHA, and reuses pages fetched in the last hour |
 | `data/pricescout.db` | Your database file, created the first time you start the app. It isn't uploaded to GitHub. |
 | `SPEC.md` | What the app will do |
@@ -218,4 +250,4 @@ Then start the app as usual with `npm run dev`. Database updates are applied aut
 
 All prices are stored as whole cents (R 1 299,99 is stored as 129999), so totals never pick up rounding errors.
 
-Built with TypeScript, Next.js, Tailwind CSS, shadcn/ui, SQLite, Drizzle ORM and Vitest.
+Built with TypeScript, Next.js, Tailwind CSS, shadcn/ui, Recharts, SQLite, Drizzle ORM, node-cron and Vitest.

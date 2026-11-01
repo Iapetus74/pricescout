@@ -7,8 +7,21 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { formatCents } from "@/lib/money";
 import { getProductWithOffers, type ProductOffer } from "@/matching/find-matches";
 import { getAppContext } from "@/server/app-context";
+import { loadHistory } from "@/tracking/price-history";
+import {
+  HISTORY_DAYS,
+  bestDeal,
+  compareToAverage,
+  thirtyDayStats,
+  type BestDeal,
+  type ThirtyDayStats,
+} from "@/tracking/price-stats";
 
-import { AddLinkForm, DecideForm, FindMatchesForm } from "./match-forms";
+import { AddLinkForm, CheckNowForm, DecideForm, FindMatchesForm } from "./match-forms";
+import { PriceChart, type ChartSeries } from "./price-chart";
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+const checkedAt = (at: Date) => at.toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
 
 export default function ProductPage(props: PageProps<"/products/[id]">) {
   return (
@@ -37,12 +50,48 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
   const unsure = data.offers.filter((o) => o.matchType === "unsure").sort(byPrice);
   const variants = data.offers.filter((o) => o.matchType === "variant").sort(byPrice);
 
+  // Best deal and history count exact matches only (SPEC.md section 6.1).
+  const now = new Date();
+  const deal = bestDeal(data.offers);
+  const history = loadHistory(db, same.map((o) => o.offerId), now);
+  const stats = thirtyDayStats(history, { now });
+  const series: ChartSeries[] = same.map((o) => ({
+    offerId: o.offerId,
+    storeName: o.storeName,
+    points: history.filter((p) => p.offerId === o.offerId).map((p) => ({ at: p.fetchedAt.getTime(), priceCents: p.priceCents })),
+  }));
+  const checkable = data.offers.filter((o) => o.matchType !== "rejected").length;
+
   return (
     <>
-      <header className="flex flex-col gap-1">
-        <h1 className="text-2xl font-semibold tracking-tight">{data.product.title}</h1>
-        {data.product.brand ? <p className="text-muted-foreground">{data.product.brand}</p> : null}
+      <header className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex flex-col gap-1">
+          <h1 className="text-2xl font-semibold tracking-tight">{data.product.title}</h1>
+          {data.product.brand ? <p className="text-muted-foreground">{data.product.brand}</p> : null}
+        </div>
+        <div className="shrink-0">
+          <CheckNowForm productId={data.product.id} storeCount={checkable} />
+        </div>
       </header>
+
+      <BestDealCard deal={deal} stats={stats} />
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Price over the last {HISTORY_DAYS} days</CardTitle>
+          <CardDescription>
+            One line per store selling the same product. Prices are checked at about 06:00 and 18:00 while the worker is
+            running. Shipping isn&apos;t included in the chart.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          {history.length > 0 ? (
+            <PriceChart series={series} fromMs={now.getTime() - HISTORY_DAYS * DAY_MS} toMs={now.getTime()} />
+          ) : (
+            <p className="text-sm text-muted-foreground">No prices in the last {HISTORY_DAYS} days yet. Press Check now.</p>
+          )}
+        </CardContent>
+      </Card>
 
       <Card>
         <CardHeader>
@@ -93,6 +142,67 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
         </CardContent>
       </Card>
     </>
+  );
+}
+
+function BestDealCard({ deal, stats }: { deal: BestDeal | null; stats: ThirtyDayStats | null }) {
+  const comparison = deal && stats && stats.days >= 2 ? compareToAverage(deal.totalCents, stats.averageCents) : null;
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Best deal</CardTitle>
+        <CardDescription>The lowest price plus shipping at a store that has it in stock.</CardDescription>
+      </CardHeader>
+      <CardContent className="flex flex-col gap-4">
+        {deal ? (
+          <div className="flex flex-col gap-1">
+            <p className="text-3xl font-semibold tracking-tight">
+              {formatCents(deal.totalCents)}
+              {deal.onSale ? (
+                <span className="ml-2 rounded bg-red-600 px-1.5 py-0.5 align-middle text-xs font-medium text-white">Sale</span>
+              ) : null}
+            </p>
+            <p className="text-sm">
+              at <span className="font-medium">{deal.storeName}</span>
+              {deal.shippingKnown
+                ? deal.shippingCents === 0
+                  ? " · free shipping"
+                  : ` · ${formatCents(deal.priceCents)} + ${formatCents(deal.shippingCents ?? 0)} shipping`
+                : " · shipping not included"}
+              {deal.onSale && deal.wasPriceCents !== null ? ` · was ${formatCents(deal.wasPriceCents)}` : ""}
+            </p>
+            <p className="text-xs text-muted-foreground">Checked {checkedAt(deal.fetchedAt)}</p>
+          </div>
+        ) : (
+          <p className="text-sm text-muted-foreground">
+            No store has this in stock right now (or none has been confirmed as the same product yet).
+          </p>
+        )}
+        {stats ? (
+          <dl className="grid grid-cols-3 gap-3 border-t pt-4 text-sm">
+            <div>
+              <dt className="text-muted-foreground">{HISTORY_DAYS}-day low</dt>
+              <dd className="font-medium">{formatCents(stats.lowCents)}</dd>
+            </div>
+            <div>
+              <dt className="text-muted-foreground">{HISTORY_DAYS}-day high</dt>
+              <dd className="font-medium">{formatCents(stats.highCents)}</dd>
+            </div>
+            <div>
+              <dt className="text-muted-foreground">{HISTORY_DAYS}-day average</dt>
+              <dd className="font-medium">{formatCents(stats.averageCents)}</dd>
+            </div>
+            <p className="col-span-3 text-muted-foreground">
+              {comparison
+                ? comparison.direction === "same"
+                  ? "Today's best price is about the same as the 30-day average."
+                  : `Today's best price is ${comparison.percent}% ${comparison.direction} the 30-day average.`
+                : "Comparison with the average starts once there are prices from at least two days."}
+            </p>
+          </dl>
+        ) : null}
+      </CardContent>
+    </Card>
   );
 }
 
@@ -150,8 +260,14 @@ function OfferCard({ offer, withDecision }: { offer: ProductOffer; withDecision?
                   ) : null}
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  {offer.latest.inStock ? "In stock" : "Out of stock"} · checked{" "}
-                  {offer.latest.fetchedAt.toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" })}
+                  {offer.latest.shippingCents === null
+                    ? "Shipping not included"
+                    : offer.latest.shippingCents === 0
+                      ? "Free shipping"
+                      : `+ ${formatCents(offer.latest.shippingCents)} shipping`}
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  {offer.latest.inStock ? "In stock" : "Out of stock"} · checked {checkedAt(offer.latest.fetchedAt)}
                 </p>
               </>
             ) : (
@@ -159,6 +275,12 @@ function OfferCard({ offer, withDecision }: { offer: ProductOffer; withDecision?
             )}
           </div>
         </div>
+        {offer.lastFailure ? (
+          <p className="rounded-md border border-amber-600/30 bg-amber-500/10 p-2 text-xs" role="status">
+            ⚠ The last check ({checkedAt(offer.lastFailure.at)}) didn&apos;t work, so this shows the last price that was
+            read. {offer.lastFailure.error}
+          </p>
+        ) : null}
         {!offer.isAnchor && offer.reasons.length > 0 ? (
           <p className="text-xs text-muted-foreground">Why: {offer.reasons.join("; ")}.</p>
         ) : null}

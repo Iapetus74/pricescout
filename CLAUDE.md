@@ -26,7 +26,9 @@ TypeScript · Next.js (App Router) · React · Tailwind + shadcn/ui · Recharts 
 - `npm run db:generate`: create a new migration after changing `src/db/schema.ts`
 - `npm run db:migrate`: apply database migrations
 - `npm run db:studio`: browse the database in a web page
-- Not built yet: `npm run worker` (milestone 7), `npm run test:e2e`
+- `npm run worker`: the background worker (twice-daily price checks, catch-up at startup)
+- `npm run check-prices`: one full price check now, then stop
+- Not built yet: `npm run test:e2e`
 
 ## Project layout (target)
 ```
