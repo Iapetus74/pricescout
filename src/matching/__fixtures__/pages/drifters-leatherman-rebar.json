@@ -1,0 +1,91 @@
+{
+  "id": 7714754855171,
+  "title": "Leatherman Rebar",
+  "handle": "leatherman-rebar",
+  "description": "<h3>Description</h3>\n<p>It features all-locking tools, 100% stainless steel construction and removable wire cutters.<br></p>\n<p>With the Rebar, Leatherman fans will immediately recognize the iconic box-like shape found in Tim Leatherman's original PST design. The Rebar pliers have been optimized for strength and feature replaceable wire/hard-wire cutters—a first for a four-inch tool from Leatherman. With all the features to get even the toughest jobs done, in a smaller, slimmer size, the Rebar is sure to be an instant hit on job sites and home projects the world over.</p>\n<h3>Features</h3>\n<ul>\n<li>Needlenose Pliers</li>\n<li>Regular Pliers</li>\n<li>Premium Replaceable Wire Cutters</li>\n<li>Premium Replaceable Hard-wire Cutters</li>\n<li>Electrical Crimper</li>\n<li>Wire Stripper</li>\n<li>420HC Knife</li>\n<li>420HC Serrated Knife</li>\n<li>Saw</li>\n<li>Awl w/ Thread Loop</li>\n<li>Ruler (8 in | 19 cm)</li>\n<li>Can Opener</li>\n<li>Bottle Opener</li>\n<li>Wood/Metal File</li>\n<li>Phillips Screwdriver</li>\n<li>Large Screwdriver</li>\n<li>Small Screwdriver</li>\n</ul>\n<div class=\"tool-tip-list-items dot-placer\"></div>\n<ul></ul>\n<h3>Specifications</h3>\n<div class=\"product-detail__attributes-specs-group\">\n<ul>\n<li>\n<span>Closed Length</span>: 10.16 cm</li>\n<li>\n<span>Open Length</span>: 15.87 cm</li>\n<li>\n<span>Primary Blade Length</span>: 7.36 cm</li>\n<li>\n<span>Weight</span>: 89.94 g</li>\n<li>\n<span>Width</span>: 2.99 cm</li>\n<li>\n<span>Overall Thickness</span>: 1.67 cm</li>\n</ul>\n</div>\n<iframe src=\"https://www.youtube.com/embed/R0F8oae3eds\" width=\"888\" height=\"500\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" frameborder=\"0\"></iframe>\n<div class=\"warranty-title d-none d-md-flex text-uppercase\">\n<img style=\"display: block; margin-left: auto; margin-right: auto;\" alt=\"Warranty\" src=\"https://www.leatherman.com/on/demandware.static/-/Library-Sites-leatherman-shared2020/default/dw78f64f64/warranty/warranty-icon.svg\" class=\"warranty-logo\" width=\"98\" height=\"114\">\n<div class=\"title\" style=\"text-align: center;\">Warranty</div>\n</div>\n<div data-parent=\"#accordion-group\" id=\"warranty-body\" class=\"warranty-body medium collapse\" style=\"text-align: center;\">We’re proud to stand behind every product that leaves our factory in Portland, Oregon. That’s why we offer our 25-year warranty, so you can be confident your Leatherman lasts for a lifetime of use. <a href=\"https://www.leatherman.com/.../CustomerService-Warranty.html\">Learn More</a>.</div>",
+  "published_at": "2024-02-14T10:04:35+02:00",
+  "created_at": "2022-06-08T11:27:14+02:00",
+  "vendor": "drifters",
+  "type": "multi-tool",
+  "tags": [
+    "Gifts",
+    "multi-tool",
+    "multitool",
+    "not-on-sale"
+  ],
+  "price": 239900,
+  "price_min": 239900,
+  "price_max": 239900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 42905844416771,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "6001120842005",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "Leatherman Rebar",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 239900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/leathermanrebar.jpg?v=1654680443"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/products/leathermanrebar.jpg?v=1654680443",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/leatherman-rebar",
+  "media": [
+    {
+      "alt": null,
+      "id": 30659763437827,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/leathermanrebar.jpg?v=1654680443"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/leathermanrebar.jpg?v=1654680443",
+      "width": 1024
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,532 @@
+{
+  "id": 7768085692675,
+  "title": "Black Diamond Spot 400 Dual-Fuel Headlamp",
+  "handle": "black-diamond-spot-400-dual-fuel-headlamp",
+  "description": "<h3>Description</h3>\n<p>For a technical user who expects all-around performance and features out of their headlamp but still values a small size and compact package. This user has the need to run the lamp on alkaline batteries if caught away from a power source for a long expedition.</p>\n<h3>Features</h3>\n<ul>\n<li>Dual-Fuel: Power with three AAA Alkaline cells (included) or the rechargeable BD 1500 Li-ion battery and charger (purchased separately) for maximum flexibility</li>\n<li>400 Lumen max output</li>\n<li>PowerTap™ Technology allows instant adjustment between max output and dimmed power</li>\n<li>Integrated battery meter display shows % of power remaining</li>\n<li>Settings include proximity and distance modes, dimming, strobe, red LED night-vision and lock mode</li>\n<li>Brightness Memory allows you to turn the light on and off at a chosen brightness without reverting back to default setting</li>\n<li>Red night vision has dimming and strobe modes and activates without cycling through the white mode</li>\n<li>Multifaceted optical efficiency lens technology</li>\n<li>IPX8: Waterproof-Tested to operate at least 1.1 meters underwater for 30 minutes. If submerged, water may enter the battery compartment and it will still operate; it should be completely dried out after use in wet conditions</li>\n<li>Digital lock mode feature safeguards against accidental use when stored in a pack or pocket</li>\n</ul>\n<h3>Specifications<br>\n</h3>\n<div class=\"attributeItem first\">\n<ul>\n<li>\n<span class=\"attributeName\"><span class=\"attributeName\">Weight With Batteries: </span></span>77.5 g (AAA), 72 g (BD1500)</li>\n<li>Max Distance (High) 100 m, (Medium) 60 m, (Low) 12 m<span class=\"attributeName\"><span class=\"attributeValue\"><br></span></span>\n</li>\n</ul>\n<p><span class=\"attributeName\"><iframe src=\"https://www.youtube.com/embed/rBTCQp5mBmM\" title=\"Black Diamond Dual Fuel Headlamps\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"1440\" height=\"810\" frameborder=\"0\"></iframe></span></p>\n</div>",
+  "published_at": "2022-07-18T13:30:03+02:00",
+  "created_at": "2022-07-18T12:51:32+02:00",
+  "vendor": "drifters",
+  "type": "headlamp",
+  "tags": [
+    "dual fuel",
+    "head lights",
+    "headlamp",
+    "headlights",
+    "headtorch",
+    "hiking headtorch",
+    "not-on-sale",
+    "running headtorch",
+    "spot 350",
+    "spot350"
+  ],
+  "price": 109900,
+  "price_min": 109900,
+  "price_max": 109900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 43051087560963,
+      "title": "Octane",
+      "option1": "Octane",
+      "option2": null,
+      "option3": null,
+      "sku": "91130OCTA400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629443843,
+        "product_id": 7768085692675,
+        "position": 1,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:33+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933",
+        "variant_ids": [
+          43051087560963
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Octane",
+      "public_title": "Octane",
+      "options": [
+        "Octane"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510646019,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43051087593731,
+      "title": "Azul",
+      "option1": "Azul",
+      "option2": null,
+      "option3": null,
+      "sku": "91130AZUL400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629738755,
+        "product_id": 7768085692675,
+        "position": 5,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:33+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp7.jpg?v=1658142933",
+        "variant_ids": [
+          43051087593731
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Azul",
+      "public_title": "Azul",
+      "options": [
+        "Azul"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510547715,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp7.jpg?v=1658142933"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43051087626499,
+      "title": "Bordeaux",
+      "option1": "Bordeaux",
+      "option2": null,
+      "option3": null,
+      "sku": "91130BORD400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629640451,
+        "product_id": 7768085692675,
+        "position": 9,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:22+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp9.jpg?v=1658142922",
+        "variant_ids": [
+          43051087626499
+        ]
+      },
+      "available": false,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Bordeaux",
+      "public_title": "Bordeaux",
+      "options": [
+        "Bordeaux"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510613251,
+        "position": 9,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp9.jpg?v=1658142922"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43051087659267,
+      "title": "Pink",
+      "option1": "Pink",
+      "option2": null,
+      "option3": null,
+      "sku": "91130PINK400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629476611,
+        "product_id": 7768085692675,
+        "position": 7,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:33+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp8.jpg?v=1658142933",
+        "variant_ids": [
+          43051087659267
+        ]
+      },
+      "available": false,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Pink",
+      "public_title": "Pink",
+      "options": [
+        "Pink"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510580483,
+        "position": 7,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp8.jpg?v=1658142933"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43051087692035,
+      "title": "Olive",
+      "option1": "Olive",
+      "option2": null,
+      "option3": null,
+      "sku": "91130OLIV400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629542147,
+        "product_id": 7768085692675,
+        "position": 8,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:33+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp6.jpg?v=1658142933",
+        "variant_ids": [
+          43051087692035
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Olive",
+      "public_title": "Olive",
+      "options": [
+        "Olive"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510514947,
+        "position": 8,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp6.jpg?v=1658142933"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43051106271491,
+      "title": "Graphite",
+      "option1": "Graphite",
+      "option2": null,
+      "option3": null,
+      "sku": "91130GRAP400",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 38450629574915,
+        "product_id": 7768085692675,
+        "position": 6,
+        "created_at": "2022-07-18T13:14:59+02:00",
+        "updated_at": "2022-07-18T13:15:33+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp2.jpg?v=1658142933",
+        "variant_ids": [
+          43051106271491
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400 Dual-Fuel Headlamp - Graphite",
+      "public_title": "Graphite",
+      "options": [
+        "Graphite"
+      ],
+      "price": 109900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 31025510383875,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp2.jpg?v=1658142933"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp3.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp4.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp5.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp7.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp2.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp8.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp6.jpg?v=1658142933",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp9.jpg?v=1658142922"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933",
+  "options": [
+    {
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Octane",
+        "Azul",
+        "Bordeaux",
+        "Pink",
+        "Olive",
+        "Graphite"
+      ]
+    }
+  ],
+  "url": "/products/black-diamond-spot-400-dual-fuel-headlamp",
+  "media": [
+    {
+      "alt": null,
+      "id": 31025510646019,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510416643,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp3.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp3.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510449411,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp4.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp4.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510482179,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp5.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp5.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510547715,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp7.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp7.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510383875,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp2.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp2.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510580483,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp8.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp8.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510514947,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp6.jpg?v=1658142933"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp6.jpg?v=1658142933",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 31025510613251,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp9.jpg?v=1658142922"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/BlackDiamondSpot400Dual-FuelHeadlamp9.jpg?v=1658142922",
+      "width": 1024
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

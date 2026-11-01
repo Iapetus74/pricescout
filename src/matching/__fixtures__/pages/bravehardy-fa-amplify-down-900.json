@@ -1,0 +1,477 @@
+{
+  "id": 10018974302455,
+  "title": "First Ascent Amplify Down 900 Sleeping Bag",
+  "handle": "first-ascent-amplify-down-900-sleeping-bag",
+  "description": "<p>The Amplify Down 900 sleeping bag is the ideal versatile bag for more extreme weather conditions. Designed for expeditions to Mt. Kenya, Kilimanjaro and Everest Base Camp. Comfort rated at -8°C, and transition rated to -15°C, this bag will keep you insulated and comfortable when needed most.</p>\n<p><em>This sleeping bag comes with a </em><strong><em>right-side zip</em></strong><em>. A left-side zip is available </em><strong><em>on request</em></strong><em>.</em></p>",
+  "published_at": "2026-07-15T12:58:59+02:00",
+  "created_at": "2026-07-03T14:16:25+02:00",
+  "vendor": "First Ascent",
+  "type": "Down Sleeping Bag",
+  "tags": [],
+  "price": 699900,
+  "price_min": 699900,
+  "price_max": 699900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 50912821117175,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "FA_FAS35",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "First Ascent Amplify Down 900 Sleeping Bag",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 699900,
+      "weight": 1980,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6009176356199",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_01.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_5a9515cb-550e-4cf0-966f-de0b2327a03a.webp?v=1783343889",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_11.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_2.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_02.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_11.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_06.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_13.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_10.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_12.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_07.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_4.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_03.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_04.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_05.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_08.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_10.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_6.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_7.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_12.jpg?v=1783343907",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_09.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_14.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_5.jpg?v=1783343906",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_3.jpg?v=1783343906"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_01.jpg?v=1783343906",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-amplify-down-900-sleeping-bag",
+  "media": [
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag in charcoal and blue, mummy-style, shown upright with hood at top",
+      "id": 55333813911799,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_01.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_01.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 Sleeping Bags in orange, yellow, green and blue, lined up on a rocky ledge",
+      "id": 55333812928759,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_5a9515cb-550e-4cf0-966f-de0b2327a03a.webp?v=1783343889"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_5a9515cb-550e-4cf0-966f-de0b2327a03a.webp?v=1783343889",
+      "width": 2000
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag packed in a blue and black stuff sack, label showing temperature ratings",
+      "id": 55333814239479,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_11.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_11.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag in charcoal, standing upright with hood open to show red-orange lining",
+      "id": 55333813551351,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_2.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_2.jpg?v=1783343906",
+      "width": 2000
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag in charcoal grey, lying flat and zipped closed with the blue hood on the left",
+      "id": 55333813944567,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_02.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_02.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of the black zip running across blue and charcoal fabric",
+      "id": 55333813780727,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_11.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_11.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up showing blue and charcoal quilted fabric, black hood area and drawcord",
+      "id": 55333814075639,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_06.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_06.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 Sleeping Bag in black and red, close up showing its quilted red interior",
+      "id": 55333813846263,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_13.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_13.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of orange lining with a black smartphone in a sewn-in pocket",
+      "id": 55333814206711,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_10.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_10.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag with a smartphone tucked into a red interior pocket",
+      "id": 55333813813495,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_12.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_12.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up with the model name printed on a grey panel",
+      "id": 55333814108407,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_07.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_07.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of the zip and a flap labelled Amplify Down 900 in blue lettering",
+      "id": 55333813616887,
+      "position": 12,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_4.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_4.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up in blue and charcoal, showing the hood opening",
+      "id": 55333813977335,
+      "position": 13,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_03.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_03.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag in blue and charcoal, close-up of the hood opening and model name",
+      "id": 55333814010103,
+      "position": 14,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_04.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_04.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag in charcoal grey, packed into a bulky cylindrical bundle",
+      "id": 55333814042871,
+      "position": 15,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_05.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_05.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of charcoal quilted baffles and side zip",
+      "id": 55333814141175,
+      "position": 16,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_08.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_08.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of dark fabric with stitched, gathered baffles",
+      "id": 55333813747959,
+      "position": 17,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_10.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_10.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag extreme close-up of blue and black fabric with a red zip tab labelled First Ascent",
+      "id": 55333813682423,
+      "position": 18,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_6.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_6.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of black cord lock and loop on grey fabric beside blue panel",
+      "id": 55333813715191,
+      "position": 19,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_7.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_7.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag diagram of right-hand and left-hand zip versions with zip direction arrows",
+      "id": 55333814272247,
+      "position": 20,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_12.jpg?v=1783343907"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_12.jpg?v=1783343907",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of dark grey quilted fabric, zip and black inner flap",
+      "id": 55333814173943,
+      "position": 21,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_09.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-GLACIALBLUE_09.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag extreme close-up of black fabric with rows of small raised dots and grey edges",
+      "id": 55333813879031,
+      "position": 22,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_14.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_14.jpg?v=1783343906",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag stuff sack in blue and black, with temperature rating information on its surface",
+      "id": 55333813649655,
+      "position": 23,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_5.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_5.jpg?v=1783343906",
+      "width": 2000
+    },
+    {
+      "alt": "First Ascent Amplify Down 900 sleeping bag close-up of charcoal grey quilted fabric with a large blue First Ascent logo",
+      "id": 55333813584119,
+      "position": 24,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_3.jpg?v=1783343906"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS35-Amplifiy-Down-900-SBag-Glacial-Blue_3.jpg?v=1783343906",
+      "width": 1920
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

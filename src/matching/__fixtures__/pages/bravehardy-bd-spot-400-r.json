@@ -1,0 +1,373 @@
+{
+  "id": 9608728641783,
+  "title": "Black Diamond Spot 400-R Rechargeable Headlamp",
+  "handle": "black-diamond-spot-400-r-rechargeable-headlamp",
+  "description": "<p>Designed for those who push their limits, the Black Diamond Spot 400-R is a rechargeable headlamp that combines power, durability, and sustainability. Its 400-lumen beam provides bright, clear illumination, while PowerTap technology allows instant switching between full brightness and dimmed settings. The built-in BD 1500 Li-ion battery offers reliable performance and charges easily via micro-USB. </p>\n<p>An ergonomic, low-profile design ensures a comfortable fit, while the waterproof IP67 rating means it functions even after submersion. The Spot 400-R also features a recycled elastic headband, making it a more sustainable choice for outdoor enthusiasts.</p>\n<p>Light Values:</p>\n<p><strong>Power Mode</strong><br>Light output: 400 lm<br>Light distance: 100 m<br>Run time: 4 hours</p>\n<p><strong>Medium Mode</strong><br>Light output: 200 lm<br>Light distance: 60 m<br>Run time: 8 hours</p>\n<p><strong>Low Power Mode</strong><br>Light output: 6 lm<br>Light distance: 12 m<br>Run time: 225 hours</p>",
+  "published_at": "2025-02-18T11:41:35+02:00",
+  "created_at": "2025-02-14T12:05:27+02:00",
+  "vendor": "Black Diamond",
+  "type": "Headlamp",
+  "tags": [
+    "Headlamps",
+    "Hiker",
+    "Lighting"
+  ],
+  "price": 144900,
+  "price_min": 144900,
+  "price_max": 144900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 49429014380791,
+      "title": "Graphite",
+      "option1": "Graphite",
+      "option2": null,
+      "option3": null,
+      "sku": "BD_LTBDR3.000",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 59554108178679,
+        "product_id": 9608728641783,
+        "position": 9,
+        "created_at": "2025-02-14T15:23:22+02:00",
+        "updated_at": "2025-02-14T15:24:07+02:00",
+        "alt": "Black Diamond Spot 400-R rechargeable headlamp in graphite, front view with strap stretched out and lamp off",
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_02.jpg?v=1739539447",
+        "variant_ids": [
+          49429014380791
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400-R Rechargeable Headlamp - Graphite",
+      "public_title": "Graphite",
+      "options": [
+        "Graphite"
+      ],
+      "price": 144900,
+      "weight": 120,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "793661519959",
+      "featured_media": {
+        "alt": "Black Diamond Spot 400-R rechargeable headlamp in graphite, front view with strap stretched out and lamp off",
+        "id": 51948367675639,
+        "position": 9,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_02.jpg?v=1739539447"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 49429014413559,
+      "title": "Azul Blue",
+      "option1": "Azul Blue",
+      "option2": null,
+      "option3": null,
+      "sku": "BD_LTBDR3.004",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 59554108211447,
+        "product_id": 9608728641783,
+        "position": 5,
+        "created_at": "2025-02-14T15:23:23+02:00",
+        "updated_at": "2025-02-14T15:24:07+02:00",
+        "alt": "Black Diamond Spot 400-R rechargeable headlamp in Azul Blue, front view with strap stretched across",
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_02.jpg?v=1739539447",
+        "variant_ids": [
+          49429014413559
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400-R Rechargeable Headlamp - Azul Blue",
+      "public_title": "Azul Blue",
+      "options": [
+        "Azul Blue"
+      ],
+      "price": 144900,
+      "weight": 120,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "793661519973",
+      "featured_media": {
+        "alt": "Black Diamond Spot 400-R rechargeable headlamp in Azul Blue, front view with strap stretched across",
+        "id": 51948367839479,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_02.jpg?v=1739539447"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_01.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/TylerRizzuto_Fins_08232021_14.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_06.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_07.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_02.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_03.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_04.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_01.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_02.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_03.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_04.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_05.jpg?v=1739539447",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_05.jpg?v=1739539436"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_01.jpg?v=1739539447",
+  "options": [
+    {
+      "name": "Colour",
+      "position": 1,
+      "values": [
+        "Graphite",
+        "Azul Blue"
+      ]
+    }
+  ],
+  "url": "/products/black-diamond-spot-400-r-rechargeable-headlamp",
+  "media": [
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in blue, angled to show its front lights and controls",
+      "id": 51948367806711,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_01.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_01.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in blue, switched on and worn on a person's forehead while they adjust it",
+      "id": 51948368036087,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/TylerRizzuto_Fins_08232021_14.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/TylerRizzuto_Fins_08232021_14.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Close-up of Black Diamond Spot 400-R rechargeable headlamp in blue, showing USB and sun symbols on the housing",
+      "id": 51948367970551,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_06.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_06.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Close-up of Black Diamond Spot 400-R rechargeable headlamp in blue with three blue indicator lights lit",
+      "id": 51948368003319,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_07.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_07.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in Azul Blue, front view with strap stretched across",
+      "id": 51948367839479,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_02.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_02.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in blue, front view showing buttons, lenses and branding",
+      "id": 51948367872247,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_03.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_03.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Close-up side view of Black Diamond Spot 400-R rechargeable headlamp in blue with its woven strap",
+      "id": 51948367905015,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_04.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_04.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in black, with its strap looped behind the unlit lamp",
+      "id": 51948367642871,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_01.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_01.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in graphite, front view with strap stretched out and lamp off",
+      "id": 51948367675639,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_02.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_02.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in black and grey, front view with unlit lens showing",
+      "id": 51948367708407,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_03.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_03.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Close-up side view of Black Diamond Spot 400-R rechargeable headlamp in black with its textured strap",
+      "id": 51948367741175,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_04.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_04.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in black, with a charging cable connected at the side",
+      "id": 51948367773943,
+      "position": 12,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_05.jpg?v=1739539447"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_0004_Spot400RHeadlamp_Graphite_05.jpg?v=1739539447",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400-R rechargeable headlamp in blue and black, with a charging cable plugged into the side",
+      "id": 51948367937783,
+      "position": 13,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_05.jpg?v=1739539436"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620676_4004_Spot400RHeadlamp_Azul_05.jpg?v=1739539436",
+      "width": 1000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

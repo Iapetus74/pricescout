@@ -172,3 +172,46 @@ describe("JSON-LD base stores", () => {
     }
   });
 });
+
+describe("JSON-LD adapter: searching a store's product list (sitemap)", () => {
+  const outdoorEscape = JSONLD_STORES.find((s) => s.id === "outdoorescape")!;
+  const sitemap = readFileSync(path.join(__dirname, "__fixtures__", "jsonld", "outdoorescape.co.za", "products-sitemap.xml"), "utf8");
+  const asked: string[] = [];
+  const source: PageSource = {
+    fetchPage: async (url) => {
+      asked.push(url);
+      return { body: sitemap, finalUrl: url, fetchedAt: new Date(0) };
+    },
+  };
+  const adapter = createJsonLdAdapter(outdoorEscape, source);
+
+  it("reads Outdoor Escape's real product list instead of a search page", async () => {
+    const found = await adapter.search({ text: "legendary classic", brand: "Stanley", limit: 10 });
+    expect(asked).toEqual(["https://www.outdoorescape.co.za/store-products-sitemap.xml"]);
+    const urls = found.map((c) => c.url);
+    expect(urls).toContain("https://www.outdoorescape.co.za/product-page/stanley-legendary-classic-bottle-insulated-flask-1-4l");
+    expect(urls).toContain("https://www.outdoorescape.co.za/product-page/stanley-the-legendary-classic-bottle-1-9l");
+    for (const c of found) expect(c.url).toMatch(/^https:\/\/www\.outdoorescape\.co\.za\/product-page\/stanley-/);
+  });
+
+  it("makes a readable title from the link, with sizes such as 1-4l read as 1.4l", async () => {
+    const found = await adapter.search({ text: "legendary classic insulated flask", brand: "Stanley", limit: 3 });
+    expect(found[0]).toMatchObject({
+      url: "https://www.outdoorescape.co.za/product-page/stanley-legendary-classic-bottle-insulated-flask-1-4l",
+      title: "Stanley Legendary Classic Bottle Insulated Flask 1.4l",
+    });
+  });
+
+  it("finds products whose names only partly match, best first", async () => {
+    const found = await adapter.search({ text: "ice nino", brand: "First Ascent", limit: 5 });
+    expect(found[0]?.url).toBe("https://www.outdoorescape.co.za/product-page/first-ascent-ice-nino");
+  });
+
+  it("returns nothing for a barcode-only search, since the list has no barcodes", async () => {
+    expect(await adapter.search({ text: "", gtin: "6939236347907" })).toEqual([]);
+  });
+
+  it("returns nothing when no product is close", async () => {
+    expect(await adapter.search({ text: "french door fridge", limit: 5 })).toEqual([]);
+  });
+});

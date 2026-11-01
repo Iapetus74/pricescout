@@ -85,8 +85,8 @@ function variantLabel(attrs: Record<string, string> | undefined): string | null 
   return parts.length > 0 ? parts.join(", ") : null;
 }
 
-/** Turns a fetch or parse error into a message the owner can act on. */
-function explainError(error: unknown, storeName: string): TrackResult {
+/** Turns a fetch or parse error into a message the owner can act on. Also used by matching. */
+export function explainError(error: unknown, storeName: string): TrackResult {
   if (error instanceof StorePausedError || error instanceof CaptchaError) {
     return fail(
       "store_paused",
@@ -192,6 +192,7 @@ export async function trackProductUrl(options: {
         productId: product.id,
         storeId: store.id,
         url: page.url,
+        title: page.title,
         matchType: "exact",
         matchScore: 1,
         variantLabel: variantLabel(page.variantAttributes),

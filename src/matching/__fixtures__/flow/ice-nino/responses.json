@@ -1,0 +1,71 @@
+{
+  "anchor": "https://www.firstascent.co.za/ice-nino-s-bag-fas32",
+  "savedAt": "2026-11-01T15:01:24.060Z",
+  "responses": [
+    {
+      "url": "https://www.firstascent.co.za/ice-nino-s-bag-fas32",
+      "file": "00-firstascent.co.za.html",
+      "fetchedAt": "2026-11-01T15:01:08.865Z"
+    },
+    {
+      "url": "https://www.outdoorescape.co.za/store-products-sitemap.xml",
+      "file": "01-outdoorescape.co.za.xml",
+      "fetchedAt": "2026-11-01T15:01:14.007Z"
+    },
+    {
+      "url": "https://www.bravehardy.com/search/suggest.json?q=First+Ascent+FAS32&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "02-bravehardy.com.json",
+      "fetchedAt": "2026-11-01T15:01:14.097Z"
+    },
+    {
+      "url": "https://www.driftersshop.co.za/search/suggest.json?q=First+Ascent+FAS32&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "03-driftersshop.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:14.124Z"
+    },
+    {
+      "url": "https://www.trappers.co.za/search/suggest.json?q=First+Ascent+FAS32&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "04-trappers.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:14.183Z"
+    },
+    {
+      "url": "https://www.naturehike.co.za/search/suggest.json?q=First+Ascent+FAS32&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "05-naturehike.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:14.451Z"
+    },
+    {
+      "url": "https://www.outdoorescape.co.za/product-page/first-ascent-ice-nino",
+      "file": "06-outdoorescape.co.za.html",
+      "fetchedAt": "2026-11-01T15:01:19.073Z"
+    },
+    {
+      "url": "https://www.bravehardy.com/search/suggest.json?q=First+Ascent+ice+nino&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "07-bravehardy.com.json",
+      "fetchedAt": "2026-11-01T15:01:19.196Z"
+    },
+    {
+      "url": "https://www.driftersshop.co.za/search/suggest.json?q=First+Ascent+ice+nino&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "08-driftersshop.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:19.254Z"
+    },
+    {
+      "url": "https://www.trappers.co.za/search/suggest.json?q=First+Ascent+ice+nino&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "09-trappers.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:19.316Z"
+    },
+    {
+      "url": "https://www.naturehike.co.za/search/suggest.json?q=First+Ascent+ice+nino&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "file": "10-naturehike.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:19.388Z"
+    },
+    {
+      "url": "https://www.bravehardy.com/products/first-ascent-ice-nino-down-sleeping-bag.js",
+      "file": "11-bravehardy.com.json",
+      "fetchedAt": "2026-11-01T15:01:24.043Z"
+    },
+    {
+      "url": "https://www.driftersshop.co.za/products/first-ascent-ice-nino-down-sleeping-bag-24.js",
+      "file": "12-driftersshop.co.za.json",
+      "fetchedAt": "2026-11-01T15:01:24.046Z"
+    }
+  ]
+}

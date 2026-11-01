@@ -1,0 +1,338 @@
+[
+  {
+    "id": "trappers-stanley-classic-1-4l",
+    "url": "https://www.trappers.co.za/products/stanley-legendary-classic-bottle-1-4lt",
+    "file": "trappers-stanley-classic-1-4l.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/stanley-legendary-classic-bottle-1-4lt.js",
+    "savedAt": "2026-11-01T14:47:33.326Z"
+  },
+  {
+    "id": "trappers-fa-stretch-fit-pants",
+    "url": "https://www.trappers.co.za/products/fa-pants-stretchfit-fa2035",
+    "file": "trappers-fa-stretch-fit-pants.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/fa-pants-stretchfit-fa2035.js",
+    "savedAt": "2026-11-01T14:47:38.350Z"
+  },
+  {
+    "id": "trappers-fa-stretchfit-zip-off",
+    "url": "https://www.trappers.co.za/products/fa-pants-stretchfit-zip-off-fa3240",
+    "file": "trappers-fa-stretchfit-zip-off.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/fa-pants-stretchfit-zip-off-fa3240.js",
+    "savedAt": "2026-11-01T14:47:43.322Z"
+  },
+  {
+    "id": "trappers-fa-ellios-35l",
+    "url": "https://www.trappers.co.za/products/fa-daypack-ellios-35l-fab199",
+    "file": "trappers-fa-ellios-35l.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/fa-daypack-ellios-35l-fab199.js",
+    "savedAt": "2026-11-01T14:47:48.309Z"
+  },
+  {
+    "id": "trappers-leatherman-rebar",
+    "url": "https://www.trappers.co.za/products/lman-rebar-lm8315",
+    "file": "trappers-leatherman-rebar.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/lman-rebar-lm8315.js",
+    "savedAt": "2026-11-01T14:47:53.303Z"
+  },
+  {
+    "id": "trappers-leatherman-rebar-colourblock",
+    "url": "https://www.trappers.co.za/products/lman-rebar-colourblock-lm833341",
+    "file": "trappers-leatherman-rebar-colourblock.json",
+    "fetchedUrl": "https://www.trappers.co.za/products/lman-rebar-colourblock-lm833341.js",
+    "savedAt": "2026-11-01T14:47:58.342Z"
+  },
+  {
+    "id": "drifters-stanley-classic-1-4l",
+    "url": "https://www.driftersshop.co.za/products/stanley-legendary-classic-bottle-insulated-flask-1-4l",
+    "file": "drifters-stanley-classic-1-4l.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/stanley-legendary-classic-bottle-insulated-flask-1-4l.js",
+    "savedAt": "2026-11-01T14:47:33.343Z"
+  },
+  {
+    "id": "drifters-leatherman-rebar",
+    "url": "https://www.driftersshop.co.za/products/leatherman-rebar",
+    "file": "drifters-leatherman-rebar.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/leatherman-rebar.js",
+    "savedAt": "2026-11-01T14:47:38.358Z"
+  },
+  {
+    "id": "drifters-fa-ice-nino",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-ice-nino-down-sleeping-bag-24",
+    "file": "drifters-fa-ice-nino.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-ice-nino-down-sleeping-bag-24.js",
+    "savedAt": "2026-11-01T14:47:43.343Z"
+  },
+  {
+    "id": "drifters-fa-amplify-900",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-amplify-900-sleeping-bag",
+    "file": "drifters-fa-amplify-900.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-amplify-900-sleeping-bag.js",
+    "savedAt": "2026-11-01T14:47:48.364Z"
+  },
+  {
+    "id": "drifters-fa-helio",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-helio-2",
+    "file": "drifters-fa-helio.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-helio-2.js",
+    "savedAt": "2026-11-01T14:47:53.323Z"
+  },
+  {
+    "id": "drifters-petzl-actik-core",
+    "url": "https://www.driftersshop.co.za/products/petzl-actik-core-rechargeable-headlamp-600-lumen-copy",
+    "file": "drifters-petzl-actik-core.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/petzl-actik-core-rechargeable-headlamp-600-lumen-copy.js",
+    "savedAt": "2026-11-01T14:47:58.355Z"
+  },
+  {
+    "id": "drifters-petzl-tikka-core",
+    "url": "https://www.driftersshop.co.za/products/petzl-tikka-core-rechargeable-headlamp-450-lumen",
+    "file": "drifters-petzl-tikka-core.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/petzl-tikka-core-rechargeable-headlamp-450-lumen.js",
+    "savedAt": "2026-11-01T14:48:03.375Z"
+  },
+  {
+    "id": "drifters-bd-spot-400",
+    "url": "https://www.driftersshop.co.za/products/black-diamond-spot-400-dual-fuel-headlamp",
+    "file": "drifters-bd-spot-400.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/black-diamond-spot-400-dual-fuel-headlamp.js",
+    "savedAt": "2026-11-01T14:48:08.352Z"
+  },
+  {
+    "id": "drifters-jetboil-zip",
+    "url": "https://www.driftersshop.co.za/products/jetboil-zip-2-0-cooking-system",
+    "file": "drifters-jetboil-zip.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/jetboil-zip-2-0-cooking-system.js",
+    "savedAt": "2026-11-01T14:48:13.353Z"
+  },
+  {
+    "id": "drifters-tailwind-endurance-30",
+    "url": "https://www.driftersshop.co.za/products/tailwind-endurance-fuel-30-servings",
+    "file": "drifters-tailwind-endurance-30.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/tailwind-endurance-fuel-30-servings.js",
+    "savedAt": "2026-11-01T14:48:18.414Z"
+  },
+  {
+    "id": "drifters-tailwind-caffeinated-30",
+    "url": "https://www.driftersshop.co.za/products/tailwind-endurance-fuel-medium-30-servings",
+    "file": "drifters-tailwind-caffeinated-30.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/tailwind-endurance-fuel-medium-30-servings.js",
+    "savedAt": "2026-11-01T14:48:23.346Z"
+  },
+  {
+    "id": "drifters-sts-clothesline",
+    "url": "https://www.driftersshop.co.za/products/sea-to-summit-clothesline",
+    "file": "drifters-sts-clothesline.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/sea-to-summit-clothesline.js",
+    "savedAt": "2026-11-01T14:48:28.404Z"
+  },
+  {
+    "id": "drifters-fa-stretch-fit-pants",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-mens-stretch-fit-hiking-pants",
+    "file": "drifters-fa-stretch-fit-pants.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-mens-stretch-fit-hiking-pants.js",
+    "savedAt": "2026-11-01T14:48:33.378Z"
+  },
+  {
+    "id": "drifters-fa-stretchfit-zip-off",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-mens-stretch-fit-hiking-pants-copy",
+    "file": "drifters-fa-stretchfit-zip-off.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-mens-stretch-fit-hiking-pants-copy.js",
+    "savedAt": "2026-11-01T14:48:38.367Z"
+  },
+  {
+    "id": "drifters-fa-elios-35l",
+    "url": "https://www.driftersshop.co.za/products/first-ascent-elios-35l-hiking-pack-copy",
+    "file": "drifters-fa-elios-35l.json",
+    "fetchedUrl": "https://www.driftersshop.co.za/products/first-ascent-elios-35l-hiking-pack-copy.js",
+    "savedAt": "2026-11-01T14:48:43.380Z"
+  },
+  {
+    "id": "bravehardy-stanley-classic-1-4l",
+    "url": "https://www.bravehardy.com/products/stanley-the-legendary-classic-bottle-1-4-litre",
+    "file": "bravehardy-stanley-classic-1-4l.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/stanley-the-legendary-classic-bottle-1-4-litre.js",
+    "savedAt": "2026-11-01T14:47:33.380Z"
+  },
+  {
+    "id": "bravehardy-stanley-classic-1-9l",
+    "url": "https://www.bravehardy.com/products/stanley-the-legendary-classic-bottle-1-9-litre",
+    "file": "bravehardy-stanley-classic-1-9l.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/stanley-the-legendary-classic-bottle-1-9-litre.js",
+    "savedAt": "2026-11-01T14:47:38.438Z"
+  },
+  {
+    "id": "bravehardy-leatherman-rebar-tan",
+    "url": "https://www.bravehardy.com/products/leatherman-rebar-multi-tool-with-pouch-coyote-tan",
+    "file": "bravehardy-leatherman-rebar-tan.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/leatherman-rebar-multi-tool-with-pouch-coyote-tan.js",
+    "savedAt": "2026-11-01T14:47:43.345Z"
+  },
+  {
+    "id": "bravehardy-fa-ice-nino",
+    "url": "https://www.bravehardy.com/products/first-ascent-ice-nino-down-sleeping-bag",
+    "file": "bravehardy-fa-ice-nino.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/first-ascent-ice-nino-down-sleeping-bag.js",
+    "savedAt": "2026-11-01T14:47:48.375Z"
+  },
+  {
+    "id": "bravehardy-fa-ice-breaker",
+    "url": "https://www.bravehardy.com/products/first-ascent-ice-breaker-down-sleeping-bag",
+    "file": "bravehardy-fa-ice-breaker.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/first-ascent-ice-breaker-down-sleeping-bag.js",
+    "savedAt": "2026-11-01T14:47:53.359Z"
+  },
+  {
+    "id": "bravehardy-fa-amplify-900-synthetic",
+    "url": "https://www.bravehardy.com/products/first-ascent-amplify-900-synthetic-sleeping-bag",
+    "file": "bravehardy-fa-amplify-900-synthetic.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/first-ascent-amplify-900-synthetic-sleeping-bag.js",
+    "savedAt": "2026-11-01T14:47:58.389Z"
+  },
+  {
+    "id": "bravehardy-fa-amplify-down-900",
+    "url": "https://www.bravehardy.com/products/first-ascent-amplify-down-900-sleeping-bag",
+    "file": "bravehardy-fa-amplify-down-900.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/first-ascent-amplify-down-900-sleeping-bag.js",
+    "savedAt": "2026-11-01T14:48:03.369Z"
+  },
+  {
+    "id": "bravehardy-bd-spot-400",
+    "url": "https://www.bravehardy.com/products/black-diamond-spot-400-dual-fuel-headlamp",
+    "file": "bravehardy-bd-spot-400.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/black-diamond-spot-400-dual-fuel-headlamp.js",
+    "savedAt": "2026-11-01T14:48:08.337Z"
+  },
+  {
+    "id": "bravehardy-bd-spot-400-r",
+    "url": "https://www.bravehardy.com/products/black-diamond-spot-400-r-rechargeable-headlamp",
+    "file": "bravehardy-bd-spot-400-r.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/black-diamond-spot-400-r-rechargeable-headlamp.js",
+    "savedAt": "2026-11-01T14:48:13.337Z"
+  },
+  {
+    "id": "bravehardy-jetboil-zip",
+    "url": "https://www.bravehardy.com/products/jetboil-zip-2-0-800ml-gas-stove",
+    "file": "bravehardy-jetboil-zip.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/jetboil-zip-2-0-800ml-gas-stove.js",
+    "savedAt": "2026-11-01T14:48:18.428Z"
+  },
+  {
+    "id": "bravehardy-sts-clothesline",
+    "url": "https://www.bravehardy.com/products/sea-to-summit-lite-line-clothesline-3-5-metres",
+    "file": "bravehardy-sts-clothesline.json",
+    "fetchedUrl": "https://www.bravehardy.com/products/sea-to-summit-lite-line-clothesline-3-5-metres.js",
+    "savedAt": "2026-11-01T14:48:23.347Z"
+  },
+  {
+    "id": "outdoorescape-stanley-classic-1-4l",
+    "url": "https://www.outdoorescape.co.za/product-page/stanley-legendary-classic-bottle-insulated-flask-1-4l",
+    "file": "outdoorescape-stanley-classic-1-4l.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/stanley-legendary-classic-bottle-insulated-flask-1-4l",
+    "savedAt": "2026-11-01T14:47:34.853Z"
+  },
+  {
+    "id": "outdoorescape-leatherman-rebar",
+    "url": "https://www.outdoorescape.co.za/product-page/leatherman-rebar",
+    "file": "outdoorescape-leatherman-rebar.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/leatherman-rebar",
+    "savedAt": "2026-11-01T14:47:40.118Z"
+  },
+  {
+    "id": "outdoorescape-fa-ice-nino",
+    "url": "https://www.outdoorescape.co.za/product-page/first-ascent-ice-nino",
+    "file": "outdoorescape-fa-ice-nino.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/first-ascent-ice-nino",
+    "savedAt": "2026-11-01T14:47:44.696Z"
+  },
+  {
+    "id": "outdoorescape-fa-amplify-900",
+    "url": "https://www.outdoorescape.co.za/product-page/first-ascent-amplify-900-sleeping-bag",
+    "file": "outdoorescape-fa-amplify-900.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/first-ascent-amplify-900-sleeping-bag",
+    "savedAt": "2026-11-01T14:47:49.508Z"
+  },
+  {
+    "id": "outdoorescape-fa-helio-ii",
+    "url": "https://www.outdoorescape.co.za/product-page/first-ascent-helio-ii-2-person-3-season-hiking-tent",
+    "file": "outdoorescape-fa-helio-ii.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/first-ascent-helio-ii-2-person-3-season-hiking-tent",
+    "savedAt": "2026-11-01T14:47:55.217Z"
+  },
+  {
+    "id": "outdoorescape-petzl-actik-core",
+    "url": "https://www.outdoorescape.co.za/product-page/petzl-actik-core",
+    "file": "outdoorescape-petzl-actik-core.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/petzl-actik-core",
+    "savedAt": "2026-11-01T14:48:00.324Z"
+  },
+  {
+    "id": "outdoorescape-jetboil-zip",
+    "url": "https://www.outdoorescape.co.za/product-page/jetboil-zip",
+    "file": "outdoorescape-jetboil-zip.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/jetboil-zip",
+    "savedAt": "2026-11-01T14:48:04.616Z"
+  },
+  {
+    "id": "outdoorescape-tailwind-endurance-30",
+    "url": "https://www.outdoorescape.co.za/product-page/tailwind-endurance-fuel-30-serving",
+    "file": "outdoorescape-tailwind-endurance-30.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/tailwind-endurance-fuel-30-serving",
+    "savedAt": "2026-11-01T14:48:10.715Z"
+  },
+  {
+    "id": "outdoorescape-sts-clothesline",
+    "url": "https://www.outdoorescape.co.za/product-page/sea-to-summit-clothesline",
+    "file": "outdoorescape-sts-clothesline.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/sea-to-summit-clothesline",
+    "savedAt": "2026-11-01T14:48:14.902Z"
+  },
+  {
+    "id": "outdoorescape-fa-stretch-fit-pants",
+    "url": "https://www.outdoorescape.co.za/product-page/first-ascent-stretch-fit-hiking-pants-men-s",
+    "file": "outdoorescape-fa-stretch-fit-pants.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/first-ascent-stretch-fit-hiking-pants-men-s",
+    "savedAt": "2026-11-01T14:48:19.880Z"
+  },
+  {
+    "id": "outdoorescape-fa-elios-35l",
+    "url": "https://www.outdoorescape.co.za/product-page/first-ascent-elios-35l-lightweight-hiking-pack",
+    "file": "outdoorescape-fa-elios-35l.html",
+    "fetchedUrl": "https://www.outdoorescape.co.za/product-page/first-ascent-elios-35l-lightweight-hiking-pack",
+    "savedAt": "2026-11-01T14:48:25.186Z"
+  },
+  {
+    "id": "firstascent-ice-nino",
+    "url": "https://www.firstascent.co.za/ice-nino-s-bag-fas32",
+    "file": "firstascent-ice-nino.html",
+    "fetchedUrl": "https://www.firstascent.co.za/ice-nino-s-bag-fas32",
+    "savedAt": "2026-11-01T14:47:34.090Z"
+  },
+  {
+    "id": "firstascent-amplify-900-synthetic",
+    "url": "https://www.firstascent.co.za/amplify-900-synthetic-sleeping-bag",
+    "file": "firstascent-amplify-900-synthetic.html",
+    "fetchedUrl": "https://www.firstascent.co.za/amplify-900-synthetic-sleeping-bag",
+    "savedAt": "2026-11-01T14:47:39.072Z"
+  },
+  {
+    "id": "firstascent-helio-ii",
+    "url": "https://www.firstascent.co.za/helio-ii-2-person-3-season-hiking-tent",
+    "file": "firstascent-helio-ii.html",
+    "fetchedUrl": "https://www.firstascent.co.za/helio-ii-2-person-3-season-hiking-tent",
+    "savedAt": "2026-11-01T14:47:44.057Z"
+  },
+  {
+    "id": "firstascent-starlight-ii",
+    "url": "https://www.firstascent.co.za/starlight-ii-2-person-3-season-hiking-tent",
+    "file": "firstascent-starlight-ii.html",
+    "fetchedUrl": "https://www.firstascent.co.za/starlight-ii-2-person-3-season-hiking-tent",
+    "savedAt": "2026-11-01T14:47:49.097Z"
+  },
+  {
+    "id": "firstascent-stretchfit-zip-off",
+    "url": "https://www.firstascent.co.za/mens-stretchfit-zip-off-pants-fa3240",
+    "file": "firstascent-stretchfit-zip-off.html",
+    "fetchedUrl": "https://www.firstascent.co.za/mens-stretchfit-zip-off-pants-fa3240",
+    "savedAt": "2026-11-01T14:47:54.304Z"
+  }
+]

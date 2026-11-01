@@ -1,0 +1,243 @@
+{
+  "id": 8701089546499,
+  "title": "First Ascent Ice Nino Down Sleeping Bag '24",
+  "handle": "first-ascent-ice-nino-down-sleeping-bag-24",
+  "description": "<h3>Description</h3>\n<p><span>The Ice Nino Down sleeping bag is the ideal overnight companion for smaller-framed adventurers. Known as the younger brother of the Ice Breaker sleeping bag, the Ice Nino is versatile, durable and designed to last a lifetime. Comfort rated at 1°C, and Comfort Limit at -5°C, this bag will keep you insulated and safe. </span></p>\n<h3>Features</h3>\n<ul>\n<li>92/8 (600g) Responsibly Sourced Down filling<br>\n</li>\n<li>Chest baffle to prevent cold at the chest<br>\n</li>\n<li>Face baffle for extra comfort and warmth<br>\n</li>\n<li>Foot-friendly zipper system<br>\n</li>\n<li>Internal pocket for valuables<br>\n</li>\n<li>Made from Microtex R/S outside and Microtex 5000 inside</li>\n</ul>\n<h3>Specifications</h3>\n<div>\n<ul>\n<li>Weight: 1.3 kg</li>\n<li>Comfort Temperature Rating<span>: 1</span>°C</li>\n<li>Lower Limit Temperature Rating<span>: </span>-5°C</li>\n<li>Extreme Temperature Rating<span>: </span>-22°C</li>\n<li>Dimensions<span>: 1</span>90 X 80 / 52 cm</li>\n<li>Packed Size<span>: </span>18 x 35 cm</li>\n<li>Down Ratio: 92/8</li>\n<li>Fill Power<span>: </span>650</li>\n<li>Material(s): Microtex R/S (Outer) and Microtex 5000 (Inner)</li>\n</ul>\n</div>\n<ul></ul>",
+  "published_at": "2024-07-26T12:38:45+02:00",
+  "created_at": "2024-07-26T12:34:42+02:00",
+  "vendor": "drifters",
+  "type": "sleeping bag",
+  "tags": [
+    "down bag",
+    "down sleeping bag",
+    "ladies sleeping bag",
+    "not-on-sale",
+    "winter sleeping bag",
+    "woman's sleeping bag"
+  ],
+  "price": 499900,
+  "price_min": 499900,
+  "price_max": 499900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 45786256441603,
+      "title": "Left",
+      "option1": "Left",
+      "option2": null,
+      "option3": null,
+      "sku": "43459SUNLEFT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "First Ascent Ice Nino Down Sleeping Bag '24 - Left",
+      "public_title": "Left",
+      "options": [
+        "Left"
+      ],
+      "price": 499900,
+      "weight": 2000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 45786256474371,
+      "title": "Right",
+      "option1": "Right",
+      "option2": null,
+      "option3": null,
+      "sku": "43459SUNRGHT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "First Ascent Ice Nino Down Sleeping Bag '24 - Right",
+      "public_title": "Right",
+      "options": [
+        "Right"
+      ],
+      "price": 499900,
+      "weight": 2000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag24.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag242.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag244.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag243.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag249.jpg?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag248.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag247.webp?v=1721990251",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag246.webp?v=1721990250"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag24.webp?v=1721990251",
+  "options": [
+    {
+      "name": "Zip",
+      "position": 1,
+      "values": [
+        "Left",
+        "Right"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-ice-nino-down-sleeping-bag-24",
+  "media": [
+    {
+      "alt": null,
+      "id": 36342433874179,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag24.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag24.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433841411,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag242.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag242.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433775875,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag244.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag244.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433808643,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag243.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag243.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433906947,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag249.jpg?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag249.jpg?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433939715,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag248.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag248.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342433972483,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag247.webp?v=1721990251"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag247.webp?v=1721990251",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 36342434005251,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag246.webp?v=1721990250"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/FirstAscentIceNinoDownSleepingBag246.webp?v=1721990250",
+      "width": 1500
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,158 @@
+{
+  "about": "The matching fixture set (SPEC.md section 5.3). Each group has an anchor (the product the user tracks) and the result the matcher must give for every other saved page in the group. A list means either result is acceptable. Pages are real snapshots in pages/, listed in pages.json. Checked by hand on 2026-11-01.",
+  "groups": [
+    {
+      "name": "Stanley Legendary Classic flask 1.4 L",
+      "category": "flask",
+      "anchor": "bravehardy-stanley-classic-1-4l",
+      "expect": {
+        "trappers-stanley-classic-1-4l": "unsure",
+        "drifters-stanley-classic-1-4l": "unsure",
+        "outdoorescape-stanley-classic-1-4l": "unsure",
+        "bravehardy-stanley-classic-1-9l": "variant",
+        "drifters-jetboil-zip": "rejected",
+        "bravehardy-jetboil-zip": "rejected"
+      },
+      "notes": "Only Brave Hardy publishes Stanley's own codes, so the other stores can only be unsure. The 1.9 L flask is the same flask in a bigger size."
+    },
+    {
+      "name": "Leatherman Rebar multi-tool",
+      "category": "tool",
+      "anchor": "trappers-leatherman-rebar",
+      "expect": {
+        "drifters-leatherman-rebar": "unsure",
+        "outdoorescape-leatherman-rebar": "unsure",
+        "trappers-leatherman-rebar-colourblock": ["unsure", "variant"],
+        "bravehardy-leatherman-rebar-tan": ["unsure", "variant"],
+        "bravehardy-stanley-classic-1-4l": "rejected"
+      },
+      "notes": "Trappers' barcode-looking codes start with 2, which means an in-store code, not a real barcode."
+    },
+    {
+      "name": "First Ascent Ice Nino down sleeping bag",
+      "category": "sleeping bag",
+      "anchor": "firstascent-ice-nino",
+      "expect": {
+        "bravehardy-fa-ice-nino": "exact",
+        "drifters-fa-ice-nino": "unsure",
+        "outdoorescape-fa-ice-nino": "unsure",
+        "bravehardy-fa-ice-breaker": "rejected",
+        "bravehardy-fa-amplify-down-900": "rejected",
+        "firstascent-amplify-900-synthetic": "rejected"
+      },
+      "notes": "Brave Hardy's SKU FA_FAS32 carries First Ascent's own product code FAS32, the same code First Ascent's shop uses."
+    },
+    {
+      "name": "First Ascent Amplify 900 synthetic sleeping bag",
+      "category": "sleeping bag",
+      "anchor": "bravehardy-fa-amplify-900-synthetic",
+      "expect": {
+        "firstascent-amplify-900-synthetic": "exact",
+        "drifters-fa-amplify-900": "unsure",
+        "outdoorescape-fa-amplify-900": "unsure",
+        "bravehardy-fa-amplify-down-900": "rejected",
+        "bravehardy-fa-ice-nino": "rejected"
+      },
+      "notes": "The Amplify Down 900 is a different, down-filled bag at three times the price, despite the similar name."
+    },
+    {
+      "name": "First Ascent Helio II 2-person tent",
+      "category": "tent",
+      "anchor": "firstascent-helio-ii",
+      "expect": {
+        "outdoorescape-fa-helio-ii": "unsure",
+        "drifters-fa-helio": "unsure",
+        "firstascent-starlight-ii": "rejected",
+        "bravehardy-fa-ice-nino": "rejected"
+      },
+      "notes": "The Starlight II is a different 2-person tent from the same brand."
+    },
+    {
+      "name": "Petzl Actik Core headlamp",
+      "category": "electronics (headlamp)",
+      "anchor": "drifters-petzl-actik-core",
+      "expect": {
+        "outdoorescape-petzl-actik-core": "unsure",
+        "drifters-petzl-tikka-core": "rejected",
+        "drifters-bd-spot-400": "rejected",
+        "bravehardy-bd-spot-400-r": "rejected"
+      },
+      "notes": "Drifters lists every product under the vendor name 'drifters', so the brand comes from the title."
+    },
+    {
+      "name": "Black Diamond Spot 400 headlamp",
+      "category": "electronics (headlamp)",
+      "anchor": "bravehardy-bd-spot-400",
+      "expect": {
+        "drifters-bd-spot-400": "unsure",
+        "bravehardy-bd-spot-400-r": "rejected",
+        "drifters-petzl-actik-core": "rejected"
+      },
+      "notes": "The Spot 400-R is the rechargeable model, a different product."
+    },
+    {
+      "name": "Jetboil Zip stove",
+      "category": "stove",
+      "anchor": "bravehardy-jetboil-zip",
+      "expect": {
+        "drifters-jetboil-zip": "unsure",
+        "outdoorescape-jetboil-zip": "unsure",
+        "bravehardy-stanley-classic-1-4l": "rejected"
+      },
+      "notes": "Brave Hardy says 800ml, Outdoor Escape says 0.8L: the same size."
+    },
+    {
+      "name": "Tailwind Endurance Fuel, 30 servings",
+      "category": "food (sports drink mix)",
+      "anchor": "drifters-tailwind-endurance-30",
+      "expect": {
+        "outdoorescape-tailwind-endurance-30": "unsure",
+        "drifters-tailwind-caffeinated-30": "rejected"
+      },
+      "notes": "The caffeinated version is a different product. This is the closest thing to a grocery item the six stores sell."
+    },
+    {
+      "name": "Sea to Summit clothesline",
+      "category": "accessory",
+      "anchor": "bravehardy-sts-clothesline",
+      "expect": {
+        "drifters-sts-clothesline": "unsure",
+        "outdoorescape-sts-clothesline": "unsure",
+        "drifters-tailwind-endurance-30": "rejected"
+      }
+    },
+    {
+      "name": "First Ascent Stretch Fit hiking pants (men's)",
+      "category": "clothing",
+      "anchor": "trappers-fa-stretch-fit-pants",
+      "expect": {
+        "drifters-fa-stretch-fit-pants": "unsure",
+        "outdoorescape-fa-stretch-fit-pants": "unsure",
+        "trappers-fa-stretchfit-zip-off": "rejected",
+        "drifters-fa-stretchfit-zip-off": "rejected"
+      },
+      "notes": "The zip-off pants are a different product with a similar name."
+    },
+    {
+      "name": "First Ascent Stretchfit zip-off pants (men's)",
+      "category": "clothing",
+      "anchor": "firstascent-stretchfit-zip-off",
+      "expect": {
+        "trappers-fa-stretchfit-zip-off": "unsure",
+        "drifters-fa-stretchfit-zip-off": "unsure",
+        "trappers-fa-stretch-fit-pants": "rejected"
+      }
+    },
+    {
+      "name": "First Ascent Elios 35 L pack",
+      "category": "backpack",
+      "anchor": "drifters-fa-elios-35l",
+      "expect": {
+        "outdoorescape-fa-elios-35l": "unsure",
+        "trappers-fa-ellios-35l": "unsure",
+        "drifters-fa-helio": "rejected"
+      },
+      "notes": "Trappers spells it 'Ellios'."
+    }
+  ]
+}

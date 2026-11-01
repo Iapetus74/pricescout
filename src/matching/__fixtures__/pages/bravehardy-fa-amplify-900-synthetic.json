@@ -1,0 +1,171 @@
+{
+  "id": 10018976399607,
+  "title": "First Ascent Amplify 900 Synthetic Sleeping Bag",
+  "handle": "first-ascent-amplify-900-synthetic-sleeping-bag",
+  "description": "<p>When space and weight are concerns, the Amplify 900 Synthetic Sleeping Bag is the answer. Ideal for summer or spring backpacking and hiking with new Amplify (expand) technology in knee and hip area to minimise heat loss. With a comfort rating of 7°C and transition rating of 2°C, this is a great three season sleeping bag. It also features a reflective zip puller and internal pocket for valuables.</p>\n<p><em>This sleeping bag <strong>comes with a</strong> <strong>right-side zip</strong>. A left-side zip is available <strong>on request</strong>.</em></p>",
+  "published_at": "2026-07-15T12:58:59+02:00",
+  "created_at": "2026-07-03T14:17:41+02:00",
+  "vendor": "First Ascent",
+  "type": "Synthetic Sleeping Bag",
+  "tags": [],
+  "price": 199900,
+  "price_min": 199900,
+  "price_max": 199900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 50912823214327,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "FA_FAS14",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "First Ascent Amplify 900 Synthetic Sleeping Bag",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 199900,
+      "weight": 1100,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6009176588415",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_01.jpg?v=1783585071",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_06.jpg?v=1783585071",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_02.jpg?v=1783585071",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_03.jpg?v=1783585071",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_04.jpg?v=1783585071",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_05.jpg?v=1783585071"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_01.jpg?v=1783585071",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-amplify-900-synthetic-sleeping-bag",
+  "media": [
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in teal and pale blue, fully laid out upright with its hood open",
+      "id": 55349580202231,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_01.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_01.jpg?v=1783585071",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in dark grey, compressed in a teal stuff sack",
+      "id": 55349580366071,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_06.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_06.jpg?v=1783585071",
+      "width": 2000
+    },
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in turquoise and pale blue, mummy-shaped, laid flat horizontally",
+      "id": 55349580234999,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_02.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_02.jpg?v=1783585071",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in teal and pale blue, opened up close to show its quilted panels and zip",
+      "id": 55349580267767,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_03.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_03.jpg?v=1783585071",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in turquoise, lying close up to show its hood, side zip and logo",
+      "id": 55349580300535,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_04.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_04.jpg?v=1783585071",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Amplify 900 Synthetic Sleeping Bag in aqua and teal, close up with its hood open and drawcord toggle visible",
+      "id": 55349580333303,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_05.jpg?v=1783585071"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS14-DEEPLAKE_05.jpg?v=1783585071",
+      "width": 1920
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,346 @@
+{
+  "id": 7871640993855,
+  "title": "Leatherman Rebar",
+  "handle": "lman-rebar-colourblock-lm833341",
+  "description": "<p><meta charset=\"utf-8\"><span>With the new Rebar, Leatherman fans will immediately recognize the iconic box-like shape found in Tim Leatherman’s original PST design. The Rebar pliers have been optimized for strength and feature replaceable wire/hard-wire cutters—a first for a four-inch tool from Leatherman. With all the features to get even the toughest jobs done, in a smaller, slimmer size, the new Rebar is sure to be an instant hit on job sites and home projects the world over.</span></p>\n<p><strong>01 Needlenose Pliers</strong><br>Perfect for holding small objects or using the pliers in tight, narrow spaces.</p>\n<p><strong>02 Regular Pliers</strong><br>Conveniently hold and manipulate items.</p>\n<p><strong>03 Premium Replaceable Wire Cutters</strong><br>Easily cut through regular and light-gauge wire with this replaceable, edge-retaining tool.</p>\n<p><strong>04 Premium Replaceable Hard-wire Cutters</strong><br>Easily cut through electrical hard wires with this replaceable, edge-retaining tool</p>\n<p><strong>05 Electrical Crimper</strong><br>Found in the jaw of the tool and used for general purpose crimping of electrical connectors.</p>\n<p><strong>06 Wire Stripper</strong><br>Safely strip multiple gauges and types of wire.</p>\n<p><strong>07 420HC Knife</strong><br>A knife crafted from 420HC, a high-carbon stainless steel that is corrosion resistant and can be easily maintained.</p>\n<p><strong>08 420HC Serrated Knife</strong><br>Cut rough materials (like rope or fiber) with this corrosion-resistant, easily maintained knife.</p>\n<p><strong>09 Saw</strong><br>Quickly and easily saw through tough materials with this open-toothed tool.</p>\n<p><strong>10 Awl w/ Thread Loop</strong><br>Puncture tough materials to create or enlarge holes and sew with the loop.</p>\n<p><strong>11 Ruler (8 in | 19 cm)</strong><br>A precise measuring guide for determining length in inches or centimeters, up to 8 inches or 19 centimeters.</p>\n<p><strong>12 Can Opener</strong><br>Safely and easily open canned goods in wilderness situations.<br><strong><br>13 Bottle Opener</strong><br>Pop the top on a favorite beverage.</p>\n<p><strong>14 Wood/Metal File</strong><br>Precisely file and smooth edges on wood and metal surfaces.</p>\n<p><strong>15 Phillips Screwdriver</strong><br>Tighten or loosen Phillips head screws.</p>\n<p><strong>16 Large Screwdriver</strong><br>Tighten and loosen larger flat-headed screws.</p>\n<p><strong>17 Small Screwdriver</strong><br>Tighten and loosen small flathead screws.</p>\n<p><strong>01 All Locking Features</strong><br>All locking features means that every tool and knife on the body of the handle, with the exception of the plier head, will lock into place. Note that the Crunch; however, does feature both all locking tools and plier head. The all locking design enables the user to operate individual tools safely and effectively. By locking them into place when fully open, the user can put pressure on the implement while safely completing the job, before manually unlocking the tool to stow it away.</p>\n<p><strong>02 Lanyard Ring</strong><br>This secure ring is for attaching the tool safely and securely to a lanyard. Often people who work near water or on scaffolding attach their tool to a lanyard on their person to avoid losing the tool if it’s dropped.</p>\n<p>LM833341</p>",
+  "published_at": "2025-08-13T18:12:21+02:00",
+  "created_at": "2025-08-13T17:50:54+02:00",
+  "vendor": "Leatherman",
+  "type": "equipment",
+  "tags": [
+    "Multitools"
+  ],
+  "price": 299900,
+  "price_min": 299900,
+  "price_max": 299900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 41949809967167,
+      "title": "Std / Burntsienna",
+      "option1": "Std",
+      "option2": "Burntsienna",
+      "option3": null,
+      "sku": "2508000240948",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 34483704397887,
+        "product_id": 7871640993855,
+        "position": 1,
+        "created_at": "2025-08-13T18:11:14+02:00",
+        "updated_at": "2025-08-14T09:44:29+02:00",
+        "alt": null,
+        "width": 1214,
+        "height": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469",
+        "variant_ids": [
+          41949809967167
+        ]
+      },
+      "available": true,
+      "name": "Leatherman Rebar - Std / Burntsienna",
+      "public_title": "Std / Burntsienna",
+      "options": [
+        "Std",
+        "Burntsienna"
+      ],
+      "price": 299900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2508000240948",
+      "featured_media": {
+        "alt": null,
+        "id": 26522923270207,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1214,
+          "width": 1214,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 41949809999935,
+      "title": "Std / Mossy Slate",
+      "option1": "Std",
+      "option2": "Mossy Slate",
+      "option3": null,
+      "sku": "2508000240949",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 34483704168511,
+        "product_id": 7871640993855,
+        "position": 5,
+        "created_at": "2025-08-13T18:11:14+02:00",
+        "updated_at": "2025-08-14T09:44:33+02:00",
+        "alt": null,
+        "width": 1214,
+        "height": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_2_f_082ff58e2768f5387ae7c743d22e406a1831ab5d_Rebar_Mossy_Slate_Fanned_Front_shopify.webp?v=1755157473",
+        "variant_ids": [
+          41949809999935
+        ]
+      },
+      "available": true,
+      "name": "Leatherman Rebar - Std / Mossy Slate",
+      "public_title": "Std / Mossy Slate",
+      "options": [
+        "Std",
+        "Mossy Slate"
+      ],
+      "price": 299900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2508000240949",
+      "featured_media": {
+        "alt": null,
+        "id": 26522923040831,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1214,
+          "width": 1214,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_2_f_082ff58e2768f5387ae7c743d22e406a1831ab5d_Rebar_Mossy_Slate_Fanned_Front_shopify.webp?v=1755157473"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_7_6_9_3_7693ad0db6dfd350272d5e07ab55128a6c90b9af_Rebar_Burnt_Sienna_Closed_Front_shopify.webp?v=1755157470",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_8_a_0_a8a01f05d95985650b38fb226b707ab914c42bef_Rebar_Burnt_Sienna_Closed_Back_shopify.webp?v=1755157471",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_4_a_8_94a842d4631e563ced7082fd2bfe45145b6f5aa6_Rebar_Burnt_Sienna_Beauty_shopify.webp?v=1755157472",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_2_f_082ff58e2768f5387ae7c743d22e406a1831ab5d_Rebar_Mossy_Slate_Fanned_Front_shopify.webp?v=1755157473",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_c_e_2_9ce2546fe387e74502a64e2f7328e6e1547dc40c_Rebar_Mossy_Slate_Closed_Front_shopify.webp?v=1755157475",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_7_7_0877339f17d2f05dfe266ac0cb44b64bdd93bb11_Rebar_Mossy_Slate_Closed_Back_shopify.webp?v=1755157476",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_9_1_1_a911dd385022cc9a076160da6243c638e623bca7_Rebar_Mossy_Slate_Beauty_shopify.webp?v=1755157477",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_b_6_6_5_b6652ef5735197b9b00ab0f368ed678f87b6c8a0_rebar_color_lifestyle_3_shopify.webp?v=1755157479",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_1_9_1_c_191cd85df22b1b225e8c4d3e687eb461624083c0_rebar_color_lifestyle_2_shopify.webp?v=1755157481",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_2_1_8_b_218b72758996ded1b6b94606b8438dfff0e059c0_rebar_color_lifestyle_1_shopify.webp?v=1755157483"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "Std"
+      ]
+    },
+    {
+      "name": "Colour",
+      "position": 2,
+      "values": [
+        "Burntsienna",
+        "Mossy Slate"
+      ]
+    }
+  ],
+  "url": "/products/lman-rebar-colourblock-lm833341",
+  "media": [
+    {
+      "alt": null,
+      "id": 26522923270207,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_f_2_a_0_f2a0367d281f1629c8a67c87c889093d31f1a738_Rebar_Burnt_Sienna_Fanned_Front_shopify.webp?v=1755157469",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923237439,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_7_6_9_3_7693ad0db6dfd350272d5e07ab55128a6c90b9af_Rebar_Burnt_Sienna_Closed_Front_shopify.webp?v=1755157470"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_7_6_9_3_7693ad0db6dfd350272d5e07ab55128a6c90b9af_Rebar_Burnt_Sienna_Closed_Front_shopify.webp?v=1755157470",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923204671,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_8_a_0_a8a01f05d95985650b38fb226b707ab914c42bef_Rebar_Burnt_Sienna_Closed_Back_shopify.webp?v=1755157471"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_8_a_0_a8a01f05d95985650b38fb226b707ab914c42bef_Rebar_Burnt_Sienna_Closed_Back_shopify.webp?v=1755157471",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923171903,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_4_a_8_94a842d4631e563ced7082fd2bfe45145b6f5aa6_Rebar_Burnt_Sienna_Beauty_shopify.webp?v=1755157472"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_4_a_8_94a842d4631e563ced7082fd2bfe45145b6f5aa6_Rebar_Burnt_Sienna_Beauty_shopify.webp?v=1755157472",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923040831,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_2_f_082ff58e2768f5387ae7c743d22e406a1831ab5d_Rebar_Mossy_Slate_Fanned_Front_shopify.webp?v=1755157473"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_2_f_082ff58e2768f5387ae7c743d22e406a1831ab5d_Rebar_Mossy_Slate_Fanned_Front_shopify.webp?v=1755157473",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923008063,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_c_e_2_9ce2546fe387e74502a64e2f7328e6e1547dc40c_Rebar_Mossy_Slate_Closed_Front_shopify.webp?v=1755157475"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_9_c_e_2_9ce2546fe387e74502a64e2f7328e6e1547dc40c_Rebar_Mossy_Slate_Closed_Front_shopify.webp?v=1755157475",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522922975295,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_7_7_0877339f17d2f05dfe266ac0cb44b64bdd93bb11_Rebar_Mossy_Slate_Closed_Back_shopify.webp?v=1755157476"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_0_8_7_7_0877339f17d2f05dfe266ac0cb44b64bdd93bb11_Rebar_Mossy_Slate_Closed_Back_shopify.webp?v=1755157476",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522922942527,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_9_1_1_a911dd385022cc9a076160da6243c638e623bca7_Rebar_Mossy_Slate_Beauty_shopify.webp?v=1755157477"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_a_9_1_1_a911dd385022cc9a076160da6243c638e623bca7_Rebar_Mossy_Slate_Beauty_shopify.webp?v=1755157477",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923073599,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_b_6_6_5_b6652ef5735197b9b00ab0f368ed678f87b6c8a0_rebar_color_lifestyle_3_shopify.webp?v=1755157479"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_b_6_6_5_b6652ef5735197b9b00ab0f368ed678f87b6c8a0_rebar_color_lifestyle_3_shopify.webp?v=1755157479",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923106367,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_1_9_1_c_191cd85df22b1b225e8c4d3e687eb461624083c0_rebar_color_lifestyle_2_shopify.webp?v=1755157481"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_1_9_1_c_191cd85df22b1b225e8c4d3e687eb461624083c0_rebar_color_lifestyle_2_shopify.webp?v=1755157481",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 26522923139135,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_2_1_8_b_218b72758996ded1b6b94606b8438dfff0e059c0_rebar_color_lifestyle_1_shopify.webp?v=1755157483"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/akeneo_2_1_8_b_218b72758996ded1b6b94606b8438dfff0e059c0_rebar_color_lifestyle_1_shopify.webp?v=1755157483",
+      "width": 1214
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}
