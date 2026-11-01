@@ -15,6 +15,13 @@
       "when": 1793545240120,
       "tag": "0001_offer_match_details",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793547274267,
+      "tag": "0002_crawl_sites",
+      "breakpoints": true
     }
   ]
 }

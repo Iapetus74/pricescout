@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { DomainRateLimiter, MIN_INTERVAL_MS } from "./rate-limiter";
+import { DomainRateLimiter, MIN_INTERVAL_MS, SHARED_HOLD_MS, type SharedSiteClock } from "./rate-limiter";
 
 beforeEach(() => {
   vi.useFakeTimers();
@@ -107,5 +107,56 @@ describe("DomainRateLimiter", () => {
     await expect(failing).rejects.toThrow("boom");
     await vi.runAllTimersAsync();
     await expect(ok).resolves.toBe(5_000);
+  });
+});
+
+describe("DomainRateLimiter shared between two programs (the app and the worker)", () => {
+  /** An in-memory stand-in for the database-backed clock. */
+  function memoryClock(): SharedSiteClock {
+    const next = new Map<string, number>();
+    return {
+      tryClaim(site, nowMs, holdMs) {
+        const at = next.get(site) ?? 0;
+        if (at > nowMs) return at - nowMs;
+        next.set(site, nowMs + holdMs);
+        return 0;
+      },
+      release(site, nextAllowedMs) {
+        next.set(site, nextAllowedMs);
+      },
+    };
+  }
+
+  it("keeps requests from both programs to one site 5 seconds apart and never at the same time", async () => {
+    const clock = memoryClock();
+    const app = new DomainRateLimiter({ sharedClock: clock });
+    const worker = new DomainRateLimiter({ sharedClock: clock });
+    const { log, task, maxActive } = recorder();
+    const all = Promise.all([
+      app.run("trappers.co.za", task("trappers.co.za", 7_000)),
+      worker.run("trappers.co.za", task("trappers.co.za", 100)),
+      app.run("trappers.co.za", task("trappers.co.za", 100)),
+      worker.run("trappers.co.za", task("trappers.co.za", 100)),
+    ]);
+    await vi.runAllTimersAsync();
+    await all;
+
+    expect(maxActive()).toBe(1);
+    const sorted = [...log].sort((a, b) => a.start - b.start);
+    for (let i = 1; i < sorted.length; i++) {
+      expect(sorted[i].start - sorted[i - 1].start).toBeGreaterThanOrEqual(MIN_INTERVAL_MS);
+      expect(sorted[i].start).toBeGreaterThanOrEqual(sorted[i - 1].end);
+    }
+  });
+
+  it("frees the site after a while if a program stopped in the middle of a request", async () => {
+    const clock = memoryClock();
+    clock.tryClaim("trappers.co.za", 0, SHARED_HOLD_MS); // claimed, never released
+    const limiter = new DomainRateLimiter({ sharedClock: clock });
+    const { log, task } = recorder();
+    const run = limiter.run("trappers.co.za", task("trappers.co.za", 100));
+    await vi.runAllTimersAsync();
+    await run;
+    expect(log[0].start).toBe(SHARED_HOLD_MS);
   });
 });
