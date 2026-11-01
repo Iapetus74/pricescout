@@ -136,3 +136,11 @@ export function checkAllProducts(options: {
 }): Promise<CheckSummary> {
   return checkList(options.db, options.adapters, offersToCheck(options.db), options.now ?? (() => new Date()));
 }
+
+/** "3 prices checked, 1 failed, 2 skipped" in plain words. */
+export function formatSummary(summary: CheckSummary): string {
+  const parts = [`${summary.checked} ${summary.checked === 1 ? "price" : "prices"} checked`];
+  if (summary.failed > 0) parts.push(`${summary.failed} couldn't be read`);
+  if (summary.skipped > 0) parts.push(`${summary.skipped} skipped (store paused or switched off)`);
+  return `${parts.join(", ")}.`;
+}
