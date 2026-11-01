@@ -7,7 +7,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { formatCents } from "@/lib/money";
 
-import { addLinkAction, decideMatchAction, findMatchesAction, type AddLinkState, type FindState } from "./actions";
+import {
+  addLinkAction,
+  checkNowAction,
+  decideMatchAction,
+  findMatchesAction,
+  type AddLinkState,
+  type CheckNowState,
+  type FindState,
+} from "./actions";
 
 /** The "Find this product at other stores" button, with what happened at each store. */
 export function FindMatchesForm({ productId }: { productId: number }) {
@@ -127,6 +135,31 @@ export function AddLinkForm({ productId }: { productId: number }) {
           <p className="rounded-md border border-destructive/30 bg-destructive/10 p-3 text-destructive" role="alert">
             {result.message}
           </p>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+/** "Check now": refreshes this product's price at every store, still politely spaced. */
+export function CheckNowForm({ productId, storeCount }: { productId: number; storeCount: number }) {
+  const [state, formAction, pending] = useActionState<CheckNowState, FormData>(checkNowAction, { message: null, ok: true });
+  return (
+    <div className="flex flex-col gap-2">
+      <form action={formAction}>
+        <input type="hidden" name="productId" value={productId} />
+        <Button type="submit" variant="outline" size="sm" disabled={pending}>
+          {pending ? "Checking…" : "Check now"}
+        </Button>
+      </form>
+      <div aria-live="polite" className="text-sm">
+        {pending ? (
+          <p className="text-muted-foreground">
+            Checking {storeCount} {storeCount === 1 ? "store" : "stores"}. Each store is visited at most once every 5
+            seconds, so this can take a little while.
+          </p>
+        ) : state.message ? (
+          <p className={state.ok ? "text-muted-foreground" : "text-destructive"}>{state.message}</p>
         ) : null}
       </div>
     </div>

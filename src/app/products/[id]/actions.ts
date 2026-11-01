@@ -4,6 +4,7 @@ import { refresh } from "next/cache";
 
 import { addMatchByLink, decideMatch, findMatches, type AddLinkResult, type FindMatchesResult } from "@/matching/find-matches";
 import { getAppContext } from "@/server/app-context";
+import { checkProduct, formatSummary } from "@/tracking/check-prices";
 
 export type FindState = { result: FindMatchesResult | null };
 
@@ -34,4 +35,15 @@ export async function addLinkAction(_previous: AddLinkState, formData: FormData)
   const result = await addMatchByLink({ db, adapters, userId: ownerId, productId, input });
   if (result.ok) refresh();
   return { result, input: result.ok ? "" : input };
+}
+
+export type CheckNowState = { message: string | null; ok: boolean };
+
+/** Runs when "Check now" is pressed: reads every store's price for this product again. */
+export async function checkNowAction(_previous: CheckNowState, formData: FormData): Promise<CheckNowState> {
+  const productId = Number(formData.get("productId"));
+  const { db, adapters, ownerId } = getAppContext();
+  const summary = await checkProduct({ db, adapters, userId: ownerId, productId });
+  refresh();
+  return { message: formatSummary(summary), ok: summary.failed === 0 };
 }

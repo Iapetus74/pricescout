@@ -189,3 +189,14 @@ export const jobs = sqliteTable(
   },
   (t) => [index("jobs_status_run_at_idx").on(t.status, t.runAt)],
 );
+
+/**
+ * When each store may next be visited. Shared by the web app and the worker
+ * (two separate programs) so together they still make at most one request
+ * per 5 seconds per store, and never two at once (CLAUDE.md rule 1).
+ * Times are milliseconds since 1970.
+ */
+export const crawlSites = sqliteTable("crawl_sites", {
+  site: text("site").primaryKey(),
+  nextAllowedAt: integer("next_allowed_at").notNull(),
+});

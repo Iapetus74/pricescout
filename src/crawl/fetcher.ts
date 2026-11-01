@@ -27,7 +27,7 @@ import {
   StoreBackingOffError,
   StorePausedError,
 } from "./errors";
-import { DomainRateLimiter, MIN_INTERVAL_MS } from "./rate-limiter";
+import { DomainRateLimiter, MIN_INTERVAL_MS, type SharedSiteClock } from "./rate-limiter";
 import { RobotsChecker, type RobotsResponse } from "./robots";
 import { parseWebUrl, siteKey } from "./site";
 import { buildUserAgent } from "./user-agent";
@@ -58,6 +58,8 @@ export interface PoliteFetcherOptions {
   maxBackoffMs?: number;
   /** Sites that start out Paused (for example, loaded from the database). */
   pausedSites?: Iterable<string>;
+  /** Shared with the other program (web app or worker), so both take turns per store. */
+  sharedClock?: SharedSiteClock;
   /** Called whenever a store's status should change. */
   onStoreEvent?: (event: StoreEvent) => void | Promise<void>;
   now?: () => number;
@@ -96,6 +98,7 @@ export class PoliteFetcher {
       intervalMs: Math.max(MIN_INTERVAL_MS, options.minIntervalMs ?? MIN_INTERVAL_MS),
       now: this.now,
       sleep: options.sleep,
+      sharedClock: options.sharedClock,
     });
     this.robots = new RobotsChecker({ fetchRobots: (origin) => this.fetchRobots(origin), now: this.now });
     this.timeoutMs = options.timeoutMs ?? 30_000;

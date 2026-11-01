@@ -6,6 +6,7 @@
  */
 import { createAllAdapters } from "@/adapters";
 import type { StoreAdapter } from "@/adapters/types";
+import { createDbSiteClock } from "@/crawl/db-site-clock";
 import { PoliteFetcher } from "@/crawl/fetcher";
 import { loadPausedSites, recordStoreEvent } from "@/crawl/store-status";
 import { createDb, type Db } from "@/db";
@@ -27,6 +28,7 @@ export function getAppContext(): AppContext {
   ensureBaseStores(db);
   const fetcher = new PoliteFetcher({
     pausedSites: loadPausedSites(db),
+    sharedClock: createDbSiteClock(db),
     onStoreEvent: (event) => recordStoreEvent(db, event),
   });
   holder.__pricescout = { db, fetcher, adapters: createAllAdapters(fetcher), ownerId: ensureLocalOwner(db) };
