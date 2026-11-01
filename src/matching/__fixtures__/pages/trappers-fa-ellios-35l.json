@@ -1,0 +1,312 @@
+{
+  "id": 8098056896575,
+  "title": "First Ascent Ellios Daypack - 35L",
+  "handle": "fa-daypack-ellios-35l-fab199",
+  "description": "<div class=\"block description\">This 35L hiking pack offers the perfect balance of capacity and comfort at just 970 g. Designed for day hikes and overnight adventures, it provides ample space for gear without adding unnecessary bulk. The lightweight construction makes it easy to carry, while durable materials and a streamlined design ensure reliability on the trail.</div>\n<div class=\"block features\">\n<br>\n<ul>\n<li>YKK Zips</li>\n<li>Stretch front pouch and dual side mesh pockets</li>\n<li>Hydration bladder compatible</li>\n<li>Zippered lumbar strap pockets for small essentials</li>\n<li>Lightweight, abrasion-resistant ripstop nylon</li>\n<li>FAB199</li>\n</ul>\n</div>",
+  "published_at": "2026-02-27T13:50:21+02:00",
+  "created_at": "2026-02-27T13:48:18+02:00",
+  "vendor": "First Ascent",
+  "type": "equipment",
+  "tags": [
+    "Backpacks"
+  ],
+  "price": 149900,
+  "price_min": 149900,
+  "price_max": 149900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 42953703981119,
+      "title": "STD / Midnight Blue",
+      "option1": "STD",
+      "option2": "Midnight Blue",
+      "option3": null,
+      "sku": "2512000242912",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 35853946978367,
+        "product_id": 8098056896575,
+        "position": 1,
+        "created_at": "2026-02-27T13:49:46+02:00",
+        "updated_at": "2026-02-28T10:53:21+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801",
+        "variant_ids": [
+          42953703981119
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Ellios Daypack - 35L - STD / Midnight Blue",
+      "public_title": "STD / Midnight Blue",
+      "options": [
+        "STD",
+        "Midnight Blue"
+      ],
+      "price": 149900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2512000242912",
+      "featured_media": {
+        "alt": null,
+        "id": 27671256170559,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43094016589887,
+      "title": "STD / Ivy Green",
+      "option1": "STD",
+      "option2": "Ivy Green",
+      "option3": null,
+      "sku": "2512000242913",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 36228232085567,
+        "product_id": 8098056896575,
+        "position": 9,
+        "created_at": "2026-04-13T10:20:20+02:00",
+        "updated_at": "2026-04-14T09:44:42+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-ivygreen_01.webp?v=1776152682",
+        "variant_ids": [
+          43094016589887
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Ellios Daypack - 35L - STD / Ivy Green",
+      "public_title": "STD / Ivy Green",
+      "options": [
+        "STD",
+        "Ivy Green"
+      ],
+      "price": 149900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2512000242913",
+      "featured_media": {
+        "alt": null,
+        "id": 28038452740159,
+        "position": 9,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-ivygreen_01.webp?v=1776152682"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_02.webp?v=1772268813",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_03.webp?v=1772268825",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_04.webp?v=1772268836",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_08.jpg?v=1772193020",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_07.jpg?v=1772193020",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_06.webp?v=1772268850",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_05.jpg?v=1772193020",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-ivygreen_01.webp?v=1776152682"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "STD"
+      ]
+    },
+    {
+      "name": "Colour",
+      "position": 2,
+      "values": [
+        "Midnight Blue",
+        "Ivy Green"
+      ]
+    }
+  ],
+  "url": "/products/fa-daypack-ellios-35l-fab199",
+  "media": [
+    {
+      "alt": null,
+      "id": 27671256170559,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_01.webp?v=1772268801",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671256137791,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_02.webp?v=1772268813"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_02.webp?v=1772268813",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671256105023,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_03.webp?v=1772268825"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_03.webp?v=1772268825",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671256072255,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_04.webp?v=1772268836"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_04.webp?v=1772268836",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671255941183,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_08.jpg?v=1772193020"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_08.jpg?v=1772193020",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671255973951,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_07.jpg?v=1772193020"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_07.jpg?v=1772193020",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671256006719,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_06.webp?v=1772268850"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_06.webp?v=1772268850",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 27671256039487,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_05.jpg?v=1772193020"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-midnightblue_05.jpg?v=1772193020",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 28038452740159,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-ivygreen_01.webp?v=1776152682"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fab199-ivygreen_01.webp?v=1776152682",
+      "width": 1500
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,441 @@
+{
+  "id": 9216922681603,
+  "title": "First Ascent Men's Stretchfit Zip-Off Pants",
+  "handle": "first-ascent-mens-stretch-fit-hiking-pants-copy",
+  "description": "<h3><span>Description</span></h3>\n<div class=\"col-md-4 col-sm-12 product-info\">\n<div class=\"short-description\">\n<p class=\"std\"><span>Built for versatility and movement, the Men's StretchFit Zip-Off Pants combine the flexibility of StretchFit fabric with the practicality of a zip-off design. Engineered for durability and comfort, they stretch in any direction, ensuring unrestricted movement while climbing or trekking. Easily convert them into shorts or zip halfway for added ventilation. Lightweight yet tough, these pants are perfect for tackling mountains, trails, and rugged terrains.</span></p>\n</div>\n</div>\n<h3><span>Features</span></h3>\n<ul></ul>\n<div class=\"content-wrapper\">\n<div class=\"std\" itemprop=\"description\">\n<ul>\n<li>StretchFit Enduro fabric</li>\n<li>Semi elasticated waistband</li>\n<li>Moisture management inner waistband</li>\n<li>4 Secure multipurpose storage pockets</li>\n<li>Zip-Off convertible legs</li>\n<li>UPF30+<br>\n</li>\n</ul>\n</div>\n</div>\n<ul></ul>\n<h3>Specifications<br>\n</h3>\n<ul>\n<li>Materials: 87% Polyester 13% Spandex<br>\n</li>\n</ul>",
+  "published_at": "2025-12-15T13:43:27+02:00",
+  "created_at": "2025-12-15T13:31:39+02:00",
+  "vendor": "drifters",
+  "type": "trekking pants",
+  "tags": [
+    "first ascent stretch fit",
+    "first ascent stretchfit hiking pants",
+    "hiking pants",
+    "mens hiking pants",
+    "mens trekking pants",
+    "not-on-sale",
+    "quick drying pants",
+    "safari",
+    "stretch pants",
+    "trekking pants"
+  ],
+  "price": 159900,
+  "price_min": 159900,
+  "price_max": 159900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 47546278543619,
+      "title": "Small / Pecan Brown",
+      "option1": "Small",
+      "option2": "Pecan Brown",
+      "option3": null,
+      "sku": "43426PEAC1S",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49432050172163,
+        "product_id": 9216922681603,
+        "position": 1,
+        "created_at": "2025-12-15T13:33:46+02:00",
+        "updated_at": "2025-12-15T13:33:48+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+        "variant_ids": [
+          47546278543619,
+          47546278609155,
+          47546278674691,
+          47546278740227,
+          47546278805763
+        ]
+      },
+      "available": false,
+      "name": "First Ascent Men's Stretchfit Zip-Off Pants - Small / Pecan Brown",
+      "public_title": "Small / Pecan Brown",
+      "options": [
+        "Small",
+        "Pecan Brown"
+      ],
+      "price": 159900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40279659020547,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47546278609155,
+      "title": "Medium / Pecan Brown",
+      "option1": "Medium",
+      "option2": "Pecan Brown",
+      "option3": null,
+      "sku": "43426PEAC2M",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49432050172163,
+        "product_id": 9216922681603,
+        "position": 1,
+        "created_at": "2025-12-15T13:33:46+02:00",
+        "updated_at": "2025-12-15T13:33:48+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+        "variant_ids": [
+          47546278543619,
+          47546278609155,
+          47546278674691,
+          47546278740227,
+          47546278805763
+        ]
+      },
+      "available": false,
+      "name": "First Ascent Men's Stretchfit Zip-Off Pants - Medium / Pecan Brown",
+      "public_title": "Medium / Pecan Brown",
+      "options": [
+        "Medium",
+        "Pecan Brown"
+      ],
+      "price": 159900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40279659020547,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47546278674691,
+      "title": "Large / Pecan Brown",
+      "option1": "Large",
+      "option2": "Pecan Brown",
+      "option3": null,
+      "sku": "43426PEAC3L",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49432050172163,
+        "product_id": 9216922681603,
+        "position": 1,
+        "created_at": "2025-12-15T13:33:46+02:00",
+        "updated_at": "2025-12-15T13:33:48+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+        "variant_ids": [
+          47546278543619,
+          47546278609155,
+          47546278674691,
+          47546278740227,
+          47546278805763
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Men's Stretchfit Zip-Off Pants - Large / Pecan Brown",
+      "public_title": "Large / Pecan Brown",
+      "options": [
+        "Large",
+        "Pecan Brown"
+      ],
+      "price": 159900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40279659020547,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47546278740227,
+      "title": "X Large / Pecan Brown",
+      "option1": "X Large",
+      "option2": "Pecan Brown",
+      "option3": null,
+      "sku": "43426PEAC4XL",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49432050172163,
+        "product_id": 9216922681603,
+        "position": 1,
+        "created_at": "2025-12-15T13:33:46+02:00",
+        "updated_at": "2025-12-15T13:33:48+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+        "variant_ids": [
+          47546278543619,
+          47546278609155,
+          47546278674691,
+          47546278740227,
+          47546278805763
+        ]
+      },
+      "available": false,
+      "name": "First Ascent Men's Stretchfit Zip-Off Pants - X Large / Pecan Brown",
+      "public_title": "X Large / Pecan Brown",
+      "options": [
+        "X Large",
+        "Pecan Brown"
+      ],
+      "price": 159900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40279659020547,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47546278805763,
+      "title": "XX Large / Pecan Brown",
+      "option1": "XX Large",
+      "option2": "Pecan Brown",
+      "option3": null,
+      "sku": "43426PEAC52XL",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49432050172163,
+        "product_id": 9216922681603,
+        "position": 1,
+        "created_at": "2025-12-15T13:33:46+02:00",
+        "updated_at": "2025-12-15T13:33:48+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+        "variant_ids": [
+          47546278543619,
+          47546278609155,
+          47546278674691,
+          47546278740227,
+          47546278805763
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Men's Stretchfit Zip-Off Pants - XX Large / Pecan Brown",
+      "public_title": "XX Large / Pecan Brown",
+      "options": [
+        "XX Large",
+        "Pecan Brown"
+      ],
+      "price": 159900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40279659020547,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_07.webp?v=1765798454",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_06.webp?v=1765798464",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_02.webp?v=1765798574",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_03.webp?v=1765798574"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "Small",
+        "Medium",
+        "Large",
+        "X Large",
+        "XX Large"
+      ]
+    },
+    {
+      "name": "Color",
+      "position": 2,
+      "values": [
+        "Pecan Brown"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-mens-stretch-fit-hiking-pants-copy",
+  "media": [
+    {
+      "alt": null,
+      "id": 40279659020547,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_01.webp?v=1765798428",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 40279661478147,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_07.webp?v=1765798454"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_07.webp?v=1765798454",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 40279662264579,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_06.webp?v=1765798464"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_06.webp?v=1765798464",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 40279667540227,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_02.webp?v=1765798574"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_02.webp?v=1765798574",
+      "width": 1214
+    },
+    {
+      "alt": null,
+      "id": 40279666524419,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1214,
+        "width": 1214,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_03.webp?v=1765798574"
+      },
+      "aspect_ratio": 1,
+      "height": 1214,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fa3240-pecanbrown_03.webp?v=1765798574",
+      "width": 1214
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

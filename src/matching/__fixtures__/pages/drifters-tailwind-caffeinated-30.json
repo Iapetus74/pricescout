@@ -1,0 +1,256 @@
+{
+  "id": 8449598849283,
+  "title": "Tailwind Caffeinated Endurance Fuel - 30 Servings",
+  "handle": "tailwind-endurance-fuel-medium-30-servings",
+  "description": "<h3>Description</h3>\n<p>Caffeinated Tailwind meets all your calorie, hydration, and electrolyte needs just like you’d expect, plus it adds 35mg of caffeine per 100 calories. Caffeine is proven to significantly enhance high-intensity and endurance performance.</p>\n<h3>Features</h3>\n<ul>\n<li>Caffeine boost when you need that extra kick</li>\n<li>Complete calories, electrolytes, and hydration: Ditch the gels, chews, and pills, and go all day with just Tailwind.</li>\n<li>No gut bombs: Stomach problems? You’ll love Tailwind. Unless you enjoy being doubled over, retching.</li>\n<li>Tasty all day: Clean, light flavors taste better the longer you go.</li>\n<li>Hydration pack love: Dissolves on contact and cleans up with a quick rinse. No film, aftertaste or science experiments!</li>\n<li>All natural: Crystal clear with no dyes, preservatives or 4-syllable magical ingredients.</li>\n</ul>",
+  "published_at": "2025-06-23T15:53:33+02:00",
+  "created_at": "2024-04-18T14:51:39+02:00",
+  "vendor": "drifters",
+  "type": "energy gu",
+  "tags": [
+    "not-on-sale"
+  ],
+  "price": 64900,
+  "price_min": 64900,
+  "price_max": 64900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 45183843860739,
+      "title": "Cola - Caffeinated",
+      "option1": "Cola - Caffeinated",
+      "option2": null,
+      "option3": null,
+      "sku": "23502COLA30",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 42671680553219,
+        "product_id": 8449598849283,
+        "position": 1,
+        "created_at": "2024-04-18T14:58:58+02:00",
+        "updated_at": "2024-04-18T14:58:59+02:00",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139",
+        "variant_ids": [
+          45183843860739
+        ]
+      },
+      "available": true,
+      "name": "Tailwind Caffeinated Endurance Fuel - 30 Servings - Cola - Caffeinated",
+      "public_title": "Cola - Caffeinated",
+      "options": [
+        "Cola - Caffeinated"
+      ],
+      "price": 64900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 35323048591619,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 45183843893507,
+      "title": "Raspberry - Caffeinated",
+      "option1": "Raspberry - Caffeinated",
+      "option2": null,
+      "option3": null,
+      "sku": "23502RASB30",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 42671680585987,
+        "product_id": 8449598849283,
+        "position": 2,
+        "created_at": "2024-04-18T14:59:00+02:00",
+        "updated_at": "2024-04-18T14:59:01+02:00",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_raspberry_c52dce69-56f0-477f-8a8a-89c8a250c6bf.png?v=1713445141",
+        "variant_ids": [
+          45183843893507
+        ]
+      },
+      "available": true,
+      "name": "Tailwind Caffeinated Endurance Fuel - 30 Servings - Raspberry - Caffeinated",
+      "public_title": "Raspberry - Caffeinated",
+      "options": [
+        "Raspberry - Caffeinated"
+      ],
+      "price": 64900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 35323049705731,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_raspberry_c52dce69-56f0-477f-8a8a-89c8a250c6bf.png?v=1713445141"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 45183843926275,
+      "title": "Tropical - Caffeinated",
+      "option1": "Tropical - Caffeinated",
+      "option2": null,
+      "option3": null,
+      "sku": "23502TROP30",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 42671680618755,
+        "product_id": 8449598849283,
+        "position": 3,
+        "created_at": "2024-04-18T14:59:02+02:00",
+        "updated_at": "2024-04-18T14:59:04+02:00",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_tropical_12fb55f3-8e7f-4d91-b9d6-140e4a5ef3f2.png?v=1713445144",
+        "variant_ids": [
+          45183843926275
+        ]
+      },
+      "available": true,
+      "name": "Tailwind Caffeinated Endurance Fuel - 30 Servings - Tropical - Caffeinated",
+      "public_title": "Tropical - Caffeinated",
+      "options": [
+        "Tropical - Caffeinated"
+      ],
+      "price": 64900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 35323050295555,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_tropical_12fb55f3-8e7f-4d91-b9d6-140e4a5ef3f2.png?v=1713445144"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_raspberry_c52dce69-56f0-477f-8a8a-89c8a250c6bf.png?v=1713445141",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_tropical_12fb55f3-8e7f-4d91-b9d6-140e4a5ef3f2.png?v=1713445144"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139",
+  "options": [
+    {
+      "name": "Flavour",
+      "position": 1,
+      "values": [
+        "Cola - Caffeinated",
+        "Raspberry - Caffeinated",
+        "Tropical - Caffeinated"
+      ]
+    }
+  ],
+  "url": "/products/tailwind-endurance-fuel-medium-30-servings",
+  "media": [
+    {
+      "alt": null,
+      "id": 35323048591619,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Endurance_Fuel_-_Medium_-_30_Servings_42cc1593-2ea5-4734-bf71-a74043c2a3bc.png?v=1713445139",
+      "width": 1000
+    },
+    {
+      "alt": null,
+      "id": 35323049705731,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_raspberry_c52dce69-56f0-477f-8a8a-89c8a250c6bf.png?v=1713445141"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_raspberry_c52dce69-56f0-477f-8a8a-89c8a250c6bf.png?v=1713445141",
+      "width": 1000
+    },
+    {
+      "alt": null,
+      "id": 35323050295555,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_tropical_12fb55f3-8e7f-4d91-b9d6-140e4a5ef3f2.png?v=1713445144"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/Tailwind_Caffeinated_Endurance_Fuel_-_30_Servings_tropical_12fb55f3-8e7f-4d91-b9d6-140e4a5ef3f2.png?v=1713445144",
+      "width": 1000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

@@ -1,0 +1,287 @@
+{
+  "id": 9608728019191,
+  "title": "Black Diamond Spot 400 Dual Fuel Headlamp",
+  "handle": "black-diamond-spot-400-dual-fuel-headlamp",
+  "description": "<p>Whether you're tackling pre-dawn ascents or navigating trails after dark, the Black Diamond Spot 400 Dual Fuel Headlamp delivers reliable illumination in a lightweight, waterproof design. </p>\n<p>Its 400 lumen output, coupled with PowerTap instant dimming and Brightness Memory, ensures effortless control over lighting levels. The headlamp is powered by either a BD 1500 rechargeable battery or AAA batteries, offering maximum flexibility for long expeditions. </p>\n<p>With red night vision, proximity and distance modes, and a durable low-profile build, the Spot 400 is engineered for climbers, hikers, and outdoor enthusiasts who demand performance in all conditions.</p>\n<p>Light Values:</p>\n<p><strong>Power Mode</strong><br>Light output: 400 lm<br>Light distance: 100 m<br>Run time: 2.5/4 hours</p>\n<p><strong>Medium Mode</strong><br>Light output: 200 lm<br>Light distance: 60 m<br>Run time: 5/8 hours</p>\n<p><strong>Low Power Mode</strong><br>Light output: 6 lm<br>Light distance: 12 m<br>Run time: 200/225 hours</p>",
+  "published_at": "2025-02-18T11:40:48+02:00",
+  "created_at": "2025-02-14T12:01:26+02:00",
+  "vendor": "Black Diamond",
+  "type": "Headlamp",
+  "tags": [
+    "Headlamps",
+    "Lighting"
+  ],
+  "price": 109900,
+  "price_min": 109900,
+  "price_max": 109900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 49429013266679,
+      "title": "Graphite",
+      "option1": "Graphite",
+      "option2": null,
+      "option3": null,
+      "sku": "BD_LTBD06.000",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 59554107457783,
+        "product_id": 9608728019191,
+        "position": 3,
+        "created_at": "2025-02-14T15:22:28+02:00",
+        "updated_at": "2025-02-14T15:22:42+02:00",
+        "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Graphite, front view with woven strap and SPOT marking visible",
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_02.jpg?v=1739539362",
+        "variant_ids": [
+          49429013266679
+        ]
+      },
+      "available": false,
+      "name": "Black Diamond Spot 400 Dual Fuel Headlamp - Graphite",
+      "public_title": "Graphite",
+      "options": [
+        "Graphite"
+      ],
+      "price": 109900,
+      "weight": 120,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "793661519744",
+      "featured_media": {
+        "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Graphite, front view with woven strap and SPOT marking visible",
+        "id": 51948367380727,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_02.jpg?v=1739539362"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 49429013299447,
+      "title": "Azul Blue",
+      "option1": "Azul Blue",
+      "option2": null,
+      "option3": null,
+      "sku": "BD_LTBD06.004",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 59554107293943,
+        "product_id": 9608728019191,
+        "position": 4,
+        "created_at": "2025-02-14T15:22:28+02:00",
+        "updated_at": "2025-02-14T15:22:42+02:00",
+        "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Azul Blue, front view showing the SPOT lettering on the emblem",
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_02.jpg?v=1739539362",
+        "variant_ids": [
+          49429013299447
+        ]
+      },
+      "available": true,
+      "name": "Black Diamond Spot 400 Dual Fuel Headlamp - Azul Blue",
+      "public_title": "Azul Blue",
+      "options": [
+        "Azul Blue"
+      ],
+      "price": 109900,
+      "weight": 120,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "793661519768",
+      "featured_media": {
+        "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Azul Blue, front view showing the SPOT lettering on the emblem",
+        "id": 51948367511799,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1000,
+          "width": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_02.jpg?v=1739539362"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_01.jpg?v=1739539350",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_01.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_02.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_02.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_03.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_03.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_04.jpg?v=1739539362",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_04.jpg?v=1739539350"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_01.jpg?v=1739539350",
+  "options": [
+    {
+      "name": "Colour",
+      "position": 1,
+      "values": [
+        "Graphite",
+        "Azul Blue"
+      ]
+    }
+  ],
+  "url": "/products/black-diamond-spot-400-dual-fuel-headlamp",
+  "media": [
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel headlamp in black and charcoal, front view with lenses and buttons visible",
+      "id": 51948367347959,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_01.jpg?v=1739539350"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_01.jpg?v=1739539350",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in black and blue, facing forward with its strap in an open loop",
+      "id": 51948367479031,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_01.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_01.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Graphite, front view with woven strap and SPOT marking visible",
+      "id": 51948367380727,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_02.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_02.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in Azul Blue, front view showing the SPOT lettering on the emblem",
+      "id": 51948367511799,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_02.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_02.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in black, front view with its strap stretched out",
+      "id": 51948367413495,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_03.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_03.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in blue and black, front view with strap extending out both sides",
+      "id": 51948367544567,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_03.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_03.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in black, close-up of housing marked Dual Fuel and part of the strap logo",
+      "id": 51948367446263,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_04.jpg?v=1739539362"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_0004_Spot400Headlamp_Graphite_04.jpg?v=1739539362",
+      "width": 1000
+    },
+    {
+      "alt": "Black Diamond Spot 400 Dual Fuel Headlamp in black and blue, side close-up of housing and elastic strap",
+      "id": 51948367577335,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1000,
+        "width": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_04.jpg?v=1739539350"
+      },
+      "aspect_ratio": 1,
+      "height": 1000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/620672_4004_Spot400Headlamp_Azul_04.jpg?v=1739539350",
+      "width": 1000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

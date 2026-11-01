@@ -1,0 +1,518 @@
+{
+  "id": 8246722953279,
+  "title": "First Ascent Stretch Fit Hiking Pants",
+  "handle": "fa-pants-stretchfit-fa2035",
+  "description": "<p><meta charset=\"utf-8\"><span>The Men's Stretch Fit Hiking Pants are made to scramble and climb up mountains without limiting your movement. Engineered to be durable and comfortable, these hiking pants will keep you adventuring for longer. Designed with mechanical Stretch Fit fabric to stretch in any direction, these pants will have you moving freely, no matter the size of the mountain.</span></p>\n<ul>\n<li>Stretch Fit fabric for complete freedom of movement during physical activity</li>\n<li>Articulated knees for improved comfort on the go</li>\n<li>UPF 30 sun protection</li>\n<li>Four reinforced pockets for added storage of essentials</li>\n<li>Adjustable elasticated waistband for an improved fit</li>\n<li>Inner leg gusset for added range of movement for your legs</li>\n<li>FA2035</li>\n</ul>",
+  "published_at": "2026-07-08T08:14:48+02:00",
+  "created_at": "2026-07-08T08:05:01+02:00",
+  "vendor": "First Ascent",
+  "type": "mens clothing",
+  "tags": [
+    "First-Ascent-Men",
+    "Mens Pants"
+  ],
+  "price": 159900,
+  "price_min": 159900,
+  "price_max": 159900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 43502563622975,
+      "title": "S / Black",
+      "option1": "S",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2607000246872",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37199214215231,
+        "product_id": 8246722953279,
+        "position": 1,
+        "created_at": "2026-07-08T08:13:24+02:00",
+        "updated_at": "2026-07-08T09:39:12+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+        "variant_ids": [
+          43502563622975,
+          43502563655743,
+          43502563688511,
+          43502563721279,
+          43502563754047
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Stretch Fit Hiking Pants - S / Black",
+      "public_title": "S / Black",
+      "options": [
+        "S",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2607000246872",
+      "featured_media": {
+        "alt": null,
+        "id": 28987660828735,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43502563655743,
+      "title": "M / Black",
+      "option1": "M",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2607000246873",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37199214215231,
+        "product_id": 8246722953279,
+        "position": 1,
+        "created_at": "2026-07-08T08:13:24+02:00",
+        "updated_at": "2026-07-08T09:39:12+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+        "variant_ids": [
+          43502563622975,
+          43502563655743,
+          43502563688511,
+          43502563721279,
+          43502563754047
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Stretch Fit Hiking Pants - M / Black",
+      "public_title": "M / Black",
+      "options": [
+        "M",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2607000246873",
+      "featured_media": {
+        "alt": null,
+        "id": 28987660828735,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43502563688511,
+      "title": "L / Black",
+      "option1": "L",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2607000246874",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37199214215231,
+        "product_id": 8246722953279,
+        "position": 1,
+        "created_at": "2026-07-08T08:13:24+02:00",
+        "updated_at": "2026-07-08T09:39:12+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+        "variant_ids": [
+          43502563622975,
+          43502563655743,
+          43502563688511,
+          43502563721279,
+          43502563754047
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Stretch Fit Hiking Pants - L / Black",
+      "public_title": "L / Black",
+      "options": [
+        "L",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2607000246874",
+      "featured_media": {
+        "alt": null,
+        "id": 28987660828735,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43502563721279,
+      "title": "XL / Black",
+      "option1": "XL",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2607000246875",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37199214215231,
+        "product_id": 8246722953279,
+        "position": 1,
+        "created_at": "2026-07-08T08:13:24+02:00",
+        "updated_at": "2026-07-08T09:39:12+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+        "variant_ids": [
+          43502563622975,
+          43502563655743,
+          43502563688511,
+          43502563721279,
+          43502563754047
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Stretch Fit Hiking Pants - XL / Black",
+      "public_title": "XL / Black",
+      "options": [
+        "XL",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2607000246875",
+      "featured_media": {
+        "alt": null,
+        "id": 28987660828735,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43502563754047,
+      "title": "2XL / Black",
+      "option1": "2XL",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2607000246876",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37199214215231,
+        "product_id": 8246722953279,
+        "position": 1,
+        "created_at": "2026-07-08T08:13:24+02:00",
+        "updated_at": "2026-07-08T09:39:12+02:00",
+        "alt": null,
+        "width": 1500,
+        "height": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+        "variant_ids": [
+          43502563622975,
+          43502563655743,
+          43502563688511,
+          43502563721279,
+          43502563754047
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Stretch Fit Hiking Pants - 2XL / Black",
+      "public_title": "2XL / Black",
+      "options": [
+        "2XL",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2607000246876",
+      "featured_media": {
+        "alt": null,
+        "id": 28987660828735,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1500,
+          "width": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/cef902f369b07ea244986974f1c97780_1_3.webp?v=1783496354",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/1621551f67151677dcb04d239d7df647_1_3.jpg?v=1783491205",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/59850e79140f4c43acdac45bc4ca435d_1_3.jpg?v=1783491206",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/aeefc686917311557f81d4c6dbc6e62f_1_4.webp?v=1783496356",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fcd24a4011620f8cde4593f40ddce345_1_3.webp?v=1783496358",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/d4e499f78f000d994cd2805fc939f690_1_3.jpg?v=1783491205",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/920ea8e4abb429945ca21a5fc9d2e9d2_1_3.webp?v=1783496360",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/a6e3704c37b550ca8c03d2953cdbfd59_1_3.webp?v=1783496361",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/fac1480fce7206b9e7d9d636fcc9fa29_1_3.webp?v=1783496363"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    {
+      "name": "Color",
+      "position": 2,
+      "values": [
+        "Black"
+      ]
+    }
+  ],
+  "url": "/products/fa-pants-stretchfit-fa2035",
+  "media": [
+    {
+      "alt": null,
+      "id": 28987660828735,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/79779ed000df9876027b3b19e8ce362e_1_3.webp?v=1783496352",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 28987660795967,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/cef902f369b07ea244986974f1c97780_1_3.webp?v=1783496354"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/cef902f369b07ea244986974f1c97780_1_3.webp?v=1783496354",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 28987660730431,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/1621551f67151677dcb04d239d7df647_1_3.jpg?v=1783491205"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/1621551f67151677dcb04d239d7df647_1_3.jpg?v=1783491205",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 28987660763199,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/59850e79140f4c43acdac45bc4ca435d_1_3.jpg?v=1783491206"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/59850e79140f4c43acdac45bc4ca435d_1_3.jpg?v=1783491206",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 28987661025343,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/aeefc686917311557f81d4c6dbc6e62f_1_4.webp?v=1783496356"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/aeefc686917311557f81d4c6dbc6e62f_1_4.webp?v=1783496356",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 28987660927039,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fcd24a4011620f8cde4593f40ddce345_1_3.webp?v=1783496358"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fcd24a4011620f8cde4593f40ddce345_1_3.webp?v=1783496358",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 28987660959807,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/d4e499f78f000d994cd2805fc939f690_1_3.jpg?v=1783491205"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/d4e499f78f000d994cd2805fc939f690_1_3.jpg?v=1783491205",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 28987660992575,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/920ea8e4abb429945ca21a5fc9d2e9d2_1_3.webp?v=1783496360"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/920ea8e4abb429945ca21a5fc9d2e9d2_1_3.webp?v=1783496360",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 28987660861503,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/a6e3704c37b550ca8c03d2953cdbfd59_1_3.webp?v=1783496361"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/a6e3704c37b550ca8c03d2953cdbfd59_1_3.webp?v=1783496361",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 28987660894271,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fac1480fce7206b9e7d9d636fcc9fa29_1_3.webp?v=1783496363"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/fac1480fce7206b9e7d9d636fcc9fa29_1_3.webp?v=1783496363",
+      "width": 1920
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

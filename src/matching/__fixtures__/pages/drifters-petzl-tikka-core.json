@@ -1,0 +1,595 @@
+{
+  "id": 8045218103555,
+  "title": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen",
+  "handle": "petzl-tikka-core-rechargeable-headlamp-450-lumen",
+  "description": "<h3>Description</h3>\n<div class=\"productDescription\">\n<div class=\"productCaracteristiquesPosition inlineblock\">\n<p>The lamp that started it all! Launched 20 years ago as Petzl’s first LED lamp, the TIKKA® headlamp casts 350 lumens of brightness. It's a necessity when it comes to night hikes, overnight camping, simply reading in your tent, or traveling. Easy to use with a single button, it’s also compact and slides into your jacket pocket or backpack. Its phosphorescent reflector makes it easy to find in the dark and red lighting keeps you from blinding those around you. TIKKA® comes with 3 standard batteries and is also compatible with the CORE rechargeable battery, thanks to its HYBRID CONCEPT design.</p>\n</div>\n</div>\n<h3>Features</h3>\n<div class=\"list\">\n<ul>\n<li>Compact and lightweight: only 84 g<br>\n</li>\n<li>Homogeneous and comfortable proximity lighting:<br>- Wide, uniform beam so you can comfortably see up-close or at your feet<br>- Three white lighting levels: MAX BURN TIME, STANDARD (better power/burn time balance) and MAX POWER<br>- Continuous red lighting to preserve night vision without blinding those around you, and strobe to signal your location, especially in emergency situations<br>\n</li>\n<li>Easy to use:<br>- Single button for quick and easy selection of brightness or light color<br>- Plate allows you to easily orient the lamp in desired direction<br>- Battery charge indicator shows the battery level each time lamp is turned on or off<br>- Rechargeable via the type B micro USB port<br>- Useful phosphorescent reflector for locating the lamp in the dark<br>- LOCK function prevents the lamp from turning on during transit or storage<br>- Detachable, washable headband that is symmetrical for easy adjustment<br>- Reflective headband helps you remain visible, even in low light<br>- Storage pouch allows it to be transformed into a lantern<br>- HYBRID CONCEPT design: TIKKA® CORE comes with the CORE rechargeable battery and also works with three AAA/LR03 batteries (not included); it automatically detects the energy source and adjusts lighting performance<br>- Compatible with the HELMET ADAPT and BIKE ADAPT 2 mounts, so you can fix the lamp on a variety of helmet types or a bicycle (1)<br><br>(1) WARNING: This lamp is not certified for road use: when used in an area governed by traffic regulations, Petzl lights are not a substitute for required standardized lights.</li>\n</ul>\n</div>\n<h3>Specifications</h3>\n<ul>\n<li>Lumens: Up to 450 (ANSI/PLATO FL 1)</li>\n<li>Weight: 84</li>\n<li>Battery: 1250 mAh rechargeable battery (included)</li>\n<li>Beam pattern: Flood</li>\n<li>Charging time: 3 hours<br>\n</li>\n<li>Watertightness: IPX4 (weather-resistant)</li>\n</ul>\n<p><iframe height=\"360\" width=\"640\" title=\"vimeo-player\" src=\"https://player.vimeo.com/video/599385237?h=d93700c760\"></iframe></p>",
+  "published_at": "2025-12-03T10:52:25+02:00",
+  "created_at": "2023-04-13T11:53:08+02:00",
+  "vendor": "drifters",
+  "type": "headlamp",
+  "tags": [
+    "compact headlamp",
+    "head lights",
+    "headlamp",
+    "headlight",
+    "headlights",
+    "headtorch",
+    "hiking headlamp",
+    "hiking headtorch",
+    "lightweight headlamp",
+    "mountaineering headlamp",
+    "mountaineering headtorch",
+    "not-on-sale",
+    "Petzl Headlamps",
+    "rechargeable  torch",
+    "rechargeable headlamp",
+    "rechargeable headtorch",
+    "running headlamp",
+    "running headtorch"
+  ],
+  "price": 134900,
+  "price_min": 134900,
+  "price_max": 134900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 43869763600643,
+      "title": "Grey/Yellow",
+      "option1": "Grey/Yellow",
+      "option2": null,
+      "option3": null,
+      "sku": "35326YELL450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40509576216835,
+        "product_id": 8045218103555,
+        "position": 1,
+        "created_at": "2023-04-13T11:57:07+02:00",
+        "updated_at": "2023-04-13T11:59:19+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959",
+        "variant_ids": [
+          43869763600643
+        ]
+      },
+      "available": false,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Grey/Yellow",
+      "public_title": "Grey/Yellow",
+      "options": [
+        "Grey/Yellow"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 33108086784259,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1200,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43869788143875,
+      "title": "Grey",
+      "option1": "Grey",
+      "option2": null,
+      "option3": null,
+      "sku": "35326GRY450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40509576151299,
+        "product_id": 8045218103555,
+        "position": 2,
+        "created_at": "2023-04-13T11:57:06+02:00",
+        "updated_at": "2023-04-13T11:59:19+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen4.jpg?v=1681379959",
+        "variant_ids": [
+          43869788143875
+        ]
+      },
+      "available": false,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Grey",
+      "public_title": "Grey",
+      "options": [
+        "Grey"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 33108086653187,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1200,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen4.jpg?v=1681379959"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43869788176643,
+      "title": "Green",
+      "option1": "Green",
+      "option2": null,
+      "option3": null,
+      "sku": "35326GRN450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40509576118531,
+        "product_id": 8045218103555,
+        "position": 3,
+        "created_at": "2023-04-13T11:57:06+02:00",
+        "updated_at": "2023-04-13T11:59:19+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen6.jpg?v=1681379959",
+        "variant_ids": [
+          43869788176643
+        ]
+      },
+      "available": true,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Green",
+      "public_title": "Green",
+      "options": [
+        "Green"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 33108086718723,
+        "position": 3,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1200,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen6.jpg?v=1681379959"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 43869788209411,
+      "title": "Blue",
+      "option1": "Blue",
+      "option2": null,
+      "option3": null,
+      "sku": "35326BLU450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 40509576085763,
+        "product_id": 8045218103555,
+        "position": 4,
+        "created_at": "2023-04-13T11:57:06+02:00",
+        "updated_at": "2023-04-13T11:59:19+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen5.jpg?v=1681379959",
+        "variant_ids": [
+          43869788209411
+        ]
+      },
+      "available": true,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Blue",
+      "public_title": "Blue",
+      "options": [
+        "Blue"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 33108086685955,
+        "position": 4,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1200,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen5.jpg?v=1681379959"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47501203112195,
+      "title": "Black",
+      "option1": "Black",
+      "option2": null,
+      "option3": null,
+      "sku": "35326BLK450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49321753051395,
+        "product_id": 8045218103555,
+        "position": 5,
+        "created_at": "2025-12-03T10:53:23+02:00",
+        "updated_at": "2025-12-03T12:01:09+02:00",
+        "alt": null,
+        "width": 500,
+        "height": 210,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/6036962_BK000__93129.jpg?v=1764756069",
+        "variant_ids": [
+          47501203112195
+        ]
+      },
+      "available": false,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Black",
+      "public_title": "Black",
+      "options": [
+        "Black"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40176192192771,
+        "position": 5,
+        "preview_image": {
+          "aspect_ratio": 2.381,
+          "height": 210,
+          "width": 500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/6036962_BK000__93129.jpg?v=1764756069"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47501203144963,
+      "title": "Brown",
+      "option1": "Brown",
+      "option2": null,
+      "option3": null,
+      "sku": "35326BRN450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49321555099907,
+        "product_id": 8045218103555,
+        "position": 6,
+        "created_at": "2025-12-03T10:34:53+02:00",
+        "updated_at": "2025-12-03T10:53:34+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 861,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB02-TIKKA-CORE_LowRes.jpg?v=1764752014",
+        "variant_ids": [
+          47501203144963
+        ]
+      },
+      "available": false,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - Brown",
+      "public_title": "Brown",
+      "options": [
+        "Brown"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40175995912451,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1.394,
+          "height": 861,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB02-TIKKA-CORE_LowRes.jpg?v=1764752014"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47501203177731,
+      "title": "White",
+      "option1": "White",
+      "option2": null,
+      "option3": null,
+      "sku": "35326WHIT450",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 49321552806147,
+        "product_id": 8045218103555,
+        "position": 7,
+        "created_at": "2025-12-03T10:34:08+02:00",
+        "updated_at": "2025-12-03T10:53:34+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 861,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB03-TIKKA-CORE_LowRes.jpg?v=1764752014",
+        "variant_ids": [
+          47501203177731
+        ]
+      },
+      "available": true,
+      "name": "Petzl Tikka Core Rechargeable Headlamp 450 Lumen - White",
+      "public_title": "White",
+      "options": [
+        "White"
+      ],
+      "price": 134900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 40175993684227,
+        "position": 7,
+        "preview_image": {
+          "aspect_ratio": 1.394,
+          "height": 861,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB03-TIKKA-CORE_LowRes.jpg?v=1764752014"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen4.jpg?v=1681379959",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen6.jpg?v=1681379959",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen5.jpg?v=1681379959",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/6036962_BK000__93129.jpg?v=1764756069",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB02-TIKKA-CORE_LowRes.jpg?v=1764752014",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB03-TIKKA-CORE_LowRes.jpg?v=1764752014",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen3.jpg?v=1764752014",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB01-TIKKA-CORE-focus-4_LowRes.jpg?v=1764752014"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959",
+  "options": [
+    {
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Grey/Yellow",
+        "Grey",
+        "Green",
+        "Blue",
+        "Black",
+        "Brown",
+        "White"
+      ]
+    }
+  ],
+  "url": "/products/petzl-tikka-core-rechargeable-headlamp-450-lumen",
+  "media": [
+    {
+      "alt": null,
+      "id": 33108086784259,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen.jpg?v=1681379959",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 33108086653187,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen4.jpg?v=1681379959"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen4.jpg?v=1681379959",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 33108086718723,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen6.jpg?v=1681379959"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen6.jpg?v=1681379959",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 33108086685955,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen5.jpg?v=1681379959"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen5.jpg?v=1681379959",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 40176192192771,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 2.381,
+        "height": 210,
+        "width": 500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/6036962_BK000__93129.jpg?v=1764756069"
+      },
+      "aspect_ratio": 2.381,
+      "height": 210,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/6036962_BK000__93129.jpg?v=1764756069",
+      "width": 500
+    },
+    {
+      "alt": null,
+      "id": 40175995912451,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1.394,
+        "height": 861,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB02-TIKKA-CORE_LowRes.jpg?v=1764752014"
+      },
+      "aspect_ratio": 1.394,
+      "height": 861,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB02-TIKKA-CORE_LowRes.jpg?v=1764752014",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 40175993684227,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1.394,
+        "height": 861,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB03-TIKKA-CORE_LowRes.jpg?v=1764752014"
+      },
+      "aspect_ratio": 1.394,
+      "height": 861,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB03-TIKKA-CORE_LowRes.jpg?v=1764752014",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 33108086620419,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen3.jpg?v=1764752014"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/PetzlTikkaCoreRechargeableHeadlamp450Lumen3.jpg?v=1764752014",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 40176017309955,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1.394,
+        "height": 861,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB01-TIKKA-CORE-focus-4_LowRes.jpg?v=1764752014"
+      },
+      "aspect_ratio": 1.394,
+      "height": 861,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/E067AB01-TIKKA-CORE-focus-4_LowRes.jpg?v=1764752014",
+      "width": 1200
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

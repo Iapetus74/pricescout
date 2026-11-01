@@ -1,0 +1,187 @@
+{
+  "id": 7640429330691,
+  "title": "Stanley Legendary Classic Bottle Insulated Flask 1.4L",
+  "handle": "stanley-legendary-classic-bottle-insulated-flask-1-4l",
+  "description": "<h3></h3>\n<h3>Description</h3>\n<p>Campsite, job site or even in the RV—the iconic style and rugged durability of this bottle means it’s made to go anywhere. The double-wall vacuum insulation keeps all your drinks at the ideal temperature and the twist-and-pour stopper allows for a smoother pour. The collapsible handle is made for easy grab-and-go and the insulated lid doubles as a cup for drinking.</p>\n<h3>Features</h3>\n<ul>\n<li>Classic Series</li>\n<li>18/8 stainless steel, BPA-free</li>\n<li>Double-wall vacuum insulation</li>\n<li>Leakproof + packable</li>\n<li>Insulated lid doubles as cup</li>\n<li>Dishwasher safe</li>\n</ul>\n<h3>Specifications</h3>\n<ul>\n<li><span>Capacity: 1.4L</span></li>\n<li><span>Weight: 907g<br></span></li>\n<li><span>18/8 stainless steel</span></li>\n</ul>",
+  "published_at": "2022-09-22T12:10:07+02:00",
+  "created_at": "2022-03-29T11:53:40+02:00",
+  "vendor": "drifters",
+  "type": "flask",
+  "tags": [
+    "insulated flask",
+    "not-on-sale",
+    "stainless steel flask",
+    "travel flask"
+  ],
+  "price": 159900,
+  "price_min": 159900,
+  "price_max": 159900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 42631494533379,
+      "title": "Green",
+      "option1": "Green",
+      "option2": null,
+      "option3": null,
+      "sku": "11215GREE1.4L",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37408264126723,
+        "product_id": 7640429330691,
+        "position": 2,
+        "created_at": "2022-03-29T11:57:51+02:00",
+        "updated_at": "2022-03-29T11:57:52+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L2.png?v=1648547872",
+        "variant_ids": [
+          42631494533379
+        ]
+      },
+      "available": true,
+      "name": "Stanley Legendary Classic Bottle Insulated Flask 1.4L - Green",
+      "public_title": "Green",
+      "options": [
+        "Green"
+      ],
+      "price": 159900,
+      "weight": 2000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 29972446445827,
+        "position": 2,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L2.png?v=1648547872"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 42631494566147,
+      "title": "Black",
+      "option1": "Black",
+      "option2": null,
+      "option3": null,
+      "sku": "11215MBLK1.4L",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 37408264093955,
+        "product_id": 7640429330691,
+        "position": 1,
+        "created_at": "2022-03-29T11:57:51+02:00",
+        "updated_at": "2022-03-29T11:57:52+02:00",
+        "alt": null,
+        "width": 1024,
+        "height": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872",
+        "variant_ids": [
+          42631494566147
+        ]
+      },
+      "available": true,
+      "name": "Stanley Legendary Classic Bottle Insulated Flask 1.4L - Black",
+      "public_title": "Black",
+      "options": [
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 2000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 29972446413059,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1024,
+          "width": 1024,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L2.png?v=1648547872"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872",
+  "options": [
+    {
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Green",
+        "Black"
+      ]
+    }
+  ],
+  "url": "/products/stanley-legendary-classic-bottle-insulated-flask-1-4l",
+  "media": [
+    {
+      "alt": null,
+      "id": 29972446413059,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L.png?v=1648547872",
+      "width": 1024
+    },
+    {
+      "alt": null,
+      "id": 29972446445827,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1024,
+        "width": 1024,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L2.png?v=1648547872"
+      },
+      "aspect_ratio": 1,
+      "height": 1024,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/StanleyLegendaryClassicBottleInsulatedFlask1.4L2.png?v=1648547872",
+      "width": 1024
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

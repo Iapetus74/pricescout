@@ -1,0 +1,337 @@
+{
+  "id": 9650786337015,
+  "title": "Jetboil Zip 2.0 800ml Gas Stove",
+  "handle": "jetboil-zip-2-0-800ml-gas-stove",
+  "description": "<p>A tried-and-true classic, now upgraded, the Zip 2.0 personal cooking system is a reliable, no-frills option for backpackers who want a stowable, efficient, and affordable camping stove - now with an easily adjusted burner, textured grip zone and improved pot to burner locking. </p>\n<p>Powered by FluxRing technology, the Zip's easy-to-use cooking system boils water in just over two minutes with half the fuel consumption of traditional systems. Jetboil's 800ml FluxRing cooking cup with insulating cozy makes boiling water and keeping it warm a breeze. The bottom cover doubles as a measuring cup and a bowl, saving space in your pack for clothes, gear, and food. </p>\n<p>Includes fuel canister stabiliser and drink-through lid with pour spout and strainer; easy to pack and carry at only 324g. Compatible Jetboil accessories, such as a coffee press and pot support 2.0 make this a necessity for your next backpacking adventure.</p>",
+  "published_at": "2025-05-06T09:54:13+02:00",
+  "created_at": "2025-04-24T15:12:25+02:00",
+  "vendor": "Jetboil",
+  "type": "Gas Stove",
+  "tags": [
+    "Hiking Cookware",
+    "Stoves & Fuel"
+  ],
+  "price": 289900,
+  "price_min": 289900,
+  "price_max": 289900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 49621137162487,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JB_ZPCB2-EU",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "Jetboil Zip 2.0 800ml Gas Stove",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 289900,
+      "weight": 542,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "850019774719",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel.jpg?v=1746446333",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_5_-EDITED.webp?v=1746446333",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel_Alt.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box2.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_Alt.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel_Alt.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_9_-EDITED.webp?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed_Alt.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed_Alt.jpg?v=1746619066",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed.jpg?v=1746619066"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel.jpg?v=1746446333",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/jetboil-zip-2-0-800ml-gas-stove",
+  "media": [
+    {
+      "alt": "Jetboil Zip 2.0 gas stove assembled with black cook cup, burner, canister and orange legs, unlit, shown upright",
+      "id": 52311604625655,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel.jpg?v=1746446333"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel.jpg?v=1746446333",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove being set up on rocky ground at a campsite, with hands holding an igniter above the burner",
+      "id": 52311604560119,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_5_-EDITED.webp?v=1746446333"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_5_-EDITED.webp?v=1746446333",
+      "width": 1200
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove assembled, with black cook cup above a grey fuel canister and orange legs, unlit",
+      "id": 52311604592887,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel_Alt.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Assembled_TransparentFuel_Alt.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove in its orange and brown retail box, with the cook cup visible through the window",
+      "id": 52311604658423,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove in its orange and black retail box, turned to show the front and side panels",
+      "id": 52311604691191,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box2.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Box2.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove with fuel canister and orange stabilising legs, unlit",
+      "id": 52311606657271,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_Alt.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_Alt.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove burner mounted on a grey and orange fuel canister, with three orange legs extended, unlit",
+      "id": 52311606690039,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel_Alt.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel_Alt.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove with fuel canister attached, unlit",
+      "id": 52311606722807,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Assembled_TransparentFuel.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove on a fuel canister outdoors, with hands turning the control knob",
+      "id": 52311606624503,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_9_-EDITED.webp?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/JB_Vesta_Stills_AZ_CalebAdcock_2024_9_-EDITED.webp?v=1746619066",
+      "width": 1200
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove in black and orange, unlit",
+      "id": 52311606755575,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed_Alt.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed_Alt.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove in black and orange, front view, unlit",
+      "id": 52311606788343,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_Burner_Packed.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove in black, upright, showing its lid and hanging strap",
+      "id": 52311606821111,
+      "position": 12,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed_Alt.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed_Alt.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Black Jetboil Zip 2.0 gas stove upright, showing its insulated cup sleeve and side carry loop",
+      "id": 52311606853879,
+      "position": 13,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed.jpg?v=1746619066"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Jetboil_ZIPVesta_ZPCB2-Carbon_Packed.jpg?v=1746619066",
+      "width": 2000
+    },
+    {
+      "alt": "Jetboil Zip 2.0 gas stove unpacked from its cook cup at a campsite, with burner and stabiliser legs laid out",
+      "id": 52322266808567,
+      "position": 14,
+      "preview_image": {
+        "aspect_ratio": 1.778,
+        "height": 1080,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/preview_images/1bc32ceebe7f4e508ac67c511df05f4d.thumbnail.0000000000.jpg?v=1746612545"
+      },
+      "aspect_ratio": 1.775,
+      "duration": 101000,
+      "media_type": "video",
+      "sources": [
+        {
+          "format": "mp4",
+          "height": 480,
+          "mime_type": "video/mp4",
+          "url": "https://cdn.shopify.com/videos/c/vp/1bc32ceebe7f4e508ac67c511df05f4d/1bc32ceebe7f4e508ac67c511df05f4d.SD-480p-0.9Mbps-47148870.mp4",
+          "width": 852
+        },
+        {
+          "format": "mp4",
+          "height": 1080,
+          "mime_type": "video/mp4",
+          "url": "https://cdn.shopify.com/videos/c/vp/1bc32ceebe7f4e508ac67c511df05f4d/1bc32ceebe7f4e508ac67c511df05f4d.HD-1080p-2.5Mbps-47148870.mp4",
+          "width": 1920
+        },
+        {
+          "format": "mp4",
+          "height": 720,
+          "mime_type": "video/mp4",
+          "url": "https://cdn.shopify.com/videos/c/vp/1bc32ceebe7f4e508ac67c511df05f4d/1bc32ceebe7f4e508ac67c511df05f4d.HD-720p-1.6Mbps-47148870.mp4",
+          "width": 1280
+        },
+        {
+          "format": "m3u8",
+          "height": 1080,
+          "mime_type": "application/x-mpegURL",
+          "url": "https://cdn.shopify.com/videos/c/vp/1bc32ceebe7f4e508ac67c511df05f4d/1bc32ceebe7f4e508ac67c511df05f4d.m3u8",
+          "width": 1920
+        }
+      ]
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

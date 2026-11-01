@@ -1,0 +1,180 @@
+{
+  "id": 1875233243202,
+  "title": "First Ascent Helio",
+  "handle": "first-ascent-helio-2",
+  "description": "<h3><span>Description</span></h3>\n<p>The Helio two person, 3 season tent is ultralight and built-to-last. Being the most compact tent in the First Ascent range, it is specifically designed to fit in the lower compartment of a hiking pack or in a top case of an overland motorbike. Weighing only 2.45 kg, this tent is highly packable and easily transportable for couples in search of adventure. A single pole construction allows for a hassle-free and quick setup, while offering sturdy protection from adverse weather conditions. Reflective guy ropes are added for extra visibility at night. Enjoy a dry, protected and restful night's sleep in this 3 season hiking tent.</p>\n<h3 class=\"heading\">Features</h3>\n<div class=\"content-wrapper\">\n<div class=\"std\" itemprop=\"description\">\n<ul>\n<li>Flysheet: 210T PU Polyester – Waterhead: 3000mm</li>\n<li>Inner: 68D 210T Breathable Polyester</li>\n<li>Mesh: Fine B3 mesh</li>\n<li>Door: mesh with window</li>\n<li>Floor: 150D PU Oxford Polyester - Waterhead: 5000mm</li>\n<li>Pole: 8.5mm Aluminium dual hub pole</li>\n<li>Pegs: 16mm Aluminium with reflective cord</li>\n<li>Guy ropes: Reflective ropes</li>\n<li>Includes Repair Kit</li>\n<li>Enlarged awning to store gear and shelter from wind</li>\n</ul>\n<h3 class=\"heading\">Specifications</h3>\n<div class=\"content-wrapper\">\n<div>\n<ul>\n<li>Weight (packed): 2.45 kg</li>\n<li>Packed Size: 39x15 cm</li>\n<li>Doors: 1</li>\n<li>Flysheet Fabric: 210T PU Polyester </li>\n<li>Floor Fabric: 150D PU Oxford Polyester</li>\n<li>Flysheet Water Column: 3000mm</li>\n<li>Floor Water Column: 5000mm</li>\n<li>Poles: 8.5mm Aluminium dual hub pole</li>\n<li>Dimensions<span>: </span>(80+210) *139/119*110cm</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "published_at": "2019-05-13T13:08:45+02:00",
+  "created_at": "2019-05-13T13:16:16+02:00",
+  "vendor": "drifters",
+  "type": "tent",
+  "tags": [
+    "2 man tent",
+    "2 person tent",
+    "3 season tent",
+    "lightweight tent",
+    "not-on-sale",
+    "three season tent",
+    "two man tent",
+    "two person tent"
+  ],
+  "price": 349900,
+  "price_min": 349900,
+  "price_max": 349900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 15497832431682,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "6000430124011",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "First Ascent Helio",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 349900,
+      "weight": 3000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo21.jpg?v=1561802403",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo24.jpg?v=1561802403",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo22.jpg?v=1561802403",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo23.jpg?v=1561802403",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo25.jpg?v=1561802403",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo26.jpg?v=1561802403"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/products/helo21.jpg?v=1561802403",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-helio-2",
+  "media": [
+    {
+      "alt": null,
+      "id": 2941578018952,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo21.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo21.jpg?v=1561802403",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 2941578051720,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo24.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo24.jpg?v=1561802403",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 2941578281096,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo22.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo22.jpg?v=1561802403",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 2941578444936,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo23.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo23.jpg?v=1561802403",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 2941578510472,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo25.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo25.jpg?v=1561802403",
+      "width": 1500
+    },
+    {
+      "alt": null,
+      "id": 2941578117256,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1500,
+        "width": 1500,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo26.jpg?v=1561802403"
+      },
+      "aspect_ratio": 1,
+      "height": 1500,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/helo26.jpg?v=1561802403",
+      "width": 1500
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

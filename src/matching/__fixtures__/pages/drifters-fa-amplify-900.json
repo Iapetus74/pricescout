@@ -1,0 +1,429 @@
+{
+  "id": 5413188173977,
+  "title": "First Ascent Amplify 900 Sleeping Bag",
+  "handle": "first-ascent-amplify-900-sleeping-bag",
+  "description": "<h3>Description</h3>\n<p><span>When space and weight are concerns, the Amplify 900 is the answer. Ideal for summer or spring backpacking and hiking with new Amplify (expand) technology in knee and hip area to minimize heat loss. This is a great three season sleeping bag up to 2°C. It also features a reflective zip puller and internal pocket for valuables. </span></p>\n<h3>Features<br>\n</h3>\n<ul>\n<li>Elastic(Amplify) stitching to minimize heat loss around hips and knees but gives you room when you need it</li>\n<li>2-way zipper with draft baffle</li>\n<li>Illuminate layer sandwiched between the inner lining and outer layers - a durable silver coated fabric that aids the bag to retain body heat</li>\n<li>Insulated with Thermo-Shield</li>\n<li>Internal pocket for valuables</li>\n<li>Incredibly small pack size</li>\n</ul>\n<ul></ul>\n<h3>Specifications</h3>\n<div>\n<div>\n<ul>\n<li>Weight<span>: </span>975 g<br>\n</li>\n<li>Comfort Temperature Rating<span>: 7</span>°C</li>\n<li>Lower Limit Temperature Rating<span>: 2</span>°C</li>\n<li>Extreme Temperature Rating<span>: </span>-7°C</li>\n<li>Dimensions<span>: </span>220 x 80/55</li>\n<li>Packed Size<span>: </span>28 x 18 cm</li>\n<li>Material(s)<span>:</span> 100g/m2 Thermo-Shield<br>\n</li>\n</ul>\n<p style=\"text-align: center;\"><strong>Lightweight design<br> Only 975 g</strong></p>\n<p style=\"text-align: center;\">This lightweight sleeping bag is designed to be as light as possible without compromising on its insulating properties. Ideally suited to summer and spring hikers, travelers and climbers.</p>\n<p style=\"text-align: center;\"><strong>TEMPERATURE RATING</strong></p>\n<div class=\"fa-pf-sleeping-bag\" style=\"text-align: center;\">\n<p><img alt=\"First Ascent Amplify 900 Sleeping Bag Temperature Rating\" src=\"https://www.firstascent.co.za/media/wysiwyg/FirstAscent/assets/PFs/PF2/sleeping-bags/amplify-900sleeping-bag-temp-rating-700px-2x.png\" title=\"First Ascent Amplify 900 Sleeping Bag Temperature Rating\"></p>\n</div>\n<p style=\"text-align: center;\"><strong>Comfort<br> </strong>Based on a 'standard woman' having a comfortable nights sleep.</p>\n<p style=\"text-align: center;\"><strong>Transition<br> </strong>Based on a 'standard man' as the lowest temp. to have a comfortable nights sleep.</p>\n<p style=\"text-align: center;\"><strong>Extreme<br> </strong>A survival rating for a 'standard woman'. This is an extreme survival rating only and it is not advisable for general use.</p>\n<p style=\"text-align: center;\">Ratings are based on a user wearing one long-underwear layer and a hat, and sleeping on a single 2.5 cm think foam pad.</p>\n</div>\n<ul></ul>\n</div>\n<ul></ul>\n<br>\n<p><iframe src=\"https://www.youtube.com/embed/aCqNm-B2WFs\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"1600\" height=\"758\" frameborder=\"0\"></iframe></p>",
+  "published_at": "2020-07-21T11:44:25+02:00",
+  "created_at": "2020-07-17T13:39:38+02:00",
+  "vendor": "drifters",
+  "type": "sleeping bag",
+  "tags": [
+    "gifts under R2000",
+    "mummy bag",
+    "not-on-sale",
+    "synthetic bag",
+    "synthetic sleeping bag"
+  ],
+  "price": 199900,
+  "price_min": 199900,
+  "price_max": 199900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 35143992836249,
+      "title": "Deep Lake / Left",
+      "option1": "Deep Lake",
+      "option2": "Left",
+      "option3": null,
+      "sku": "43437DEEPLEFT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 52161489731843,
+        "product_id": 5413188173977,
+        "position": 1,
+        "created_at": "2026-06-09T16:37:53+02:00",
+        "updated_at": "2026-06-09T16:37:55+02:00",
+        "alt": null,
+        "width": 1920,
+        "height": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875",
+        "variant_ids": [
+          35143992836249,
+          35143992869017
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Amplify 900 Sleeping Bag - Deep Lake / Left",
+      "public_title": "Deep Lake / Left",
+      "options": [
+        "Deep Lake",
+        "Left"
+      ],
+      "price": 199900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 42888017084675,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1920,
+          "width": 1920,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 35143992869017,
+      "title": "Deep Lake / Right",
+      "option1": "Deep Lake",
+      "option2": "Right",
+      "option3": null,
+      "sku": "43437DEEPRGHT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 52161489731843,
+        "product_id": 5413188173977,
+        "position": 1,
+        "created_at": "2026-06-09T16:37:53+02:00",
+        "updated_at": "2026-06-09T16:37:55+02:00",
+        "alt": null,
+        "width": 1920,
+        "height": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875",
+        "variant_ids": [
+          35143992836249,
+          35143992869017
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Amplify 900 Sleeping Bag - Deep Lake / Right",
+      "public_title": "Deep Lake / Right",
+      "options": [
+        "Deep Lake",
+        "Right"
+      ],
+      "price": 199900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 42888017084675,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1920,
+          "width": 1920,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 35143992901785,
+      "title": "Blue / Left",
+      "option1": "Blue",
+      "option2": "Left",
+      "option3": null,
+      "sku": "43437BLUELEFT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 17965026705561,
+        "product_id": 5413188173977,
+        "position": 7,
+        "created_at": "2020-07-17T13:39:51+02:00",
+        "updated_at": "2022-02-17T11:39:18+02:00",
+        "alt": null,
+        "width": 480,
+        "height": 480,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758",
+        "variant_ids": [
+          35143992901785,
+          35143992934553
+        ]
+      },
+      "available": false,
+      "name": "First Ascent Amplify 900 Sleeping Bag - Blue / Left",
+      "public_title": "Blue / Left",
+      "options": [
+        "Blue",
+        "Left"
+      ],
+      "price": 199900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 10139233419417,
+        "position": 7,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 480,
+          "width": 480,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 35143992934553,
+      "title": "Blue / Right",
+      "option1": "Blue",
+      "option2": "Right",
+      "option3": null,
+      "sku": "43437BLUERGHT",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 17965026705561,
+        "product_id": 5413188173977,
+        "position": 7,
+        "created_at": "2020-07-17T13:39:51+02:00",
+        "updated_at": "2022-02-17T11:39:18+02:00",
+        "alt": null,
+        "width": 480,
+        "height": 480,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758",
+        "variant_ids": [
+          35143992901785,
+          35143992934553
+        ]
+      },
+      "available": false,
+      "name": "First Ascent Amplify 900 Sleeping Bag - Blue / Right",
+      "public_title": "Blue / Right",
+      "options": [
+        "Blue",
+        "Right"
+      ],
+      "price": 199900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "featured_media": {
+        "alt": null,
+        "id": 10139233419417,
+        "position": 7,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 480,
+          "width": 480,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 47231255118083,
+      "title": "Charcoal / Right",
+      "option1": "Charcoal",
+      "option2": "Right",
+      "option3": null,
+      "sku": null,
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": false,
+      "name": "First Ascent Amplify 900 Sleeping Bag - Charcoal / Right",
+      "public_title": "Charcoal / Right",
+      "options": [
+        "Charcoal",
+        "Right"
+      ],
+      "price": 199900,
+      "weight": 1000,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": null,
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_02.webp?v=1781015875",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_03.webp?v=1781015875",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_04.webp?v=1781015875",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_05.webp?v=1781015882",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_06.webp?v=1781015882",
+    "//cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875",
+  "options": [
+    {
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Deep Lake",
+        "Blue",
+        "Charcoal"
+      ]
+    },
+    {
+      "name": "Side",
+      "position": 2,
+      "values": [
+        "Left",
+        "Right"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-amplify-900-sleeping-bag",
+  "media": [
+    {
+      "alt": null,
+      "id": 42888017084675,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_01.webp?v=1781015875",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 42888017117443,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_02.webp?v=1781015875"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_02.webp?v=1781015875",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 42888017150211,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_03.webp?v=1781015875"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_03.webp?v=1781015875",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 42888017182979,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_04.webp?v=1781015875"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_04.webp?v=1781015875",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 42888024523011,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_05.webp?v=1781015882"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_05.webp?v=1781015882",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 42888023245059,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_06.webp?v=1781015882"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/files/fas14-deeplake_06.webp?v=1781015882",
+      "width": 1920
+    },
+    {
+      "alt": null,
+      "id": 10139233419417,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 480,
+        "width": 480,
+        "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758"
+      },
+      "aspect_ratio": 1,
+      "height": 480,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0081/6227/9490/products/faamplify9004.jpg?v=1645090758",
+      "width": 480
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

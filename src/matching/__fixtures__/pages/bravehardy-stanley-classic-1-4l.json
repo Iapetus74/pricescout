@@ -1,0 +1,139 @@
+{
+  "id": 8398235304183,
+  "title": "Stanley Legendary Classic Flask, 1.4 Litre",
+  "handle": "stanley-the-legendary-classic-bottle-1-4-litre",
+  "description": "<p>Campsite, job site and especially in the car, the iconic style and rugged durability of this bottle means it’s made to go anywhere. The double-wall vacuum insulation keeps all your drinks at the ideal temperature and the twist-and-pour stopper allows for a smoother pour. The folding handle is made for easy grab-and-go and the insulated lid doubles as a cup for drinking.</p>",
+  "published_at": "2024-08-01T11:10:47+02:00",
+  "created_at": "2024-07-24T14:02:10+02:00",
+  "vendor": "Stanley",
+  "type": "",
+  "tags": [
+    "Flasks"
+  ],
+  "price": 159900,
+  "price_min": 159900,
+  "price_max": 159900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 45136630743287,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "ST_PM10-08265-001",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "Stanley Legendary Classic Flask, 1.4 Litre",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 159900,
+      "weight": 950,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6939236347907",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-1.jpg?v=1722424012",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/20210922_Stanley_FW21_BRFJ3137_c46d1246-4b38-4ea8-a1e8-c62e0e340286.jpg?v=1722424098",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-2.jpg?v=1722424032",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen.jpg?v=1722424032"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-1.jpg?v=1722424012",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/stanley-the-legendary-classic-bottle-1-4-litre",
+  "media": [
+    {
+      "alt": "Stanley Legendary Classic flask in green with silver cup on top and dark handle, upright front view",
+      "id": 36116425998583,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-1.jpg?v=1722424012"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-1.jpg?v=1722424012",
+      "width": 2000
+    },
+    {
+      "alt": "Stanley Legendary Classic flask in green held above a metal coffee dripper set over a mug at an outdoor campsite",
+      "id": 36116432093431,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/20210922_Stanley_FW21_BRFJ3137_c46d1246-4b38-4ea8-a1e8-c62e0e340286.jpg?v=1722424098"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/20210922_Stanley_FW21_BRFJ3137_c46d1246-4b38-4ea8-a1e8-c62e0e340286.jpg?v=1722424098",
+      "width": 1200
+    },
+    {
+      "alt": "Stanley Legendary Classic flask in green standing upright beside its metal cup and green stopper",
+      "id": 36116427473143,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-2.jpg?v=1722424032"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen-2.jpg?v=1722424032",
+      "width": 2000
+    },
+    {
+      "alt": "Stanley Legendary Classic flask in green with dark green handle and silver lid, standing upright",
+      "id": 36116427505911,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen.jpg?v=1722424032"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/ClassicLegendaryBottle1.5qtHammertoneGreen.jpg?v=1722424032",
+      "width": 2000
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

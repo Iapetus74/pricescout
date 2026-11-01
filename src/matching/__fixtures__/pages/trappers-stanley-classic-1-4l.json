@@ -1,0 +1,205 @@
+{
+  "id": 8117778513983,
+  "title": "Stanley Legendary Classic Bottle - 1.4L",
+  "handle": "stanley-legendary-classic-bottle-1-4lt",
+  "description": "<div class=\"c-details__content-inner\">This legendary classic bottle is built to withstand anything- dents and drops included. Regardless of how often this bottle is thrown into your bag or the back of your car, the thermal integrity of your beverage will be maintained for up to 38 hours. It’s slim enough to grip with one hand and leakproof with the aid of a twist-and-pour stopper for better serving control. The lid is insulated and doubles as a cup. The recycled stainless steel vacuum bottle is designed with easy cleaning in mind and is entirely dishwasher-safe.</div>\n<ul class=\"c-details__list\">\n<li>Recycled 18/8 stainless steel, BPA-free</li>\n<li>Double-wall vacuum insulation</li>\n<li>Leakproof + packable</li>\n<li>Insulated lid doubles as cup</li>\n<li>Dishwasher safe</li>\n</ul>\n<div><br></div>\n<div class=\"c-details__specs\">\n<div class=\"c-details__spec\">\n<h3 class=\"c-details__label\">Weight:</h3>\n<div class=\"c-details__detail\">910g</div>\n</div>\n<div class=\"c-details__spec\">\n<h3 class=\"c-details__label\">Dimensions:</h3>\n<div class=\"c-details__detail\">119 x 99 x 358 mm</div>\n</div>\n</div>",
+  "published_at": "2026-03-28T13:22:06+02:00",
+  "created_at": "2026-03-28T13:19:36+02:00",
+  "vendor": "Stanley",
+  "type": "equipment",
+  "tags": [
+    "Flasks & Hydration"
+  ],
+  "price": 159900,
+  "price_min": 159900,
+  "price_max": 159900,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 43050747494463,
+      "title": "1.4L / Black",
+      "option1": "1.4L",
+      "option2": "Black",
+      "option3": null,
+      "sku": "2603000244941",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 36133196234815,
+        "product_id": 8117778513983,
+        "position": 1,
+        "created_at": "2026-03-28T13:21:18+02:00",
+        "updated_at": "2026-03-29T09:45:20+02:00",
+        "alt": null,
+        "width": 1200,
+        "height": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320",
+        "variant_ids": [
+          43050747494463
+        ]
+      },
+      "available": true,
+      "name": "Stanley Legendary Classic Bottle - 1.4L - 1.4L / Black",
+      "public_title": "1.4L / Black",
+      "options": [
+        "1.4L",
+        "Black"
+      ],
+      "price": 159900,
+      "weight": 0,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "2603000244941",
+      "featured_media": {
+        "alt": null,
+        "id": 27945698492479,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1200,
+          "width": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroBack.webp?v=1774770321",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroExploded.webp?v=1774770323",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-Front.webp?v=1774770324",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroBack.webp?v=1774770326",
+    "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroExploded.webp?v=1774770327"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "1.4L"
+      ]
+    },
+    {
+      "name": "Colour",
+      "position": 2,
+      "values": [
+        "Black"
+      ]
+    }
+  ],
+  "url": "/products/stanley-legendary-classic-bottle-1-4lt",
+  "media": [
+    {
+      "alt": null,
+      "id": 27945698492479,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-Front.webp?v=1774770320",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 27945698459711,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroBack.webp?v=1774770321"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroBack.webp?v=1774770321",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 27945698426943,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroExploded.webp?v=1774770323"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-Black2.0-HeroExploded.webp?v=1774770323",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 27945698590783,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-Front.webp?v=1774770324"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-Front.webp?v=1774770324",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 27945698525247,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroBack.webp?v=1774770326"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroBack.webp?v=1774770326",
+      "width": 1200
+    },
+    {
+      "alt": null,
+      "id": 27945698558015,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1200,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroExploded.webp?v=1774770327"
+      },
+      "aspect_ratio": 1,
+      "height": 1200,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0070/0104/7103/files/Web_PNG_Square-TheLegendaryClassicBottle1.5QT-HammertoneGreen-HeroExploded.webp?v=1774770327",
+      "width": 1200
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

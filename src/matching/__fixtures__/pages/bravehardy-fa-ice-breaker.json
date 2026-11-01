@@ -1,0 +1,454 @@
+{
+  "id": 10018972172535,
+  "title": "First Ascent Ice Breaker Down Sleeping Bag",
+  "handle": "first-ascent-ice-breaker-down-sleeping-bag",
+  "description": "<p>The Ice Breaker Down sleeping bag is the perfect all-rounder for colder overnight conditions. Comfort rated at -3°C, and transition rated at -8°C, this bag is ideal for summiting Kilimanjaro, or backpacking through the Drakensberg in winter. Its scalloped neck and face baffle will prevent cold air from creeping in, irrespective of the forecast.</p>\n<p><em>This sleeping bag comes with a </em><strong><em>right-side zip</em></strong><em>. A left-side zip is available </em><strong><em>on request</em></strong><em>.</em></p>",
+  "published_at": "2026-07-15T12:59:01+02:00",
+  "created_at": "2026-07-03T14:15:10+02:00",
+  "vendor": "First Ascent",
+  "type": "Down Sleeping Bag",
+  "tags": [],
+  "price": 529900,
+  "price_min": 529900,
+  "price_max": 599900,
+  "available": true,
+  "price_varies": true,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 50912818856183,
+      "title": "Regular",
+      "option1": "Regular",
+      "option2": null,
+      "option3": null,
+      "sku": "FA_FAS33",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 63422811046135,
+        "product_id": 10018972172535,
+        "position": 1,
+        "created_at": "2026-07-06T14:58:56+02:00",
+        "updated_at": "2026-07-06T14:58:58+02:00",
+        "alt": "First Ascent Ice Breaker Down sleeping bag in Regular, upright with dark grey base, olive green top and red hood lining",
+        "width": 1991,
+        "height": 1990,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738",
+        "variant_ids": [
+          50912818856183
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Ice Breaker Down Sleeping Bag - Regular",
+      "public_title": "Regular",
+      "options": [
+        "Regular"
+      ],
+      "price": 529900,
+      "weight": 1734,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6009176341577",
+      "featured_media": {
+        "alt": "First Ascent Ice Breaker Down sleeping bag in Regular, upright with dark grey base, olive green top and red hood lining",
+        "id": 55333786910967,
+        "position": 1,
+        "preview_image": {
+          "aspect_ratio": 1.001,
+          "height": 1990,
+          "width": 1991,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    },
+    {
+      "id": 50912818888951,
+      "title": "Large",
+      "option1": "Large",
+      "option2": null,
+      "option3": null,
+      "sku": "FA_FAS34",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": {
+        "id": 63422824513783,
+        "product_id": 10018972172535,
+        "position": 6,
+        "created_at": "2026-07-06T15:11:22+02:00",
+        "updated_at": "2026-07-06T15:11:24+02:00",
+        "alt": "First Ascent Ice Breaker Down sleeping bag in Large, fully extended and upright, with orange-red hood lining",
+        "width": 1970,
+        "height": 1970,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS34-WILDOLIVE_01.jpg?v=1783343484",
+        "variant_ids": [
+          50912818888951
+        ]
+      },
+      "available": true,
+      "name": "First Ascent Ice Breaker Down Sleeping Bag - Large",
+      "public_title": "Large",
+      "options": [
+        "Large"
+      ],
+      "price": 599900,
+      "weight": 1983,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "6009176362312",
+      "featured_media": {
+        "alt": "First Ascent Ice Breaker Down sleeping bag in Large, fully extended and upright, with orange-red hood lining",
+        "id": 55333800214775,
+        "position": 6,
+        "preview_image": {
+          "aspect_ratio": 1,
+          "height": 1970,
+          "width": 1970,
+          "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS34-WILDOLIVE_01.jpg?v=1783343484"
+        }
+      },
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04892-Enhanced-NR-preview.webp?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_ead6b3db-c21c-4211-ae03-5a0d2267d33a.webp?v=1783343844",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_12.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_2.jpg?v=1783342739",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS34-WILDOLIVE_01.jpg?v=1783343484",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_02.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_8.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_6.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_4.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_9.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_13.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04887-Enhanced-NR-preview.webp?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_11.jpg?v=1783342739",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_3.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_10.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_5.jpg?v=1783342738",
+    "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_7.jpg?v=1783342738"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738",
+  "options": [
+    {
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "Regular",
+        "Large"
+      ]
+    }
+  ],
+  "url": "/products/first-ascent-ice-breaker-down-sleeping-bag",
+  "media": [
+    {
+      "alt": "First Ascent Ice Breaker Down sleeping bag in Regular, upright with dark grey base, olive green top and red hood lining",
+      "id": 55333786910967,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1.001,
+        "height": 1990,
+        "width": 1991,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1.001,
+      "height": 1990,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33.jpg?v=1783342738",
+      "width": 1991
+    },
+    {
+      "alt": "First Ascent Ice Breaker down sleeping bag in dark grey, pressed down by a person inside a tent",
+      "id": 55333786452215,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04892-Enhanced-NR-preview.webp?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04892-Enhanced-NR-preview.webp?v=1783342738",
+      "width": 2000
+    },
+    {
+      "alt": "Five First Ascent Ice Breaker Down sleeping bag stuff sacks lined up on a rock ledge outdoors, green one centred",
+      "id": 55333811486967,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_ead6b3db-c21c-4211-ae03-5a0d2267d33a.webp?v=1783343844"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/Z.ZINN-04715-preview_ead6b3db-c21c-4211-ae03-5a0d2267d33a.webp?v=1783343844",
+      "width": 2000
+    },
+    {
+      "alt": "First Ascent Ice Breaker Down sleeping bag compressed into a black and olive green strapped bundle",
+      "id": 55333786845431,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_12.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_12.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "Charcoal First Ascent Ice Breaker Down sleeping bag standing upright with hood open to show red-orange lining",
+      "id": 55333786484983,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2126,
+        "width": 2126,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_2.jpg?v=1783342739"
+      },
+      "aspect_ratio": 1,
+      "height": 2126,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_2.jpg?v=1783342739",
+      "width": 2126
+    },
+    {
+      "alt": "First Ascent Ice Breaker Down sleeping bag in Large, fully extended and upright, with orange-red hood lining",
+      "id": 55333800214775,
+      "position": 6,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1970,
+        "width": 1970,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS34-WILDOLIVE_01.jpg?v=1783343484"
+      },
+      "aspect_ratio": 1,
+      "height": 1970,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS34-WILDOLIVE_01.jpg?v=1783343484",
+      "width": 1970
+    },
+    {
+      "alt": "First Ascent Ice Breaker down sleeping bag in charcoal, lying flat with hood on the left and tapered foot on the right",
+      "id": 55333786812663,
+      "position": 7,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_02.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_02.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "Close-up of the black zip and two sliders on First Ascent Ice Breaker Down sleeping bag fabric",
+      "id": 55333786681591,
+      "position": 8,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_8.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_8.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Ice Breaker down sleeping bag in dark grey, close-up of gathered fabric with black drawcord and toggle",
+      "id": 55333786616055,
+      "position": 9,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_6.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_6.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "Close-up of red lining and stitched pocket of First Ascent Ice Breaker Down sleeping bag, with a smartphone tucked inside",
+      "id": 55333786550519,
+      "position": 10,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_4.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_4.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Ice Breaker down sleeping bag opened to show its orange lining and dark grey hood, close-up",
+      "id": 55333786714359,
+      "position": 11,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_9.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_9.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Ice Breaker Down sleeping bag diagram of right and left hand zip versions, with zip direction arrows",
+      "id": 55333786878199,
+      "position": 12,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_13.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-WILDOLIVE_13.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "Person kneeling in a blue and grey tent arranging a First Ascent Ice Breaker Down sleeping bag at a campsite",
+      "id": 55333786419447,
+      "position": 13,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04887-Enhanced-NR-preview.webp?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/DSC04887-Enhanced-NR-preview.webp?v=1783342738",
+      "width": 2000
+    },
+    {
+      "alt": "Close-up of black First Ascent Ice Breaker Down sleeping bag fabric, stitching and webbing strap with buckle",
+      "id": 55333786779895,
+      "position": 14,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_11.jpg?v=1783342739"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_11.jpg?v=1783342739",
+      "width": 1920
+    },
+    {
+      "alt": "Close-up of charcoal First Ascent Ice Breaker Down sleeping bag fabric with a green logo across the centre",
+      "id": 55333786517751,
+      "position": 15,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_3.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_3.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "First Ascent Ice Breaker Down sleeping bag in olive green sack, rated comfort -3°C, transition -10°C and risk -29°C",
+      "id": 55333786747127,
+      "position": 16,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 2000,
+        "width": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_10.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 2000,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_10.jpg?v=1783342738",
+      "width": 2000
+    },
+    {
+      "alt": "Close-up of olive green and charcoal First Ascent Ice Breaker Down sleeping bag fabric with a red brand tag",
+      "id": 55333786583287,
+      "position": 17,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_5.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_5.jpg?v=1783342738",
+      "width": 1920
+    },
+    {
+      "alt": "Extreme close-up of dark First Ascent Ice Breaker Down sleeping bag fabric covered in small reflective droplets",
+      "id": 55333786648823,
+      "position": 18,
+      "preview_image": {
+        "aspect_ratio": 1,
+        "height": 1920,
+        "width": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_7.jpg?v=1783342738"
+      },
+      "aspect_ratio": 1,
+      "height": 1920,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0668/6300/5943/files/FAS33-Ice-Breaker-Wild-Olive_7.jpg?v=1783342738",
+      "width": 1920
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}
