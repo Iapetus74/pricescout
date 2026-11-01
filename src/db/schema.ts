@@ -89,8 +89,12 @@ export const offers = sqliteTable(
       .notNull()
       .references(() => stores.id),
     url: text("url").notNull(),
+    // The store's own name for the product (it often differs between stores).
+    title: text("title"),
     matchType: text("match_type", { enum: matchTypes }).notNull(),
     matchScore: real("match_score"),
+    // Why the matcher decided as it did, as a JSON list of plain-language reasons.
+    matchReasons: text("match_reasons", { mode: "json" }).$type<string[]>(),
     variantLabel: text("variant_label"),
     sellerName: text("seller_name"),
     active: integer("active", { mode: "boolean" }).notNull().default(true),

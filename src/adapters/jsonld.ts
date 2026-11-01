@@ -13,9 +13,13 @@
  *   price, priceCurrency, availability, seller, and a crossed-out price
  *   when the shop marks one (priceSpecification with StrikethroughPrice).
  *
- * Search only works when the store has a search link pattern such as
- *   https://example.co.za/search?q={words}
- * It then reads the product list from the results page.
+ * Search works in one of two ways:
+ *   - a search link pattern such as https://example.co.za/search?q={words},
+ *     whose results page is then read; or
+ *   - for stores without a usable search page, the store's public list of
+ *     product links (its products sitemap). The search words are compared with
+ *     the words in each link, e.g. /product-page/stanley-legendary-classic-...
+ *     The list is one download, kept for an hour like any other page.
  *
  * All downloads go through the polite fetcher. This file never calls `fetch`.
  */
@@ -37,16 +41,25 @@ export interface JsonLdStore {
   productPath?: RegExp;
   /** Optional search link, with {words} where the search words go. Must be allowed by robots.txt. */
   searchUrlPattern?: string;
+  /** Optional: the store's sitemap of product links, searched by words when there is no search page. */
+  productSitemapUrl?: string;
 }
 
 /** The base stores served by this adapter, each checked against a saved page (docs/stores.md).
- *  Neither allows search in a way we can use, so they work from pasted links (and sitemaps later). */
+ *  Neither has a search page we may use. Outdoor Escape is searched through its products sitemap;
+ *  First Ascent's sitemap lists no products, so it works from pasted links only. */
 export const JSONLD_STORES: readonly JsonLdStore[] = [
   // Magento 2. Product links are a single word-with-dashes path, e.g. /glacier-cooler-18l.
   // robots.txt disallows /catalogsearch/, so no search.
   { id: "firstascent", domains: ["firstascent.co.za"], origin: "https://www.firstascent.co.za", productPath: /^\/[a-z0-9-]+\/?$/i },
   // Wix. robots.txt asks for 10 s between requests, which the polite fetcher follows.
-  { id: "outdoorescape", domains: ["outdoorescape.co.za"], origin: "https://www.outdoorescape.co.za", productPath: /^\/product-page\/[^/]+\/?$/ },
+  {
+    id: "outdoorescape",
+    domains: ["outdoorescape.co.za"],
+    origin: "https://www.outdoorescape.co.za",
+    productPath: /^\/product-page\/[^/]+\/?$/,
+    productSitemapUrl: "https://www.outdoorescape.co.za/store-products-sitemap.xml",
+  },
 ];
 
 /** The page had no usable product data, so no price was recorded (CLAUDE.md rule 5). */
@@ -439,6 +452,61 @@ export function parseJsonLdSearch(html: string, store: JsonLdStore, pageUrl: str
 }
 
 // ---------------------------------------------------------------------------
+// Searching a products sitemap
+
+const SEARCH_STOPWORDS = new Set(["a", "an", "and", "for", "in", "of", "the", "to", "with"]);
+
+function searchWords(text: string): string[] {
+  return text
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w && !SEARCH_STOPWORDS.has(w));
+}
+
+/** "stanley-legendary-classic-bottle-1-4l" → "Stanley Legendary Classic Bottle 1.4l". */
+export function titleFromSlug(slug: string): string {
+  return decodeURIComponent(slug)
+    .replace(/(\d)-(\d{1,2})(l|ml|kg|g|m)\b/gi, "$1.$2$3")
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+/** Finds product links in a sitemap whose words match the search. Brand words must all match,
+ *  and at least two thirds of the other words. Best matches first. */
+export function searchSitemap(xml: string, store: JsonLdStore, query: SearchQuery, limit = 10): Candidate[] {
+  const brandWords = searchWords(query.brand ?? "");
+  const otherWords = searchWords(query.text).filter((w) => !brandWords.includes(w));
+  if (brandWords.length + otherWords.length === 0) return [];
+
+  const scored: { candidate: Candidate; score: number; extra: number }[] = [];
+  for (const match of xml.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/gi)) {
+    const url = decodeEntities(match[1]);
+    let path: string;
+    try {
+      path = new URL(url).pathname;
+    } catch {
+      continue;
+    }
+    if (!urlMatchesDomains(url, store.domains)) continue;
+    if (store.productPath && !store.productPath.test(path)) continue;
+    const slug = path.replace(/\/$/, "").split("/").pop() ?? "";
+    const words = new Set(searchWords(slug));
+    if (!brandWords.every((w) => words.has(w))) continue;
+    const hits = otherWords.filter((w) => words.has(w)).length;
+    if (otherWords.length > 0 && hits / otherWords.length < 2 / 3) continue;
+    const score = otherWords.length > 0 ? hits / otherWords.length : 1;
+    scored.push({ candidate: { url, title: titleFromSlug(slug) }, score, extra: words.size - hits - brandWords.length });
+  }
+  return scored
+    .sort((a, b) => b.score - a.score || a.extra - b.extra)
+    .slice(0, limit)
+    .map((s) => s.candidate);
+}
+
+// ---------------------------------------------------------------------------
 // The adapter
 
 export function createJsonLdAdapter(store: JsonLdStore, source: PageSource): StoreAdapter {
@@ -464,10 +532,15 @@ export function createJsonLdAdapter(store: JsonLdStore, source: PageSource): Sto
     },
 
     async search(query: SearchQuery) {
-      if (!store.searchUrlPattern) return [];
+      const limit = Math.min(Math.max(query.limit ?? 10, 1), 20);
+      if (!store.searchUrlPattern) {
+        // A sitemap has no barcodes, so only word searches can use it.
+        if (!store.productSitemapUrl || !(query.text.trim() || query.brand?.trim())) return [];
+        const page = await source.fetchPage(store.productSitemapUrl);
+        return searchSitemap(page.body, store, query, limit);
+      }
       const words = (query.gtin ?? [query.brand, query.text].filter(Boolean).join(" ")).trim();
       if (!words) return [];
-      const limit = Math.min(Math.max(query.limit ?? 10, 1), 20);
       const searchUrl = new URL(store.searchUrlPattern.replace("{words}", encodeURIComponent(words)), store.origin);
       const page = await source.fetchPage(searchUrl.toString());
       return parseJsonLdSearch(page.body, store, page.finalUrl || searchUrl.toString(), limit);

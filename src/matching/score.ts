@@ -129,6 +129,17 @@ function attributeConflicts(a?: Record<string, string>, b?: Record<string, strin
   return out;
 }
 
+/**
+ * A quick title-only check, used to pick which search results are worth
+ * opening. 0 when the brands clash; otherwise how well the titles match.
+ */
+export function quickTitleScore(anchor: MatchProduct, candidate: MatchProduct): number {
+  const ia = identifiersOf(anchor);
+  const ib = identifiersOf(candidate);
+  if (ia.brandKey && ib.brandKey && ia.brandKey !== ib.brandKey) return 0;
+  return compareTitles(analyseTitle(anchor.title, ia.brand), analyseTitle(candidate.title, ib.brand)).score;
+}
+
 const result = (type: MatchType, score: number, reasons: string[]): MatchResult => ({ type, score, reasons });
 
 export function classifyMatch(anchor: MatchProduct, candidate: MatchProduct): MatchResult {
