@@ -36,7 +36,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 6 | Game | JavaScript app with PerimeterX bot protection | **No** (empty page shell) | `/search` | Allowed / Unclear (see notes) | Not checked | 5 at best; likely Paused |
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
 | 8 | Superbalist | Custom | Unverified | `/browse?q=` | Allowed / **Disallowed** | Not readable | 3 or 4, products sitemap instead of search |
-| 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Allowed / Allowed | Not checked | 5 |
+| 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Blocked (403) | Not checked | **Paused** (blocks even robots.txt, 2026-11-04) |
 | 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
 | 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
@@ -164,6 +164,8 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **Search:** not visible without running JavaScript.
 - **Terms:** not checked.
 - **Adapter:** 5 (Playwright), unless the re-check finds JSON-LD.
+- **4 Nov 2026:** even `robots.txt` now answers **403 "Request blocked"** (an Amazon CloudFront block page)
+  to PriceScout. A block counts the same as a bot check, so the store is **Paused**.
 
 ### 10. Pick n Pay (pnp.co.za)
 - **Platform:** SAP Commerce Cloud (the page names an "OCC backend", SAP's storefront API). The page loads
@@ -208,6 +210,10 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 ### 13. Campmaster (campmaster.co.za)
 - **Unreachable:** its robots.txt blocks the survey tool (both with and without `www`).
 - Campmaster products are also sold on Takealot and other stores.
+- **4 Nov 2026:** the connection fails a security check: Campmaster's server doesn't send the full chain
+  of certificates that proves it is who it says it is ("unable to get local issuer certificate"). Web
+  browsers fill the gap themselves, but PriceScout (like most programs) refuses the connection, which is
+  the safe choice. It stays "Needs adapter" until the shop fixes its certificate.
 
 ### 14. Camp and Climb (campandclimb.co.za)
 - **Platform:** WooCommerce on WordPress (`/product/`, `/product-category/`, `?add-to-cart=`,

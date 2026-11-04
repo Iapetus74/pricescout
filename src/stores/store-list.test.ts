@@ -38,7 +38,7 @@ describe("listStoresForHomePage", () => {
 
   it("lists paused stores separately and leaves out stores without a reader", () => {
     const { crawling, paused } = listStoresForHomePage(db);
-    expect(paused.map((s) => s.name)).toEqual(["Cape Union Mart", "Decathlon SA", "Outdoor Warehouse", "Woolworths"]);
+    expect(paused.map((s) => s.name)).toEqual(["Cape Union Mart", "Checkers", "Decathlon SA", "Outdoor Warehouse", "Woolworths"]);
     const all = [...crawling, ...paused].map((s) => s.name);
     expect(all).not.toContain("Game");
     expect(all).not.toContain("Takealot");

@@ -30,7 +30,7 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Game", domain: "game.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Woolworths", domain: "woolworths.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "Superbalist", domain: "superbalist.com", adapterType: null, status: "needs_adapter" },
-  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "paused", pausedReason: "Paused: blocked even its robots.txt with a \"Request blocked\" page (4 Nov 2026)" },
   { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },
   { name: "Cape Union Mart", domain: "capeunionmart.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
