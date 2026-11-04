@@ -48,7 +48,7 @@ async function main() {
         path.join(dir, "source.json"),
         `${JSON.stringify({ productUrl: link, finalUrl: page.finalUrl, savedAt: new Date().toISOString() }, null, 2)}\n`,
       );
-      const blocks = (page.body.match(/application\/ld\+json/gi) ?? []).length;
+      const blocks = (page.body.match(/application\/ld(?:\+|&#x0*2b;|&#0*43;|&plus;)json/gi) ?? []).length;
       console.log(`✓ ${name}: saved (${blocks} JSON-LD block${blocks === 1 ? "" : "s"})`);
     } catch (error) {
       console.log(`✗ ${link}: ${error instanceof Error ? error.message : String(error)}`);

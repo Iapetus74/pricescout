@@ -24,10 +24,13 @@ describe("listStoresForHomePage", () => {
       "Camp and Climb",
       "Drifters",
       "First Ascent",
+      "Hirsch's",
+      "House & Home",
       "Loot",
       "Makro",
       "Naturehike SA",
       "Outdoor Escape",
+      "Tafelberg",
       "Trappers",
     ]);
     expect(crawling.find((s) => s.name === "Loot")?.url).toBe("https://loot.co.za");

@@ -363,3 +363,53 @@ electronics store among them, so the fixture set uses headlamps for electronics 
 at is **four** (for example the First Ascent Ice Nino sleeping bag: First Ascent, Brave Hardy, Drifters,
 Outdoor Escape; and the Stanley Legendary Classic 1.4 L flask: Brave Hardy, Trappers, Drifters,
 Outdoor Escape). Reaching five needs more readable stores.
+
+## Stores added by the owner (4 November 2026)
+
+Three appliance and furniture stores, added on the owner's request after the original 22. All three are
+read by the generic JSON-LD adapter (type 3), and searched through their sitemaps. Checked from the
+cloud machine with PriceScout's own crawler (the owner allowed these domains in the cloud network settings).
+
+| # | Store | Platform | JSON-LD | Search | robots.txt: product / search | Terms restrict bots? | Adapter |
+|---|---|---|---|---|---|---|---|
+| 23 | House & Home | Magento | **Yes** (Product with offer; no brand) | Products sitemap | Allowed / Allowed | Terms page not found | **3 (JSON-LD), built** |
+| 24 | Hirsch's | Magento | **Yes** (Product with offer and brand) | Products sitemap | Allowed / **Disallowed** | No clause found | **3 (JSON-LD), built** |
+| 25 | Tafelberg | OrderEazi (Storefront7) | **Yes** (Product with offer, brand and model code) | Products sitemap | Allowed / **Disallowed**; crawl-delay 4s | **Yes** | **3 (JSON-LD), built**; terms warning |
+
+### 23. House & Home (houseandhome.co.za)
+- **Platform:** Magento. Product links are `/<words>.html`, e.g. `/lg-100-254cm-qned-evo-ai-mini-led-tv-100qned85b8-afbg.html`.
+- **robots.txt:** disallows `/customer/`, `/review/`, `*.php`, `*SID=` and similar. Search is not disallowed,
+  but the sitemap (`/sitemap/sitemap.xml`, about 2 MB) lists every product by name, which is one download
+  an hour instead of one search per product.
+- **Product data:** JSON-LD with name, price, stock, seller and SKU, but **no brand** and no barcode. Its
+  `mpn` repeats its own SKU, so the adapter drops it. Titles have odd capitals ("Lg 100\"(254cm)qned").
+- **Terms:** no general terms page found (`/terms-and-conditions` is a 404); only delivery terms.
+- **Checked 2026-11-04:** LG 100" QNED evo TV, R 79,999.00, in stock.
+
+### 24. Hirsch's (hirschs.co.za)
+- **Platform:** Magento. Product links are one word-with-dashes path, e.g. `/lg-42l-silver-neochef-microwave-ms4295cis`.
+- **robots.txt:** disallows `/search?q=*`, `/catalogsearch/`, `/api*`, filters and account pages. It blocks
+  AI training bots (GPTBot, ClaudeBot and others) by name, but not PriceScout. **Search is not allowed**, so the
+  sitemap (`/media/sitemap.xml`, about 6.5 MB, products and categories) stands in. Some sitemap links are
+  out of date (one tried gave a 404).
+- **Product data:** JSON-LD with name, brand, price, stock and seller. No barcode. Its `mpn` repeats its
+  own SKU, so it is dropped; the maker's model code is usually at the end of the title.
+- **Terms:** `/terms-and-conditions/` has no clause about robots, crawling or scraping.
+- **Checked 2026-11-04:** "LG 42L Silver NeoChef Microwave - MS4295CIS", R 3,199.99, in stock.
+
+### 25. Tafelberg (tafelberg.co.za)
+- **Platform:** OrderEazi CMS on Storefront7. Product links are `/<department>/<category>/<sub>/<words>`,
+  which look like category links, so the adapter accepts any Tafelberg page and fails clearly on one with
+  no product data.
+- **JSON-LD quirk:** the tag's type is written `application/ld&#x2B;json` (the "+" as an HTML code). Browsers
+  read that fine; the adapter and snapshot script now do too.
+- **robots.txt:** for all bots, disallows checkout, cart, account and filtered browse pages, and
+  **Crawl-delay: 4** (our minimum of 5 s already covers it). Search (`?keywords=`) is disallowed for the
+  named search bots and Google; PriceScout doesn't search it. AI training bots are blocked by name.
+  The products sitemap (`/sitemap-products-1.xml`, about 6 800 products, 4 MB) stands in for search.
+- **Product data:** JSON-LD with name, brand, the maker's model code as `mpn` (e.g. MS4295CIS), price,
+  stock and seller. No barcode. A "Save R700.00" sale badge on the page has no crossed-out price in the data.
+- **Terms:** the terms page bans using the site "to spam, phish, pharm, pretext, spider, crawl, or scrape"
+  (same wording as Naturehike's). **Terms warning.**
+- **Checked 2026-11-04:** "LG 42L Microwave Oven MS4295CIS", R 3,199.00, in stock.
+- **Matching:** the LG MS4295CIS microwave is at both Hirsch's (R 3,199.99) and Tafelberg (R 3,199.00).

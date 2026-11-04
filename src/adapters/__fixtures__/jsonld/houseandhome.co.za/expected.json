@@ -1,0 +1,12 @@
+{
+  "productUrl": "https://www.houseandhome.co.za/lg-100-254cm-qned-evo-ai-mini-led-tv-100qned85b8-afbg.html",
+  "checkedLive": "2026-11-04: JSON-LD says R 79,999.00, in stock, sold by House & Home. No brand or barcode in the data; its 'mpn' repeats its own SKU (334394), so the adapter drops it.",
+  "product": {
+    "url": "https://www.houseandhome.co.za/lg-100-254cm-qned-evo-ai-mini-led-tv-100qned85b8-afbg.html",
+    "title": "Lg 100\"(254cm)qned Evo Ai Mini Led Tv 100qned85b8.afbg",
+    "sku": "334394",
+    "priceCents": 7999900,
+    "inStock": true,
+    "sellerName": "House & Home"
+  }
+}
