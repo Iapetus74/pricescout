@@ -32,10 +32,10 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 2 | Makro | Flipkart marketplace platform | **Yes** (Product with buy-box offer) | `/search?q=` | Allowed / **Disallowed** | Not checked | **3 (JSON-LD), built**; pasted links only |
 | 3 | Bob Shop | Custom (Java/JSP) | Unverified | `TradeSearch.jsp?...` | Allowed / Allowed | **Yes** | 3 or 4, terms warning |
 | 4 | Amazon SA | Amazon | Unreachable | `/s?k=` (standard Amazon) | Unreachable (blocks our tool) | **Yes** | 1 (Product Advertising API) or leave off |
-| 5 | Bash | VTEX | Unreachable | Unreachable | Unreachable | Unreachable | 2 (VTEX) once robots is checked |
+| 5 | Bash | VTEX | **Yes** (Product with one offer per size) | `/busca/` | Allowed / **Disallowed** | Terms page not found | **3 (JSON-LD), built**; pasted links only |
 | 6 | Game | JavaScript app with PerimeterX bot protection | **No** (empty page shell) | `/search` | Allowed / Unclear (see notes) | Not checked | 5 at best; likely Paused |
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
-| 8 | Superbalist | Custom | Unverified | `/browse?q=` | Allowed / **Disallowed** | Not readable | 3 or 4, products sitemap instead of search |
+| 8 | Superbalist | Custom (Nuxt) | **Yes** (Product with offer) | `/browse?q=` | Allowed / **Disallowed** | **Yes** | 3 (JSON-LD) works; owner to decide (terms) |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Blocked (403) | Not checked | **Paused** (blocks even robots.txt, 2026-11-04) |
 | 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
@@ -124,6 +124,15 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **Unreachable:** robots.txt and pages were refused by the site, so search, robots and terms are unknown.
 - **Adapter:** 2 (VTEX). VTEX stores normally expose a public catalog search; check that robots.txt
   allows it before building.
+- **4 Nov 2026 (reachable once the owner allowed `bash.com`; `www.bash.com` redirects there):**
+  robots.txt disallows `/busca/` (VTEX search), `/buscapagina/`, `/custom-api/`, account, login and checkout.
+  Product links are `/<words>-<code>/p`. The product page carries `Product` JSON-LD with brand, SKU and an
+  `AggregateOffer` holding one offer per size; the adapter picks the first in-stock size, else the first.
+  Its `mpn` is an internal ID (a long code with dashes), so it is dropped. No barcode; the maker's style
+  code is only in the description text. The products are spread over about 16 sitemap files of 1 000
+  links each, so for now Bash is **pasted links only**. A terms page wasn't found at `/terms-and-conditions`.
+- **Built 4 Nov 2026** on the generic JSON-LD adapter. Checked: "ASICSTIGER Men's Hypergel-Lyte White
+  Sneaker", R 399.00, out of stock in every size.
 
 ### 6. Game (game.co.za)
 - **Unreachable on 31 Oct.** **Reachable on 4 Nov 2026**, but the product page
@@ -156,6 +165,13 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - No crawl-delay for general bots.
 - **Terms:** the terms page refused the survey tool. Not read.
 - **Adapter:** 3 or 4, using the products sitemap to find candidates.
+- **4 Nov 2026:** reachable once the owner allowed `superbalist.com`. Product pages carry `Product` JSON-LD
+  (name, brand, SKU, one offer with price and stock). Checked: Levi's "541 Athletic Straight Canyon Blue",
+  R 405.00, out of stock. The products sitemap is now an index of 11 files of 50 000 links (about 8.5 MB
+  each), far too heavy to search, so it would be pasted links only.
+- **Terms:** the terms page bans using "any robot, spider, other automatic device, or manual process to
+  monitor, copy, distribute or modify the Website", and "data mining, robots or similar data gathering".
+  **Terms warning;** the owner decides whether to switch it on.
 
 ### 9. Checkers (checkers.co.za)
 - **Platform:** the site is now the "Checkers Sixty60" web app. The page loads its content in the
@@ -372,7 +388,7 @@ Outdoor Escape). Reaching five needs more readable stores.
 
 ## Stores added by the owner (4 November 2026)
 
-Three appliance and furniture stores, added on the owner's request after the original 22. All three are
+Four appliance, furniture and electronics stores, added on the owner's request after the original 22. All three are
 read by the generic JSON-LD adapter (type 3), and searched through their sitemaps. Checked from the
 cloud machine with PriceScout's own crawler (the owner allowed these domains in the cloud network settings).
 
@@ -419,3 +435,17 @@ cloud machine with PriceScout's own crawler (the owner allowed these domains in 
   (same wording as Naturehike's). **Terms warning.**
 - **Checked 2026-11-04:** "LG 42L Microwave Oven MS4295CIS", R 3,199.00, in stock.
 - **Matching:** the LG MS4295CIS microwave is at both Hirsch's (R 3,199.99) and Tafelberg (R 3,199.00).
+
+### 26. Incredible (incredible.co.za)
+- **Platform:** Magento (Pepkor Lifestyle). Product links are one word-with-dashes path, e.g.
+  `/lg-42lt-microwave-solo-black-ms4235gis`.
+- **robots.txt:** two `User-agent: *` groups; together they allow product pages and disallow
+  `/catalogsearch/`, most links containing `?`, checkout and account. It blocks AI training bots by name
+  and carries a Cloudflare content signal `search=yes, ai-train=no, use=reference`. **Search is not allowed**;
+  the sitemap (`/sitemap.xml`, about 5 MB, products and categories) stands in.
+- **Product data:** JSON-LD with name, brand, a **real barcode** (`gtin`), the maker's model code as `mpn`,
+  price, stock and seller. The best data of any store so far, so exact matches are possible.
+- **Terms:** clause 3.4.5 bans "text or data mining or web scraping", including "robots, spiders, scrapers
+  and crawlers, or other automated device ... to access, obtain, copy, monitor or republish" the site.
+  **Terms warning.** The owner chose to switch it on anyway (4 Nov 2026).
+- **Checked 2026-11-04:** "LG 42lt Microwave, Solo Black MS4235GIS", R 3,699.00, in stock, barcode 8806098047420.

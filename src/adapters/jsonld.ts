@@ -95,6 +95,26 @@ export const JSONLD_STORES: readonly JsonLdStore[] = [
     origin: "https://www.tafelberg.co.za",
     productSitemapUrl: "https://www.tafelberg.co.za/sitemap-products-1.xml",
   },
+  // Magento (Pepkor Lifestyle). Product links are one word-with-dashes path. robots.txt disallows
+  // /catalogsearch/ and most links with "?", so its sitemap (products and categories) stands in.
+  // Its JSON-LD carries real barcodes and the maker's model code. Terms ban robots: terms warning.
+  {
+    id: "incredible",
+    domains: ["incredible.co.za"],
+    origin: "https://www.incredible.co.za",
+    productPath: /^\/[a-z0-9-]+\/?$/i,
+    productSitemapUrl: "https://www.incredible.co.za/sitemap.xml",
+  },
+  // VTEX (The Foschini Group). Product links are /<words>-<code>/p. Its JSON-LD has one offer per size.
+  // Its "mpn" is an internal ID, so it is dropped. robots.txt disallows /busca/ (search), and its
+  // products are spread over many sitemap files, so pasted links only for now.
+  {
+    id: "bash",
+    domains: ["bash.com"],
+    origin: "https://bash.com",
+    productPath: /^\/[a-z0-9-]+\/p\/?$/i,
+    ignoreMpn: true,
+  },
   {
     id: "makro",
     domains: ["makro.co.za"],

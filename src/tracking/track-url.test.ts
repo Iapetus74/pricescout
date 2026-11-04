@@ -56,9 +56,9 @@ const track = (input: string, source: PageSource = snapshotSource()) =>
   trackProductUrl({ db, adapters: createAllAdapters(source), userId, input });
 
 describe("base stores", () => {
-  it("adds all 25 stores (the 22 surveyed plus 3 the owner added) once, even when run twice", () => {
+  it("adds all 26 stores (the 22 surveyed plus 4 the owner added) once, even when run twice", () => {
     ensureBaseStores(db);
-    expect(db.select().from(stores).all()).toHaveLength(25);
+    expect(db.select().from(stores).all()).toHaveLength(26);
   });
 
   it("keeps a store's saved status, so a Paused store stays Paused", () => {

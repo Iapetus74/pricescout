@@ -20,12 +20,14 @@ describe("listStoresForHomePage", () => {
   it("lists the stores PriceScout reads today, in alphabetical order", () => {
     const { crawling } = listStoresForHomePage(db);
     expect(crawling.map((s) => s.name)).toEqual([
+      "Bash",
       "Brave Hardy",
       "Camp and Climb",
       "Drifters",
       "First Ascent",
       "Hirsch's",
       "House & Home",
+      "Incredible",
       "Loot",
       "Makro",
       "Naturehike SA",
