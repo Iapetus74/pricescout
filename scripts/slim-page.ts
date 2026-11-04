@@ -6,7 +6,7 @@
 export function slimPage(html: string): string {
   return html
     .replace(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi, (whole, attrs: string) =>
-      /application\/ld\+json/i.test(attrs) ? whole : `<script${attrs}></script>`,
+      /application\/ld(?:\+|&#x0*2b;|&#0*43;|&plus;)json/i.test(attrs) ? whole : `<script${attrs}></script>`,
     )
     .replace(/<style\b([^>]*)>[\s\S]*?<\/style\s*>/gi, "<style$1></style>")
     .replace(/<svg\b([^>]*)>[\s\S]*?<\/svg\s*>/gi, "<svg$1></svg>");

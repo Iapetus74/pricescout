@@ -1,0 +1,14 @@
+{
+  "productUrl": "https://www.tafelberg.co.za/major-appliances/cooking/microwave-ovens/lg-42l-microwave-oven-ms4295cis",
+  "checkedLive": "2026-11-04: JSON-LD (written with type 'application/ld&#x2B;json') and the page's data-price agree: R 3,199.00, in stock, brand LG, model MS4295CIS. The page shows a 'Save R700.00' sale badge, but the data has no crossed-out price. No barcode.",
+  "product": {
+    "url": "https://www.tafelberg.co.za/major-appliances/cooking/microwave-ovens/lg-42l-microwave-oven-ms4295cis",
+    "title": "LG 42L Microwave Oven MS4295CIS",
+    "brand": "LG",
+    "mpn": "MS4295CIS",
+    "sku": "MS4295CIS",
+    "priceCents": 319900,
+    "inStock": true,
+    "sellerName": "Tafelberg Furnishers"
+  }
+}

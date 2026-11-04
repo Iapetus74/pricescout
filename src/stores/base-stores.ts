@@ -1,5 +1,5 @@
 /**
- * The 22 base stores (SPEC.md section 4.1), with what the store survey found
+ * The 22 base stores (SPEC.md section 4.1), plus three the owner added later, with what the store survey found
  * (docs/stores.md). They are written into the `stores` table the first time
  * the app needs them, so every product and offer can point at its store.
  */
@@ -44,6 +44,10 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Drifters", domain: "driftersshop.co.za", adapterType: "platform", status: "active" },
   { name: "Brave Hardy", domain: "bravehardy.com", adapterType: "platform", status: "active" },
   { name: "Decathlon SA", domain: "decathlon.co.za", adapterType: null, status: "paused", pausedReason: "Paused: showed a bot check page on its product pages (4 Nov 2026)" },
+  // Added by the owner on 4 Nov 2026 (appliances and furniture), after the original 22.
+  { name: "House & Home", domain: "houseandhome.co.za", adapterType: "json_ld", status: "active" },
+  { name: "Hirsch's", domain: "hirschs.co.za", adapterType: "json_ld", status: "active" },
+  { name: "Tafelberg", domain: "tafelberg.co.za", adapterType: "json_ld", status: "active", termsWarning: "Tafelberg's terms ban using the site to spider, crawl or scrape." },
 ];
 
 const bare = (domain: string) => domain.toLowerCase().replace(/^www\./, "");

@@ -168,7 +168,9 @@ describe("JSON-LD base stores", () => {
       const adapter = createJsonLdAdapter(s, answer(""));
       const expected = JSON.parse(readFileSync(path.join(FIXTURES, s.domains[0], "expected.json"), "utf8"));
       expect(adapter.canHandle(expected.productUrl)).toBe(true);
-      expect(adapter.canHandle(`${s.origin}/some/deep/category/page`)).toBe(false);
+      // A store whose product links look like its category links (Tafelberg) accepts any of its pages;
+      // a page without product data then fails with a clear message instead of a price.
+      if (s.productPath) expect(adapter.canHandle(`${s.origin}/some/deep/category/page`)).toBe(false);
     }
   });
 
@@ -181,6 +183,27 @@ describe("JSON-LD base stores", () => {
     expect(result.priceCents).toBe(106037);
     // Makro category pages aren't product links.
     expect(makro.productPath!.test("/automotive-accessories/pr")).toBe(false);
+  });
+});
+
+describe("JSON-LD adapter: Tafelberg", () => {
+  it("reads JSON-LD whose type is written with an HTML code for the plus sign", () => {
+    expect(extractJsonLd('<script type="application/ld&#x2B;json">{"@type":"Thing"}</script>')).toEqual([{ "@type": "Thing" }]);
+  });
+
+  it("searches Tafelberg's products sitemap by words", async () => {
+    const tafelberg = JSONLD_STORES.find((s) => s.id === "tafelberg")!;
+    const xml = readFileSync(path.join(FIXTURES, "tafelberg.co.za", "products-sitemap-excerpt.xml"), "utf8");
+    const asked: string[] = [];
+    const source: PageSource = {
+      fetchPage: async (url) => {
+        asked.push(url);
+        return { body: xml, finalUrl: url, fetchedAt: new Date(0) };
+      },
+    };
+    const found = await createJsonLdAdapter(tafelberg, source).search({ text: "42l microwave oven ms4295cis", brand: "LG" });
+    expect(asked).toEqual(["https://www.tafelberg.co.za/sitemap-products-1.xml"]);
+    expect(found[0]?.url).toBe("https://www.tafelberg.co.za/major-appliances/cooking/microwave-ovens/lg-42l-microwave-oven-ms4295cis");
   });
 });
 

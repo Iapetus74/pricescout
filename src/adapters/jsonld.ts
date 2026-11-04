@@ -66,6 +66,35 @@ export const JSONLD_STORES: readonly JsonLdStore[] = [
   // Marketplace (Flipkart's platform). Product links are /<words>/p/itm<code>?pid=<id>; the JSON-LD gives
   // the buy-box offer and its seller. robots.txt disallows /search, and its sitemaps list category pages
   // only, so pasted links only. Its "mpn" is a description such as "Home First Aid Kit", so it is dropped.
+  // Magento. Product links are /<words>.html. Its "mpn" repeats its own SKU, so it is dropped.
+  // robots.txt doesn't disallow search, but the sitemap lists every product by name, which is lighter.
+  {
+    id: "houseandhome",
+    domains: ["houseandhome.co.za"],
+    origin: "https://www.houseandhome.co.za",
+    productPath: /^\/[a-z0-9-]+\.html$/i,
+    productSitemapUrl: "https://www.houseandhome.co.za/sitemap/sitemap.xml",
+    ignoreMpn: true,
+  },
+  // Magento. Product links are one word-with-dashes path, e.g. /lg-42l-silver-neochef-microwave-ms4295cis.
+  // robots.txt disallows /search and /catalogsearch/, so the sitemap stands in. "mpn" repeats its SKU.
+  {
+    id: "hirschs",
+    domains: ["hirschs.co.za"],
+    origin: "https://www.hirschs.co.za",
+    productPath: /^\/[a-z0-9-]+\/?$/i,
+    productSitemapUrl: "https://www.hirschs.co.za/media/sitemap.xml",
+    ignoreMpn: true,
+  },
+  // OrderEazi / Storefront7. Its JSON-LD carries the real maker's model code as "mpn".
+  // robots.txt disallows ?keywords= search and asks for 4 s between requests (our minimum is 5 s).
+  // The products sitemap lists only product pages, so any page link is accepted.
+  {
+    id: "tafelberg",
+    domains: ["tafelberg.co.za"],
+    origin: "https://www.tafelberg.co.za",
+    productSitemapUrl: "https://www.tafelberg.co.za/sitemap-products-1.xml",
+  },
   {
     id: "makro",
     domains: ["makro.co.za"],
@@ -92,7 +121,8 @@ export class JsonLdParseError extends Error {
 type Json = null | boolean | number | string | Json[] | { [key: string]: Json };
 type Node = { [key: string]: Json };
 
-const LD_SCRIPT = /<script\b[^>]*\btype\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script\s*>/gi;
+// Some shops write the "+" as an HTML code ("application/ld&#x2B;json"), which browsers read the same way.
+const LD_SCRIPT = /<script\b[^>]*\btype\s*=\s*["']?application\/ld(?:\+|&#x0*2b;|&#0*43;|&plus;)json["']?[^>]*>([\s\S]*?)<\/script\s*>/gi;
 
 /** Every JSON-LD block in the page, parsed. Blocks that aren't valid JSON are skipped. */
 export function extractJsonLd(html: string): Json[] {

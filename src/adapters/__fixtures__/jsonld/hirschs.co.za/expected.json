@@ -1,0 +1,13 @@
+{
+  "productUrl": "https://www.hirschs.co.za/lg-42l-silver-neochef-microwave-ms4295cis",
+  "checkedLive": "2026-11-04: JSON-LD says R 3,199.99, in stock, brand LG. No barcode; its 'mpn' repeats its own SKU (60605), so the adapter drops it. The maker's model code MS4295CIS is in the title.",
+  "product": {
+    "url": "https://www.hirschs.co.za/lg-42l-silver-neochef-microwave-ms4295cis",
+    "title": "LG 42L Silver NeoChef Microwave - MS4295CIS",
+    "brand": "LG",
+    "sku": "60605",
+    "priceCents": 319999,
+    "inStock": true,
+    "sellerName": "Hirschs Online Store"
+  }
+}
