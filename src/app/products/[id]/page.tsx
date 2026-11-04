@@ -3,8 +3,10 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { Suspense } from "react";
 
+import { StoreLinkButton } from "@/components/store-link-button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatCents } from "@/lib/money";
+import { storeLink } from "@/lib/store-link";
 import { getProductWithOffers, type ProductOffer } from "@/matching/find-matches";
 import { getAppContext } from "@/server/app-context";
 import { loadHistory } from "@/tracking/price-history";
@@ -74,7 +76,7 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
         </div>
       </header>
 
-      <BestDealCard deal={deal} stats={stats} />
+      <BestDealCard deal={deal} dealUrl={data.offers.find((o) => o.offerId === deal?.offerId)?.url ?? null} stats={stats} />
 
       <Card>
         <CardHeader>
@@ -145,7 +147,15 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
   );
 }
 
-function BestDealCard({ deal, stats }: { deal: BestDeal | null; stats: ThirtyDayStats | null }) {
+function BestDealCard({
+  deal,
+  dealUrl,
+  stats,
+}: {
+  deal: BestDeal | null;
+  dealUrl: string | null;
+  stats: ThirtyDayStats | null;
+}) {
   const comparison = deal && stats && stats.days >= 2 ? compareToAverage(deal.totalCents, stats.averageCents) : null;
   return (
     <Card>
@@ -172,6 +182,7 @@ function BestDealCard({ deal, stats }: { deal: BestDeal | null; stats: ThirtyDay
               {deal.onSale && deal.wasPriceCents !== null ? ` · was ${formatCents(deal.wasPriceCents)}` : ""}
             </p>
             <p className="text-xs text-muted-foreground">Checked {checkedAt(deal.fetchedAt)}</p>
+            {dealUrl ? <StoreLinkButton url={dealUrl} storeName={deal.storeName} className="mt-2 self-start" /> : null}
           </div>
         ) : (
           <p className="text-sm text-muted-foreground">
@@ -236,6 +247,7 @@ function OfferSection(props: {
 
 function OfferCard({ offer, withDecision }: { offer: ProductOffer; withDecision?: boolean }) {
   const onSale = offer.latest?.wasPriceCents != null && offer.latest.wasPriceCents > offer.latest.priceCents;
+  const href = storeLink(offer.url);
   return (
     <Card className="py-4">
       <CardContent className="flex flex-col gap-3">
@@ -245,9 +257,18 @@ function OfferCard({ offer, withDecision }: { offer: ProductOffer; withDecision?
               {offer.storeName}
               {offer.isAnchor ? <span className="ml-2 text-xs font-normal text-muted-foreground">(the link you added)</span> : null}
             </p>
-            <a href={offer.url} target="_blank" rel="noreferrer" className="text-sm hover:underline">
-              {offer.title ?? offer.url}
-            </a>
+            {href ? (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm break-words text-primary underline underline-offset-4 hover:no-underline"
+              >
+                {offer.title ?? offer.url}
+              </a>
+            ) : (
+              <p className="text-sm break-words">{offer.title ?? offer.url}</p>
+            )}
             {offer.variantLabel ? <p className="text-xs text-muted-foreground">{offer.variantLabel}</p> : null}
           </div>
           <div className="shrink-0 sm:text-right">
@@ -284,7 +305,10 @@ function OfferCard({ offer, withDecision }: { offer: ProductOffer; withDecision?
         {!offer.isAnchor && offer.reasons.length > 0 ? (
           <p className="text-xs text-muted-foreground">Why: {offer.reasons.join("; ")}.</p>
         ) : null}
-        {withDecision ? <DecideForm offerId={offer.offerId} /> : null}
+        <div className="flex flex-wrap items-center gap-2">
+          <StoreLinkButton url={offer.url} storeName={offer.storeName} />
+          {withDecision ? <DecideForm offerId={offer.offerId} /> : null}
+        </div>
       </CardContent>
     </Card>
   );
