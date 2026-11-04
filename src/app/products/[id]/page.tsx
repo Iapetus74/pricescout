@@ -133,7 +133,7 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
         <CardHeader>
           <CardTitle>Add a link from another store</CardTitle>
           <CardDescription>
-            Some stores can&apos;t be searched (First Ascent doesn&apos;t allow it). If you find this product there,
+            Some stores can&apos;t be searched (First Ascent and Makro don&apos;t allow it). If you find this product there,
             paste its link here.
           </CardDescription>
         </CardHeader>

@@ -1,0 +1,13 @@
+{
+  "productUrl": "https://www.makro.co.za/fa-kit-home-content-mx-1-first-aid/p/itm4c2579d5bdad7?pid=FAKH9H3NAQPP3ZQ4",
+  "checkedLive": "2026-11-04: page title and JSON-LD agree: R 1,060.37, in stock, sold by a marketplace seller (Hlengiwe Moepe), the buy-box offer. No barcode. Its 'mpn' is a product description ('Home First Aid Kit'), not a maker's code, so the Makro adapter drops it.",
+  "product": {
+    "url": "https://www.makro.co.za/fa-kit-home-content-mx-1-first-aid/p/itm4c2579d5bdad7?pid=FAKH9H3NAQPP3ZQ4",
+    "title": "FA KIT HOME + CONTENT MX 1 Home First Aid Kit First Aid Kit",
+    "brand": "FA KIT HOME + CONTENT MX 1",
+    "sku": "ITM4C2579D5BDAD7",
+    "priceCents": 106037,
+    "inStock": true,
+    "sellerName": "Hlengiwe Moepe"
+  }
+}

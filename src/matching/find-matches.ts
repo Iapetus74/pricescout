@@ -36,6 +36,8 @@ const PROMISING = 0.5;
 const NO_SEARCH: Readonly<Record<string, string>> = {
   "firstascent.co.za":
     "First Ascent's robots.txt doesn't allow automated search, and its sitemap lists no products. You can paste a First Ascent link below instead.",
+  "makro.co.za":
+    "Makro's robots.txt doesn't allow automated search, and its sitemaps list categories, not products. You can paste a Makro link below instead.",
 };
 
 export interface StoreOutcome {
