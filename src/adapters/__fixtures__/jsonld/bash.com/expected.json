@@ -1,0 +1,13 @@
+{
+  "productUrl": "https://bash.com/asicstiger-men-s-hypergel-lyte-white-sneaker-060601aalr3/p",
+  "checkedLive": "2026-11-04: JSON-LD has one offer per size, all R 399.00 and all out of stock; brand ASICS. No barcode. Its 'mpn' is an internal ID (a long code with dashes), so the adapter drops it; the maker's style code (1191A017-101) is only in the description.",
+  "product": {
+    "url": "https://bash.com/asicstiger-men-s-hypergel-lyte-white-sneaker-060601aalr3/p",
+    "title": "ASICSTIGER Men's Hypergel-Lyte White Sneaker",
+    "brand": "ASICS",
+    "sku": "00146148",
+    "priceCents": 39900,
+    "inStock": false,
+    "sellerName": "Bash"
+  }
+}

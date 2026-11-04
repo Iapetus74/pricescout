@@ -1,0 +1,15 @@
+{
+  "productUrl": "https://www.incredible.co.za/lg-42lt-microwave-solo-black-ms4235gis",
+  "checkedLive": "2026-11-04: JSON-LD says R 3,699.00, in stock, sold by Incredible Connection, brand LG, barcode 8806098047420 and the maker's model code MS4235GIS.",
+  "product": {
+    "url": "https://www.incredible.co.za/lg-42lt-microwave-solo-black-ms4235gis",
+    "title": "LG 42lt Microwave, Solo Black MS4235GIS",
+    "brand": "LG",
+    "gtin": "8806098047420",
+    "mpn": "MS4235GIS",
+    "sku": "000000000010110195",
+    "priceCents": 369900,
+    "inStock": true,
+    "sellerName": "Incredible Connection"
+  }
+}

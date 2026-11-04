@@ -1,5 +1,5 @@
 /**
- * The 22 base stores (SPEC.md section 4.1), plus three the owner added later, with what the store survey found
+ * The 22 base stores (SPEC.md section 4.1), plus four the owner added later, with what the store survey found
  * (docs/stores.md). They are written into the `stores` table the first time
  * the app needs them, so every product and offer can point at its store.
  */
@@ -26,11 +26,11 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Makro", domain: "makro.co.za", adapterType: "json_ld", status: "active" },
   { name: "Bob Shop", domain: "bobshop.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Bob Shop's terms ban harvesting listing information." },
   { name: "Amazon South Africa", domain: "amazon.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Amazon's terms ban robots and data gathering tools." },
-  { name: "Bash", domain: "bash.com", adapterType: null, status: "needs_adapter" },
+  { name: "Bash", domain: "bash.com", adapterType: "json_ld", status: "active" },
   { name: "Game", domain: "game.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Woolworths", domain: "woolworths.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
-  { name: "Superbalist", domain: "superbalist.com", adapterType: null, status: "needs_adapter" },
-  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Superbalist", domain: "superbalist.com", adapterType: "json_ld", status: "active", termsWarning: "Superbalist's terms ban robots and other automatic devices that monitor the site. Switched on by the owner's choice." },
+  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "paused", pausedReason: "Paused: blocked even its robots.txt with a \"Request blocked\" page (4 Nov 2026)" },
   { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },
   { name: "Cape Union Mart", domain: "capeunionmart.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
@@ -44,10 +44,11 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Drifters", domain: "driftersshop.co.za", adapterType: "platform", status: "active" },
   { name: "Brave Hardy", domain: "bravehardy.com", adapterType: "platform", status: "active" },
   { name: "Decathlon SA", domain: "decathlon.co.za", adapterType: null, status: "paused", pausedReason: "Paused: showed a bot check page on its product pages (4 Nov 2026)" },
-  // Added by the owner on 4 Nov 2026 (appliances and furniture), after the original 22.
+  // Added by the owner on 4 Nov 2026 (appliances, furniture and electronics), after the original 22.
   { name: "House & Home", domain: "houseandhome.co.za", adapterType: "json_ld", status: "active" },
   { name: "Hirsch's", domain: "hirschs.co.za", adapterType: "json_ld", status: "active" },
   { name: "Tafelberg", domain: "tafelberg.co.za", adapterType: "json_ld", status: "active", termsWarning: "Tafelberg's terms ban using the site to spider, crawl or scrape." },
+  { name: "Incredible", domain: "incredible.co.za", adapterType: "json_ld", status: "active", termsWarning: "Incredible's terms (clause 3.4.5) ban robots, crawlers and tools that monitor the site. Switched on by the owner's choice." },
 ];
 
 const bare = (domain: string) => domain.toLowerCase().replace(/^www\./, "");

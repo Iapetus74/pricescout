@@ -20,16 +20,19 @@ describe("listStoresForHomePage", () => {
   it("lists the stores PriceScout reads today, in alphabetical order", () => {
     const { crawling } = listStoresForHomePage(db);
     expect(crawling.map((s) => s.name)).toEqual([
+      "Bash",
       "Brave Hardy",
       "Camp and Climb",
       "Drifters",
       "First Ascent",
       "Hirsch's",
       "House & Home",
+      "Incredible",
       "Loot",
       "Makro",
       "Naturehike SA",
       "Outdoor Escape",
+      "Superbalist",
       "Tafelberg",
       "Trappers",
     ]);
@@ -38,7 +41,7 @@ describe("listStoresForHomePage", () => {
 
   it("lists paused stores separately and leaves out stores without a reader", () => {
     const { crawling, paused } = listStoresForHomePage(db);
-    expect(paused.map((s) => s.name)).toEqual(["Cape Union Mart", "Decathlon SA", "Outdoor Warehouse", "Woolworths"]);
+    expect(paused.map((s) => s.name)).toEqual(["Cape Union Mart", "Checkers", "Decathlon SA", "Outdoor Warehouse", "Woolworths"]);
     const all = [...crawling, ...paused].map((s) => s.name);
     expect(all).not.toContain("Game");
     expect(all).not.toContain("Takealot");
