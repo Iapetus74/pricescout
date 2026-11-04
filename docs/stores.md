@@ -38,7 +38,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 8 | Superbalist | Custom | Unverified | `/browse?q=` | Allowed / **Disallowed** | Not readable | 3 or 4, products sitemap instead of search |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Allowed / Allowed | Not checked | 5 |
 | 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
-| 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | 4 (HTML); 10 s delay |
+| 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
 | 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
 | 13 | Campmaster | Unreachable | Unreachable | Unreachable | Unreachable (blocks our tool) | Unreachable | Unreachable |
 | 14 | Camp and Climb | WooCommerce | Unverified; price, SKU, brand in meta tags | WordPress `?s=` (assumed) | Allowed / Allowed | Not checked | 2 (WooCommerce) |
@@ -165,6 +165,18 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - **robots.txt:** disallows `/customer*`, `/ws*`, static assets. **Crawl-delay: 10.** No sitemap listed.
 - **Terms:** the terms page refused the survey tool. Not read.
 - **Adapter:** 3 if JSON-LD, otherwise 4 (the HTML is easy to read). Wait 10 seconds between requests.
+- **Built 4 Nov 2026** (`src/adapters/loot.ts`, type 4). Loot is a Next.js site, so each page carries its
+  data in a `<script id="__NEXT_DATA__">` tag: name, price, "list price", barcode, stock and picture.
+  The adapter reads that rather than the page layout. Search reads the same data from `/search?terms=`.
+  Loot's data service (`/ws/...`) is disallowed by robots.txt and is never used.
+- **Findings:** books carry real ISBN-13 barcodes. Many other products carry Loot's own in-store number
+  starting with 2 (e.g. 2000860395726), which the adapter drops so it can't cause a false match. The
+  brand is often "Generic" or "unknown", which the adapter treats as no brand. Loot's "list price" is
+  sometimes *lower* than its price, so it only counts as a "was" price when it is higher.
+  "SupplierInStock" (ships in a few days) counts as in stock. Search is word-based and loose (a search
+  for "stanley flask" returned books by authors called Stanley), so the matcher's scoring matters here.
+- **Checked 2026-11-04:** "Games Of My Life (Hardcover)", R 669 (was R 780), ships in 5 to 10 days;
+  "Outdoor Folding Chair" (Chenshia), R 529.
 
 ### 12. Cape Union Mart (capeunionmart.co.za)
 - **Platform:** Next.js front end; back end not identified. Product URLs look like

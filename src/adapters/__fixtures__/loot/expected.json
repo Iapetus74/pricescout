@@ -1,0 +1,22 @@
+{
+  "checkedLive": "2026-11-04: the book page shows R 669 (was R 780) and 'Ships in 5 - 10 working days'; the chair page shows R 529, ships in 3 - 5 working days. The chair's barcode 2000860395726 is a Loot in-store number, so it is dropped.",
+  "products": {
+    "product-kdyl-8500-ga30.html": {
+      "url": "https://www.loot.co.za/product/alex-ferguson-games-of-my-life/kdyl-8500-ga30",
+      "title": "Games Of My Life (Hardcover)",
+      "gtin": "9781037402425",
+      "sku": "kdyl-8500-ga30",
+      "priceCents": 66900,
+      "wasPriceCents": 78000,
+      "inStock": true
+    },
+    "product-rkvz-8603-g1a0.html": {
+      "url": "https://www.loot.co.za/product/outdoor-folding-chair/rkvz-8603-g1a0",
+      "title": "Outdoor Folding Chair",
+      "brand": "Chenshia",
+      "sku": "rkvz-8603-g1a0",
+      "priceCents": 52900,
+      "inStock": true
+    }
+  }
+}

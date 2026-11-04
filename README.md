@@ -191,6 +191,22 @@ npm run snapshots:jsonld -- https://www.example.co.za/product/some-tent
 
 Put the product's link after the `--`. You should see a line such as `✓ example.co.za: saved (3 JSON-LD blocks)`. If it says `0 JSON-LD blocks`, that store's pages don't carry the product data this adapter reads, so it needs a different adapter. As above, ask Claude to update the matching `expected.json` afterwards.
 
+Loot has its own adapter. Save its pages with product links and, in quotes, some search words:
+
+```
+npm run snapshots:loot -- https://www.loot.co.za/product/outdoor-folding-chair/rkvz-8603-g1a0 "camping chair"
+```
+
+Loot asks for 10 seconds between visits, so this takes about half a minute. You should see one `✓` line per page saved.
+
+WooCommerce shops (such as Camp and Climb) are saved with one product link and some search words:
+
+```
+npm run snapshots:woocommerce -- https://www.campandclimb.co.za/product/tentco-compact-camping-chair "camping chair"
+```
+
+You should see up to four `✓` lines. A `✗` line just means the shop doesn't offer that kind of page, which is useful to know.
+
 The product-matching tests use their own saved pages (listed in `src/matching/__fixtures__/pages.json`). To download any that are missing, or all of them again with `--refresh`:
 
 ```
