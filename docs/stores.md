@@ -390,7 +390,7 @@ Outdoor Escape). Reaching five needs more readable stores.
 
 ## Stores added by the owner (4 November 2026)
 
-Four appliance, furniture and electronics stores, added on the owner's request after the original 22. All three are
+Five appliance, furniture and electronics stores, added on the owner's request after the original 22. All of them are
 read by the generic JSON-LD adapter (type 3), and searched through their sitemaps. Checked from the
 cloud machine with PriceScout's own crawler (the owner allowed these domains in the cloud network settings).
 
@@ -399,6 +399,8 @@ cloud machine with PriceScout's own crawler (the owner allowed these domains in 
 | 23 | House & Home | Magento | **Yes** (Product with offer; no brand) | Products sitemap | Allowed / Allowed | Terms page not found | **3 (JSON-LD), built** |
 | 24 | Hirsch's | Magento | **Yes** (Product with offer and brand) | Products sitemap | Allowed / **Disallowed** | No clause found | **3 (JSON-LD), built** |
 | 25 | Tafelberg | OrderEazi (Storefront7) | **Yes** (Product with offer, brand and model code) | Products sitemap | Allowed / **Disallowed**; crawl-delay 4s | **Yes** | **3 (JSON-LD), built**; terms warning |
+| 26 | Incredible | Magento | **Yes** (Product with offer, brand, barcode and model code) | Sitemap | Allowed / **Disallowed** | **Yes** | **3 (JSON-LD), built**; terms warning |
+| 27 | OK Furniture | Magento | **Yes** (Product with offer; no brand) | Products sitemap | Allowed / **Disallowed** | No clause found | **3 (JSON-LD), built** |
 
 ### 23. House & Home (houseandhome.co.za)
 - **Platform:** Magento. Product links are `/<words>.html`, e.g. `/lg-100-254cm-qned-evo-ai-mini-led-tv-100qned85b8-afbg.html`.
@@ -451,3 +453,14 @@ cloud machine with PriceScout's own crawler (the owner allowed these domains in 
   and crawlers, or other automated device ... to access, obtain, copy, monitor or republish" the site.
   **Terms warning.** The owner chose to switch it on anyway (4 Nov 2026).
 - **Checked 2026-11-04:** "LG 42lt Microwave, Solo Black MS4235GIS", R 3,699.00, in stock, barcode 8806098047420.
+
+### 27. OK Furniture (okfurniture.co.za)
+- **Platform:** Magento, the same shop software as House & Home (both Shoprite group). Product links are
+  `/<words>.html`, e.g. `/defy-dac645-348lt-met-wot-ref-b.html`. The bare domain redirects to `www.`.
+- **robots.txt:** disallows `/catalog/`, `/customer/`, `/review/`, `*.php`, `*SID=` and **every link with a `?`**,
+  so its search page is off limits. The sitemap (`/sitemap.xml`, about 830 links, products and categories) stands in.
+- **Product data:** JSON-LD with name, price, stock and seller, but **no brand** and no barcode. Its `mpn`
+  repeats its own SKU, so the adapter drops it. Titles carry the model code at the end ("... Dac645").
+- **Terms:** `/terms-of-service` allows "personal, non-commercial use" and has no clause about robots,
+  crawling or scraping. The fuller legal pages live on termsconditions.co.za, which the cloud machine can't reach.
+- **Checked 2026-11-04:** "Defy 348lt Metallic Water Dispenser Fridge Dac645", R 7,199, in stock.

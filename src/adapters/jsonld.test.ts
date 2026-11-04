@@ -7,6 +7,7 @@ import {
   createJsonLdAdapter,
   decodeEntities,
   extractJsonLd,
+  isModelCode,
   JsonLdParseError,
   JSONLD_STORES,
   parseJsonLdSearch,
@@ -247,5 +248,36 @@ describe("JSON-LD adapter: searching a store's product list (sitemap)", () => {
 
   it("returns nothing when no product is close", async () => {
     expect(await adapter.search({ text: "french door fridge", limit: 5 })).toEqual([]);
+  });
+});
+
+describe("JSON-LD adapter: OK Furniture", () => {
+  it("searches OK Furniture's sitemap by words, skipping category links", async () => {
+    const ok = JSONLD_STORES.find((s) => s.id === "okfurniture")!;
+    const xml = readFileSync(path.join(FIXTURES, "okfurniture.co.za", "products-sitemap-excerpt.xml"), "utf8");
+    const asked: string[] = [];
+    const source: PageSource = {
+      fetchPage: async (url) => {
+        asked.push(url);
+        return { body: xml, finalUrl: url, fetchedAt: new Date(0) };
+      },
+    };
+    const found = await createJsonLdAdapter(ok, source).search({ text: "348l water dispenser fridge dac645", brand: "Defy" });
+    expect(asked).toEqual(["https://www.okfurniture.co.za/sitemap.xml"]);
+    expect(found[0]?.url).toBe("https://www.okfurniture.co.za/defy-dac645-348lt-met-wot-ref-b.html");
+    for (const c of found) expect(c.url).toMatch(/\.html$/);
+  });
+
+  it("treats model codes, but not sizes, as enough to find a product", () => {
+    for (const w of ["dac645", "ms4295cis", "100qned85b8"]) expect(isModelCode(w)).toBe(true);
+    for (const w of ["348lt", "1500w", "600mm", "dac64", "fridge"]) expect(isModelCode(w)).toBe(false);
+  });
+
+  it("drops the 'model number', which repeats the shop's own SKU", async () => {
+    const ok = JSONLD_STORES.find((s) => s.id === "okfurniture")!;
+    const html = readFileSync(path.join(FIXTURES, "okfurniture.co.za", "product.html"), "utf8");
+    const result = await createJsonLdAdapter(ok, answer(html)).getProduct("https://www.okfurniture.co.za/defy-dac645-348lt-met-wot-ref-b.html");
+    expect(result.mpn).toBeUndefined();
+    expect(result.priceCents).toBe(719900);
   });
 });
