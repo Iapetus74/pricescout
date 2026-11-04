@@ -20,6 +20,8 @@
     "precheck-prices": "npm run db:migrate --silent",
     "snapshots:shopify": "tsx scripts/save-shopify-snapshots.ts",
     "snapshots:jsonld": "tsx scripts/save-jsonld-snapshots.ts",
+    "snapshots:loot": "tsx scripts/save-loot-snapshots.ts",
+    "snapshots:woocommerce": "tsx scripts/save-woocommerce-snapshots.ts",
     "snapshots:matching": "tsx scripts/save-matching-snapshots.ts",
     "snapshots:matching-flow": "tsx scripts/record-matching-flow.ts"
   },

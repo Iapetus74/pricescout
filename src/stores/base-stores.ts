@@ -32,7 +32,7 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Superbalist", domain: "superbalist.com", adapterType: null, status: "needs_adapter" },
   { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter" },
-  { name: "Loot", domain: "loot.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },
   { name: "Cape Union Mart", domain: "capeunionmart.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "Campmaster", domain: "campmaster.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Camp and Climb", domain: "campandclimb.co.za", adapterType: null, status: "needs_adapter" },
