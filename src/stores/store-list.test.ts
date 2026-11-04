@@ -32,6 +32,7 @@ describe("listStoresForHomePage", () => {
       "Makro",
       "Naturehike SA",
       "Outdoor Escape",
+      "Superbalist",
       "Tafelberg",
       "Trappers",
     ]);

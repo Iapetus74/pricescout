@@ -38,6 +38,8 @@ const NO_SEARCH: Readonly<Record<string, string>> = {
     "First Ascent's robots.txt doesn't allow automated search, and its sitemap lists no products. You can paste a First Ascent link below instead.",
   "bash.com":
     "Bash's robots.txt doesn't allow automated search, and its product list is spread over many files. You can paste a Bash link below instead.",
+  "superbalist.com":
+    "Superbalist's robots.txt doesn't allow automated search, and its product list is too large to download. You can paste a Superbalist link below instead.",
   "makro.co.za":
     "Makro's robots.txt doesn't allow automated search, and its sitemaps list categories, not products. You can paste a Makro link below instead.",
 };

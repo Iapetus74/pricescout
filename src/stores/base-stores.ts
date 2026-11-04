@@ -29,7 +29,7 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Bash", domain: "bash.com", adapterType: "json_ld", status: "active" },
   { name: "Game", domain: "game.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Woolworths", domain: "woolworths.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
-  { name: "Superbalist", domain: "superbalist.com", adapterType: null, status: "needs_adapter" },
+  { name: "Superbalist", domain: "superbalist.com", adapterType: "json_ld", status: "active", termsWarning: "Superbalist's terms ban robots and other automatic devices that monitor the site. Switched on by the owner's choice." },
   { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "paused", pausedReason: "Paused: blocked even its robots.txt with a \"Request blocked\" page (4 Nov 2026)" },
   { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter" },
   { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },

@@ -115,6 +115,15 @@ export const JSONLD_STORES: readonly JsonLdStore[] = [
     productPath: /^\/[a-z0-9-]+\/p\/?$/i,
     ignoreMpn: true,
   },
+  // Custom (Nuxt). Product links are /<department>/<category>/.../<words>/<number>. robots.txt disallows
+  // ?q= search, and the products sitemap is 11 files of 50 000 links, too heavy to search: pasted links only.
+  // Terms ban robots that monitor the site: terms warning (switched on by the owner's choice).
+  {
+    id: "superbalist",
+    domains: ["superbalist.com"],
+    origin: "https://superbalist.com",
+    productPath: /^\/(?:[a-z0-9-]+\/){2,}[a-z0-9-]+\/\d+\/?$/i,
+  },
   {
     id: "makro",
     domains: ["makro.co.za"],

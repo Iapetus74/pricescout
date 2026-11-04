@@ -35,7 +35,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 5 | Bash | VTEX | **Yes** (Product with one offer per size) | `/busca/` | Allowed / **Disallowed** | Terms page not found | **3 (JSON-LD), built**; pasted links only |
 | 6 | Game | JavaScript app with PerimeterX bot protection | **No** (empty page shell) | `/search` | Allowed / Unclear (see notes) | Not checked | 5 at best; likely Paused |
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
-| 8 | Superbalist | Custom (Nuxt) | **Yes** (Product with offer) | `/browse?q=` | Allowed / **Disallowed** | **Yes** | 3 (JSON-LD) works; owner to decide (terms) |
+| 8 | Superbalist | Custom (Nuxt) | **Yes** (Product with offer) | `/browse?q=` | Allowed / **Disallowed** | **Yes** | **3 (JSON-LD), built**; pasted links only; terms warning |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Blocked (403) | Not checked | **Paused** (blocks even robots.txt, 2026-11-04) |
 | 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
@@ -110,6 +110,7 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   Shop's permission; 13.1.7 bans copying site content. **Terms warning.**
 - **Adapter:** 3 if item pages carry JSON-LD, otherwise 4. Many sellers per product; buy-box only (v1).
 - Could not get a sample item URL; category pages show no prices in text.
+- **4 Nov 2026:** the owner chose to leave Bob Shop **off** because of its terms (13.1.8). Not built.
 
 ### 4. Amazon South Africa (amazon.co.za)
 - **Unreachable:** Amazon's robots.txt blocks the survey tool.
@@ -171,7 +172,8 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   each), far too heavy to search, so it would be pasted links only.
 - **Terms:** the terms page bans using "any robot, spider, other automatic device, or manual process to
   monitor, copy, distribute or modify the Website", and "data mining, robots or similar data gathering".
-  **Terms warning;** the owner decides whether to switch it on.
+  **Terms warning.** The owner chose to switch it on anyway (4 Nov 2026). Built on the generic JSON-LD
+  adapter, pasted links only.
 
 ### 9. Checkers (checkers.co.za)
 - **Platform:** the site is now the "Checkers Sixty60" web app. The page loads its content in the
