@@ -171,6 +171,17 @@ describe("JSON-LD base stores", () => {
       expect(adapter.canHandle(`${s.origin}/some/deep/category/page`)).toBe(false);
     }
   });
+
+  it("drops Makro's 'model number', which is a description, so it can't block real matches", async () => {
+    const makro = JSONLD_STORES.find((s) => s.id === "makro")!;
+    const html = readFileSync(path.join(FIXTURES, "makro.co.za", "product.html"), "utf8");
+    const link = "https://www.makro.co.za/fa-kit-home-content-mx-1-first-aid/p/itm4c2579d5bdad7?pid=FAKH9H3NAQPP3ZQ4";
+    const result = await createJsonLdAdapter(makro, answer(html)).getProduct(link);
+    expect(result.mpn).toBeUndefined();
+    expect(result.priceCents).toBe(106037);
+    // Makro category pages aren't product links.
+    expect(makro.productPath!.test("/automotive-accessories/pr")).toBe(false);
+  });
 });
 
 describe("JSON-LD adapter: searching a store's product list (sitemap)", () => {

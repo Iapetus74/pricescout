@@ -29,11 +29,11 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | # | Store | Platform | JSON-LD | Search | robots.txt: product / search | Terms restrict bots? | Adapter |
 |---|---|---|---|---|---|---|---|
 | 1 | Takealot | Custom (JavaScript app) | Unverified; product page text is empty | `/all?qsearch=` | Allowed / **Disallowed** | **Yes** | 3 if JSON-LD, else 5; product URLs only; terms warning |
-| 2 | Makro | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable |
+| 2 | Makro | Flipkart marketplace platform | **Yes** (Product with buy-box offer) | `/search?q=` | Allowed / **Disallowed** | Not checked | **3 (JSON-LD), built**; pasted links only |
 | 3 | Bob Shop | Custom (Java/JSP) | Unverified | `TradeSearch.jsp?...` | Allowed / Allowed | **Yes** | 3 or 4, terms warning |
 | 4 | Amazon SA | Amazon | Unreachable | `/s?k=` (standard Amazon) | Unreachable (blocks our tool) | **Yes** | 1 (Product Advertising API) or leave off |
 | 5 | Bash | VTEX | Unreachable | Unreachable | Unreachable | Unreachable | 2 (VTEX) once robots is checked |
-| 6 | Game | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable | Unreachable |
+| 6 | Game | JavaScript app with PerimeterX bot protection | **No** (empty page shell) | `/search` | Allowed / Unclear (see notes) | Not checked | 5 at best; likely Paused |
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
 | 8 | Superbalist | Custom | Unverified | `/browse?q=` | Allowed / **Disallowed** | Not readable | 3 or 4, products sitemap instead of search |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Allowed / Allowed | Not checked | 5 |
@@ -49,7 +49,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 19 | Outdoor Escape | Wix | **Yes** (Product with offer) | Not visible | Allowed / Allowed (www); crawl-delay 10s | Not checked | **3 (JSON-LD), built**; prices "to be confirmed" |
 | 20 | Drifters | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
 | 21 | Brave Hardy | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | No bot clause (copying banned) | 2 (Shopify) |
-| 22 | Decathlon SA | PrestaShop | Unreachable | `/search/` | Allowed / **Disallowed** (from robots.txt) | Unreachable | 3 or 4; no search |
+| 22 | Decathlon SA | PrestaShop | Unreachable (bot check) | `/search/` | Allowed / **Disallowed** (from robots.txt) | Unreachable | **Paused** (bot check on product page, 2026-11-04) |
 
 **Platform adapters this unlocks:** Shopify covers 4 stores (Naturehike, Trappers, Drifters, Brave Hardy).
 The Shopify adapter is built (`src/adapters/shopify.ts`, milestone 4). It reads each product's
@@ -84,8 +84,19 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
 - Marketplace: record the buy-box offer only (v1).
 
 ### 2. Makro (makro.co.za)
-- **Unreachable:** every request (robots.txt and home page) was refused by the site.
-- Nothing else could be checked. Re-check from a home connection.
+- **Unreachable on 31 Oct:** every request was refused by the site. **Reachable on 4 Nov 2026** with
+  PriceScout's own crawler.
+- **Platform:** Flipkart's marketplace platform (category links end `/pr?sid=...`, products are
+  `/<words>/p/itm<code>?pid=<id>`).
+- **Product page:** schema.org `Product` JSON-LD with name, brand, SKU, image and one offer (price in rand
+  with cents, stock, and the marketplace seller, i.e. the buy-box offer). No barcode. Its `mpn` holds a
+  description ("Home First Aid Kit"), not the maker's model code, so the adapter drops it: a wrong
+  model code would make the matcher reject real matches. Brands are typed by sellers, so they can be odd.
+- **robots.txt:** `Allow: /` but disallows `/search?`, `/search/`, `*/searchsuggestion*`, offer and seller
+  lists, account and checkout. So **search is not allowed**. Its sitemaps (gzip files) list category
+  pages only, not products, so there is nothing to search instead. Pasted links only.
+- **Built 4 Nov 2026:** served by the generic JSON-LD adapter. Checked: "FA KIT HOME + CONTENT MX 1 Home
+  First Aid Kit", R 1,060.37, in stock, seller Hlengiwe Moepe.
 
 ### 3. Bob Shop (bobshop.co.za)
 - **Platform:** custom Java (JSP) marketplace.
@@ -115,7 +126,15 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   allows it before building.
 
 ### 6. Game (game.co.za)
-- **Unreachable:** every request was refused by the site. Re-check from a home connection.
+- **Unreachable on 31 Oct.** **Reachable on 4 Nov 2026**, but the product page
+  (`/.../p/000000000000000258`) is an empty shell: no title, price or JSON-LD. The page is built by the
+  browser, and it loads **PerimeterX** (`_pxAppId`), a bot-protection service.
+- **robots.txt:** `User-agent: *` with `Allow: /`, then a Google-only group that disallows `/search*`,
+  `*?q=*`, cart and account. Read strictly, search is allowed for us, but the intent looks like "no search
+  for anyone", so PriceScout should not search Game. `Crawl-delay: 1`. Sitemaps per department
+  (e.g. `/game-sports-outdoor-sitemap.xml`), but product links hold only a number, no words.
+- **Adapter:** only Playwright (type 5) could read it, and PerimeterX would most likely show a bot check.
+  Not built. Left as "Needs adapter" for the owner to decide.
 
 ### 7. Woolworths (woolworths.co.za)
 - **Platform:** the `/prod/_/A-<id>` and `/cat?Ntt=` URL pattern suggests Oracle ATG with Endeca (a guess
@@ -284,6 +303,10 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   are allowed except URLs containing `prod_en`. Sitemap: `/sitemap-en-index.xml`. **Search is not
   allowed.**
 - Pages other than robots.txt were refused (the site sits behind bot protection).
+- **4 Nov 2026:** robots.txt and the sitemap (`/sitemap-en-1.xml`, about 6 000 links with words in them,
+  e.g. `/p/8746-102663-men-s-slim-fit-fitness-t-shirt-100-white.html`) were read. The first product page
+  answered with a **CAPTCHA**, so the crawler stopped and the store is **Paused**. The sitemap would be a
+  good stand-in for search if Decathlon ever stops showing bot checks.
 - **Terms:** unreachable.
 - **Adapter:** 3 or 4, product URLs and sitemap only.
 

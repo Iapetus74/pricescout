@@ -43,10 +43,13 @@ export interface JsonLdStore {
   searchUrlPattern?: string;
   /** Optional: the store's sitemap of product links, searched by words when there is no search page. */
   productSitemapUrl?: string;
+  /** Set when the shop's "mpn" field holds a description instead of the maker's model code, so it is
+   *  dropped. A wrong model code would make the matcher reject real matches. */
+  ignoreMpn?: boolean;
 }
 
 /** The base stores served by this adapter, each checked against a saved page (docs/stores.md).
- *  Neither has a search page we may use. Outdoor Escape is searched through its products sitemap;
+ *  None has a search page we may use. Outdoor Escape is searched through its products sitemap;
  *  First Ascent's sitemap lists no products, so it works from pasted links only. */
 export const JSONLD_STORES: readonly JsonLdStore[] = [
   // Magento 2. Product links are a single word-with-dashes path, e.g. /glacier-cooler-18l.
@@ -59,6 +62,16 @@ export const JSONLD_STORES: readonly JsonLdStore[] = [
     origin: "https://www.outdoorescape.co.za",
     productPath: /^\/product-page\/[^/]+\/?$/,
     productSitemapUrl: "https://www.outdoorescape.co.za/store-products-sitemap.xml",
+  },
+  // Marketplace (Flipkart's platform). Product links are /<words>/p/itm<code>?pid=<id>; the JSON-LD gives
+  // the buy-box offer and its seller. robots.txt disallows /search, and its sitemaps list category pages
+  // only, so pasted links only. Its "mpn" is a description such as "Home First Aid Kit", so it is dropped.
+  {
+    id: "makro",
+    domains: ["makro.co.za"],
+    origin: "https://www.makro.co.za",
+    productPath: /^\/[^/]+\/p\/itm[0-9a-z]+\/?$/i,
+    ignoreMpn: true,
   },
 ];
 
@@ -528,7 +541,8 @@ export function createJsonLdAdapter(store: JsonLdStore, source: PageSource): Sto
     async getProduct(url) {
       if (!isProductLink(url)) throw new JsonLdParseError(`Not a ${store.id} product link`, url);
       const page = await source.fetchPage(url);
-      return parseJsonLdProduct(page.body, { url: page.finalUrl || url, fetchedAt: page.fetchedAt });
+      const product = parseJsonLdProduct(page.body, { url: page.finalUrl || url, fetchedAt: page.fetchedAt });
+      return store.ignoreMpn ? { ...product, mpn: undefined } : product;
     },
 
     async search(query: SearchQuery) {
