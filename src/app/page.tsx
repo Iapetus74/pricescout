@@ -5,8 +5,8 @@ import { Suspense } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatCents } from "@/lib/money";
 import { getAppContext } from "@/server/app-context";
+import { listStoresForHomePage } from "@/stores/store-list";
 import { listTrackedProducts } from "@/tracking/tracked-products";
-import { supportedStoreNames } from "@/tracking/track-url";
 
 import { TrackForm } from "./track-form";
 
@@ -22,8 +22,7 @@ export default function Home() {
         <CardHeader>
           <CardTitle>Paste a product link</CardTitle>
           <CardDescription>
-            Copy the address of a product page and paste it here. Stores that work today:{" "}
-            {supportedStoreNames().join(", ")}.
+            Copy the address of a product page from one of the shops listed below and paste it here.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -35,6 +34,13 @@ export default function Home() {
         <h2 className="text-xl font-semibold">Tracked products</h2>
         <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
           <TrackedProducts />
+        </Suspense>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="text-xl font-semibold">Shops we check</h2>
+        <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
+          <CrawledShops />
         </Suspense>
       </section>
     </main>
@@ -102,5 +108,40 @@ async function TrackedProducts() {
         );
       })}
     </ul>
+  );
+}
+
+async function CrawledShops() {
+  await connection(); // a store can be paused at any time, so read it fresh on every visit
+  const { db } = getAppContext();
+  const { crawling, paused } = listStoresForHomePage(db);
+
+  return (
+    <div className="flex flex-col gap-3">
+      {crawling.length === 0 ? (
+        <p className="text-sm text-muted-foreground">PriceScout isn&apos;t reading any shops right now.</p>
+      ) : (
+        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {crawling.map((store) => (
+            <li key={store.id} className="rounded-lg border px-3 py-2">
+              <a href={store.url} target="_blank" rel="noreferrer" className="font-medium hover:underline">
+                {store.name}
+              </a>
+              <p className="text-xs text-muted-foreground">
+                {store.lastSuccessAt
+                  ? `Last read ${store.lastSuccessAt.toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" })}`
+                  : "Not read yet"}
+              </p>
+              {store.termsWarning ? <p className="text-xs text-amber-700 dark:text-amber-500">{store.termsWarning}</p> : null}
+            </li>
+          ))}
+        </ul>
+      )}
+      {paused.length > 0 ? (
+        <p className="text-sm text-muted-foreground">
+          Paused because they showed a bot check: {paused.map((s) => s.name).join(", ")}.
+        </p>
+      ) : null}
+    </div>
   );
 }
