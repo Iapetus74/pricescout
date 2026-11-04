@@ -1,0 +1,9 @@
+{
+  "savedAt": "2026-11-04T15:43:27.294Z",
+  "files": {
+    "product.html": "https://www.campandclimb.co.za/product/tentco-compact-camping-chair",
+    "store-api-product.json": "https://www.campandclimb.co.za/wp-json/wc/store/v1/products?slug=tentco-compact-camping-chair",
+    "store-api-search.json": "https://www.campandclimb.co.za/wp-json/wc/store/v1/products?search=camping%20chair&per_page=10"
+  },
+  "note": "Saved by the owner on their own computer (the cloud machine can't reach this shop). search.html was not kept: the adapter doesn't use it."
+}

@@ -41,7 +41,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
 | 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
 | 13 | Campmaster | Unreachable | Unreachable | Unreachable | Unreachable (blocks our tool) | Unreachable | Unreachable |
-| 14 | Camp and Climb | WooCommerce | Unverified; price, SKU, brand in meta tags | WordPress `?s=` (assumed) | Allowed / Allowed | Not checked | 2 (WooCommerce) |
+| 14 | Camp and Climb | WooCommerce | Unverified; price, SKU, brand in meta tags | WooCommerce Store API | Allowed / Allowed | Not checked | **2 (WooCommerce), built** |
 | 15 | Outdoor Warehouse | Custom / headless (Cloudinary images) | Unverified | Not visible | Allowed / Allowed | Not checked | **Paused** (bot check page, 2026-10-31) |
 | 16 | First Ascent | Magento 2 (Vaimo) | **Yes** (Product with offer) | `/catalogsearch/` | Allowed / **Disallowed** | Not checked | **3 (JSON-LD), built**; no search |
 | 17 | Naturehike SA | Shopify | Yes (Product with offers) | `/search?q=` | Allowed / Allowed | **Yes** | 2 (Shopify), terms warning |
@@ -200,6 +200,15 @@ The rate limiter must honour `Crawl-delay` when it is longer than our 5-second m
   confirmed. WooCommerce's public Store API (`/wp-json/wc/store/v1/products?search=`) may also be on.
 - **Terms:** not checked.
 - **Adapter:** 2 (WooCommerce).
+- **Built 4 Nov 2026** (`src/adapters/woocommerce.ts`). The owner saved the pages from their own
+  computer, because the cloud machine is still refused. WooCommerce's public Store API is switched on:
+  `/wp-json/wc/store/v1/products?slug=<slug>` gives one product and `?search=<words>` searches. Prices
+  come in whole cents (e.g. `"24900"` = R 249.00), with the normal price alongside a sale price. The
+  shop's brand list is empty, but its Google tracking data (`extensions.gtm4wp.item_brand`) holds the
+  brand. No barcodes. The product page also carries Yoast JSON-LD with the same price, SKU and brand.
+- **Limit:** products with options at different prices only give a price range in the Store API, so the
+  adapter refuses them (records a failure) instead of guessing. Most of the shop's products are single.
+- **Checked 2026-11-04:** "Tentco Compact Camping Chair", R 249.00, in stock, SKU CAM204504.
 
 ### 15. Outdoor Warehouse (outdoorwarehouse.co.za)
 - **Platform:** custom or headless; product images come from Cloudinary.
