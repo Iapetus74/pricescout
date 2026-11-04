@@ -148,9 +148,13 @@ function saveMatch(db: Db, productId: number, storeId: number, page: ProductPage
 /** Reasons without the "please confirm" note, once the user has answered. */
 const answered = (reasons: string[]) => reasons.filter((r) => !r.startsWith("you ") && !r.includes("needs your confirmation"));
 
-/** Applies a past decision to a fresh result. */
+/**
+ * Applies a past decision to a fresh result. A confirmed link stays the same
+ * product even if PriceScout would otherwise reject it, because the user may
+ * have added it with "Add it anyway".
+ */
 function withDecision(match: MatchResult, decision: "confirmed" | "rejected" | undefined): MatchResult {
-  if (decision === "confirmed" && match.type === "unsure") {
+  if (decision === "confirmed" && (match.type === "unsure" || match.type === "rejected")) {
     return { type: "exact", score: match.score, reasons: ["you confirmed this is the same product", ...answered(match.reasons)] };
   }
   return match;
@@ -296,14 +300,23 @@ export function decideMatch(options: { db: Db; userId: number; offerId: number; 
 }
 
 export type AddLinkResult =
-  | { ok: true; storeName: string; title: string; priceCents: number; type: MatchType }
-  | { ok: false; message: string };
+  | { ok: true; storeName: string; title: string; priceCents: number; type: MatchType; overridden: boolean }
+  | {
+      ok: false;
+      message: string;
+      /** Set when PriceScout thinks the link is a different product: the user may add it anyway. */
+      canOverride?: { title: string; storeName: string };
+    };
+
+/** Reason saved when the user adds a link PriceScout thought was a different product. */
+export const OVERRIDE_REASON = "you said this is the same product, although PriceScout thought it was different";
 
 /**
  * Adds a link the user pasted for this product, for stores that can't be
  * searched (such as First Ascent). Because the user chose the link, an
- * "unsure" result counts as confirmed. A link that is clearly a different
- * product is not saved, and the reasons are shown instead.
+ * "unsure" result counts as confirmed. A link that looks like a different
+ * product is not saved at first: the reasons are shown, and the user can
+ * press "Add it anyway" (`override: true`) to save it as the same product.
  */
 export async function addMatchByLink(options: {
   db: Db;
@@ -311,6 +324,7 @@ export async function addMatchByLink(options: {
   userId: number;
   productId: number;
   input: string;
+  override?: boolean;
 }): Promise<AddLinkResult> {
   const { db, adapters, userId } = options;
   const anchor = loadAnchor(db, adapters, userId, options.productId);
@@ -343,14 +357,19 @@ export async function addMatchByLink(options: {
   }
 
   const match = classifyMatch(anchorPage, page);
-  if (match.type === "rejected") {
+  const overridden = match.type === "rejected";
+  if (overridden && !options.override) {
     return {
       ok: false,
       message: `That looks like a different product (${match.reasons.join("; ")}), so it wasn't added.`,
+      canOverride: { title: page.title, storeName: store.name },
     };
   }
-  const saved: MatchResult =
-    match.type === "unsure" ? { ...match, type: "exact", reasons: ["you added this link yourself", ...answered(match.reasons)] } : match;
+  const saved: MatchResult = overridden
+    ? { ...match, type: "exact", reasons: [OVERRIDE_REASON, ...answered(match.reasons)] }
+    : match.type === "unsure"
+      ? { ...match, type: "exact", reasons: ["you added this link yourself", ...answered(match.reasons)] }
+      : match;
   saveMatch(db, anchor.productId, store.id, page, saved);
   db.insert(matchDecisions)
     .values({ userId, anchorKey: anchor.anchorUrl, candidateUrl: page.url, decision: "confirmed" })
@@ -359,7 +378,7 @@ export async function addMatchByLink(options: {
       set: { decision: "confirmed" },
     })
     .run();
-  return { ok: true, storeName: store.name, title: page.title, priceCents: page.priceCents, type: saved.type };
+  return { ok: true, storeName: store.name, title: page.title, priceCents: page.priceCents, type: saved.type, overridden };
 }
 
 export interface ProductOffer {

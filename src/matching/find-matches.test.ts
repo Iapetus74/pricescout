@@ -18,7 +18,7 @@ import { matchDecisions, offers, priceObservations } from "@/db/schema";
 import { ensureBaseStores } from "@/stores/base-stores";
 import { ensureLocalOwner, trackProductUrl } from "@/tracking/track-url";
 
-import { addMatchByLink, decideMatch, findMatches, getProductWithOffers } from "./find-matches";
+import { addMatchByLink, decideMatch, findMatches, getProductWithOffers, OVERRIDE_REASON } from "./find-matches";
 
 const FIXTURES = path.join(__dirname, "__fixtures__");
 const FLOW = path.join(FIXTURES, "flow", "ice-nino");
@@ -180,5 +180,36 @@ describe("addMatchByLink", () => {
     expect(result.ok).toBe(false);
     if (!result.ok) expect(result.message).toMatch(/different product.*nino.*breaker/);
     expect(byStore(productId)["Brave Hardy"]).toBeUndefined();
+  });
+
+  it("adds a link it thinks is different when the user says it is the same product", async () => {
+    const { adapters, productId } = await trackOnly();
+    const input = "https://www.bravehardy.com/products/first-ascent-ice-breaker-down-sleeping-bag";
+    const first = await addMatchByLink({ db, adapters, userId, productId, input });
+    expect(first).toMatchObject({ ok: false, canOverride: { storeName: "Brave Hardy" } });
+
+    const forced = await addMatchByLink({ db, adapters, userId, productId, input, override: true });
+    expect(forced).toMatchObject({ ok: true, storeName: "Brave Hardy", type: "exact", overridden: true });
+    const bh = byStore(productId)["Brave Hardy"];
+    expect(bh).toMatchObject({ matchType: "exact", latest: { priceCents: expect.any(Number) } });
+    expect(bh.reasons[0]).toBe(OVERRIDE_REASON);
+    const saved = db.select().from(matchDecisions).where(eq(matchDecisions.userId, userId)).all();
+    expect(saved).toEqual([expect.objectContaining({ decision: "confirmed", anchorKey: recorded.anchor })]);
+  });
+
+  it("keeps an overridden link as the same product when the stores are searched again", async () => {
+    const { adapters, productId } = await trackOnly();
+    const input = "https://www.bravehardy.com/products/first-ascent-ice-breaker-down-sleeping-bag";
+    await addMatchByLink({ db, adapters, userId, productId, input, override: true });
+    await findMatches({ db, adapters, userId, productId });
+    const breaker = getProductWithOffers(db, userId, productId)!.offers.filter((o) => o.url.includes("ice-breaker"));
+    expect(breaker).toEqual([expect.objectContaining({ matchType: "exact" })]);
+  });
+
+  it("doesn't offer an override for a link it can't read", async () => {
+    const { adapters, productId } = await trackOnly();
+    const result = await addMatchByLink({ db, adapters, userId, productId, input: "https://example.com/thing", override: true });
+    expect(result).toMatchObject({ ok: false });
+    if (!result.ok) expect(result.canOverride).toBeUndefined();
   });
 });
