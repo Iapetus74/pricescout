@@ -1,0 +1,1565 @@
+[
+  {
+    "id": 88752,
+    "name": "Tentco Compact Camping Chair",
+    "slug": "tentco-compact-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/tentco-compact-camping-chair",
+    "sku": "CAM204504",
+    "short_description": "<p>Compact folding camp chair.</p>",
+    "description": "<p>The Tentco Compact Camping Chair is a great option when packing space is at a premium. A great folding chair for camping, picnic or sport events etc.</p>\n<p><strong>Features</strong>:</p>\n<ul>\n<li>Compact design</li>\n<li>Strong steel frame</li>\n<li>Tough 600D Oxford nylon material</li>\n</ul>\n<p><strong>Specifications</strong>:</p>\n<p>Max. weight capacity: 130 kg<br />\nSize: 58 x 70 cm<br />\nWeight: 3 kg<br />\nPacked size: 37 x 12 x 12 cm</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "24900",
+      "regular_price": "24900",
+      "sale_price": "24900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>249.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 88915,
+        "src": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair.jpg 1000w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-100x100.jpg 100w",
+        "sizes": "(max-width: 1000px) 100vw, 1000px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair.jpg 1000w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "tentco-compact-camping-chair",
+        "alt": "Nomad Compact Camping Chair"
+      },
+      {
+        "id": 88916,
+        "src": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag.jpg 600w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-100x100.jpg 100w",
+        "sizes": "(max-width: 600px) 100vw, 600px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair-bag.jpg 600w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "tentco-compact-camping-chair-bag",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Tentco Compact Camping Chair&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=88752",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 88752,
+          "item_id": "88752",
+          "item_name": "Tentco Compact Camping Chair",
+          "sku": "CAM204504",
+          "price": 249,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "88752",
+          "item_brand": "Tentco"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/88752",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=88752&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 83835,
+    "name": "Nomad DC-4 Camping Chair 120kg",
+    "slug": "nomad-dc-4-camping-chair-120kg",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/nomad-dc-4-camping-chair-120kg",
+    "sku": "CAM204053",
+    "short_description": "<p>Portable Folding Camp Chair</p>",
+    "description": "<p data-start=\"42\" data-end=\"293\">The Nomad DC-4 Chair is a sturdy and comfortable folding camping chair. With a built-in side table and compact fold, it’s perfect for relaxing at the campsite, braai, or outdoor events.</p>\n<p data-start=\"295\" data-end=\"309\"><strong data-start=\"295\" data-end=\"307\">Features:</strong></p>\n<ul data-start=\"310\" data-end=\"564\">\n<li data-section-id=\"wzb7sb\" data-start=\"310\" data-end=\"346\">Durable 600D Oxford fabric cover</li>\n<li data-section-id=\"105mg1\" data-start=\"347\" data-end=\"390\">Strong steel frame for reliable support</li>\n<li data-section-id=\"m2e3l0\" data-start=\"391\" data-end=\"430\">Built-in side table with mug holder</li>\n<li data-section-id=\"1v17l0w\" data-start=\"431\" data-end=\"474\">Compact folding design for easy storage</li>\n<li data-section-id=\"me385t\" data-start=\"475\" data-end=\"515\">Easy to carry for travel and camping</li>\n<li data-section-id=\"kyvxxf\" data-start=\"516\" data-end=\"564\">Comfortable seating with supportive backrest</li>\n</ul>\n<p data-start=\"566\" data-end=\"586\"><strong data-start=\"566\" data-end=\"584\">Specifications:</strong></p>\n<p>Weight Capacity: 120 kg</p>\n<p>Full Height: 86 cm</p>\n<p>Pack Size: 50 x 55 x 16 cm</p>\n<p>Seat Width: 50 cm</p>\n<p>Seat Height: 43 cm</p>\n<p>Seat Depth: 42 cm</p>\n<p>Approximate Weight: 6 kg</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "96900",
+      "regular_price": "96900",
+      "sale_price": "96900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>969.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 83837,
+        "src": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1.png 1200w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "nomad-dc4-chair-1",
+        "alt": "Nomad DC-4 Camping Chair 120kg"
+      },
+      {
+        "id": 83836,
+        "src": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2.png 1200w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-2.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "nomad-dc4-chair-2",
+        "alt": "Nomad DC-4 Camping Chair 120kg"
+      },
+      {
+        "id": 83838,
+        "src": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair.png 1200w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "nomad-dc4-chair",
+        "alt": "Nomad DC-4 Camping Chair 120kg"
+      },
+      {
+        "id": 83839,
+        "src": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3.png 1200w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/nomad-dc4-chair-3.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "nomad-dc4-chair-3",
+        "alt": "Nomad DC-4 Camping Chair 120kg"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Nomad DC-4 Camping Chair 120kg&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=83835",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 83835,
+          "item_id": "83835",
+          "item_name": "Nomad DC-4 Camping Chair 120kg",
+          "sku": "CAM204053",
+          "price": 969,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "83835",
+          "item_brand": "Nomad"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/83835",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=83835&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 77533,
+    "name": "Afritrail Panda Camping Chair for Kids",
+    "slug": "afritrail-panda-camping-chair-for-kids",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/afritrail-panda-camping-chair-for-kids",
+    "sku": "CAM203172",
+    "short_description": "<p>Kiddies Spider Frame Camping Chair</p>",
+    "description": "<p data-start=\"221\" data-end=\"567\">Make camping even more fun for the little ones with the Afritrail Panda Camping Chair for Kids. Designed with a playful panda print, this chair adds a bit of charm to any outdoor setup.</p>\n<p data-start=\"743\" data-end=\"758\"><strong data-start=\"743\" data-end=\"756\">Features:</strong></p>\n<ul data-start=\"759\" data-end=\"929\">\n<li data-start=\"759\" data-end=\"794\">\n<p data-start=\"761\" data-end=\"794\">Fun panda design kids will love</p>\n</li>\n<li data-start=\"795\" data-end=\"849\">\n<p data-start=\"797\" data-end=\"849\">Strong steel frame and tough fabric for durability</p>\n</li>\n<li data-start=\"850\" data-end=\"878\">\n<p data-start=\"852\" data-end=\"878\">Built-in mesh cup holder</p>\n</li>\n<li data-start=\"879\" data-end=\"929\">\n<p data-start=\"881\" data-end=\"929\">Compact fold-up design with carry bag included</p>\n</li>\n</ul>\n<p data-start=\"936\" data-end=\"957\"><strong data-start=\"936\" data-end=\"955\">Specifications:</strong></p>\n<p>Approx. seat width: 33cm</p>\n<p>Approx. seat depth: 26cm</p>\n<p>Approx. seat height: 26cm</p>\n<p data-start=\"960\" data-end=\"992\">Open Size: 34 x 34 x 65 cm</p>\n<p data-start=\"995\" data-end=\"1020\">Fabric: 600D Oxford</p>\n<p data-start=\"1023\" data-end=\"1054\">Frame: 13 mm steel tubing</p>\n<p data-start=\"1057\" data-end=\"1085\">Weight Capacity: 50 kg</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "27500",
+      "regular_price": "27500",
+      "sale_price": "27500",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>275.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 77652,
+        "src": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair.png 1200w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "afritrail-panda-camping-chair",
+        "alt": "Afritrail Panda Camping Chair for Kids"
+      },
+      {
+        "id": 77650,
+        "src": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1.png 1200w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-1.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "afritrail-panda-camping-chair-1",
+        "alt": "Afritrail Panda Camping Chair for Kids"
+      },
+      {
+        "id": 77651,
+        "src": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2.png 1200w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/afritrail-panda-camping-chair-2.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "afritrail-panda-camping-chair-2",
+        "alt": "Afritrail Panda Camping Chair for Kids"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Afritrail Panda Camping Chair for Kids&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=77533",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 77533,
+          "item_id": "77533",
+          "item_name": "Afritrail Panda Camping Chair for Kids",
+          "sku": "CAM203172",
+          "price": 275,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "77533",
+          "item_brand": "AfriTrail"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/77533",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=77533&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75539,
+    "name": "Summit Ultralight Pack Away Camping Chair",
+    "slug": "summit-ultralight-pack-away-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/summit-ultralight-pack-away-camping-chair",
+    "sku": "CAM203422",
+    "short_description": "<p class=\"ai-optimize-27 ai-optimize-introduction\">Compact, lightweight camping chair.</p>",
+    "description": "<p>The Summit Ultralight Pack Away Camping Chair showcases an innovative design that allows it to collapse down to a tenth of the size of conventional folding chairs.</p>\n<p><strong>Features</strong>:</p>\n<ul class=\"bullets\">\n<li>Durable &amp; ultra-lightweight</li>\n<li>Portable with quick assembly</li>\n<li>Water resistant &#8211; easy to clean</li>\n<li>Comes with carry case</li>\n<li>For outdoor use only</li>\n</ul>\n<p><strong>Specifications</strong>:</p>\n<p>Approx. seat width: 33cm</p>\n<p>Approx. seat depth: 28cm</p>\n<p>Approx. seat height: 29cm</p>\n<p>100 kg max load</p>\n<p>Open dimensions:59 cm(H) x 50 cm(W) x 64 cm(D)</p>",
+    "on_sale": true,
+    "prices": {
+      "price": "49900",
+      "regular_price": "59900",
+      "sale_price": "49900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>599.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#082;599.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#082;499.00.</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 75540,
+        "src": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair.jpg 700w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-150x150.jpg 150w",
+        "sizes": "(max-width: 700px) 100vw, 700px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair.jpg 700w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "summit-ultralight-chair",
+        "alt": "Summit Ultralight Camping Chair"
+      },
+      {
+        "id": 75541,
+        "src": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag.jpg 600w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-150x150.jpg 150w",
+        "sizes": "(max-width: 600px) 100vw, 600px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/summit-ultralight-chair-bag.jpg 600w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "summit-ultralight-chair-bag",
+        "alt": "Summit Ultralight Camping Chair"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Summit Ultralight Pack Away Camping Chair&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=75539",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 75539,
+          "item_id": "75539",
+          "item_name": "Summit Ultralight Pack Away Camping Chair",
+          "sku": "CAM203422",
+          "price": 499,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "75539",
+          "item_brand": "Summit"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/75539",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=75539&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 72634,
+    "name": "Oztrail Roamer Moon Camping Chair",
+    "slug": "oztrail-roamer-moon-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/oztrail-roamer-moon-camping-chair",
+    "sku": "CAM203174",
+    "short_description": "",
+    "description": "<p>The Oztrail Roamer Moon Camping Chair is a cozy <a href=\"/product-category/camp-hike/camp-furniture/camp-chairs\">moon shape camping chair</a> for camping, beach trips, picnics etc.</p>\n<p><strong>Features</strong>:</p>\n<ul>\n<li>Heavy duty 22mm steel frame with vertical stabilisers for greater frame strength and durability</li>\n<li>Durable 600D two-tone polyester fabric</li>\n<li>Extra thick padding for added comfort</li>\n<li>Integrated lumbar support</li>\n<li>200 kg weight rating</li>\n<li>Side storage pouch and drink holder</li>\n<li>600D two-tone polyester carry bag with YKK zippers for easy transportation.</li>\n</ul>\n<p><strong>Specifications</strong>:</p>\n<p>Approx. seat width: 50cm</p>\n<p>Approx. seat depth: 52cm</p>\n<p>Approx. seat height: 44cm</p>\n<p>Weight capacity: 200 kg</p>\n<p>Dimensions: 87 x 70 x 95 cm</p>\n<p>Packed size: 36 x 31 x 101 cm</p>\n<p>Weight: 7.3 kg</p>\n<p><img class=\"alignnone wp-image-72898\" src=\"https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-camping-chair.jpg\" alt=\"oztrail camp and climb\" width=\"697\" height=\"697\" /></p>\n<p>&nbsp;</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "319500",
+      "regular_price": "319500",
+      "sale_price": "319500",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>3,195.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 72899,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair.jpg 800w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-400x400.jpg 400w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-600x600.jpg 600w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-400x400.jpg 400w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair-600x600.jpg 600w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-padded-chair.jpg 800w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-roamer-padded-chair",
+        "alt": "Oztrail Roamer Moon Chair"
+      },
+      {
+        "id": 72900,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side.jpg 640w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-400x400.jpg 400w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-600x600.jpg 600w",
+        "sizes": "(max-width: 640px) 100vw, 640px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-400x400.jpg 400w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side-600x600.jpg 600w, https://campandclimb.co.za/wp-content/uploads/oztrail-roamer-moon-chair-side.jpg 640w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-roamer-moon-chair-side",
+        "alt": "Oztrail Roamer Moon ChairOztrail Roamer Moon Chair"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Oztrail Roamer Moon Camping Chair&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=72634",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 72634,
+          "item_id": "72634",
+          "item_name": "Oztrail Roamer Moon Camping Chair",
+          "sku": "CAM203174",
+          "price": 3195,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "72634",
+          "item_brand": "Oztrail"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/72634",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=72634&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66385,
+    "name": "Front Runner Bag for Expander Camping Chair",
+    "slug": "front-runner-bag-for-expander-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/front-runner-bag-for-expander-camping-chair",
+    "sku": "CAM202410",
+    "short_description": "<p>Bag for Expander chairs</p>",
+    "description": "<p>Keep your Front Runner Expander Chair in top condition and make transport effortless with the Bag for Expander <a href=\"https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs\">Camping Chair.</a> Designed to store and protect the Front Runner Expander Chair, this durable carrier bag ensures your chair is safe and easy to carry.</p>\n<p><strong>Features:</strong></p>\n<ul>\n<li> Easy access to your chairs with a secure zipper closure.</li>\n<li>Supports the added weight for convenient carrying.</li>\n<li>Keeps your chairs secure and minimizes noise during transport.</li>\n</ul>\n<p><strong>Specifications:</strong></p>\n<p>Product Dimensions: 431mm x 483mm x 51mm</p>\n<p>&nbsp;</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "28900",
+      "regular_price": "28900",
+      "sale_price": "28900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>289.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 66386,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-bag-for-expander-chair",
+        "alt": "Front Runner Expander Chair Storage Bag"
+      },
+      {
+        "id": 66387,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-1.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-bag-for-expander-chair-1",
+        "alt": "Front Runner Expander Chair Storage Bag"
+      },
+      {
+        "id": 66388,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-bag-for-expander-chair-2.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-bag-for-expander-chair-2",
+        "alt": "Front Runner Expander Chair Storage Bag"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Front Runner Bag for Expander Camping Chair&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=66385",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 66385,
+          "item_id": "66385",
+          "item_name": "Front Runner Bag for Expander Camping Chair",
+          "sku": "CAM202410",
+          "price": 289,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "66385",
+          "item_brand": "Front Runner"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/66385",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=66385&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66367,
+    "name": "Front Runner Double Bag for Expander Camping Chair",
+    "slug": "front-runner-double-bag-for-expander-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/front-runner-double-bag-for-expander-camping-chair",
+    "sku": "CAM202096",
+    "short_description": "<p>Bag for Expander chairs</p>",
+    "description": "<p>Keep your Front Runner Expander Chairs in top condition and make transport effortless with the Double Bag for Expander<a href=\"https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs\"> Camping Chair.</a> Designed to store and protect two (2) Front Runner Expander Chairs, this durable carrier bag ensures your chairs are safe and easy to carry.</p>\n<p><strong>Features:</strong></p>\n<ul>\n<li> Easy access to your chairs with a secure zipper closure.</li>\n<li>Supports the added weight for convenient carrying.</li>\n<li>Keeps your chairs secure and minimizes noise during transport.</li>\n</ul>\n<p><strong>Specifications:</strong></p>\n<p>Product Dimensions: 455mm x 460mm x 150mm</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "29000",
+      "regular_price": "29000",
+      "sale_price": "29000",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>290.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 66369,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-double-carry-bag-for-expander-chairs",
+        "alt": "Front Runner Double Bag for Expander Camping Chair"
+      },
+      {
+        "id": 66370,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-1.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-double-carry-bag-for-expander-chairs-1",
+        "alt": "Front Runner Double Bag for Expander Camping Chair"
+      },
+      {
+        "id": 66368,
+        "src": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2.png 1200w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/front-runner-double-carry-bag-for-expander-chairs-2.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "front-runner-double-carry-bag-for-expander-chairs-2",
+        "alt": "Front Runner Double Bag for Expander Camping Chair"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Front Runner Double Bag for Expander Camping Chair&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=66367",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 66367,
+          "item_id": "66367",
+          "item_name": "Front Runner Double Bag for Expander Camping Chair",
+          "sku": "CAM202096",
+          "price": 290,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "66367",
+          "item_brand": "Front Runner"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/66367",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=66367&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66286,
+    "name": "Lumeno Camping Chair with Side Table",
+    "slug": "lumeno-camping-chair-with-side-table",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/lumeno-camping-chair-with-side-table",
+    "sku": "CAM202782",
+    "short_description": "<p>Director Chair</p>",
+    "description": "<div>Enjoy ultimate comfort and convenience on your outdoor adventures with the <a href=\"/brand/lumeno\">Lumeno</a> <a href=\"/product-category/camp-hike/camp-furniture/camp-chairs\">Camping Chair</a>. Designed for durability and easy transport, this chair is perfect for any camping trip or outdoor event.</div>\n<div></div>\n<div><strong>Features:</strong></div>\n<ul>\n<li>Comes with a convenient carry bag for effortless transport.</li>\n<li>Folds up compactly for simple storage and portability.</li>\n</ul>\n<div><strong>Specifications</strong>:</div>\n<div></div>\n<div>Approx. seat width: 54cm</div>\n<div>Approx. seat depth: 44cm</div>\n<div>Approx. seat height: 42.5cm</div>\n<div>Net Weight: 5kg</div>\n<div>Weight Capacity: 150kg</div>",
+    "on_sale": false,
+    "prices": {
+      "price": "242900",
+      "regular_price": "242900",
+      "sale_price": "242900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>2,429.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 66290,
+        "src": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair.png 1200w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "lumeno-outdoor-camping-chair",
+        "alt": "Lumeno Outdoor Camping Chair"
+      },
+      {
+        "id": 66287,
+        "src": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1.png 1200w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-1.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "lumeno-outdoor-camping-chair-1",
+        "alt": "Lumeno Outdoor Camping Chair"
+      },
+      {
+        "id": 66288,
+        "src": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2.png 1200w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-2.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "lumeno-outdoor-camping-chair-2",
+        "alt": "Lumeno Outdoor Camping Chair"
+      },
+      {
+        "id": 66289,
+        "src": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3.png 1200w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-768x768.png 768w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/lumeno-outdoor-camping-chair-3.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "lumeno-outdoor-camping-chair-3",
+        "alt": "Lumeno Outdoor Camping Chair"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Lumeno Camping Chair with Side Table&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=66286",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 66286,
+          "item_id": "66286",
+          "item_name": "Lumeno Camping Chair with Side Table",
+          "sku": "CAM202782",
+          "price": 2429,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "66286",
+          "item_brand": "Lumeno"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/66286",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=66286&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61420,
+    "name": "Oztrail Escape Cooler Camping Chair, with cooler",
+    "slug": "oztrail-escape-cooler-camping-chair",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/oztrail-escape-cooler-camping-chair",
+    "sku": "CAM202425",
+    "short_description": "<p>Folding camping chair with cooler.</p>",
+    "description": "<p>The <a href=\"/brand/oztrail\">OZtrail</a> Escape Cooler Camping Chair combines a comfortable seat with a built-in cooler, ideal for keeping your drinks cold and easily accessible during your outdoor adventures. A lightweight,<a href=\"/product-category/camp-hike/camp-furniture/camp-chairs\"> folding outdoor chair for camping</a>, picnic, festival or garden use.</p>\n<p><strong>Features</strong>:</p>\n<ul>\n<li>Tough 17.5mm high tensile steel frame</li>\n<li>Wide, comfortable arms for additional support</li>\n<li>Hard wearing 600 Denier polyester fabric</li>\n<li>High back for increased comfort</li>\n<li>Insulated cooler in arm for keeping drinks cool</li>\n<li>Mesh drink holder in arm</li>\n<li>Includes carry bag</li>\n</ul>\n<p><strong>Specifications</strong>:</p>\n<p>Approx. seat width: 53cm</p>\n<p>Approx. seat depth: 46cm</p>\n<p>Approx. seat height: 39cm</p>\n<p>Weight capacity: 120 kg</p>\n<p><span style=\"color: #333333\">Weight: 3 kg</span></p>\n<p><span style=\"color: #333333\">Dimensions: 80 x 50 x 90 cm</span></p>\n<p><span style=\"color: #333333\">Packed Size: 14 x 14 x 90 cm</span></p>\n<p>Looking for camping chairs for sale? Camp &amp; Climb has an amazing selection check them out in store or <a href=\"https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs\">online</a>!</p>\n<p>&nbsp;</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "63900",
+      "regular_price": "63900",
+      "sale_price": "63900",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>639.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 63159,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair.jpg 1000w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-768x768.jpg 768w",
+        "sizes": "(max-width: 1000px) 100vw, 1000px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-chair.jpg 1000w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-escape-cooler-camping-chair",
+        "alt": "Oztrail Escape Cooler Camp Chair"
+      },
+      {
+        "id": 63160,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side.jpg 800w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-768x768.jpg 768w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-side.jpg 800w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-escape-cooler-camping-side",
+        "alt": "Oztrail Escape Cooler Camp Chair"
+      },
+      {
+        "id": 63161,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup.jpg 900w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-768x768.jpg 768w",
+        "sizes": "(max-width: 900px) 100vw, 900px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cup.jpg 900w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-escape-cooler-camping-cup",
+        "alt": "Oztrail Escape Cooler Camping Chair"
+      },
+      {
+        "id": 63162,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler.jpg 1050w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-1024x1024.jpg 1024w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-768x768.jpg 768w",
+        "sizes": "(max-width: 1050px) 100vw, 1050px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-1024x1024.jpg 1024w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-escape-cooler-camping-cooler.jpg 1050w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-escape-cooler-camping-cooler",
+        "alt": "Oztrail Escape Cooler Camping Chair"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Oztrail Escape Cooler Camping Chair, with cooler&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=61420",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 61420,
+          "item_id": "61420",
+          "item_name": "Oztrail Escape Cooler Camping Chair, with cooler",
+          "sku": "CAM202425",
+          "price": 639,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "61420",
+          "item_brand": "Oztrail"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/61420",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=61420&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59666,
+    "name": "Oztrail Getaway Camping Chair Grey",
+    "slug": "oztrail-getaway-camping-chair-grey",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://campandclimb.co.za/product/oztrail-getaway-camping-chair-grey",
+    "sku": "CAM202285",
+    "short_description": "<p>Large, comfortable folding chair.</p>",
+    "description": "<p>The Oztrail Getaway Camping Chair Grey offers a blend of comfort and durability, perfect for relaxing outdoors with its sturdy frame and easy-to-use folding design. This large, comfortable and sturdy <a href=\"/product-category/camp-hike/camp-furniture/camp-chairs\">camping chair</a> is excellent for relaxing at home or on camping trips.</p>\n<p><strong>Features</strong>:</p>\n<ul>\n<li>High back</li>\n<li>Padded arrmrests</li>\n<li>17.5 mm High-tensile strong steel frame</li>\n<li>Mesh drink holder</li>\n<li>Side cooler</li>\n<li>Large side pocket organiser</li>\n<li>Includes carry bag</li>\n</ul>\n<p><strong>Specifications</strong>:</p>\n<p>Approx. seat width: 59cm</p>\n<p>Approx. seat depth: 50cm</p>\n<p>Approx. seat height: 44cm</p>\n<p>Load capacity: 130 kg</p>\n<p>Dimensions: 104 x 96 x 64 cm</p>\n<p>Packed dimensions: 95 x 14 x 14 cm</p>\n<p>Weight: 4.2 kg</p>\n<p>&nbsp;</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "99500",
+      "regular_price": "99500",
+      "sale_price": "99500",
+      "price_range": null,
+      "currency_code": "ZAR",
+      "currency_symbol": "R",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "R",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#082;</span>995.00</bdi></span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 59692,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair.jpg",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-247x247.jpg",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair.jpg 1000w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-768x768.jpg 768w",
+        "sizes": "(max-width: 1000px) 100vw, 1000px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-247x247.jpg 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-100x100.jpg 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-510x510.jpg 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-300x300.jpg 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-150x150.jpg 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair-768x768.jpg 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-camp-chair.jpg 1000w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-getaway-camp-chair",
+        "alt": "Oztrail Getaway Camping Chair Grey"
+      },
+      {
+        "id": 81227,
+        "src": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair.png",
+        "thumbnail": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-247x247.png",
+        "srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair.png 1200w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-100x100.png 100w",
+        "sizes": "(max-width: 1200px) 100vw, 1200px",
+        "thumbnail_srcset": "https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-247x247.png 247w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-300x300.png 300w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-1024x1024.png 1024w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-150x150.png 150w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-768x768.png 768w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-510x510.png 510w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair-100x100.png 100w, https://campandclimb.co.za/wp-content/uploads/oztrail-getaway-chair.png 1200w",
+        "thumbnail_sizes": "(max-width: 247px) 100vw, 247px",
+        "name": "oztrail-getaway-chair",
+        "alt": "Oztrail Getaway Camping Chair Grey"
+      }
+    ],
+    "categories": [
+      {
+        "id": 35,
+        "name": "Camp Chairs",
+        "slug": "camp-chairs",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/camp-chairs/"
+      },
+      {
+        "id": 33,
+        "name": "Camp Furniture",
+        "slug": "camp-furniture",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/camp-furniture/"
+      },
+      {
+        "id": 20,
+        "name": "Camp/Hike",
+        "slug": "camp-hike",
+        "link": "https://campandclimb.co.za/product-category/camp-hike/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": ""
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Add to basket",
+      "description": "Add to cart: &ldquo;Oztrail Getaway Camping Chair Grey&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?search=camping+chair&#038;per_page=10&#038;add-to-cart=59666",
+      "single_text": "Add to basket",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {
+      "gtm4wp": {
+        "item": {
+          "internal_id": 59666,
+          "item_id": "59666",
+          "item_name": "Oztrail Getaway Camping Chair Grey",
+          "sku": "CAM202285",
+          "price": 995,
+          "stocklevel": null,
+          "stockstatus": "instock",
+          "google_business_vertical": "retail",
+          "item_category": "Camp",
+          "item_category2": "Hike",
+          "id": "59666",
+          "item_brand": "Oztrail"
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products/59666",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://campandclimb.co.za/wp-json/wc/store/v1/products?related=59666&per_page=10"
+        }
+      ]
+    }
+  }
+]

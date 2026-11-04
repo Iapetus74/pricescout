@@ -1,0 +1,13 @@
+{
+  "productUrl": "https://www.campandclimb.co.za/product/tentco-compact-camping-chair",
+  "checkedLive": "2026-11-04: the product page's own data (price meta tag and JSON-LD) says R 249.00, in stock, brand Tentco, SKU CAM204504. No barcode.",
+  "product": {
+    "url": "https://campandclimb.co.za/product/tentco-compact-camping-chair",
+    "title": "Tentco Compact Camping Chair",
+    "brand": "Tentco",
+    "sku": "CAM204504",
+    "priceCents": 24900,
+    "inStock": true,
+    "imageUrl": "https://campandclimb.co.za/wp-content/uploads/tentco-compact-camping-chair.jpg"
+  }
+}

@@ -35,7 +35,7 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },
   { name: "Cape Union Mart", domain: "capeunionmart.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "Campmaster", domain: "campmaster.co.za", adapterType: null, status: "needs_adapter" },
-  { name: "Camp and Climb", domain: "campandclimb.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Camp and Climb", domain: "campandclimb.co.za", adapterType: "platform", status: "active" },
   { name: "Outdoor Warehouse", domain: "outdoorwarehouse.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "First Ascent", domain: "firstascent.co.za", adapterType: "json_ld", status: "active" },
   { name: "Naturehike SA", domain: "naturehike.co.za", adapterType: "platform", status: "active", termsWarning: "Naturehike's terms ban using the site to spider." },
