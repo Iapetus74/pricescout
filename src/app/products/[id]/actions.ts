@@ -27,12 +27,13 @@ export async function decideMatchAction(formData: FormData): Promise<void> {
 
 export type AddLinkState = { result: AddLinkResult | null; input: string };
 
-/** Runs when a link from another store is pasted on the product page. */
+/** Runs when a link from another store is pasted on the product page, or "Add it anyway" is pressed. */
 export async function addLinkAction(_previous: AddLinkState, formData: FormData): Promise<AddLinkState> {
   const productId = Number(formData.get("productId"));
   const input = String(formData.get("url") ?? "");
+  const override = formData.get("override") === "yes";
   const { db, adapters, ownerId } = getAppContext();
-  const result = await addMatchByLink({ db, adapters, userId: ownerId, productId, input });
+  const result = await addMatchByLink({ db, adapters, userId: ownerId, productId, input, override });
   if (result.ok) refresh();
   return { result, input: result.ok ? "" : input };
 }

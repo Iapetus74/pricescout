@@ -124,7 +124,7 @@ If the link is from a store PriceScout can't read yet, or from a store that is p
    - **Same product**: PriceScout is sure, because the barcode or the maker's model number matches.
    - **Please confirm**: it looks the same, but the store doesn't show a code to prove it. Open the link, check, and press **Same product** or **Not the same**. PriceScout remembers your answer.
    - **Other sizes and colours**: the same product range in a different size or colour.
-4. "What happened at each store" says which stores were searched and why the others weren't (for example, First Ascent doesn't allow automated search). If you find the product at such a store yourself, paste its link under **Add a link from another store**.
+4. "What happened at each store" says which stores were searched and why the others weren't (for example, First Ascent doesn't allow automated search). If you find the product at such a store yourself, paste its link under **Add a link from another store**. If PriceScout thinks the link is a different product, it says why and offers **It's the same product, add it anyway** for when you know better.
 
 ### See the price history and best deal
 

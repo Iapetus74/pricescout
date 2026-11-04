@@ -129,8 +129,26 @@ export function AddLinkForm({ productId }: { productId: number }) {
         {result?.ok ? (
           <p className="rounded-md border border-emerald-600/30 bg-emerald-600/10 p-3">
             Added {result.title}: {formatCents(result.priceCents)} at {result.storeName}
-            {result.type === "variant" ? " (shown under other sizes and colours)" : ""}.
+            {result.type === "variant" ? " (shown under other sizes and colours)" : ""}
+            {result.overridden ? ", as the same product because you said so" : ""}.
           </p>
+        ) : result?.canOverride ? (
+          <div className="flex flex-col gap-3 rounded-md border border-amber-600/30 bg-amber-500/10 p-3" role="alert">
+            <p>{result.message}</p>
+            <p>
+              If you know <span className="font-medium">{result.canOverride.title}</span> at{" "}
+              {result.canOverride.storeName} is the same product, you can add it anyway. Its price will then count
+              towards the best deal.
+            </p>
+            <form action={formAction}>
+              <input type="hidden" name="productId" value={productId} />
+              <input type="hidden" name="url" value={state.input} />
+              <input type="hidden" name="override" value="yes" />
+              <Button type="submit" size="sm" disabled={pending}>
+                {pending ? "Adding…" : "It's the same product, add it anyway"}
+              </Button>
+            </form>
+          </div>
         ) : result ? (
           <p className="rounded-md border border-destructive/30 bg-destructive/10 p-3 text-destructive" role="alert">
             {result.message}
