@@ -76,6 +76,16 @@ export const JSONLD_STORES: readonly JsonLdStore[] = [
     productSitemapUrl: "https://www.houseandhome.co.za/sitemap/sitemap.xml",
     ignoreMpn: true,
   },
+  // Same shop software as House & Home (same owner). Product links end in .html; robots.txt disallows
+  // every link with a "?", so its search page is off limits and the sitemap stands in. "mpn" repeats its SKU.
+  {
+    id: "okfurniture",
+    domains: ["okfurniture.co.za"],
+    origin: "https://www.okfurniture.co.za",
+    productPath: /^\/[a-z0-9-]+\.html$/i,
+    productSitemapUrl: "https://www.okfurniture.co.za/sitemap.xml",
+    ignoreMpn: true,
+  },
   // Magento. Product links are one word-with-dashes path, e.g. /lg-42l-silver-neochef-microwave-ms4295cis.
   // robots.txt disallows /search and /catalogsearch/, so the sitemap stands in. "mpn" repeats its SKU.
   {
@@ -536,6 +546,13 @@ function searchWords(text: string): string[] {
     .filter((w) => w && !SEARCH_STOPWORDS.has(w));
 }
 
+/** A word that looks like a maker's model code: at least 5 characters, with letters and at least 3 digits,
+ *  and not a size such as 348lt, 1500w or 600mm. */
+export function isModelCode(word: string): boolean {
+  if (word.length < 5 || !/[a-z]/.test(word) || (word.match(/\d/g)?.length ?? 0) < 3) return false;
+  return !/^\d+[a-z]{1,3}$/.test(word);
+}
+
 /** "stanley-legendary-classic-bottle-1-4l" → "Stanley Legendary Classic Bottle 1.4l". */
 export function titleFromSlug(slug: string): string {
   return decodeURIComponent(slug)
@@ -568,7 +585,10 @@ export function searchSitemap(xml: string, store: JsonLdStore, query: SearchQuer
     const words = new Set(searchWords(slug));
     if (!brandWords.every((w) => words.has(w))) continue;
     const hits = otherWords.filter((w) => words.has(w)).length;
-    if (otherWords.length > 0 && hits / otherWords.length < 2 / 3) continue;
+    // Some shops shorten their links ("defy-dac645-348lt-met-wot-ref-b"), so few words match. The maker's
+    // model code (letters and digits, such as dac645) is enough on its own; the matcher still checks the page.
+    const modelHit = otherWords.some((w) => isModelCode(w) && words.has(w));
+    if (otherWords.length > 0 && hits / otherWords.length < 2 / 3 && !modelHit) continue;
     const score = otherWords.length > 0 ? hits / otherWords.length : 1;
     scored.push({ candidate: { url, title: titleFromSlug(slug) }, score, extra: words.size - hits - brandWords.length });
   }

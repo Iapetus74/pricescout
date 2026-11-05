@@ -37,7 +37,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
 | 8 | Superbalist | Custom (Nuxt) | **Yes** (Product with offer) | `/browse?q=` | Allowed / **Disallowed** | **Yes** | **3 (JSON-LD), built**; pasted links only; terms warning |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Blocked (403) | Not checked | **Paused** (blocks even robots.txt, 2026-11-04) |
-| 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
+| 10 | Pick n Pay | SAP Commerce Cloud | **No**; empty page, content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 5 (Playwright) needed; 10 s delay |
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
 | 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
 | 13 | Campmaster | Unreachable | Unreachable | Unreachable | Unreachable (blocks our tool) | Unreachable | Unreachable |
@@ -352,8 +352,11 @@ pages per store, 5 seconds apart (10 for stores that ask).
   crawler stopped and marked them **Paused**; nothing tried to get past it.
 - **Cape Union Mart:** even robots.txt returns an Amazon "challenge" (bot check). **Paused** for the
   same reason.
-- **Pick n Pay:** robots.txt and `/sitemap.xml` were read. The product lists are on a separate address,
-  `cdn-prd-02.pnp.co.za`, which the cloud machine may not reach yet, so no product page was tested.
+- **Pick n Pay:** checked 5 Nov 2026 at 04:15 UTC, inside its allowed visiting hours, 10 s apart. Product
+  pages (e.g. `/defy-325l-metallic-bottom-freezer-fridge-dac625/p/000000000000905831_EA`) return the same
+  34 KB empty shell as the home page: no JSON-LD, no price, no product name. Everything is filled in by the
+  browser, so reading it needs a real browser (Playwright, adapter type 5), which is not installed. The product
+  sitemaps are on `cdn-prd-02.pnp.co.za`, which the cloud machine can't reach. **Not built.**
 - **Camp and Climb and Superbalist:** the cloud machine still couldn't reach them (Superbalist's `www.`
   address redirects to `superbalist.com`, which wasn't reachable). Not tested yet.
 
@@ -390,7 +393,7 @@ Outdoor Escape). Reaching five needs more readable stores.
 
 ## Stores added by the owner (4 November 2026)
 
-Four appliance, furniture and electronics stores, added on the owner's request after the original 22. All three are
+Five appliance, furniture and electronics stores, added on the owner's request after the original 22. All of them are
 read by the generic JSON-LD adapter (type 3), and searched through their sitemaps. Checked from the
 cloud machine with PriceScout's own crawler (the owner allowed these domains in the cloud network settings).
 
@@ -399,6 +402,8 @@ cloud machine with PriceScout's own crawler (the owner allowed these domains in 
 | 23 | House & Home | Magento | **Yes** (Product with offer; no brand) | Products sitemap | Allowed / Allowed | Terms page not found | **3 (JSON-LD), built** |
 | 24 | Hirsch's | Magento | **Yes** (Product with offer and brand) | Products sitemap | Allowed / **Disallowed** | No clause found | **3 (JSON-LD), built** |
 | 25 | Tafelberg | OrderEazi (Storefront7) | **Yes** (Product with offer, brand and model code) | Products sitemap | Allowed / **Disallowed**; crawl-delay 4s | **Yes** | **3 (JSON-LD), built**; terms warning |
+| 26 | Incredible | Magento | **Yes** (Product with offer, brand, barcode and model code) | Sitemap | Allowed / **Disallowed** | **Yes** | **3 (JSON-LD), built**; terms warning |
+| 27 | OK Furniture | Magento | **Yes** (Product with offer; no brand) | Products sitemap | Allowed / **Disallowed** | No clause found | **3 (JSON-LD), built** |
 
 ### 23. House & Home (houseandhome.co.za)
 - **Platform:** Magento. Product links are `/<words>.html`, e.g. `/lg-100-254cm-qned-evo-ai-mini-led-tv-100qned85b8-afbg.html`.
@@ -451,3 +456,14 @@ cloud machine with PriceScout's own crawler (the owner allowed these domains in 
   and crawlers, or other automated device ... to access, obtain, copy, monitor or republish" the site.
   **Terms warning.** The owner chose to switch it on anyway (4 Nov 2026).
 - **Checked 2026-11-04:** "LG 42lt Microwave, Solo Black MS4235GIS", R 3,699.00, in stock, barcode 8806098047420.
+
+### 27. OK Furniture (okfurniture.co.za)
+- **Platform:** Magento, the same shop software as House & Home (both Shoprite group). Product links are
+  `/<words>.html`, e.g. `/defy-dac645-348lt-met-wot-ref-b.html`. The bare domain redirects to `www.`.
+- **robots.txt:** disallows `/catalog/`, `/customer/`, `/review/`, `*.php`, `*SID=` and **every link with a `?`**,
+  so its search page is off limits. The sitemap (`/sitemap.xml`, about 830 links, products and categories) stands in.
+- **Product data:** JSON-LD with name, price, stock and seller, but **no brand** and no barcode. Its `mpn`
+  repeats its own SKU, so the adapter drops it. Titles carry the model code at the end ("... Dac645").
+- **Terms:** `/terms-of-service` allows "personal, non-commercial use" and has no clause about robots,
+  crawling or scraping. The fuller legal pages live on termsconditions.co.za, which the cloud machine can't reach.
+- **Checked 2026-11-04:** "Defy 348lt Metallic Water Dispenser Fridge Dac645", R 7,199, in stock.

@@ -49,6 +49,7 @@ export const BASE_STORES: readonly BaseStore[] = [
   { name: "Hirsch's", domain: "hirschs.co.za", adapterType: "json_ld", status: "active" },
   { name: "Tafelberg", domain: "tafelberg.co.za", adapterType: "json_ld", status: "active", termsWarning: "Tafelberg's terms ban using the site to spider, crawl or scrape." },
   { name: "Incredible", domain: "incredible.co.za", adapterType: "json_ld", status: "active", termsWarning: "Incredible's terms (clause 3.4.5) ban robots, crawlers and tools that monitor the site. Switched on by the owner's choice." },
+  { name: "OK Furniture", domain: "okfurniture.co.za", adapterType: "json_ld", status: "active" },
 ];
 
 const bare = (domain: string) => domain.toLowerCase().replace(/^www\./, "");
