@@ -37,7 +37,7 @@ recommended adapter type (§4.2 order: 1 API/feed, 2 platform adapter, 3 JSON-LD
 | 7 | Woolworths | Likely Oracle ATG/Endeca | Unverified; price not in page text | `/cat?Ntt=` | Allowed / Allowed (`*searchterm` blocked) | Not readable | **Paused** (bot check page, 2026-10-31) |
 | 8 | Superbalist | Custom (Nuxt) | **Yes** (Product with offer) | `/browse?q=` | Allowed / **Disallowed** | **Yes** | **3 (JSON-LD), built**; pasted links only; terms warning |
 | 9 | Checkers | Checkers Sixty60 web app | Unverified; content loads in browser | Not visible | Blocked (403) | Not checked | **Paused** (blocks even robots.txt, 2026-11-04) |
-| 10 | Pick n Pay | SAP Commerce Cloud | Unverified; content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 3 if JSON-LD, else 5; 10 s delay |
+| 10 | Pick n Pay | SAP Commerce Cloud | **No**; empty page, content loads in browser | `/search/...` | Allowed / **Disallowed**; crawl-delay 10s | Not readable | 5 (Playwright) needed; 10 s delay |
 | 11 | Loot | Next.js | **No** (checked 2026-10-31) | `/search?terms=` | Allowed / Allowed; crawl-delay 10s | Not readable | **4 (page data), built**; 10 s delay |
 | 12 | Cape Union Mart | Next.js front end | Unverified; price not in page text | Any URL with "search" | Allowed / **Disallowed** | Not checked | **Paused** (bot check, even for robots.txt, 2026-10-31) |
 | 13 | Campmaster | Unreachable | Unreachable | Unreachable | Unreachable (blocks our tool) | Unreachable | Unreachable |
@@ -352,8 +352,11 @@ pages per store, 5 seconds apart (10 for stores that ask).
   crawler stopped and marked them **Paused**; nothing tried to get past it.
 - **Cape Union Mart:** even robots.txt returns an Amazon "challenge" (bot check). **Paused** for the
   same reason.
-- **Pick n Pay:** robots.txt and `/sitemap.xml` were read. The product lists are on a separate address,
-  `cdn-prd-02.pnp.co.za`, which the cloud machine may not reach yet, so no product page was tested.
+- **Pick n Pay:** checked 5 Nov 2026 at 04:15 UTC, inside its allowed visiting hours, 10 s apart. Product
+  pages (e.g. `/defy-325l-metallic-bottom-freezer-fridge-dac625/p/000000000000905831_EA`) return the same
+  34 KB empty shell as the home page: no JSON-LD, no price, no product name. Everything is filled in by the
+  browser, so reading it needs a real browser (Playwright, adapter type 5), which is not installed. The product
+  sitemaps are on `cdn-prd-02.pnp.co.za`, which the cloud machine can't reach. **Not built.**
 - **Camp and Climb and Superbalist:** the cloud machine still couldn't reach them (Superbalist's `www.`
   address redirects to `superbalist.com`, which wasn't reachable). Not tested yet.
 
