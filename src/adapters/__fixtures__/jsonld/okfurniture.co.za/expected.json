@@ -1,0 +1,12 @@
+{
+  "productUrl": "https://www.okfurniture.co.za/defy-dac645-348lt-met-wot-ref-b.html",
+  "checkedLive": "2026-11-04: JSON-LD says R 7,199, in stock, sold by OK Furniture. No brand or barcode in the data; its 'mpn' repeats its own SKU (212883), so the adapter drops it.",
+  "product": {
+    "url": "https://www.okfurniture.co.za/defy-dac645-348lt-met-wot-ref-b.html",
+    "title": "Defy 348lt Metallic Water Dispenser Fridge Dac645",
+    "sku": "212883",
+    "priceCents": 719900,
+    "inStock": true,
+    "sellerName": "OK Furniture"
+  }
+}

@@ -31,6 +31,7 @@ describe("listStoresForHomePage", () => {
       "Loot",
       "Makro",
       "Naturehike SA",
+      "OK Furniture",
       "Outdoor Escape",
       "Superbalist",
       "Tafelberg",
