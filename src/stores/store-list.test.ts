@@ -68,4 +68,31 @@ describe("listStoresForHomePage", () => {
     expect(crawling.find((s) => s.name === "Trappers")?.lastSuccessAt).toEqual(when);
     expect(crawling.find((s) => s.name === "Naturehike SA")?.termsWarning).toMatch(/terms/);
   });
+
+  it("lists every store PriceScout doesn't read, with a link and a short reason, to search by hand", () => {
+    const { byHand } = listStoresForHomePage(db);
+    expect(byHand.map((s) => s.name)).toEqual([
+      "Amazon South Africa",
+      "Bob Shop",
+      "Campmaster",
+      "Cape Union Mart",
+      "Checkers",
+      "Decathlon SA",
+      "Game",
+      "Outdoor Warehouse",
+      "Pick n Pay",
+      "Takealot",
+      "Woolworths",
+    ]);
+    const note = (name: string) => byHand.find((s) => s.name === name)!;
+    expect(note("Checkers")).toMatchObject({ url: "https://checkers.co.za", note: "Paused: it blocks automated visits." });
+    expect(note("Woolworths").note).toMatch(/bot check/);
+    expect(note("Campmaster").note).toMatch(/certificate/);
+    expect(note("Pick n Pay").note).toMatch(/browser/);
+  });
+
+  it("leaves a switched-off store out of the search-by-hand list", () => {
+    db.update(stores).set({ enabled: false }).where(eq(stores.domain, "woolworths.co.za")).run();
+    expect(listStoresForHomePage(db).byHand.map((s) => s.name)).not.toContain("Woolworths");
+  });
 });

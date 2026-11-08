@@ -23,6 +23,7 @@ import {
 } from "@/crawl/errors";
 import type { Db } from "@/db";
 import { offers, priceObservations, products, users } from "@/db/schema";
+import { guessNameFromLink } from "@/matching/find-similar";
 import { BASE_STORES, findStoreForUrl } from "@/stores/base-stores";
 
 export type TrackFailure =
@@ -50,9 +51,24 @@ export type TrackResult =
       priceCents: number;
       termsWarning: string | null;
     }
-  | { ok: false; reason: TrackFailure; message: string };
+  | {
+      ok: false;
+      reason: TrackFailure;
+      message: string;
+      /**
+       * Set when the link is from a store PriceScout doesn't read (paused, or
+       * no reader). The page isn't visited; instead the user can look for
+       * similar products at the stores PriceScout does read.
+       */
+      searchElsewhere?: { storeName: string; link: string; guessedName: string };
+    };
 
 const fail = (reason: TrackFailure, message: string): TrackResult => ({ ok: false, reason, message });
+
+/** A failure for a store PriceScout can't read, offering to look for the product elsewhere. */
+function failElsewhere(reason: TrackFailure, message: string, storeName: string, link: string): TrackResult {
+  return { ok: false, reason, message, searchElsewhere: { storeName, link, guessedName: guessNameFromLink(link) } };
+}
 
 /** The stores that can be read today, for the "not supported" message. */
 export function supportedStoreNames(): string[] {
@@ -134,12 +150,14 @@ export async function trackProductUrl(options: {
     return fail("unknown_store", `${url.hostname} isn't one of PriceScout's stores. Stores that work today: ${unsupportedList()}.`);
   }
   if (!store.enabled) {
-    return fail("store_disabled", `${store.name} is switched off in PriceScout, so its pages aren't read.`);
+    return failElsewhere("store_disabled", `${store.name} is switched off in PriceScout, so its pages aren't read.`, store.name, link);
   }
   if (store.status === "paused") {
-    return fail(
+    return failElsewhere(
       "store_paused",
       `${store.name} is paused because it showed a bot check. PriceScout never tries to get past those, so this store can't be read for now.`,
+      store.name,
+      link,
     );
   }
 
@@ -148,11 +166,11 @@ export async function trackProductUrl(options: {
     const hasAdapter = adapters.some((a) => a.domains.some((d) => store.domain.replace(/^www\./, "") === d));
     return hasAdapter
       ? fail("not_product_page", `That ${store.name} link doesn't look like a product page. Open the product itself and copy its link.`)
-      : fail(
+      : failElsewhere(
           "no_adapter",
-          `PriceScout can't read ${store.name} yet: its reader hasn't been built.` +
-            (store.termsWarning ? ` (${store.termsWarning})` : "") +
-            ` Stores that work today: ${unsupportedList()}.`,
+          `PriceScout doesn't read ${store.name}.` + (store.termsWarning ? ` (${store.termsWarning})` : ""),
+          store.name,
+          link,
         );
   }
 
@@ -160,7 +178,11 @@ export async function trackProductUrl(options: {
   try {
     page = await adapter.getProduct(link);
   } catch (error) {
-    return explainError(error, store.name);
+    const explained = explainError(error, store.name);
+    // The store has just been paused (it showed a bot check): look elsewhere instead.
+    return !explained.ok && explained.reason === "store_paused"
+      ? failElsewhere(explained.reason, explained.message, store.name, link)
+      : explained;
   }
 
   const result = {

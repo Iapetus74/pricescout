@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { formatCents } from "@/lib/money";
 
 import { trackLinkAction, type TrackFormState } from "./actions";
+import { FindSimilarForm } from "./find-similar-form";
 
 const initialState: TrackFormState = { result: null, input: "" };
 
@@ -52,6 +53,11 @@ export function TrackForm() {
             {result.termsWarning ? (
               <p className="mt-1 text-amber-700 dark:text-amber-400">Note: {result.termsWarning}</p>
             ) : null}
+          </div>
+        ) : result?.searchElsewhere ? (
+          <div className="flex flex-col gap-3">
+            <p className="rounded-md border border-amber-600/30 bg-amber-500/10 p-3">{result.message}</p>
+            <FindSimilarForm key={result.searchElsewhere.link} {...result.searchElsewhere} />
           </div>
         ) : result ? (
           <p className="rounded-md border border-destructive/30 bg-destructive/10 p-3 text-destructive" role="alert">

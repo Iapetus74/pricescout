@@ -114,7 +114,9 @@ Now open your web browser and go to <http://localhost:3000>. You should see the 
 3. Wait 10 to 20 seconds. PriceScout visits the store slowly on purpose, so it doesn't overload the shop.
 4. You should see a green box saying "Now tracking:" with the product's name and price, and the product appears under **Tracked products**.
 
-If the link is from a store PriceScout can't read yet, or from a store that is paused (because it showed a "are you a robot?" check), you get a message explaining that instead, and nothing is saved.
+If the link is from a store PriceScout can't read yet, or from a store that is paused (because it showed a "are you a robot?" check), you get a message explaining that instead, and nothing is saved. PriceScout never opens that store's page. Instead it guesses the product's name from the link and offers **Find similar products**: check the name, optionally type the price you saw, and it searches the shops it does read. Press **Track this** on any result to start tracking it.
+
+The home page also lists these **Shops to search yourself**, with a link to each, as a reminder to look at them by hand.
 
 ### Compare prices at other stores
 

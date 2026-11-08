@@ -44,6 +44,23 @@ const NO_SEARCH: Readonly<Record<string, string>> = {
     "Makro's robots.txt doesn't allow automated search, and its sitemaps list categories, not products. You can paste a Makro link below instead.",
 };
 
+/**
+ * The adapter to search a store with, or why the store can't be searched
+ * (switched off, paused, no reader yet, or robots.txt forbids search).
+ */
+export function searchableAdapter(
+  store: { domain: string; enabled: boolean; status: string },
+  adapters: readonly StoreAdapter[],
+): { adapter: StoreAdapter } | { skip: string } {
+  if (!store.enabled) return { skip: "Switched off in PriceScout." };
+  if (store.status === "paused") return { skip: "Paused because it showed a bot check. PriceScout never tries to get past those." };
+  const adapter = adapters.find((a) => a.domains.some((d) => bare(d) === bare(store.domain)));
+  if (!adapter || store.status !== "active") return { skip: "PriceScout can't read this store yet." };
+  const noSearch = NO_SEARCH[bare(store.domain)];
+  if (noSearch) return { skip: noSearch };
+  return { adapter };
+}
+
 export interface StoreOutcome {
   storeName: string;
   searched: boolean;
@@ -194,12 +211,9 @@ export async function findMatches(options: {
     storeRows.map(async (store): Promise<StoreOutcome & { order: number }> => {
       const order = store.isBase ? 0 : 1;
       const skip = (note: string) => ({ storeName: store.name, searched: false, note, order: order + 2 });
-      if (!store.enabled) return skip("Switched off in PriceScout.");
-      if (store.status === "paused") return skip("Paused because it showed a bot check. PriceScout never tries to get past those.");
-      const adapter = adapters.find((a) => a.domains.some((d) => bare(d) === bare(store.domain)));
-      if (!adapter || store.status !== "active") return skip("PriceScout can't read this store yet.");
-      const noSearch = NO_SEARCH[bare(store.domain)];
-      if (noSearch) return skip(noSearch);
+      const searchable = searchableAdapter(store, adapters);
+      if ("skip" in searchable) return skip(searchable.skip);
+      const { adapter } = searchable;
 
       try {
         // 1. Search until one search turns up something promising.
