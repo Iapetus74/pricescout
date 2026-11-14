@@ -173,6 +173,10 @@ describe("trackProductUrl: clear messages, and nothing saved", () => {
     const result = await track("https://www.takealot.com/some-tent/PLID12345", source);
     expect(result).toMatchObject({ ok: false, reason: "no_adapter" });
     expect(!result.ok && result.message).toContain("Takealot");
+    // Offers to look for it at the stores PriceScout reads, named from the link's own words.
+    expect(result).toMatchObject({
+      searchElsewhere: { storeName: "Takealot", link: "https://www.takealot.com/some-tent/PLID12345", guessedName: "Some Tent" },
+    });
     expect(source.calls).toHaveLength(0);
     expectNothingSaved();
   });
@@ -180,7 +184,7 @@ describe("trackProductUrl: clear messages, and nothing saved", () => {
   it("a Paused store, without visiting it", async () => {
     const source = snapshotSource();
     const result = await track("https://www.woolworths.co.za/prod/some-item/A-123", source);
-    expect(result).toMatchObject({ ok: false, reason: "store_paused" });
+    expect(result).toMatchObject({ ok: false, reason: "store_paused", searchElsewhere: { storeName: "Woolworths" } });
     expect(source.calls).toHaveLength(0);
     expectNothingSaved();
   });

@@ -22,7 +22,9 @@ export default function Home() {
         <CardHeader>
           <CardTitle>Paste a product link</CardTitle>
           <CardDescription>
-            Copy the address of a product page from one of the shops listed below and paste it here.
+            Copy the address of a product page from one of the shops listed below and paste it here. A link from a
+            shop PriceScout doesn&apos;t check also works: it then looks for similar products at the shops it does
+            check.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -41,6 +43,19 @@ export default function Home() {
         <h2 className="text-xl font-semibold">Shops we check</h2>
         <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
           <CrawledShops />
+        </Suspense>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <div className="flex flex-col gap-1">
+          <h2 className="text-xl font-semibold">Shops to search yourself</h2>
+          <p className="text-sm text-muted-foreground">
+            PriceScout doesn&apos;t check these shops, so remember to look at them yourself. If you find something,
+            paste its link in the box above to look for similar products at the shops PriceScout checks.
+          </p>
+        </div>
+        <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
+          <ShopsByHand />
         </Suspense>
       </section>
     </main>
@@ -114,7 +129,7 @@ async function TrackedProducts() {
 async function CrawledShops() {
   await connection(); // a store can be paused at any time, so read it fresh on every visit
   const { db } = getAppContext();
-  const { crawling, paused } = listStoresForHomePage(db);
+  const { crawling } = listStoresForHomePage(db);
 
   return (
     <div className="flex flex-col gap-3">
@@ -137,11 +152,29 @@ async function CrawledShops() {
           ))}
         </ul>
       )}
-      {paused.length > 0 ? (
-        <p className="text-sm text-muted-foreground">
-          Paused because they showed a bot check: {paused.map((s) => s.name).join(", ")}.
-        </p>
-      ) : null}
     </div>
+  );
+}
+
+async function ShopsByHand() {
+  await connection(); // a store can be paused at any time, so read it fresh on every visit
+  const { db } = getAppContext();
+  const { byHand } = listStoresForHomePage(db);
+
+  if (byHand.length === 0) {
+    return <p className="text-sm text-muted-foreground">PriceScout checks every shop on its list.</p>;
+  }
+
+  return (
+    <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      {byHand.map((store) => (
+        <li key={store.id} className="rounded-lg border px-3 py-2">
+          <a href={store.url} target="_blank" rel="noreferrer" className="font-medium hover:underline">
+            {store.name}
+          </a>
+          <p className="text-xs text-muted-foreground">{store.note}</p>
+        </li>
+      ))}
+    </ul>
   );
 }

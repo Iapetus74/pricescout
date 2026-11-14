@@ -17,24 +17,26 @@ export interface BaseStore {
   termsWarning?: string;
   /** Why the store starts out Paused. */
   pausedReason?: string;
+  /** For a store PriceScout doesn't read: why, in a few words, for the "search these yourself" list. */
+  byHandNote?: string;
 }
 
 const BOT_CHECK = "Paused: showed a bot check page during the store survey (31 Oct 2026)";
 
 export const BASE_STORES: readonly BaseStore[] = [
-  { name: "Takealot", domain: "takealot.com", adapterType: null, status: "needs_adapter", termsWarning: "Takealot's terms ban robots and spiders." },
+  { name: "Takealot", domain: "takealot.com", adapterType: null, status: "needs_adapter", termsWarning: "Takealot's terms ban robots and spiders.", byHandNote: "Its terms ban robots, so PriceScout doesn't read it." },
   { name: "Makro", domain: "makro.co.za", adapterType: "json_ld", status: "active" },
-  { name: "Bob Shop", domain: "bobshop.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Bob Shop's terms ban harvesting listing information." },
-  { name: "Amazon South Africa", domain: "amazon.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Amazon's terms ban robots and data gathering tools." },
+  { name: "Bob Shop", domain: "bobshop.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Bob Shop's terms ban harvesting listing information.", byHandNote: "Left off because its terms ban collecting its listings." },
+  { name: "Amazon South Africa", domain: "amazon.co.za", adapterType: null, status: "needs_adapter", termsWarning: "Amazon's terms ban robots and data gathering tools.", byHandNote: "Its terms ban robots, so PriceScout doesn't read it." },
   { name: "Bash", domain: "bash.com", adapterType: "json_ld", status: "active" },
-  { name: "Game", domain: "game.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Game", domain: "game.co.za", adapterType: null, status: "needs_adapter", byHandNote: "Its bot protection turns PriceScout away." },
   { name: "Woolworths", domain: "woolworths.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "Superbalist", domain: "superbalist.com", adapterType: "json_ld", status: "active", termsWarning: "Superbalist's terms ban robots and other automatic devices that monitor the site. Switched on by the owner's choice." },
-  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "paused", pausedReason: "Paused: blocked even its robots.txt with a \"Request blocked\" page (4 Nov 2026)" },
-  { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Checkers", domain: "checkers.co.za", adapterType: null, status: "paused", pausedReason: "Paused: blocked even its robots.txt with a \"Request blocked\" page (4 Nov 2026)", byHandNote: "Paused: it blocks automated visits." },
+  { name: "Pick n Pay", domain: "pnp.co.za", adapterType: null, status: "needs_adapter", byHandNote: "Its pages only load in a full web browser." },
   { name: "Loot", domain: "loot.co.za", adapterType: "html", status: "active" },
   { name: "Cape Union Mart", domain: "capeunionmart.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
-  { name: "Campmaster", domain: "campmaster.co.za", adapterType: null, status: "needs_adapter" },
+  { name: "Campmaster", domain: "campmaster.co.za", adapterType: null, status: "needs_adapter", byHandNote: "Its website has a security certificate fault." },
   { name: "Camp and Climb", domain: "campandclimb.co.za", adapterType: "platform", status: "active" },
   { name: "Outdoor Warehouse", domain: "outdoorwarehouse.co.za", adapterType: null, status: "paused", pausedReason: BOT_CHECK },
   { name: "First Ascent", domain: "firstascent.co.za", adapterType: "json_ld", status: "active" },
