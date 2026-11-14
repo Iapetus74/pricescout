@@ -8,6 +8,7 @@ import { getAppContext } from "@/server/app-context";
 import { listStoresForHomePage } from "@/stores/store-list";
 import { listTrackedProducts } from "@/tracking/tracked-products";
 
+import { RemoveProductButton } from "./remove-product-button";
 import { TrackForm } from "./track-form";
 
 export default function Home() {
@@ -117,6 +118,9 @@ async function TrackedProducts() {
                     <p className="text-sm text-muted-foreground">No price yet</p>
                   )}
                 </div>
+              </CardContent>
+              <CardContent className="-mt-2 flex justify-end">
+                <RemoveProductButton productId={item.id} title={item.title} />
               </CardContent>
             </Card>
           </li>

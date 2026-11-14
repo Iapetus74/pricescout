@@ -17,6 +17,8 @@ import {
   type ThirtyDayStats,
 } from "@/tracking/price-stats";
 
+import { RemoveProductButton } from "../../remove-product-button";
+
 import { AddLinkForm, CheckNowForm, DecideForm, FindMatchesForm } from "./match-forms";
 import { PriceChart, type ChartSeries } from "./price-chart";
 
@@ -141,6 +143,11 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
           <AddLinkForm productId={data.product.id} />
         </CardContent>
       </Card>
+
+      <div className="flex flex-col items-start gap-1 border-t pt-4">
+        <p className="text-sm text-muted-foreground">No longer interested in this product?</p>
+        <RemoveProductButton productId={data.product.id} title={data.product.title} from="product" />
+      </div>
     </>
   );
 }
