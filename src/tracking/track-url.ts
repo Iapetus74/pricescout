@@ -22,8 +22,9 @@ import {
   StorePausedError,
 } from "@/crawl/errors";
 import type { Db } from "@/db";
-import { offers, priceObservations, products, users } from "@/db/schema";
+import { offers, products, users } from "@/db/schema";
 import { BASE_STORES, findStoreForUrl } from "@/stores/base-stores";
+import { recordPrice } from "@/tracking/record-price";
 
 export type TrackFailure =
   | "empty"
@@ -201,17 +202,7 @@ export async function trackProductUrl(options: {
       .returning({ id: offers.id })
       .get();
     tx.update(products).set({ anchorOfferId: offer.id }).where(eq(products.id, product.id)).run();
-    tx.insert(priceObservations)
-      .values({
-        offerId: offer.id,
-        priceCents: page.priceCents,
-        wasPriceCents: page.wasPriceCents ?? null,
-        shippingCents: page.shippingCents ?? null,
-        inStock: page.inStock,
-        fetchedAt: page.fetchedAt,
-        ok: true,
-      })
-      .run();
+    recordPrice(tx, offer.id, page);
     return product.id;
   });
 
