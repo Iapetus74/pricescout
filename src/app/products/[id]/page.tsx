@@ -7,6 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { formatCents } from "@/lib/money";
 import { getProductWithOffers, type ProductOffer } from "@/matching/find-matches";
 import { getAppContext } from "@/server/app-context";
+import { watchlistsForProduct } from "@/watchlists/watchlists";
 import { loadHistory } from "@/tracking/price-history";
 import {
   HISTORY_DAYS,
@@ -18,6 +19,7 @@ import {
 } from "@/tracking/price-stats";
 
 import { RemoveProductButton } from "../../remove-product-button";
+import { AddToWatchlistForm, RemoveFromWatchlistButton } from "../../watchlists/forms";
 
 import { AddLinkForm, CheckNowForm, DecideForm, FindMatchesForm } from "./match-forms";
 import { PriceChart, type ChartSeries } from "./price-chart";
@@ -63,6 +65,7 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
     points: history.filter((p) => p.offerId === o.offerId).map((p) => ({ at: p.fetchedAt.getTime(), priceCents: p.priceCents })),
   }));
   const checkable = data.offers.filter((o) => o.matchType !== "rejected").length;
+  const lists = watchlistsForProduct(db, ownerId, data.product.id);
 
   return (
     <>
@@ -144,11 +147,61 @@ async function ProductDetails({ params }: Pick<PageProps<"/products/[id]">, "par
         </CardContent>
       </Card>
 
+      <WatchlistsCard productId={data.product.id} title={data.product.title} lists={lists} />
+
       <div className="flex flex-col items-start gap-1 border-t pt-4">
         <p className="text-sm text-muted-foreground">No longer interested in this product?</p>
         <RemoveProductButton productId={data.product.id} title={data.product.title} from="product" />
       </div>
     </>
+  );
+}
+
+function WatchlistsCard({
+  productId,
+  title,
+  lists,
+}: {
+  productId: number;
+  title: string;
+  lists: { id: number; name: string; contains: boolean }[];
+}) {
+  const inLists = lists.filter((l) => l.contains);
+  const others = lists.filter((l) => !l.contains);
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Watchlists</CardTitle>
+        <CardDescription>
+          Put this product in a list to see it in that list&apos;s total and budget.{" "}
+          <Link href="/watchlists" className="underline underline-offset-4">
+            {lists.length === 0 ? "Make your first list" : "All lists"}
+          </Link>
+        </CardDescription>
+      </CardHeader>
+      {lists.length > 0 ? (
+        <CardContent className="flex flex-col gap-3">
+          {inLists.length > 0 ? (
+            <ul className="flex flex-col gap-1">
+              {inLists.map((l) => (
+                <li key={l.id} className="flex items-center justify-between gap-2 text-sm">
+                  <span>
+                    In{" "}
+                    <Link href={`/watchlists/${l.id}`} className="font-medium hover:underline">
+                      {l.name}
+                    </Link>
+                  </span>
+                  <RemoveFromWatchlistButton watchlistId={l.id} productId={productId} title={title} />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-muted-foreground">Not in any list yet.</p>
+          )}
+          {others.length > 0 ? <AddToWatchlistForm productId={productId} choices={others} /> : null}
+        </CardContent>
+      ) : null}
+    </Card>
   );
 }
 
