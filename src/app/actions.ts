@@ -1,10 +1,12 @@
 "use server";
 
 import { refresh } from "next/cache";
+import { redirect } from "next/navigation";
 
 import { parseZarToCents } from "@/lib/money";
 import { findSimilar, type FindSimilarResult } from "@/matching/find-similar";
 import { getAppContext } from "@/server/app-context";
+import { removeTrackedProduct } from "@/tracking/remove-product";
 import { trackProductUrl, type TrackResult } from "@/tracking/track-url";
 
 export type TrackFormState = { result: TrackResult | null; input: string };
@@ -37,4 +39,17 @@ export async function findSimilarAction(_previous: FindSimilarState, formData: F
   const { db, adapters } = getAppContext();
   const result = await findSimilar({ db, adapters, name });
   return { result, seenPriceCents, priceProblem: priceText !== "" && seenPriceCents === null, name, priceText };
+}
+
+/**
+ * Runs when "Yes, stop tracking" is pressed. Deletes the product with its
+ * price history, so the twice-daily check stops visiting it. From the
+ * product page, goes back to the home page (the product page is gone).
+ */
+export async function removeProductAction(formData: FormData): Promise<void> {
+  const productId = Number(formData.get("productId"));
+  const { db, ownerId } = getAppContext();
+  removeTrackedProduct(db, ownerId, productId);
+  if (formData.get("from") === "product") redirect("/");
+  refresh();
 }

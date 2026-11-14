@@ -118,6 +118,12 @@ If the link is from a store PriceScout can't read yet, or from a store that is p
 
 The home page also lists these **Shops to search yourself**, with a link to each, as a reminder to look at them by hand.
 
+### Stop tracking a product
+
+1. On the home page, press **Stop tracking** under the product (it is also at the bottom of the product's own page).
+2. PriceScout asks you to confirm. Press **Yes, stop tracking**, or **Keep it** to change your mind.
+3. The product disappears from **Tracked products**, its prices and price history are deleted, and the twice-daily check stops visiting it. This can't be undone, but you can always paste the link again to start afresh.
+
 ### Compare prices at other stores
 
 1. On the home page, click a tracked product's name (or **Compare stores** under it).

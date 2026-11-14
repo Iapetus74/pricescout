@@ -59,6 +59,10 @@ function offersToCheck(db: Db, where: { userId?: number; productId?: number } = 
     .all();
 }
 
+function offerStillExists(db: Db, offerId: number): boolean {
+  return db.select({ id: offers.id }).from(offers).where(eq(offers.id, offerId)).get() !== undefined;
+}
+
 /** Saves a failed check as its own row. The last good price is left alone. */
 function recordFailure(db: Db, offerId: number, at: Date, message: string): void {
   db.insert(priceObservations)
@@ -87,10 +91,19 @@ async function checkList(db: Db, adapters: readonly StoreAdapter[], list: OfferT
     }
     try {
       const page = await adapter.getProduct(item.url);
+      // The product may have been removed ("Stop tracking") while its page was loading.
+      if (!offerStillExists(db, item.offerId)) {
+        summary.skipped++;
+        continue;
+      }
       // A page reused from the short-term cache is saved only once.
       recordPrice(db, item.offerId, page);
       summary.checked++;
     } catch (error) {
+      if (!offerStillExists(db, item.offerId)) {
+        summary.skipped++;
+        continue;
+      }
       const result = explainError(error, item.storeName);
       recordFailure(db, item.offerId, now(), result.ok ? "Unknown error" : result.message);
       summary.failed++;
