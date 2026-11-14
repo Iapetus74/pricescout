@@ -14,6 +14,7 @@ import { and, asc, eq, ne } from "drizzle-orm";
 import { findAdapter, type StoreAdapter } from "@/adapters/types";
 import type { Db } from "@/db";
 import { offers, priceObservations, products, stores } from "@/db/schema";
+import { recordPrice } from "@/tracking/record-price";
 import { explainError } from "@/tracking/track-url";
 
 export interface CheckSummary {
@@ -86,26 +87,8 @@ async function checkList(db: Db, adapters: readonly StoreAdapter[], list: OfferT
     }
     try {
       const page = await adapter.getProduct(item.url);
-      // A page reused from the short-term cache has the same time as the last
-      // check; saving it again would just add a duplicate point.
-      const duplicate = db
-        .select({ id: priceObservations.id })
-        .from(priceObservations)
-        .where(and(eq(priceObservations.offerId, item.offerId), eq(priceObservations.fetchedAt, page.fetchedAt), eq(priceObservations.ok, true)))
-        .get();
-      if (!duplicate) {
-        db.insert(priceObservations)
-          .values({
-            offerId: item.offerId,
-            priceCents: page.priceCents,
-            wasPriceCents: page.wasPriceCents ?? null,
-            shippingCents: page.shippingCents ?? null,
-            inStock: page.inStock,
-            fetchedAt: page.fetchedAt,
-            ok: true,
-          })
-          .run();
-      }
+      // A page reused from the short-term cache is saved only once.
+      recordPrice(db, item.offerId, page);
       summary.checked++;
     } catch (error) {
       const result = explainError(error, item.storeName);

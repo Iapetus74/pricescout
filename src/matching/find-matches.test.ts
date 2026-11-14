@@ -114,6 +114,13 @@ describe("findMatches", () => {
     await findMatches({ db, adapters, userId, productId });
     expect(db.select().from(offers).where(eq(offers.productId, productId)).all()).toHaveLength(4);
   });
+
+  it("doesn't save the same price reading again when searched twice (pages come from the short-term cache)", async () => {
+    const { productId, adapters } = await trackAndMatch();
+    const before = db.select().from(priceObservations).all().length;
+    await findMatches({ db, adapters, userId, productId });
+    expect(db.select().from(priceObservations).all()).toHaveLength(before);
+  });
 });
 
 describe("decideMatch", () => {

@@ -22,6 +22,7 @@ import { findAdapter } from "@/adapters/types";
 import type { Db } from "@/db";
 import { matchDecisions, offers, priceObservations, products, stores } from "@/db/schema";
 import { findStoreForUrl } from "@/stores/base-stores";
+import { recordPrice } from "@/tracking/record-price";
 import { explainError, normaliseLink } from "@/tracking/track-url";
 
 import { buildSearchQueries } from "./queries";
@@ -129,7 +130,7 @@ function decisionFor(decisions: { candidateUrl: string; decision: "confirmed" | 
   return decisions.find((d) => sameProductLink(d.candidateUrl, url))?.decision;
 }
 
-/** Saves (or refreshes) one match as an offer of the product, with the price just read. */
+/** Saves (or refreshes) one match as an offer of the product, with the price just read (once). */
 function saveMatch(db: Db, productId: number, storeId: number, page: ProductPage, match: MatchResult) {
   db.transaction((tx) => {
     const existing = tx
@@ -154,17 +155,7 @@ function saveMatch(db: Db, productId: number, storeId: number, page: ProductPage
           .values({ productId, storeId, url: page.url, ...values })
           .returning({ id: offers.id })
           .get().id;
-    tx.insert(priceObservations)
-      .values({
-        offerId,
-        priceCents: page.priceCents,
-        wasPriceCents: page.wasPriceCents ?? null,
-        shippingCents: page.shippingCents ?? null,
-        inStock: page.inStock,
-        fetchedAt: page.fetchedAt,
-        ok: true,
-      })
-      .run();
+    recordPrice(tx, offerId, page);
   });
 }
 

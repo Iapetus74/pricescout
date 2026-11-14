@@ -114,8 +114,9 @@ export function PriceChart({ series, fromMs, toMs }: { series: ChartSeries[]; fr
           </thead>
           <tbody>
             {shown.flatMap((s) =>
-              [...s.points].reverse().map((p) => (
-                <tr key={`${s.offerId}-${p.at}`} className="border-t">
+              // The position is part of the key so two readings at the same time can never clash.
+              [...s.points].reverse().map((p, i) => (
+                <tr key={`${s.offerId}-${p.at}-${i}`} className="border-t">
                   <td className="py-1 pr-3">{s.storeName}</td>
                   <td className="py-1 pr-3">{dateTimeLabel(p.at)}</td>
                   <td className="py-1">{formatCents(p.priceCents)}</td>
