@@ -2,7 +2,7 @@
 
 PriceScout is a personal web app that compares and tracks prices across South African online stores. It runs on your own computer. The full plan is in [SPEC.md](SPEC.md).
 
-**Where things stand:** milestones 1 to 6 are done. You can paste a product link on the home page and PriceScout reads the product's name and price and starts tracking it. This works for six stores so far: Trappers, Naturehike SA, Drifters, Brave Hardy, First Ascent and Outdoor Escape. Links from other stores get a short message saying why they can't be read yet. On a tracked product's page, PriceScout can look for the same product at the other stores and show their prices side by side. Automatic price checks, charts and watchlists come in later milestones.
+**Where things stand:** milestones 1 to 8 are done. You can paste a product link on the home page and PriceScout reads the product's name and price and starts tracking it. This works for six stores so far: Trappers, Naturehike SA, Drifters, Brave Hardy, First Ascent and Outdoor Escape. Links from other stores get a short message saying why they can't be read yet. On a tracked product's page, PriceScout can look for the same product at the other stores and show their prices side by side. Watchlists group tracked products under a budget. Price-drop email alerts come in a later milestone.
 
 This guide assumes you have never programmed before. Do the steps in order. Each step says what to type and what you should see.
 
@@ -144,6 +144,14 @@ Open a tracked product. At the top you'll see:
 - **Check now**: reads every store's price for this product again. It takes a few seconds per store.
 
 If a check fails (for example, the store's website is down), the product keeps its last good price and shows a small yellow warning.
+
+### Group products into a watchlist with a budget
+
+1. On the home page, press **Manage lists** next to **Watchlists** (or go to http://localhost:3000/watchlists).
+2. Type a name, such as "Camping trip", and a budget in rand if you want one (for example `5000`). Press **Make list**.
+3. On the list's page, choose a tracked product under **Add a product** and press **Add to list**. You can also add a product from its own page, in the **Watchlists** box.
+4. The list shows each product's best deal today, the **total**, and how far **under or over budget** you are, with a bar that turns red when you're over. A product that no store has in stock right now is left out of the total, and the page says so.
+5. **Remove from list** takes a product out of that list only; it stays tracked. **Stop tracking** takes it out of every list too. **Delete list** removes the list but keeps its products tracked.
 
 ### Check prices automatically (the worker)
 

@@ -7,9 +7,11 @@ import { formatCents } from "@/lib/money";
 import { getAppContext } from "@/server/app-context";
 import { listStoresForHomePage } from "@/stores/store-list";
 import { listTrackedProducts } from "@/tracking/tracked-products";
+import { listWatchlists } from "@/watchlists/watchlists";
 
 import { RemoveProductButton } from "./remove-product-button";
 import { TrackForm } from "./track-form";
+import { WatchlistCards } from "./watchlists/watchlist-cards";
 
 export default function Home() {
   return (
@@ -37,6 +39,18 @@ export default function Home() {
         <h2 className="text-xl font-semibold">Tracked products</h2>
         <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
           <TrackedProducts />
+        </Suspense>
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <div className="flex items-baseline justify-between gap-4">
+          <h2 className="text-xl font-semibold">Watchlists</h2>
+          <Link href="/watchlists" className="text-sm underline-offset-4 hover:underline">
+            Manage lists
+          </Link>
+        </div>
+        <Suspense fallback={<p className="text-sm text-muted-foreground">Loading…</p>}>
+          <Watchlists />
         </Suspense>
       </section>
 
@@ -128,6 +142,24 @@ async function TrackedProducts() {
       })}
     </ul>
   );
+}
+
+async function Watchlists() {
+  await connection(); // totals change with every price check, so read them fresh on every visit
+  const { db, ownerId } = getAppContext();
+  const lists = listWatchlists(db, ownerId);
+  if (lists.length === 0) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        No lists yet.{" "}
+        <Link href="/watchlists" className="underline underline-offset-4">
+          Make a list
+        </Link>{" "}
+        to group products and give them a budget.
+      </p>
+    );
+  }
+  return <WatchlistCards lists={lists} />;
 }
 
 async function CrawledShops() {
